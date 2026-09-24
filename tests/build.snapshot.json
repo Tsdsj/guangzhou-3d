@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "fill": 84205,
+    "buildings": 19823,
+    "qilou": 695,
+    "tall": 1790,
+    "trees": 208068,
+    "roads": 12714,
+    "roadKm": 2199,
+    "lamps": 68150
+  },
+  "files": {
+    "guangzhou.json": "0a7189fc5d92c4a415db6736cd30a2346844dbed58e0675b57069e1d33a6eec9",
+    "guangzhou.bin.gz": "4122cbc0caf8cd3258d5b0944ce0c47e2e327f4cf903a170211d601f69ea8c1f",
+    "guangzhou-veg.bin.gz": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd"
+  }
+}

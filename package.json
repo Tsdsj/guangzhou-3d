@@ -1,0 +1,26 @@
+{
+  "name": "guangzhou-3d",
+  "version": "2.0.0",
+  "private": true,
+  "description": "广州 · 三维实景城市：OpenStreetMap 真实路网与建筑 + 程序化细节，浏览器实时渲染",
+  "type": "module",
+  "comment": "依赖已内置在 vendor/（通过 index.html 的 import map 加载），无需 npm install；此处仅记录版本。城市数据由 tools/ 脚本从 OpenStreetMap 构建。",
+  "dependencies": {
+    "n8ao": "2.0.1",
+    "postprocessing": "6.39.4",
+    "three": "0.185.1"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "dev": "node serve.mjs",
+    "fetch:osm": "node tools/fetch-osm.mjs",
+    "build:data": "node --max-old-space-size=8192 tools/build-city.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tsdsj/guangzhou-3d.git"
+  },
+  "homepage": "https://tsdsj.github.io/guangzhou-3d/"
+}

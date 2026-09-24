@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>广州 · 三维实景城市</title>
+    <meta name="description" content="基于 OpenStreetMap 真实数据与 Three.js 的广州中心城区三维实景城市：珠江、广州塔、珠江新城、西关骑楼与岭南街巷。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="广州 · 三维实景城市" />
+    <meta property="og:description" content="浏览器里实时渲染的广州中心城区：OpenStreetMap 真实路网与两万栋建筑、珠江、广州塔、西关骑楼、越秀山与铁路，12 个航拍场景 + 7 个街景漫步。" />
+    <meta property="og:url" content="https://tsdsj.github.io/guangzhou-3d/" />
+    <meta property="og:image" content="https://tsdsj.github.io/guangzhou-3d/docs/screenshots/01-cbd-dusk.jpg" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="960" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0b0d10" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M24 60 L29 34 L27 18 L30 4 L34 4 L37 18 L35 34 L40 60 Z' fill='%23ff6a45'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.js",
+          "three/addons/": "./vendor/three/examples/jsm/",
+          "three/examples/jsm/": "./vendor/three/examples/jsm/",
+          "postprocessing": "./vendor/postprocessing/index.js",
+          "n8ao": "./vendor/n8ao/N8AO.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="viewport" aria-label="广州城市三维视口"></canvas>
+      <div id="labels" aria-hidden="true"></div>
+
+      <header id="brand">
+        <div class="overline">CANTON · CITYFORGE</div>
+        <h1>广州 · 三维实景城市</h1>
+        <div class="subline"><span class="dot"></span><span id="brand-sub">珠江 · 羊城 · 岭南 — 2026 实景</span></div>
+      </header>
+
+      <div id="chips" aria-label="场景统计"></div>
+
+      <aside id="panel" aria-label="预设场景">
+        <div class="panel-head">
+          <div>
+            <div class="overline">SCENES</div>
+            <h2>广州实景场景</h2>
+          </div>
+          <button class="icon-btn" id="btn-collapse" title="收起面板" aria-label="收起面板">
+            <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" /></svg>
+          </button>
+        </div>
+        <div class="panel-body" id="panel-body"></div>
+        <div class="panel-foot">
+          <div class="foot-actions">
+            <button class="act" id="btn-shot" type="button"><svg viewBox="0 0 24 24"><path d="M4 8V5h3M17 5h3v3M20 16v3h-3M7 19H4v-3" /><circle cx="12" cy="12" r="3" /></svg>导出截图</button>
+            <button class="act" id="btn-hide" type="button"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z" /><circle cx="12" cy="12" r="3" /></svg>隐藏界面</button>
+          </div>
+          <div class="attrib" id="attrib">地图数据 © OpenStreetMap 贡献者（ODbL）</div>
+        </div>
+      </aside>
+
+      <div id="minimap">
+        <div class="mm-head"><span>广州中心城区</span><span id="mm-scale"></span></div>
+        <canvas id="mm-canvas" width="640" height="276"></canvas>
+        <div class="legend" id="mm-legend"></div>
+      </div>
+
+      <div id="hint">
+        <span><b>左键</b> 旋转</span><span><b>右键</b> 平移</span><span><b>滚轮</b> 缩放</span><span><b>双击</b> 聚焦</span><span><b>1–0 - =</b> 切换场景</span><span><b>H</b> 隐藏界面</span>
+      </div>
+      <button class="icon-btn" id="btn-show" type="button" title="显示界面" aria-label="显示界面"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z" /><circle cx="12" cy="12" r="3" /></svg></button>
+      <div id="status" class="hidden"><span class="spin"></span><span id="status-text">生成中…</span></div>
+      <div id="toast" class="hidden"></div>
+
+      <div id="loader">
+        <div class="loader-inner">
+          <div class="overline">CANTON · CITYFORGE</div>
+          <div class="loader-title">正在载入真实广州…</div>
+          <div class="loader-bar"><i></i></div>
+          <div class="loader-sub" id="loader-sub">OpenStreetMap 路网与建筑 · 珠江水系 · 骑楼街</div>
+        </div>
+      </div>
+      <noscript>需要启用 JavaScript 与 WebGL2 才能运行。</noscript>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
