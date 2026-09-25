@@ -57,6 +57,13 @@ def outward(ring, i, poly):
     return nx, nz, L, mid
 
 
+def outline_sides(poly):
+    # Short / long side of the outline's minimum rotated rectangle (display only; computed from OSM, not measured).
+    r = list(poly.minimum_rotated_rectangle.exterior.coords)[:4]
+    a, b = math.dist(r[0], r[1]), math.dist(r[1], r[2])
+    return [round(min(a, b), 2), round(max(a, b), 2)]
+
+
 def pick_edge(ring, poly, facing, street):
     rows = []
     for i in range(len(ring)):
@@ -110,6 +117,7 @@ for b in evidence['buildings']:
                             identity=b['identity'], plan=plan, width=chosen[0]['lengthM'], depth=round(max(p[1] for p in plan) - min(p[1] for p in plan), 3),
                             model=b['model'] | {'faces': faces}, faceEvidence=[{k: face[k] for k in ('facing', 'street', 'photos', 'observed')} for face in b['faces']],
                             photos=photos, heightEvidence=b.get('heightEvidence'), conflicts=b.get('conflicts', []), unknowns=b.get('unknowns', []),
+                            summaryZh=b.get('summaryZh'), unknownsZh=b.get('unknownsZh'), outlineSidesM=outline_sides(poly),
                             heightStatus='estimated', measuredHeightM=None, metricAccuracy='unverified', productionEligible=b.get('gate', {}).get('status') == 'default',
                             productionGate=b.get('gate'),
                             evidencePath='data/evidence/facade-studies.json', sourcePath=osm_path,

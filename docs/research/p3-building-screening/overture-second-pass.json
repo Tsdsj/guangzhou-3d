@@ -1,0 +1,766 @@
+{
+ "date": "2026-09-26",
+ "basis": "geometry against 2026-09-26 OSM map-API snapshots; single source dataset doi:10.5281/zenodo.8174931",
+ "summary": {
+  "no-osm-counterpart": 57,
+  "outside-refreshed-bbox": 6
+ },
+ "rows": [
+  {
+   "id": "78e05137-918e-4a49-9dd3-2b841929e39e",
+   "area": "shamian",
+   "areaM2": 26.99,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "eac52fcd-f176-4c3b-a216-f3806f4bb6d4",
+   "area": "shamian",
+   "areaM2": 107.92,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f7d7376a-ba09-4ec9-8d2b-d69082e46f23",
+   "area": "shamian",
+   "areaM2": 243.71,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "43d9cf75-cff0-4a02-980f-4b9b080fbc97",
+   "area": "shamian",
+   "areaM2": 346.41,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "ffaaa5fc-6ce3-46cd-89ba-0a59fa9cb5df",
+   "area": "shamian",
+   "areaM2": 148.41,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "aefddbb8-1aec-4505-877f-38beba754843",
+   "area": "shamian",
+   "areaM2": 50.62,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "be5aee04-4b6f-42f9-80d3-eddd3ec35dcf",
+   "area": "shamian",
+   "areaM2": 36.02,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "bcaf8c2a-4e43-4baa-ad9b-f55bbd1d022f",
+   "area": "shamian",
+   "areaM2": 67.46,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "4943596c-3f38-4342-883d-4e252da06f41",
+   "area": "shamian",
+   "areaM2": 134.86,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "a2604f5a-8d87-401b-80c7-c256cf60ae05",
+   "area": "shamian",
+   "areaM2": 107.85,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f5ac5cf6-495d-49cb-bcfd-fa04cf1aa7c9",
+   "area": "shamian",
+   "areaM2": 15.75,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "7cc5cd67-6145-4e25-82b8-3ec8ee2d5957",
+   "area": "shamian",
+   "areaM2": 75.22,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "a8eade40-00d9-44ec-aa0c-67ecad15831b",
+   "area": "shamian",
+   "areaM2": 329.36,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "d16154b8-0b74-46ef-a3d2-4ab8f216d96a",
+   "area": "shamian",
+   "areaM2": 316.39,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "0df96fba-87bc-40fe-bf9e-a7b14dca8724",
+   "area": "shamian",
+   "areaM2": 94.64,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "dcc867f8-20c2-48e9-8ef6-8fe32ab1a23e",
+   "area": "shamian",
+   "areaM2": 67.11,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "734c5093-5938-4d3c-9b1b-75853d91db7e",
+   "area": "shamian",
+   "areaM2": 33.71,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "47355820-5a3b-43d0-9406-20df4e938a42",
+   "area": "shamian",
+   "areaM2": 36.05,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "fc4c0ece-3897-4d1b-a03f-d3e771cff4c9",
+   "area": "shamian",
+   "areaM2": 13.19,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "784d3c9e-862f-4a97-b45f-1ce4def015f9",
+   "area": "shamian",
+   "areaM2": 20.24,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "79a7e5c2-3217-4f33-94df-cbf461d5ab40",
+   "area": "shamian",
+   "areaM2": 58.52,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "349a1f70-f48d-4e84-a520-0f16b5b8d7d1",
+   "area": "shamian",
+   "areaM2": 38.97,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "845f6437-d1ed-4c81-8e2c-5813eceedcc9",
+   "area": "shamian",
+   "areaM2": 38.31,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "e6905d36-8ef3-4592-a677-ae5b248c2184",
+   "area": "shamian",
+   "areaM2": 17.94,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b9e0cbaa-1953-47f4-bf29-33b67a9845e0",
+   "area": "shamian",
+   "areaM2": 202.39,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "99d605fd-9917-4191-bccf-82217f9c98fb",
+   "area": "shamian",
+   "areaM2": 31.56,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "4e2d866b-2302-46cc-9fe3-4466652fa744",
+   "area": "shamian",
+   "areaM2": 116.05,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "5ca979bc-df1c-4d33-a3fa-7e7f64d650e6",
+   "area": "shamian",
+   "areaM2": 789.2,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "54c3670b-04f9-4961-9d14-868362d103c8",
+   "area": "shamian",
+   "areaM2": 2133.73,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "602c00ef-2c98-4736-9e4a-7eee84df277a",
+   "area": "shamian",
+   "areaM2": 316.96,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f6aec271-8a35-42e8-9c12-3c1f5feff185",
+   "area": "shamian",
+   "areaM2": 104.91,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f6ea55b4-766c-4f66-bc42-2d0ddee7e0c7",
+   "area": "shamian",
+   "areaM2": 265.97,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "141970c7-7a04-41e5-ba82-a1eda0a0b2ed",
+   "area": "shamian",
+   "areaM2": 39.8,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "d42e002b-e5e9-471a-b05b-8c4e32edd03d",
+   "area": "shamian",
+   "areaM2": 115.59,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "43fc6be4-d8d7-4af8-93f6-a773b541e007",
+   "area": "shamian",
+   "areaM2": 177.33,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "9df4981f-c70f-4c99-a3c1-16490348467f",
+   "area": "shamian",
+   "areaM2": 20.27,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "11a3de1e-7e55-4b99-8925-41822645705b",
+   "area": "shamian",
+   "areaM2": 54.02,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "14fb0504-abfc-4c77-9685-7f0838beeefa",
+   "area": "shamian",
+   "areaM2": 346.36,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "c6f19779-4be0-49b1-8841-5c2c3004c9c3",
+   "area": "shamian",
+   "areaM2": 45.0,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "558a96ae-4d82-451f-8775-7283cf03287e",
+   "area": "shamian",
+   "areaM2": 36.01,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "e70e913f-5d83-42a8-8eab-a0c3439e916d",
+   "area": "shamian",
+   "areaM2": 46.47,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f3c13cb1-2fef-4e09-9be0-e4324eb82705",
+   "area": "shamian",
+   "areaM2": 33.73,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "4cecd088-9830-4b1a-97b4-570bbf50efce",
+   "area": "huacheng",
+   "areaM2": 134.87,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "2be5b432-305c-44f0-bdec-fd739ee07d96",
+   "area": "huacheng",
+   "areaM2": 71.08,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "0e557050-bb07-41e5-906b-a20909ce1647",
+   "area": "huacheng",
+   "areaM2": 76.39,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "ddf54ff4-c867-425f-9db7-54352bdef70b",
+   "area": "huacheng",
+   "areaM2": 104.11,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "fc1bdfcb-a139-4828-b2e1-d8c75ce782a7",
+   "area": "huacheng",
+   "areaM2": 35.96,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "1c2e4ad6-a84c-490c-92d6-54a755bfa8d3",
+   "area": "huacheng",
+   "areaM2": 211.42,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b28a26fb-707b-4761-8f4d-2eaadad6bee8",
+   "area": "huacheng",
+   "areaM2": 17.99,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b4da0c8b-1ebd-4c8d-b6b9-aa5896582bfc",
+   "area": "huacheng",
+   "areaM2": 17.98,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "cb6f885e-d9e0-4171-84e1-743785ce85ed",
+   "area": "huacheng",
+   "areaM2": 123.36,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "2fd8b0bd-18db-440a-843e-d04986ed8050",
+   "area": "huacheng",
+   "areaM2": 341.73,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "a06e6599-73aa-45cb-ba6a-7df9ac609e0f",
+   "area": "huacheng",
+   "areaM2": 337.22,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b4e0cdce-48ae-4ffc-ba92-5e7e45b6951d",
+   "area": "huacheng",
+   "areaM2": 115.86,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "69017c0a-227a-44c5-a45a-af753bc7b1fa",
+   "area": "huacheng",
+   "areaM2": 130.2,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "ff3cffc9-deb5-46bb-9031-d85281880d12",
+   "area": "huacheng",
+   "areaM2": 40.48,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "cdba535c-c26c-4df1-acba-4b271efd49e4",
+   "area": "huacheng",
+   "areaM2": 107.93,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "a1db3231-7e9b-4dcd-8734-7597305be7ae",
+   "area": "huacheng",
+   "areaM2": 303.73,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b1dfdd18-7328-4eb9-bdf5-f45e94aa4efc",
+   "area": "huacheng",
+   "areaM2": 11.72,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "012e6b1d-19b9-46fa-8811-1198dad234c9",
+   "area": "huacheng",
+   "areaM2": 367.64,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "b6951fe0-dc43-4a73-b79f-13464b1de60f",
+   "area": "huacheng",
+   "areaM2": 294.64,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "92d64ee1-b609-4b71-8ef7-a70917ab1b39",
+   "area": "huacheng",
+   "areaM2": 60.68,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "no-osm-counterpart",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  },
+  {
+   "id": "f388476c-1d4a-4cb3-85fd-bbd0fd585130",
+   "area": "huacheng",
+   "areaM2": 136.53,
+   "sourceDatasets": [
+    "doi:10.5281/zenodo.8174931"
+   ],
+   "overlapWithOsm2026_09_26": 0.0,
+   "reviewClass": "outside-refreshed-bbox",
+   "decision": "hold-no-imagery-or-identity",
+   "productionEligible": false
+  }
+ ]
+}

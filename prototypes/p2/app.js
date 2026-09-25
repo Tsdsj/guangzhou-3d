@@ -27,10 +27,23 @@ function updatePhoto(){
   $('photo-credit').textContent=credit;$('photo-large-credit').textContent=credit;$('photo-dialog-title').textContent=conf.title+' · '+id;
   $('photo-count').textContent=`${photoIndex+1} / ${conf.photos.length}`;$('photo-source').href=p.url;
 }
+// Facade studies (data/evidence/facade-studies.json) share one picker; texts come from the evidence record.
+function addStudies(file){
+  const pick=$('study-select');
+  for(const [id,s] of Object.entries(file.studies)){
+    data.buildings[id]=s;Object.assign(data.photos,s.photos);
+    catalog[id]={title:s.name,index:`STUDY / ${id}`,photos:Object.keys(s.photos),description:`${s.address}：${s.summaryZh}`,unknowns:s.unknownsZh,
+      caution:'只刻画照片可辨认的立面结构；层高、开间宽度与全部高度为估计，未拍摄的面保持灰色简化，不按正面镜像。',
+      note:`身份：${s.identity.basis.join('；')}。${s.conflicts.length?'冲突：'+s.conflicts.join('；'):''}${s.productionEligible?'已按门槛纳入默认主城。':'尚在暂存检查。'}`};
+    pick.append(new Option(`${id} ${s.name}`,id));
+  }
+  pick.addEventListener('change',()=>{if(pick.value)select(pick.value);});
+}
 function select(id){
   current=id;photoIndex=0;const c=catalog[id],road=id==='J1',bridge=id==='S1';viewer.load(id,data);
   document.querySelector('aside').scrollTop=0;
   document.querySelectorAll('[data-sample]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.sample===id));
+  const study=data.buildings[id]?.kind==='facade-study';$('study-select').closest('.study-pick').setAttribute('aria-current',study);if(!study)$('study-select').value='';else $('study-select').value=id;
   $('title').textContent=c.title;$('stage-index').textContent=c.index;$('description').textContent=c.description;$('unknowns').textContent=c.unknowns;$('caution').textContent=c.caution;$('source-note').textContent=c.note;
   $('baseline').disabled=road||!data.buildings[id]?.baselineHeight;$('baseline').setAttribute('aria-pressed','false');$('topology').hidden=!(road||bridge||id==='C01'||id==='C02');$('section').hidden=!bridge;$('section').setAttribute('aria-pressed','false');$('restrictions').hidden=!road;
   $('baseline').title=road?'路口请使用节点线位对照':!data.buildings[id]?.baselineHeight?'该源对象没有单一 P1 渲染记录':'对照 P1 的高度与简化外形';
@@ -38,6 +51,7 @@ function select(id){
   $('dimension-label').textContent=road?'研究范围':'OSM 外轮廓';$('height-label').textContent=road?'路幅依据':'模型最高点';
   $('dimensions').textContent=bridge?`${data.skybridge.lengthM.toFixed(2)} m · 源节点间距`:road?'约 170 × 144 m':`${data.buildings[id]?.width.toFixed(1)} × ${data.buildings[id]?.depth.toFixed(1)} m（短 / 长边）`;
   $('height').textContent=road?'车道标签与默认值 · 估计':`${viewer.sample.geometryMetrics.maxY.toFixed(1)} m · 比例估计`;
+  if(data.buildings[id]?.kind==='facade-study'){const [a,b]=data.buildings[id].outlineSidesM;$('dimensions').textContent=`${a.toFixed(1)} × ${b.toFixed(1)} m（外接矩形短 / 长边）`;}
   const ref=viewer.sample.heightReference,source=ref&&data.buildings[id].controlSources?.[ref.sourceId];
   if(ref){$('height-label').textContent='文献檐高';$('height').textContent=`${ref.value.toFixed(1)} m · 文献值，非总高`;}
   $('height-source').hidden=!source;if(source){$('height-source').href=source.url;$('height-source').textContent=`檐高来源 · 竣工验收材料 PDF，第${ref.pages.join('、')}页 ↗`;}
@@ -54,6 +68,7 @@ try{
   const sr=await fetch('./skybridge.json');if(!sr.ok)throw new Error('连廊资料未能载入');data.skybridge=await sr.json();data.photos.R6=data.skybridge.photo;
   const cr=await fetch('./c01.json');if(!cr.ok)throw new Error('沙面会堂资料未能载入');data.buildings.C01=await cr.json();Object.assign(data.photos,data.buildings.C01.photos);
   const br=await fetch('./c02.json');if(!br.ok)throw new Error('正金银行资料未能载入');data.buildings.C02=await br.json();Object.assign(data.photos,data.buildings.C02.photos);
+  const fr=await fetch('./facade-studies.json');if(!fr.ok)throw new Error('立面研究资料未能载入');addStudies(await fr.json());
   viewer=new StudyViewer($('viewer'),stats=>{$('render-info').textContent=`${Math.round(stats.triangles/1000)}k 三角形 · ${stats.calls} 次绘制`;});
   viewer.onViewChange=paintView;
   select(catalog[location.hash.slice(1)]?location.hash.slice(1):'B1');$('loading').hidden=true;

@@ -740,8 +740,8 @@
       ],
       "id": "shamian-dajie",
       "url": "./data/detail/shamian-dajie.json",
-      "bytes": 30925,
-      "sha256": "53bac109a45d005d06c66f53d97854f9a1c3d292d0c1981fcf57d40873e34b1b"
+      "bytes": 33728,
+      "sha256": "3df0d3e7aa367a22639d92f49125a95e667d1aa5ef1d713626bea8995261faa1"
     },
     {
       "kind": "roads",
