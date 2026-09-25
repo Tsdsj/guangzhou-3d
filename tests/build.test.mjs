@@ -14,7 +14,7 @@ const SNAP = new URL('./build.snapshot.json', import.meta.url);
 const hasRaw = fs.existsSync('data/raw/roads.json');
 const sha = (f) => createHash('sha256').update(fs.readFileSync(f)).digest('hex');
 // 构建产物：元数据与各 gzip 数据文件
-const OUTPUTS = (meta) => ['guangzhou.json', ...meta.files.map((f) => f.name)];
+const OUTPUTS = (meta) => ['guangzhou.json', ...meta.files.map((f) => f.name), ...(meta.evidence ? [meta.evidence.name] : [])];
 
 test('数据构建输出与快照一致', { skip: !hasRaw && '缺少 data/raw/（先运行 npm run fetch:osm）' }, () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'gz-build-'));
@@ -30,6 +30,26 @@ test('数据构建输出与快照一致', { skip: !hasRaw && '缺少 data/raw/�
     assert.ok(s.offset % 4 === 0 && s.offset + bytes <= bins[s.file || 0].length, `分段 ${name} 越界`);
   }
   const st = meta.stats;
+  assert.equal(meta.version, 2, 'P1 source identity schema must be present');
+  const identities = meta.sections.renderIdentity;
+  assert.ok(identities, 'render/source identity link is missing');
+  const ids = JSON.parse(bins[0].subarray(identities.offset, identities.offset + identities.length).toString());
+  assert.equal(ids.buildings.length, st.buildings);
+  assert.equal(ids.roads.length, st.roads);
+  const ev = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir, meta.evidence.name))));
+  assert.equal(ev.networks[0].restrictions.length, 11);
+  assert.equal(ev.candidates.length, 63);
+  assert.ok(ev.candidates.every((c) => c.review.status === 'pending'));
+  assert.equal(Object.values(ev.entities).filter((e) => e.facades.length).length, 3);
+  for (const id of [...ids.buildings, ...ids.roads]) assert.ok(ev.entities[id], `dangling render ID ${id}`);
+  // P1 must not change existing geometry/material data, even if the container gains metadata.
+  const baseline = JSON.parse(fs.readFileSync(new URL('./render-baseline.json', import.meta.url)));
+  for (const [name, hash] of Object.entries(baseline.sections)) {
+    const s = meta.sections[name];
+    const bytes = bins[s.file || 0].subarray(s.offset, s.offset + globalThis[s.type].BYTES_PER_ELEMENT * s.length);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), hash, `${name}: existing render data changed`);
+  }
+  for (const [key, value] of Object.entries(baseline.metadata)) assert.deepEqual(meta[key], value, `${key}: render metadata changed`);
   assert.ok(st.buildings > 15000 && st.fill > 50000 && st.roads > 10000 && st.trees > 100000, JSON.stringify(st));
   assert.ok(meta.bridges.length >= 20 && meta.landmarks.length >= 10);
 

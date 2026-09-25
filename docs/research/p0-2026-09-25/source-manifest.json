@@ -1,0 +1,220 @@
+{
+  "created_at_utc": "2026-09-24T19:23:47.136120+00:00",
+  "scope": "P0 research artifacts only",
+  "source_crs": "WGS84 longitude,latitude (EPSG:4326 / GeoJSON axis order)",
+  "source_endpoints": {
+    "overture_index": "https://stac.overturemaps.org/2026-09-23.0/collections.parquet",
+    "overture_release": "2026-09-23.0",
+    "osm_map": "https://api.openstreetmap.org/api/0.6/map.json?bbox=113.311,23.1205,113.3195,23.124",
+    "commons_api": "https://commons.wikimedia.org/w/api.php",
+    "overture_license": "https://docs.overturemaps.org/attribution/"
+  },
+  "source_files": [
+    {
+      "path": "source-samples/osm-buildings.json",
+      "sha256": "668cd9e47bdde40117b1b8dc6329e3ca935584bf8ff472cdebfac6c7a9cd31c9",
+      "bytes": 72167,
+      "local_file_written_at_utc": "2026-09-24T19:17:24.864183+00:00",
+      "time_note": "retrieval/crop file timestamp, not observation date"
+    },
+    {
+      "path": "source-samples/osm-huacheng-map.json",
+      "sha256": "1a245d4c704bb11cd17d81e8fc0a0ba92cc885a8f2f715a4b8027d5e8c6d3795",
+      "bytes": 823420,
+      "local_file_written_at_utc": "2026-09-24T19:07:53.624082+00:00",
+      "time_note": "retrieval/crop file timestamp, not observation date"
+    },
+    {
+      "path": "source-samples/osm-roads.json",
+      "sha256": "6bc7ddda9baa13cca807d7ee1eb54982309a36830bcda29df1321b4228ba6412",
+      "bytes": 69150,
+      "local_file_written_at_utc": "2026-09-24T19:17:25.030240+00:00",
+      "time_note": "retrieval/crop file timestamp, not observation date"
+    },
+    {
+      "path": "source-samples/overture-huacheng.geojson",
+      "sha256": "d7a3390d996ac347eb479136767e9f25f0e92dd94197e691cc65f34f12175603",
+      "bytes": 83984,
+      "local_file_written_at_utc": "2026-09-24T19:06:39.051921+00:00",
+      "time_note": "retrieval/crop file timestamp, not observation date"
+    },
+    {
+      "path": "source-samples/overture-shamian.geojson",
+      "sha256": "5ed0d6049c1471a36d5706c64a30a1fe28db0d77bd0db3e5869456ac9eba306f",
+      "bytes": 231623,
+      "local_file_written_at_utc": "2026-09-24T19:06:36.106189+00:00",
+      "time_note": "retrieval/crop file timestamp, not observation date"
+    }
+  ],
+  "photos": [
+    {
+      "sample_id": "B1-a",
+      "local_path": "photos/B1-a.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211114.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Former_Guangzhou_Sub-branch%2C_Bank_of_Taiwan_20211114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Former_Guangzhou_Sub-branch%2C_Bank_of_Taiwan_20211114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "artist": "方人也",
+      "date": "Taken on 14 November 2021 12:26:59",
+      "sha256": "36e493824b1201d55425abf744dee637c29930e17f4326963ed3e90139e0470f"
+    },
+    {
+      "sample_id": "B1-b",
+      "local_path": "photos/B1-b.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211226.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Former_Guangzhou_Sub-branch%2C_Bank_of_Taiwan_20211226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Former_Guangzhou_Sub-branch%2C_Bank_of_Taiwan_20211226.jpg/1280px-Former_Guangzhou_Sub-branch%2C_Bank_of_Taiwan_20211226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "artist": "方人也",
+      "date": "Taken on 26 December 2021 14:28:27",
+      "sha256": "cafed145aa98533ba02aa8ab1313c2af216f853056c31f2c4ece37f1495be735"
+    },
+    {
+      "sample_id": "B1-c",
+      "local_path": "photos/B1-c.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_10-02-58.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Guangzhou_Shamian_2012.11.15_10-02-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Guangzhou_Shamian_2012.11.15_10-02-58.jpg/1280px-Guangzhou_Shamian_2012.11.15_10-02-58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Zhangzhugang",
+      "date": "Taken on 15 November 2012 10:02:58",
+      "sha256": "7aa19527dfea607efcfdf40bd637174f1b8fc5b86fa03ae9438c5c0a7c00df80"
+    },
+    {
+      "sample_id": "B2-a",
+      "local_path": "photos/B2-a.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B2%99%E9%9D%A2%E4%B8%80%E8%A1%973%E5%8F%B7.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%E6%B2%99%E9%9D%A2%E4%B8%80%E8%A1%973%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/%E6%B2%99%E9%9D%A2%E4%B8%80%E8%A1%973%E5%8F%B7.jpg/1280px-%E6%B2%99%E9%9D%A2%E4%B8%80%E8%A1%973%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Inclavatura",
+      "date": "2023-04-25",
+      "sha256": "6c990f744c7f22a141e67a4abf40a40e788fbe283932036dc47e67e238de5d09"
+    },
+    {
+      "sample_id": "B2-b",
+      "local_path": "photos/B2-b.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_10-05-02.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Guangzhou_Shamian_2012.11.15_10-05-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Guangzhou_Shamian_2012.11.15_10-05-02.jpg/1280px-Guangzhou_Shamian_2012.11.15_10-05-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Zhangzhugang",
+      "date": "2012-11-15 10:05:02",
+      "sha256": "491e0f5ad17dada74b73ac9676d33b92ec9bb88afd98f09f8f420f570dc1184b"
+    },
+    {
+      "sample_id": "B3-a",
+      "local_path": "photos/B3-a.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Lourdes_Chapel,_Shamian_20260518.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Our_Lady_of_Lourdes_Chapel%2C_Shamian_20260518.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Our_Lady_of_Lourdes_Chapel%2C_Shamian_20260518.jpg/1280px-Our_Lady_of_Lourdes_Chapel%2C_Shamian_20260518.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "JULIANISME",
+      "date": "2026-05-18 14:21:14",
+      "sha256": "ef4db8c561c5871bebbe175e43fb3a9bc459c931ded9e05ddf7b2ee8d3b3326e"
+    },
+    {
+      "sample_id": "B3-b",
+      "local_path": "photos/B3-b.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:20251116_14_Shamian_Dajie_(182309).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/20251116_14_Shamian_Dajie_%28182309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/20251116_14_Shamian_Dajie_%28182309%29.jpg/1280px-20251116_14_Shamian_Dajie_%28182309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Yumeto",
+      "date": "2025-11-16 18:23:09",
+      "sha256": "b11ff05920d542d5bd715076fa937092e710f01054c10f873f799c9a65b7bf4e"
+    },
+    {
+      "sample_id": "B1-d",
+      "local_path": "photos/B1-d.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:BankofTaiwan_Shamian.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/BankofTaiwan_Shamian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BankofTaiwan_Shamian.jpg/1280px-BankofTaiwan_Shamian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Boubloub",
+      "date": "Taken on 29 January 2016 17:56:16",
+      "sha256": "0e4c7e2a5e403b10d19ab0f1c017a6a4091c42c6a97759abe07950cf6009f4fd"
+    },
+    {
+      "sample_id": "R1",
+      "local_path": "photos/R1.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_03.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_03.jpg/1280px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 17:24:32",
+      "sha256": "54a25093e9d44a79b8a1eea02c1be867fed2b564a6eb456092e95f35cd05b4b0"
+    },
+    {
+      "sample_id": "R2",
+      "local_path": "photos/R2.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_08.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_08.jpg/1280px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 17:32:05",
+      "sha256": "754d13f2087779a7f48d01b269b6b03abe44f363f5d4d5f91a6706bcc6486ece"
+    },
+    {
+      "sample_id": "R3",
+      "local_path": "photos/R3.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_blue_sign_September_2024_R12S.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_blue_sign_September_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_blue_sign_September_2024_R12S.jpg/1280px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_blue_sign_September_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 14:47:40",
+      "sha256": "837113bb3d92f5c625be91d651b511df5b3cf6900d1b85d47cc46b44de565a9c"
+    },
+    {
+      "sample_id": "R4",
+      "local_path": "photos/R4.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_directory_sign_September_2024_R12S.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_directory_sign_September_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_directory_sign_September_2024_R12S.jpg/1280px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_directory_sign_September_2024_R12S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 14:56:47",
+      "sha256": "ec10aebfd4867d1fa33350c491a2ec7cfb1fe60921e38e23bb558c19950b4cf2"
+    }
+  ],
+  "production_inputs": [
+    {
+      "path": "package.json",
+      "sha256": "e6ba5fc25adecc6dc919f49bbaf4a80cc41433a9b1cceed271a7014daf3c3a1b"
+    },
+    {
+      "path": "data/guangzhou.json",
+      "sha256": "0a7189fc5d92c4a415db6736cd30a2346844dbed58e0675b57069e1d33a6eec9"
+    },
+    {
+      "path": "data/guangzhou.bin.gz",
+      "sha256": "4122cbc0caf8cd3258d5b0944ce0c47e2e327f4cf903a170211d601f69ea8c1f"
+    },
+    {
+      "path": "data/guangzhou-veg.bin.gz",
+      "sha256": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd"
+    }
+  ],
+  "network_diagnostics": {
+    "overture_stac_rows": 1123,
+    "null_collection_rows": 1123,
+    "workaround": "filter known asset paths by theme/type and spatial intersection, then row-level bbox and true geometry",
+    "overpass": "504 and timeout, switched to official small-bbox map API",
+    "commons": "429 recovered with cache and reduced frequency"
+  }
+}

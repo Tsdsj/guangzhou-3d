@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light"><title>广州 · 精细建模样板</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"../../vendor/three/build/three.module.js","three/addons/":"../../vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="../../"><span class="brand-mark">广</span><span>广州<span class="brand-sub">城市建模研究</span></span></a><div class="phase">P2 <span>样件与证据对照</span></div><a class="back" href="../../">返回城市 ↗</a></header>
+  <nav class="samples" aria-label="选择样件">
+    <button data-sample="B1" aria-pressed="true"><span class="sample-num">01</span><span>台湾银行旧址<small>柱廊 · 门头 · 阳台</small></span></button>
+    <button data-sample="B2" aria-pressed="false"><span class="sample-num">02</span><span>沙面一街 3 号<small>拱窗 · 壁柱 · 转角</small></span></button>
+    <button data-sample="B3" aria-pressed="false"><span class="sample-num">03</span><span>露德圣母堂<small>钟塔 · 尖拱 · 长侧墙</small></span></button>
+    <button data-sample="J1" aria-pressed="false"><span class="sample-num">04</span><span>花城大道 × 华穗路<small>共享路面 · 过街 · 拓扑</small></span></button>
+    <button data-sample="S1" aria-pressed="false"><span class="sample-num">05</span><span>春—夏广场连廊<small>接口 · 围护 · 断面假设</small></span></button>
+    <button data-sample="C01" aria-pressed="false"><span class="sample-num">06</span><span>基督教沙面会堂<small>南侧钟塔 · 北侧彩窗</small></span></button>
+    <button data-sample="C02" aria-pressed="false"><span class="sample-num">07</span><span>正金银行旧址<small>三大拱 · 通柱 · 入口</small></span></button>
+  </nav>
+  <main>
+    <section class="stage" aria-label="三维样板">
+      <div class="stage-heading"><div><span class="eyebrow" id="stage-index">BUILDING / 01</span><h1 id="title">台湾银行广州支行旧址</h1></div><span class="stage-tag" id="view-label">转角视图</span></div>
+      <div id="viewer"><div id="loading" role="status">正在准备三维样板…</div></div>
+      <div class="stage-note"><span class="dot"></span><span id="stage-note">照片支持可见结构；高度与细部尺寸为估计</span></div>
+      <div class="view-toolbar" aria-label="相机视角"><button data-view="front">正面</button><button data-view="corner" aria-pressed="true">转角</button><button data-view="aerial">俯视</button><button data-view="rear">后侧</button><button data-view="detail">细部</button><button data-view="side" id="side-view" hidden>侧窗</button><span class="divider"></span><button id="reset" aria-label="重置视角">↺</button></div>
+      <div class="canvas-help">拖动旋转 · 滚轮缩放 · 右键平移<span>视口内方向键旋转，＋/－缩放，R 重置</span></div>
+    </section>
+    <aside aria-label="样板依据与显示控制">
+      <section class="panel-section"><div class="section-label">查看方式</div><div class="toggles"><button id="evidence" aria-pressed="false">证据着色</button><button id="baseline" aria-pressed="false">体量对照</button><button id="wireframe" aria-pressed="false">网格</button><button id="section" aria-pressed="false" hidden>剖开观察</button><button id="topology" aria-pressed="false" hidden>节点线位</button></div>
+        <div id="legend" class="legend" hidden><span><i class="reference"></i>照片支持结构 / OSM 线位</span><span><i class="estimate"></i>尺寸或布局推定</span><span><i class="unknown"></i>未覆盖的简化面</span><p>颜色表示依据类型，不表示测绘精度。</p></div>
+      </section>
+      <section class="panel-section reference-section"><div class="section-row"><div class="section-label">参考照片</div><div class="photo-controls"><button id="photo-prev" aria-label="上一张参考照片">‹</button><span id="photo-count">1 / 4</span><button id="photo-next" aria-label="下一张参考照片">›</button></div></div><button id="photo-open" class="photo-open" aria-label="放大参考照片"><img id="photo" alt="建筑参考照片"><span>放大查看 ↗</span></button><p id="photo-credit" class="photo-credit"></p></section>
+      <section class="panel-section"><div class="section-label">本轮还原</div><p id="description" class="description"></p><dl class="facts"><div><dt id="dimension-label">OSM 外轮廓</dt><dd id="dimensions"></dd></div><div><dt id="height-label">样件高度</dt><dd id="height"></dd></div><div id="interface-fact" hidden><dt>历史接口</dt><dd id="interface-floor"></dd></div><div><dt>待核实</dt><dd id="unknowns"></dd></div></dl><p class="caution" id="caution"></p></section>
+      <section class="panel-section" id="restrictions" hidden><div class="section-label">OSM 限制关系</div><p class="description">选中一条关系，查看关联线位。</p><div id="restriction-list"></div></section>
+      <details class="source-details"><summary>来源与样件说明</summary><p id="source-id"></p><p id="source-note"></p><a id="photo-source" target="_blank" rel="noopener">照片原始说明 ↗</a><a id="height-source" target="_blank" rel="noopener" hidden></a><a href="../../docs/P1-数据底座与证据层-2026-09-25.md" target="_blank">P1 数据说明 ↗</a></details>
+    </aside>
+  </main>
+  <footer><span>LOCAL STUDY / CANTON</span><span>局部外观样件 · 尚非 1:1 测绘模型</span><span id="render-info">准备中</span></footer>
+  <dialog id="photo-dialog" aria-labelledby="photo-dialog-title"><div class="dialog-bar"><span id="photo-dialog-title">参考照片</span><button id="photo-close" aria-label="关闭参考照片">关闭 ×</button></div><img id="photo-large" alt="完整参考照片"><p id="photo-large-credit"></p></dialog>
+  <script type="module" src="./app.js"></script>
+</body></html>

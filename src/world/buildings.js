@@ -193,7 +193,10 @@ export function buildFootprints(D) {
     const style = bm[o + BLD.STYLE];
     const roof = bm[o + BLD.ROOF];
     const hgt = top - base;
-    const M = tileOf(bm[o + BLD.CX], bm[o + BLD.CZ]);
+    const detailTile=D.detailGroups?.sourceTiles.get(D.buildingSourceIds[i]);
+    let M;
+    if(detailTile){const key=`detail:${detailTile}`;if(!tiles.has(key)){const mesh=new MB();mesh.detailTile=detailTile;tiles.set(key,mesh);}M=tiles.get(key);}
+    else M=tileOf(bm[o + BLD.CX], bm[o + BLD.CZ]);
     const rings = [];
     for (let k = 0; k < nr; k++) rings.push(ringOf(r0 + k));
     const outer = rings[0];
@@ -249,9 +252,9 @@ export function buildFootprints(D) {
     if (parapet) addParapet(M, outer, top, parapet, i);
     if (base > 0.5) M.flat(rings, base, i, -1);
   }
-  const meshes = [];
-  for (const [, M] of tiles) if (M.n) meshes.push(M.build());
-  return { geos: meshes, btex, qEdgesOf: (i) => qmap.get(i), outerOf };
+  const meshes = [],detailTiles=[];
+  for (const [, M] of tiles) if (M.n) {meshes.push(M.build());detailTiles.push(M.detailTile||null);}
+  return { geos: meshes, detailTiles, btex, qEdgesOf: (i) => qmap.get(i), outerOf };
 }
 
 // 女儿墙：外墙已加高，这里补内侧墙面与压顶

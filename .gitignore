@@ -13,3 +13,7 @@ node_modules/
 .vscode/
 .research/
 docs/项目评估报告-*.md
+
+# Python generated caches
+__pycache__/
+*.py[cod]

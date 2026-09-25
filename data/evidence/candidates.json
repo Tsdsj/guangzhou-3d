@@ -1,0 +1,3858 @@
+[
+  {
+    "id": "overture:012e6b1d-19b9-46fa-8811-1198dad234c9",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3116612,
+            23.1212243
+          ],
+          [
+            113.3120958,
+            23.1212387
+          ],
+          [
+            113.3120939,
+            23.1213126
+          ],
+          [
+            113.3116582,
+            23.1212992
+          ],
+          [
+            113.3116612,
+            23.1212243
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 367.64
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:0df96fba-87bc-40fe-bf9e-a7b14dca8724",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2452782,
+            23.1092957
+          ],
+          [
+            113.2453626,
+            23.1093342
+          ],
+          [
+            113.2453215,
+            23.1094129
+          ],
+          [
+            113.2452351,
+            23.1093744
+          ],
+          [
+            113.2452782,
+            23.1092957
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 94.64
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:0e557050-bb07-41e5-906b-a20909ce1647",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3186591,
+            23.1223888
+          ],
+          [
+            113.3186178,
+            23.1223908
+          ],
+          [
+            113.3186085,
+            23.1222282
+          ],
+          [
+            113.3186498,
+            23.1222262
+          ],
+          [
+            113.3186591,
+            23.1223888
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 76.39
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:11a3de1e-7e55-4b99-8925-41822645705b",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.243458,
+            23.1093729
+          ],
+          [
+            113.2434599,
+            23.1094303
+          ],
+          [
+            113.2433771,
+            23.1094327
+          ],
+          [
+            113.2433752,
+            23.1093752
+          ],
+          [
+            113.243458,
+            23.1093729
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 54.02
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:141970c7-7a04-41e5-ba82-a1eda0a0b2ed",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2427206,
+            23.108721
+          ],
+          [
+            113.2427207,
+            23.108774
+          ],
+          [
+            113.2426544,
+            23.1087751
+          ],
+          [
+            113.2426544,
+            23.1087222
+          ],
+          [
+            113.2427206,
+            23.108721
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 39.8
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:14fb0504-abfc-4c77-9685-7f0838beeefa",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2433279,
+            23.1093297
+          ],
+          [
+            113.2433244,
+            23.1091191
+          ],
+          [
+            113.2434693,
+            23.109117
+          ],
+          [
+            113.2434728,
+            23.1093277
+          ],
+          [
+            113.2433279,
+            23.1093297
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 346.36
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:1c2e4ad6-a84c-490c-92d6-54a755bfa8d3",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3181883,
+            23.1240022
+          ],
+          [
+            113.318107,
+            23.1239875
+          ],
+          [
+            113.318115,
+            23.1239499
+          ],
+          [
+            113.3179321,
+            23.1239169
+          ],
+          [
+            113.317944,
+            23.1238605
+          ],
+          [
+            113.3182082,
+            23.1239082
+          ],
+          [
+            113.3181883,
+            23.1240022
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 211.42
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:2be5b432-305c-44f0-bdec-fd739ee07d96",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3195041,
+            23.1231077
+          ],
+          [
+            113.3195828,
+            23.1231375
+          ],
+          [
+            113.3195529,
+            23.1232062
+          ],
+          [
+            113.3194743,
+            23.1231753
+          ],
+          [
+            113.3195041,
+            23.1231077
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 71.08
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:2fd8b0bd-18db-440a-843e-d04986ed8050",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3157963,
+            23.1236748
+          ],
+          [
+            113.3157997,
+            23.123311
+          ],
+          [
+            113.3158825,
+            23.1233117
+          ],
+          [
+            113.3158791,
+            23.1236755
+          ],
+          [
+            113.3157963,
+            23.1236748
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 341.73
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:349a1f70-f48d-4e84-a520-0f16b5b8d7d1",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2409315,
+            23.1101679
+          ],
+          [
+            113.2409967,
+            23.1101697
+          ],
+          [
+            113.2409947,
+            23.1102228
+          ],
+          [
+            113.2409305,
+            23.1102209
+          ],
+          [
+            113.2409315,
+            23.1101679
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 38.97
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:43d9cf75-cff0-4a02-980f-4b9b080fbc97",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2391292,
+            23.1094004
+          ],
+          [
+            113.2391252,
+            23.1092664
+          ],
+          [
+            113.2393529,
+            23.1092606
+          ],
+          [
+            113.2393569,
+            23.1093946
+          ],
+          [
+            113.2391292,
+            23.1094004
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 346.41
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:43fc6be4-d8d7-4af8-93f6-a773b541e007",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2423441,
+            23.1085016
+          ],
+          [
+            113.2423583,
+            23.1086594
+          ],
+          [
+            113.2422599,
+            23.1086671
+          ],
+          [
+            113.2422447,
+            23.1085114
+          ],
+          [
+            113.2423441,
+            23.1085016
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 177.33
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:47355820-5a3b-43d0-9406-20df4e938a42",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2436588,
+            23.1104115
+          ],
+          [
+            113.2436703,
+            23.1105193
+          ],
+          [
+            113.2436411,
+            23.1105219
+          ],
+          [
+            113.2436296,
+            23.1104141
+          ],
+          [
+            113.2436588,
+            23.1104115
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 36.05
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:4943596c-3f38-4342-883d-4e252da06f41",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2388402,
+            23.1103267
+          ],
+          [
+            113.2388538,
+            23.1104216
+          ],
+          [
+            113.2387307,
+            23.1104367
+          ],
+          [
+            113.2387171,
+            23.1103418
+          ],
+          [
+            113.2388402,
+            23.1103267
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 134.86
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:4cecd088-9830-4b1a-97b4-570bbf50efce",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3116513,
+            23.123104
+          ],
+          [
+            113.3117753,
+            23.1230972
+          ],
+          [
+            113.3117814,
+            23.1231928
+          ],
+          [
+            113.3116574,
+            23.1231995
+          ],
+          [
+            113.3116513,
+            23.123104
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 134.87
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:4e2d866b-2302-46cc-9fe3-4466652fa744",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2402595,
+            23.1084677
+          ],
+          [
+            113.2402646,
+            23.1085556
+          ],
+          [
+            113.2401492,
+            23.1085616
+          ],
+          [
+            113.2401441,
+            23.1084727
+          ],
+          [
+            113.2402595,
+            23.1084677
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 116.05
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:54c3670b-04f9-4961-9d14-868362d103c8",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2408321,
+            23.1083367
+          ],
+          [
+            113.2415869,
+            23.1083046
+          ],
+          [
+            113.2415993,
+            23.1085532
+          ],
+          [
+            113.2408445,
+            23.1085854
+          ],
+          [
+            113.2408321,
+            23.1083367
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 2133.73
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:558a96ae-4d82-451f-8775-7283cf03287e",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2431813,
+            23.1090563
+          ],
+          [
+            113.243262,
+            23.1090733
+          ],
+          [
+            113.2432528,
+            23.1091107
+          ],
+          [
+            113.2431721,
+            23.1090937
+          ],
+          [
+            113.2431813,
+            23.1090563
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 36.01
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:5ca979bc-df1c-4d33-a3fa-7e7f64d650e6",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2405057,
+            23.1083476
+          ],
+          [
+            113.2407745,
+            23.1083361
+          ],
+          [
+            113.2407874,
+            23.1085943
+          ],
+          [
+            113.2405185,
+            23.1086058
+          ],
+          [
+            113.2405057,
+            23.1083476
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 789.2
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:602c00ef-2c98-4736-9e4a-7eee84df277a",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2423017,
+            23.1084866
+          ],
+          [
+            113.2422991,
+            23.1084292
+          ],
+          [
+            113.242206,
+            23.1084329
+          ],
+          [
+            113.2422016,
+            23.1083373
+          ],
+          [
+            113.2424187,
+            23.1083286
+          ],
+          [
+            113.2424258,
+            23.1084817
+          ],
+          [
+            113.2423017,
+            23.1084866
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 316.96
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:69017c0a-227a-44c5-a45a-af753bc7b1fa",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3121981,
+            23.1228637
+          ],
+          [
+            113.312211,
+            23.1229998
+          ],
+          [
+            113.3121285,
+            23.1230076
+          ],
+          [
+            113.3121145,
+            23.1228695
+          ],
+          [
+            113.3121981,
+            23.1228637
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 130.2
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:734c5093-5938-4d3c-9b1b-75853d91db7e",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2434667,
+            23.1102498
+          ],
+          [
+            113.2435288,
+            23.1102498
+          ],
+          [
+            113.2435288,
+            23.1102976
+          ],
+          [
+            113.2434667,
+            23.1102977
+          ],
+          [
+            113.2434667,
+            23.1102498
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 33.71
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:784d3c9e-862f-4a97-b45f-1ce4def015f9",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2402671,
+            23.1101657
+          ],
+          [
+            113.2401742,
+            23.110172
+          ],
+          [
+            113.2401727,
+            23.1101529
+          ],
+          [
+            113.2402656,
+            23.1101466
+          ],
+          [
+            113.2402671,
+            23.1101657
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 20.24
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:78e05137-918e-4a49-9dd3-2b841929e39e",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2349645,
+            23.1090894
+          ],
+          [
+            113.2350228,
+            23.1090843
+          ],
+          [
+            113.2350269,
+            23.1091247
+          ],
+          [
+            113.2349686,
+            23.1091299
+          ],
+          [
+            113.2349645,
+            23.1090894
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 26.99
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:79a7e5c2-3217-4f33-94df-cbf461d5ab40",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2407735,
+            23.1102441
+          ],
+          [
+            113.240639,
+            23.1102487
+          ],
+          [
+            113.2406375,
+            23.1102104
+          ],
+          [
+            113.240772,
+            23.1102058
+          ],
+          [
+            113.2407735,
+            23.1102441
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 58.52
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:7cc5cd67-6145-4e25-82b8-3ec8ee2d5957",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.234974,
+            23.1099312
+          ],
+          [
+            113.2350122,
+            23.1099616
+          ],
+          [
+            113.2349169,
+            23.110058
+          ],
+          [
+            113.2348788,
+            23.1100256
+          ],
+          [
+            113.234974,
+            23.1099312
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 75.22
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:845f6437-d1ed-4c81-8e2c-5813eceedcc9",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2410741,
+            23.1102964
+          ],
+          [
+            113.2410742,
+            23.1103764
+          ],
+          [
+            113.241033,
+            23.1103771
+          ],
+          [
+            113.2410309,
+            23.1102971
+          ],
+          [
+            113.2410741,
+            23.1102964
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 38.31
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:92d64ee1-b609-4b71-8ef7-a70917ab1b39",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3187598,
+            23.1207034
+          ],
+          [
+            113.3186977,
+            23.1207013
+          ],
+          [
+            113.3187011,
+            23.1206152
+          ],
+          [
+            113.3187631,
+            23.1206173
+          ],
+          [
+            113.3187598,
+            23.1207034
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 60.68
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:99d605fd-9917-4191-bccf-82217f9c98fb",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.240917,
+            23.1090185
+          ],
+          [
+            113.2407721,
+            23.1090177
+          ],
+          [
+            113.2407722,
+            23.1089985
+          ],
+          [
+            113.2409171,
+            23.1089993
+          ],
+          [
+            113.240917,
+            23.1090185
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 31.56
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:9df4981f-c70f-4c99-a3c1-16490348467f",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2424495,
+            23.1092151
+          ],
+          [
+            113.2424552,
+            23.1093011
+          ],
+          [
+            113.2424345,
+            23.1093023
+          ],
+          [
+            113.2424288,
+            23.1092163
+          ],
+          [
+            113.2424495,
+            23.1092151
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 20.27
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:a06e6599-73aa-45cb-ba6a-7df9ac609e0f",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3143667,
+            23.1239249
+          ],
+          [
+            113.3141475,
+            23.1239368
+          ],
+          [
+            113.3141389,
+            23.1238017
+          ],
+          [
+            113.3143581,
+            23.1237897
+          ],
+          [
+            113.3143667,
+            23.1239249
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 337.22
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:a1db3231-7e9b-4dcd-8734-7597305be7ae",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3152988,
+            23.1208337
+          ],
+          [
+            113.3152988,
+            23.1208929
+          ],
+          [
+            113.3151596,
+            23.120903
+          ],
+          [
+            113.3150204,
+            23.1209132
+          ],
+          [
+            113.3148812,
+            23.1208937
+          ],
+          [
+            113.3148812,
+            23.1208444
+          ],
+          [
+            113.3152988,
+            23.1208337
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 303.73
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:a2604f5a-8d87-401b-80c7-c256cf60ae05",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2387017,
+            23.1104449
+          ],
+          [
+            113.238619,
+            23.1104417
+          ],
+          [
+            113.2386243,
+            23.1103269
+          ],
+          [
+            113.238707,
+            23.1103302
+          ],
+          [
+            113.2387017,
+            23.1104449
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 107.85
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:a8eade40-00d9-44ec-aa0c-67ecad15831b",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2339208,
+            23.109269
+          ],
+          [
+            113.2341038,
+            23.1096452
+          ],
+          [
+            113.2340958,
+            23.1096983
+          ],
+          [
+            113.2340637,
+            23.1097138
+          ],
+          [
+            113.2338636,
+            23.1092928
+          ],
+          [
+            113.2339208,
+            23.109269
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 329.36
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:aefddbb8-1aec-4505-877f-38beba754843",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2375544,
+            23.1102476
+          ],
+          [
+            113.2375565,
+            23.1103255
+          ],
+          [
+            113.2374992,
+            23.1103264
+          ],
+          [
+            113.2374972,
+            23.1102485
+          ],
+          [
+            113.2375544,
+            23.1102476
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 50.62
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b1dfdd18-7328-4eb9-bdf5-f45e94aa4efc",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3122694,
+            23.1211749
+          ],
+          [
+            113.3122963,
+            23.1211699
+          ],
+          [
+            113.312307,
+            23.1211995
+          ],
+          [
+            113.3122802,
+            23.1212143
+          ],
+          [
+            113.3122694,
+            23.1211749
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 11.72
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b28a26fb-707b-4761-8f4d-2eaadad6bee8",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3182323,
+            23.1239961
+          ],
+          [
+            113.3182298,
+            23.123942
+          ],
+          [
+            113.318259,
+            23.1239408
+          ],
+          [
+            113.3182616,
+            23.1239949
+          ],
+          [
+            113.3182323,
+            23.1239961
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 17.99
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b4da0c8b-1ebd-4c8d-b6b9-aa5896582bfc",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.318596,
+            23.1239537
+          ],
+          [
+            113.318573,
+            23.1239855
+          ],
+          [
+            113.3185386,
+            23.1239643
+          ],
+          [
+            113.3185615,
+            23.1239324
+          ],
+          [
+            113.318596,
+            23.1239537
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 17.98
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b4e0cdce-48ae-4ffc-ba92-5e7e45b6951d",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.312342,
+            23.1229777
+          ],
+          [
+            113.3123669,
+            23.1229046
+          ],
+          [
+            113.3124459,
+            23.1229277
+          ],
+          [
+            113.3124116,
+            23.1230282
+          ],
+          [
+            113.3122833,
+            23.1229906
+          ],
+          [
+            113.3122926,
+            23.1229632
+          ],
+          [
+            113.312342,
+            23.1229777
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 115.86
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b6951fe0-dc43-4a73-b79f-13464b1de60f",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3118888,
+            23.1209357
+          ],
+          [
+            113.3118898,
+            23.1210117
+          ],
+          [
+            113.3115487,
+            23.1210197
+          ],
+          [
+            113.3115467,
+            23.1209437
+          ],
+          [
+            113.3118888,
+            23.1209357
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 294.64
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:b9e0cbaa-1953-47f4-bf29-33b67a9845e0",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2409399,
+            23.1090861
+          ],
+          [
+            113.2409453,
+            23.1091817
+          ],
+          [
+            113.2407592,
+            23.1091907
+          ],
+          [
+            113.2407538,
+            23.1090951
+          ],
+          [
+            113.2409399,
+            23.1090861
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 202.39
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:bcaf8c2a-4e43-4baa-ad9b-f55bbd1d022f",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2390626,
+            23.1104151
+          ],
+          [
+            113.2389591,
+            23.1104174
+          ],
+          [
+            113.2389576,
+            23.11036
+          ],
+          [
+            113.239061,
+            23.1103576
+          ],
+          [
+            113.2390626,
+            23.1104151
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 67.46
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:be5aee04-4b6f-42f9-80d3-eddd3ec35dcf",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2390435,
+            23.1102128
+          ],
+          [
+            113.2390648,
+            23.1101388
+          ],
+          [
+            113.2391049,
+            23.1101487
+          ],
+          [
+            113.2390835,
+            23.1102227
+          ],
+          [
+            113.2390435,
+            23.1102128
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 36.02
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:c6f19779-4be0-49b1-8841-5c2c3004c9c3",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2430657,
+            23.1090673
+          ],
+          [
+            113.243066,
+            23.1091631
+          ],
+          [
+            113.2430246,
+            23.1091632
+          ],
+          [
+            113.2430243,
+            23.1090674
+          ],
+          [
+            113.2430657,
+            23.1090673
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 45.0
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:cb6f885e-d9e0-4171-84e1-743785ce85ed",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3188505,
+            23.1237763
+          ],
+          [
+            113.3188515,
+            23.1238713
+          ],
+          [
+            113.3187371,
+            23.123873
+          ],
+          [
+            113.318736,
+            23.123778
+          ],
+          [
+            113.3188505,
+            23.1237763
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 123.36
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:cdba535c-c26c-4df1-acba-4b271efd49e4",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3166799,
+            23.1210411
+          ],
+          [
+            113.3166178,
+            23.1210414
+          ],
+          [
+            113.3166167,
+            23.1208882
+          ],
+          [
+            113.3166788,
+            23.1208879
+          ],
+          [
+            113.3166799,
+            23.1210411
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 107.93
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:d16154b8-0b74-46ef-a3d2-4ab8f216d96a",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2340813,
+            23.1091646
+          ],
+          [
+            113.2342833,
+            23.1095476
+          ],
+          [
+            113.2342281,
+            23.1095754
+          ],
+          [
+            113.2340432,
+            23.1092242
+          ],
+          [
+            113.2340151,
+            23.1092356
+          ],
+          [
+            113.233998,
+            23.1092029
+          ],
+          [
+            113.2340813,
+            23.1091646
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 316.39
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:d42e002b-e5e9-471a-b05b-8c4e32edd03d",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2424635,
+            23.1085345
+          ],
+          [
+            113.2424736,
+            23.1086323
+          ],
+          [
+            113.2423713,
+            23.1086411
+          ],
+          [
+            113.2423602,
+            23.1085424
+          ],
+          [
+            113.2424635,
+            23.1085345
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 115.59
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:dcc867f8-20c2-48e9-8ef6-8fe32ab1a23e",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2448875,
+            23.1100864
+          ],
+          [
+            113.2448876,
+            23.1101314
+          ],
+          [
+            113.2447561,
+            23.1101338
+          ],
+          [
+            113.2447561,
+            23.1100888
+          ],
+          [
+            113.2448875,
+            23.1100864
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 67.11
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:ddf54ff4-c867-425f-9db7-54352bdef70b",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3185319,
+            23.1236167
+          ],
+          [
+            113.3185439,
+            23.1236878
+          ],
+          [
+            113.3184175,
+            23.1237094
+          ],
+          [
+            113.3184045,
+            23.1236403
+          ],
+          [
+            113.3185319,
+            23.1236167
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 104.11
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:e6905d36-8ef3-4592-a677-ae5b248c2184",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2401676,
+            23.1089979
+          ],
+          [
+            113.2402504,
+            23.1089972
+          ],
+          [
+            113.2402506,
+            23.1090163
+          ],
+          [
+            113.2401678,
+            23.109017
+          ],
+          [
+            113.2401676,
+            23.1089979
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 17.94
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:e70e913f-5d83-42a8-8eab-a0c3439e916d",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.24358,
+            23.1091108
+          ],
+          [
+            113.2435811,
+            23.1091588
+          ],
+          [
+            113.2434958,
+            23.1091603
+          ],
+          [
+            113.2434947,
+            23.1091123
+          ],
+          [
+            113.24358,
+            23.1091108
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 46.47
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:eac52fcd-f176-4c3b-a216-f3806f4bb6d4",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2370795,
+            23.1094132
+          ],
+          [
+            113.2370896,
+            23.1093372
+          ],
+          [
+            113.2372129,
+            23.1093513
+          ],
+          [
+            113.2372028,
+            23.1094273
+          ],
+          [
+            113.2370795,
+            23.1094132
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 107.92
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f388476c-1d4a-4cb3-85fd-bbd0fd585130",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3194462,
+            23.1206078
+          ],
+          [
+            113.3195567,
+            23.120609
+          ],
+          [
+            113.3195547,
+            23.1207189
+          ],
+          [
+            113.3194462,
+            23.1207177
+          ],
+          [
+            113.3194462,
+            23.1206078
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 136.53
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f3c13cb1-2fef-4e09-9be0-e4324eb82705",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2432431,
+            23.106476
+          ],
+          [
+            113.2432976,
+            23.1065036
+          ],
+          [
+            113.2432728,
+            23.1065456
+          ],
+          [
+            113.2432183,
+            23.106518
+          ],
+          [
+            113.2432431,
+            23.106476
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 33.73
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f5ac5cf6-495d-49cb-bcfd-fa04cf1aa7c9",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2366759,
+            23.110402
+          ],
+          [
+            113.2366664,
+            23.1104684
+          ],
+          [
+            113.2366458,
+            23.1104659
+          ],
+          [
+            113.2366554,
+            23.1103995
+          ],
+          [
+            113.2366759,
+            23.110402
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 15.75
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f6aec271-8a35-42e8-9c12-3c1f5feff185",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2425677,
+            23.1082878
+          ],
+          [
+            113.2425859,
+            23.1084194
+          ],
+          [
+            113.2425156,
+            23.1084257
+          ],
+          [
+            113.2424984,
+            23.108296
+          ],
+          [
+            113.2425677,
+            23.1082878
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 104.91
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f6ea55b4-766c-4f66-bc42-2d0ddee7e0c7",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2427986,
+            23.1083727
+          ],
+          [
+            113.2429622,
+            23.1083948
+          ],
+          [
+            113.2429573,
+            23.1084225
+          ],
+          [
+            113.2430204,
+            23.1084298
+          ],
+          [
+            113.2430075,
+            23.108523
+          ],
+          [
+            113.24288,
+            23.1085072
+          ],
+          [
+            113.242883,
+            23.1084802
+          ],
+          [
+            113.2427836,
+            23.1084669
+          ],
+          [
+            113.2427986,
+            23.1083727
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 265.97
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:f7d7376a-ba09-4ec9-8d2b-d69082e46f23",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2363005,
+            23.1086109
+          ],
+          [
+            113.2363286,
+            23.1086935
+          ],
+          [
+            113.2361872,
+            23.1087357
+          ],
+          [
+            113.236134,
+            23.1087515
+          ],
+          [
+            113.2360927,
+            23.1085992
+          ],
+          [
+            113.2361218,
+            23.1085858
+          ],
+          [
+            113.236151,
+            23.1086283
+          ],
+          [
+            113.2361851,
+            23.1086178
+          ],
+          [
+            113.2361941,
+            23.1086446
+          ],
+          [
+            113.2363005,
+            23.1086109
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 243.71
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:fc1bdfcb-a139-4828-b2e1-d8c75ce782a7",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.3181972,
+            23.1237201
+          ],
+          [
+            113.3182799,
+            23.1237236
+          ],
+          [
+            113.318278,
+            23.1237618
+          ],
+          [
+            113.3181953,
+            23.1237584
+          ],
+          [
+            113.3181972,
+            23.1237201
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 35.96
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:fc4c0ece-3897-4d1b-a03f-d3e771cff4c9",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2423809,
+            23.1102125
+          ],
+          [
+            113.2424989,
+            23.1102125
+          ],
+          [
+            113.2423809,
+            23.1102322
+          ],
+          [
+            113.2423809,
+            23.1102125
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 13.19
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:ff3cffc9-deb5-46bb-9031-d85281880d12",
+    "sourceId": "overture20260923",
+    "area": "huacheng",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.313117,
+            23.1219034
+          ],
+          [
+            113.313129,
+            23.1218179
+          ],
+          [
+            113.31317,
+            23.1218228
+          ],
+          [
+            113.3131581,
+            23.1219083
+          ],
+          [
+            113.313117,
+            23.1219034
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 40.48
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  },
+  {
+    "id": "overture:ffaaa5fc-6ce3-46cd-89ba-0a59fa9cb5df",
+    "sourceId": "overture20260923",
+    "area": "shamian",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.2376685,
+            23.1103584
+          ],
+          [
+            113.2378961,
+            23.11035
+          ],
+          [
+            113.2378985,
+            23.1104074
+          ],
+          [
+            113.237671,
+            23.1104158
+          ],
+          [
+            113.2376685,
+            23.1103584
+          ]
+        ]
+      ]
+    },
+    "sourceRecords": [
+      {
+        "property": "",
+        "dataset": "doi:10.5281/zenodo.8174931",
+        "license": null,
+        "record_id": null,
+        "update_time": "2024-11-01T00:00:00.000Z",
+        "confidence": null,
+        "between": null,
+        "provider": "zenodo",
+        "resource": "east_asian_buildings",
+        "version": "2024-11-01"
+      }
+    ],
+    "height": {
+      "value": null,
+      "status": "unknown"
+    },
+    "comparison": {
+      "osmOverlapFraction": 0.0,
+      "areaM2": 148.41
+    },
+    "review": {
+      "status": "pending",
+      "reviewedBy": null,
+      "evidenceIds": []
+    },
+    "asset": null
+  }
+]

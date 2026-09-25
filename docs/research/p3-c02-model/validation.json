@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-26",
+  "sample": "C02",
+  "tests": {
+    "passed": 61,
+    "failed": 0,
+    "skipped": 0
+  },
+  "afterTests": "C02 narrow aerial camera distance adjusted; syntax and live browser rechecked",
+  "productionIntegrated": false,
+  "baseAndDetailHashesUnchanged": true,
+  "measuredHeightM": null,
+  "browser": {
+    "desktop": [
+      "corner",
+      "porch-detail",
+      "rear-evidence",
+      "C02-C01-C02"
+    ],
+    "narrowViewport": [
+      390,
+      844
+    ],
+    "scrollWidth": 390,
+    "photoNaturalWidth": 5184,
+    "aerialFramingFixed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "artifactHashes": {
+    "prototypes/p2/c02.js": "b1aa5c5378ced9c139b67b2a469a89984fabf45cba7cda4491784ba65fce6d06",
+    "prototypes/p2/c02.json": "d932bbf9a925f2145c096249fb8f9487f0f8fa293043796c90c2738800a017ad",
+    "prototypes/p2/scene.js": "d916b90b90cdb8bdc6cd55a776654ff6b182246fdda9cb664c31afce5f0437b9"
+  }
+}

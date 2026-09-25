@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-25",
+  "sources": {
+    "shamian3Completion2023": {
+      "title": "关于对全国重点文物保护单位广州沙面建筑群之沙面一街3号修缮工程进行竣工验收的工作汇报",
+      "publisher": "广东省古迹保护协会；广州市文化广电旅游局公开",
+      "documentDate": "2023-10-07",
+      "reference": "粤古协函〔2023〕650号",
+      "url": "https://wglj.gz.gov.cn/attachment/7/7536/7536808/9433868.pdf",
+      "sha256": "675ff8b4812e157c6eb7556be971a99c644ca164f889bc35c2d07e0a7e988b8b",
+      "pages": [
+        13,
+        21
+      ],
+      "reuse": "factual values and source link only; PDF and embedded photos are not bundled in public assets"
+    },
+    "shamianSurvey2026": {
+      "title": "沙面历史文化街区保护与活化利用项目历史文化遗产调查评估保护专章（公示简本）",
+      "publisher": "广州市规划和自然资源局荔湾区分局",
+      "publishedAt": "2026-09-04",
+      "url": "https://www.lw.gov.cn/zzzs/tzgg/content/post_10992582.html",
+      "attachment": "https://www.lw.gov.cn/attachment/8/8070/8070325/10992582.pdf",
+      "sha256": "19892184b3c695d9da7dde0624a0ab7b3f9673c052feef001f5bac8154bfd327",
+      "pages": [
+        15,
+        16,
+        46
+      ],
+      "status": "consultation draft, not final approval",
+      "reuse": "review reference only; embedded images are not redistributed"
+    },
+    "B2CornerPhoto2012": {
+      "url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_10-05-31.jpg",
+      "artist": "Zhangzhugang",
+      "date": "2012-11-15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sha256": "d8491cac05402622f87700f0f88953b67837f52fa63a19836172a0b384261e3e",
+      "locationStatus": "rejected-outlier",
+      "use": "visible structural reference only"
+    }
+  },
+  "entities": {
+    "osm:w352610258": {
+      "verticalControl": {
+        "landmark": "eave",
+        "value": 20.6,
+        "unit": "m",
+        "status": "reported",
+        "sourceId": "shamian3Completion2023",
+        "pages": [
+          13,
+          21
+        ],
+        "independentlyMeasured": false,
+        "datum": "report does not specify vertical datum; model ground zero remains inferred",
+        "modelAnchorInterpretation": "upper cornice control line; detailed section drawing not provided"
+      },
+      "entrance": {
+        "street": "沙面一街",
+        "streetSourceId": "osm:w132767198",
+        "streetStatus": "reported",
+        "direction": "east",
+        "directionStatus": "inferred-from-report-and-osm",
+        "sourceId": "shamian3Completion2023",
+        "pages": [
+          13,
+          21
+        ],
+        "note": "main entrance street is directly reported; east follows existing OSM street position, not a reported exact azimuth"
+      },
+      "photoFace": {
+        "id": "F0",
+        "placement": "north-short-edge",
+        "status": "provisional",
+        "note": "five-bay photographed face is not established as the principal entrance face; do not rotate or stretch it into the east long face"
+      },
+      "fieldLimits": [
+        "overall height unknown",
+        "floor elevations estimated",
+        "window dimensions estimated",
+        "unknown rear unchanged"
+      ],
+      "eastLoggia": {
+        "openBays": 5,
+        "depth": 2.6,
+        "depthStatus": "estimated",
+        "referenceEpoch": "2012-11-15",
+        "sourceId": "B2CornerPhoto2012",
+        "placementStatus": "inferred-from-entrance-street-and-corner-view",
+        "currentAppearanceVerified": false,
+        "interiorStatus": "unknown"
+      }
+    }
+  }
+}

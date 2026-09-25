@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-25",
+  "basis": "input road geometry and tag consistency, not measured street accuracy",
+  "tiles": [
+    {
+      "tile": "huasui",
+      "markingRecords": 24,
+      "polygonParts": 24,
+      "outsideRoadAreaM2": 1.0590987973027232e-13,
+      "outsideTileAreaM2": 0.0,
+      "statusCounts": {
+        "unknown": 8,
+        "reported": 3,
+        "conflict": 2
+      }
+    },
+    {
+      "tile": "huaxia",
+      "markingRecords": 117,
+      "polygonParts": 117,
+      "outsideRoadAreaM2": 1.983989281566289e-12,
+      "outsideTileAreaM2": 0.0,
+      "statusCounts": {
+        "reported": 16,
+        "conflict": 5
+      }
+    }
+  ],
+  "uniqueCrossingWays": 33,
+  "uniqueStatusCounts": {
+    "unknown": 8,
+    "reported": 19,
+    "conflict": 6
+  },
+  "deferred": [
+    {
+      "sourceId": "osm:w717926117",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w717926125",
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w717926126",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1157862096",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1157862097",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1157862098",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1157862099",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1157862100",
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "unknown",
+      "render": false,
+      "reason": "crossing location/signals do not establish road markings"
+    },
+    {
+      "sourceId": "osm:w1374671570",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    },
+    {
+      "sourceId": "osm:w1374671577",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    },
+    {
+      "sourceId": "osm:w1374133798",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    },
+    {
+      "sourceId": "osm:w1374133824",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    },
+    {
+      "sourceId": "osm:w1374671591",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    },
+    {
+      "sourceId": "osm:w1374671613",
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "status": "conflict",
+      "render": false,
+      "reason": "marking tags disagree"
+    }
+  ],
+  "patternNote": "yes means markings present; zebra pattern and dimensions remain inferred",
+  "seamEvidence": "bent-way and island-hole regression fixture",
+  "paintedSourceIdsSharedAcrossTiles": []
+}

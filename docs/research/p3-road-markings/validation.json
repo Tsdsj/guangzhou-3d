@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-25",
+  "nodeTests": 44,
+  "gisTests": 4,
+  "failures": 0,
+  "baseDataUnchanged": true,
+  "buildingPayloadUnchanged": true,
+  "browser": [
+    "Huaxia road paint visible",
+    "Huasui center crossing paint withheld with explicit missing-evidence text",
+    "P2 crossing paths retained in topology view",
+    "both road tiles ready and active",
+    "no error/warn logs"
+  ],
+  "sourceSemantics": [
+    "https://wiki.openstreetmap.org/wiki/Key:crossing:markings",
+    "https://wiki.openstreetmap.org/wiki/Key:crossing:signals"
+  ]
+}

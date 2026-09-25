@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-25",
+  "stage": "P2 prototype awaiting design review",
+  "unitTests": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "mainDataUnchanged": true,
+  "productionHashes": {
+    "data/guangzhou.json": "5b3eb3147e895e373ba208b7f63832c0536654e61539361b67b9b188581a9c98",
+    "data/guangzhou.bin.gz": "ee922e93366bd4588ce3f5aaedf0cbb579ff56f6be4766b759614626b37b1da9",
+    "data/guangzhou-veg.bin.gz": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd",
+    "data/guangzhou-evidence.json.gz": "8ad1fd8ccbcf4402c9bb7f87ac02b45f2752f1897d875d73eb29859058a65649"
+  },
+  "geometry": {
+    "B1": {
+      "meshes": 12,
+      "triangles": 33874,
+      "sourceIds": [
+        "osm:w352610322"
+      ],
+      "metricAccuracy": "unverified"
+    },
+    "B2": {
+      "meshes": 16,
+      "triangles": 64215,
+      "sourceIds": [
+        "osm:w352610258"
+      ],
+      "metricAccuracy": "unverified"
+    },
+    "B3": {
+      "meshes": 31,
+      "triangles": 74694,
+      "sourceIds": [
+        "osm:w392765468"
+      ],
+      "metricAccuracy": "unverified"
+    },
+    "J1": {
+      "meshes": 7,
+      "triangles": 4337,
+      "sourceIds": [
+        "osm:w199898039",
+        "osm:w233525478",
+        "osm:w444428461",
+        "osm:w444433525",
+        "osm:w448790074",
+        "osm:w450614677",
+        "osm:w462131778",
+        "osm:w462131779",
+        "osm:w462138645",
+        "osm:w462138646",
+        "osm:w481045545",
+        "osm:w717926117",
+        "osm:w717926121",
+        "osm:w717926122",
+        "osm:w717926125",
+        "osm:w717926126",
+        "osm:w717926157",
+        "osm:w734144749",
+        "osm:w1157862092",
+        "osm:w1157862093",
+        "osm:w1157862094",
+        "osm:w1157862095",
+        "osm:w1157862096",
+        "osm:w1157862097",
+        "osm:w1157862098",
+        "osm:w1157862099",
+        "osm:w1157862100",
+        "osm:w1373459670",
+        "osm:w1373650634",
+        "osm:w1374671543",
+        "osm:w1374671576"
+      ],
+      "metricAccuracy": "unverified"
+    }
+  },
+  "browserChecks": [
+    "four sample selection",
+    "camera presets and orbital transition",
+    "mouse drag and R reset",
+    "arrow key rotation",
+    "evidence colors and unknown rear",
+    "baseline massing toggle",
+    "wireframe",
+    "reference photo paging and dialog/Escape focus return",
+    "road topology and via-way relation highlight",
+    "390x844 viewport: scrollWidth equals 390, images ready",
+    "latest browser reload: no error/warn logs observed"
+  ],
+  "notValidated": [
+    "survey accuracy",
+    "all-facade reconstruction",
+    "phone GPU performance",
+    "system reduced-motion preference switching",
+    "production scene integration"
+  ]
+}

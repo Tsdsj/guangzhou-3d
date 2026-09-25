@@ -1,0 +1,31 @@
+{
+  "release": "2026-09-23.0",
+  "index_rows": 1123,
+  "null_collection_rows": 1123,
+  "areas": {
+    "shamian": {
+      "bbox": [
+        113.234,
+        23.1065,
+        113.2455,
+        23.1112
+      ],
+      "source_paths": [
+        "s3://overturemaps-us-west-2/release/2026-09-23.0/theme=buildings/type=building/part-00378-19fb13bb-ab51-5b20-b6e0-55dbc0bb5007-c000.zstd.parquet"
+      ],
+      "features": 200
+    },
+    "huacheng": {
+      "bbox": [
+        113.311,
+        23.1205,
+        113.3195,
+        23.124
+      ],
+      "source_paths": [
+        "s3://overturemaps-us-west-2/release/2026-09-23.0/theme=buildings/type=building/part-00378-19fb13bb-ab51-5b20-b6e0-55dbc0bb5007-c000.zstd.parquet"
+      ],
+      "features": 66
+    }
+  }
+}

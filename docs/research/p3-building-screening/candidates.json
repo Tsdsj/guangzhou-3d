@@ -1,0 +1,677 @@
+{
+  "version": 1,
+  "date": "2026-09-26",
+  "sourceHashes": {
+    "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0",
+    "docs/research/p0-2026-09-25/shamian-overture-buildings.geojson": "840603745aeebc8efd044903859b68452e5f0891452a9f0646b222c6d86fb7d7",
+    "docs/research/p0-2026-09-25/huacheng-osm-buildings.geojson": "4932cb9b303bd591d5b1482c1ae17327a0c8df6eff858689e4a2dedd7a37ccfe",
+    "docs/research/p0-2026-09-25/huacheng-overture-buildings.geojson": "3bedb49f45d893e873279ee23415f1bfe1a2fe922e7061af2dd0cb1ddf25ac62",
+    "data/evidence/building-identity-reviews.json": "d269d713be1851f1306d36951aae9197f47f1d74f31789907a542fd5481d646b"
+  },
+  "existingModelsExcluded": [
+    "osm:w352610322",
+    "osm:w352610258",
+    "osm:w392765468"
+  ],
+  "outlineScreening": {
+    "total": 63,
+    "byArea": {
+      "shamian": 42,
+      "huacheng": 21
+    },
+    "smallUnder100m2": 32,
+    "readyForProduction": 0,
+    "method": "source geometry and metadata screening only; nearest object is context, never identity"
+  },
+  "buildingCandidates": [
+    {
+      "id": "C01",
+      "sourceId": "osm:w509641361",
+      "name": "基督教沙面会堂",
+      "osmName": "基督教沙面会堂",
+      "address": "沙面南街 60",
+      "centroid": [
+        113.23628133879379,
+        23.109624265131796
+      ],
+      "areaM2": 315.86,
+      "sourceLevels": "1",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": {
+        "candidateId": "C01",
+        "title": "File:Christ Church Shamian 20260518.jpg",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Christ_Church_Shamian_20260518.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Christ_Church_Shamian_20260518.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "JULIANISME",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "date": "2026-05-18 13:49:14",
+        "path": "docs/research/p3-building-screening/C01.jpg",
+        "sha256": "97d4715af90d10c56580972474ab6928fc0962f73ab71b296f15a022776c6341",
+        "reviewStatus": "visually-reviewed-partial-facade",
+        "retrievedAt": "2026-09-26",
+        "downloadError": null,
+        "reviewNote": "本轮纠正：2026照片为北侧端墙，可辨三角山花、三圆孔、三联尖拱彩窗和两侧门。结合相机元数据在北侧、南端凸出轮廓与另两张钟塔照片，方向匹配为推定，非像素配准。",
+        "metricAccuracy": "unverified",
+        "photoToFootprintRegistered": false,
+        "priorReviewNote": "2026照片可辨三角山花、三圆孔、中央三联尖拱彩窗及两侧门；树冠遮挡屋檐，底部有围栏遮挡，侧后面及绝对高度未知。",
+        "face": "north-end",
+        "correctionDate": "2026-09-26"
+      },
+      "priority": 1,
+      "notes": "地址与Commons类别对应；原照片为北端墙，南侧见C01专项样件",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2362204,
+              23.1097356
+            ],
+            [
+              113.2362157,
+              23.1095263
+            ],
+            [
+              113.2362589,
+              23.1095252
+            ],
+            [
+              113.2362576,
+              23.1094922
+            ],
+            [
+              113.2362942,
+              23.1094909
+            ],
+            [
+              113.2362955,
+              23.109524
+            ],
+            [
+              113.2363427,
+              23.1095239
+            ],
+            [
+              113.2363474,
+              23.1097331
+            ],
+            [
+              113.2362204,
+              23.1097356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "sourceId": "osm:w352610288",
+      "name": "正金银行旧址",
+      "osmName": null,
+      "address": "沙面大街 56",
+      "centroid": [
+        113.23780515,
+        23.1101676
+      ],
+      "areaM2": 827.0,
+      "sourceLevels": "3",
+      "measuredHeightM": null,
+      "identityStatus": "document-address-supported",
+      "photo": {
+        "candidateId": "C02",
+        "title": "File:Guangzhou Liwan Shamian ZhengJin Yinhang Jiuzhi 20230107.141132.jpg",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Liwan_Shamian_ZhengJin_Yinhang_Jiuzhi_20230107.141132.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Guangzhou_Liwan_Shamian_ZhengJin_Yinhang_Jiuzhi_20230107.141132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "古海岸遗址",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "date": "2023-01-07 14:11:32",
+        "path": "docs/research/p3-building-screening/C02.jpg",
+        "sha256": "d02bda0d26c538551d3b588cd804df124afb9983ec720c6dda838828f0846bb3",
+        "reviewStatus": "visually-reviewed-partial-facade",
+        "retrievedAt": "2026-09-26",
+        "downloadError": null,
+        "reviewNote": "2023照片可辨三大拱、通柱和入口；树木遮挡两翼，题名指向正金银行，但OSM旧用途描述不同。仅作地址候选，不自动覆盖历史身份。",
+        "metricAccuracy": "unverified",
+        "photoToFootprintRegistered": false
+      },
+      "priority": 2,
+      "notes": "56号名称和历史别名已由公开资料及2021铭牌支持；双柱及左翼有照片支持，尺寸与现状仍待核。",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.237925,
+              23.1103238
+            ],
+            [
+              113.2379132,
+              23.1100043
+            ],
+            [
+              113.2376853,
+              23.1100114
+            ],
+            [
+              113.2376971,
+              23.1103309
+            ],
+            [
+              113.237925,
+              23.1103238
+            ]
+          ]
+        ]
+      },
+      "historicalAliases": [
+        "美国领事馆旧馆"
+      ],
+      "identityEvidenceIds": [
+        "liwanCulturalPlan",
+        "liwanVenueProposal",
+        "shamianSurvey2026",
+        "c02Plaque2021"
+      ],
+      "prototypeEligibility": "eligible-for-provisional-front-study"
+    },
+    {
+      "id": "C03",
+      "sourceId": "osm:w1191446839",
+      "name": "沙面大街69号（牧师住宅候选）",
+      "osmName": null,
+      "address": "沙面大街 69",
+      "centroid": [
+        113.23596362650063,
+        23.10970101882588
+      ],
+      "areaM2": 532.38,
+      "sourceLevels": "1",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": {
+        "candidateId": "C03",
+        "title": "File:Guangzhou Liwan Yingguo Shenggonghui Mushi Zhuzhai Jiuzhi 20230528.173935.jpg",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Liwan_Yingguo_Shenggonghui_Mushi_Zhuzhai_Jiuzhi_20230528.173935.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Guangzhou_Liwan_Yingguo_Shenggonghui_Mushi_Zhuzhai_Jiuzhi_20230528.173935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "古海岸遗址",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "date": "2023-05-28 17:39:35",
+        "path": null,
+        "sha256": null,
+        "reviewStatus": "metadata-only-download-rate-limited",
+        "retrievedAt": "2026-09-26",
+        "downloadError": "HTTP 429; no immediate retry"
+      },
+      "priority": 2,
+      "notes": "源地址与照片题名初配，需核门牌和轮廓",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2357966,
+              23.1097835
+            ],
+            [
+              113.2359928,
+              23.1097802
+            ],
+            [
+              113.2359924,
+              23.109759
+            ],
+            [
+              113.2361285,
+              23.1097567
+            ],
+            [
+              113.2361256,
+              23.1096104
+            ],
+            [
+              113.23599,
+              23.1096127
+            ],
+            [
+              113.2359906,
+              23.1096425
+            ],
+            [
+              113.2357939,
+              23.1096458
+            ],
+            [
+              113.2357966,
+              23.1097835
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "sourceId": "osm:w352610325",
+      "name": "广东外事博物馆",
+      "osmName": "广东外事博物馆",
+      "address": "",
+      "centroid": [
+        113.24262542554129,
+        23.108980758942337
+      ],
+      "areaM2": 631.01,
+      "sourceLevels": null,
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "OSM名称明确，待补对应年代自由许可照片",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.242516,
+              23.1091063
+            ],
+            [
+              113.2427434,
+              23.1090996
+            ],
+            [
+              113.2427348,
+              23.1088552
+            ],
+            [
+              113.2425075,
+              23.1088619
+            ],
+            [
+              113.242516,
+              23.1091063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C05",
+      "sourceId": "osm:w352610283",
+      "name": "海关宿舍（沙面大街6号）",
+      "osmName": "海关宿舍",
+      "address": "沙面大街 6",
+      "centroid": [
+        113.24331380000001,
+        23.11001365
+      ],
+      "areaM2": 1478.44,
+      "sourceLevels": "3",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "需先拆清红楼主副楼及2/4/6号的身份范围",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2430926,
+              23.1101642
+            ],
+            [
+              113.2435451,
+              23.1101508
+            ],
+            [
+              113.243535,
+              23.1098631
+            ],
+            [
+              113.2430825,
+              23.1098765
+            ],
+            [
+              113.2430926,
+              23.1101642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C06",
+      "sourceId": "osm:w352610265",
+      "name": "渣打银行旧址（沙面大街49号）",
+      "osmName": "渣打银行旧址",
+      "address": "沙面大街 49",
+      "centroid": [
+        113.23927515108258,
+        23.109527985595335
+      ],
+      "areaM2": 549.5,
+      "sourceLevels": "3",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "源地址明确；不得与北街61号同名旧址混配",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.239159,
+              23.1094245
+            ],
+            [
+              113.2391616,
+              23.1096363
+            ],
+            [
+              113.2393603,
+              23.1096322
+            ],
+            [
+              113.2393952,
+              23.1096036
+            ],
+            [
+              113.2393892,
+              23.1094222
+            ],
+            [
+              113.239159,
+              23.1094245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C07",
+      "sourceId": "osm:w352610312",
+      "name": "万宝楼（旧万国宝通银行）",
+      "osmName": "万宝楼",
+      "address": "沙面大街 46",
+      "centroid": [
+        113.23929923031686,
+        23.110167338398572
+      ],
+      "areaM2": 1107.45,
+      "sourceLevels": "4",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "名称与旧名仅来自OSM，需核照片",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2391795,
+              23.1103683
+            ],
+            [
+              113.2394239,
+              23.1103658
+            ],
+            [
+              113.2394189,
+              23.1099663
+            ],
+            [
+              113.2391746,
+              23.1099689
+            ],
+            [
+              113.2391795,
+              23.1103683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C08",
+      "sourceId": "osm:w352610315",
+      "name": "沙面大街50/52号（现星巴克标签）",
+      "osmName": "星巴克",
+      "address": "沙面大街 50;52",
+      "centroid": [
+        113.23847968963861,
+        23.110145619859416
+      ],
+      "areaM2": 401.23,
+      "sourceLevels": "2",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "经营标签不代表历史建筑身份或当前营业状态",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2383549,
+              23.1102188
+            ],
+            [
+              113.2386093,
+              23.1102113
+            ],
+            [
+              113.2386045,
+              23.1100724
+            ],
+            [
+              113.23835,
+              23.11008
+            ],
+            [
+              113.2383549,
+              23.1102188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C09",
+      "sourceId": "osm:w352610278",
+      "name": "洛士利洋行旧址",
+      "osmName": "洛士利洋行旧址",
+      "address": "沙面大街 62",
+      "centroid": [
+        113.23702214999999,
+        23.110165149999997
+      ],
+      "areaM2": 462.01,
+      "sourceLevels": "3",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "OSM名称地址明确，待补照片和尺寸",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2369384,
+              23.1102849
+            ],
+            [
+              113.2371104,
+              23.1102821
+            ],
+            [
+              113.2371059,
+              23.1100454
+            ],
+            [
+              113.2369339,
+              23.1100482
+            ],
+            [
+              113.2369384,
+              23.1102849
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "sourceId": "osm:w352610320",
+      "name": "英国医院/招商局候选",
+      "osmName": "英国医院&招商局",
+      "address": "",
+      "centroid": [
+        113.24172807446121,
+        23.109991292155254
+      ],
+      "areaM2": 541.6,
+      "sourceLevels": "3",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "OSM复合名称，需拆清时代与使用范围",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2416194,
+              23.1101007
+            ],
+            [
+              113.2418442,
+              23.110094
+            ],
+            [
+              113.2418368,
+              23.1098819
+            ],
+            [
+              113.2416119,
+              23.1098886
+            ],
+            [
+              113.2416194,
+              23.1101007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "sourceId": "osm:w352610272",
+      "name": "旧摩罗叉公寓",
+      "osmName": "旧摩罗叉公寓",
+      "address": "",
+      "centroid": [
+        113.24374579999999,
+        23.10935585
+      ],
+      "areaM2": 689.38,
+      "sourceLevels": "2",
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "OSM名称明确，待补门牌和照片",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2436554,
+              23.1091779
+            ],
+            [
+              113.243668,
+              23.1095388
+            ],
+            [
+              113.2438362,
+              23.1095338
+            ],
+            [
+              113.2438236,
+              23.1091729
+            ],
+            [
+              113.2436554,
+              23.1091779
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "sourceId": "osm:w352610308",
+      "name": "旧泰国人俱乐部",
+      "osmName": "旧泰国人俱乐部",
+      "address": "",
+      "centroid": [
+        113.24141462554536,
+        23.109033159398482
+      ],
+      "areaM2": 419.16,
+      "sourceLevels": null,
+      "measuredHeightM": null,
+      "identityStatus": "osm-labelled-or-addressed-pending-independent-review",
+      "photo": null,
+      "priority": 3,
+      "notes": "OSM名称明确，待补门牌和照片",
+      "productionEligible": false,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.2413278,
+              23.1091379
+            ],
+            [
+              113.2415086,
+              23.1091326
+            ],
+            [
+              113.2415014,
+              23.1089284
+            ],
+            [
+              113.2413207,
+              23.1089337
+            ],
+            [
+              113.2413278,
+              23.1091379
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sourceId": "osm:w352610288",
+  "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+  "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0",
+  "origin": [
+    113.23780515,
+    23.1101676
+  ],
+  "localEastNorth": [
+    [
+      12.27731740823056,
+      17.298460373084822
+    ],
+    [
+      11.068563076111412,
+      -18.084744294615263
+    ],
+    [
+      -12.277345812960803,
+      -17.298449950673874
+    ],
+    [
+      -11.068536303757003,
+      18.084752861717263
+    ]
+  ],
+  "southEdgeIndex": 1,
+  "frontageM": 23.35914640247317,
+  "depthM": 35.40384529528318,
+  "areaM2": 827.0025318135129,
+  "frontDirectionBearingDeg": 181.9566131922051,
+  "frontDirectionStatus": "inferred-south-edge-not-photo-calibrated",
+  "heightM": null,
+  "photoMatchStatus": "provisional",
+  "productionEligible": false,
+  "scope": {
+    "supported": "2023可见南侧三大拱、通柱与入口的独立立面研究",
+    "estimated": "所有高度、窗格、柱距、廊深、檐口尺寸",
+    "deferred": "侧后面、屋顶全貌、门牌辨读、像素配准、主城接入"
+  }
+}

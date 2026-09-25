@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-25",
+  "fullTestsPassed": 38,
+  "finalRelatedTestsPassed": 13,
+  "finalLoggiaTestsPassed": 2,
+  "baseCityDataUnchanged": true,
+  "roadPayloadsUnchanged": true,
+  "geometryTrianglesB2": 113155,
+  "browserChecked": [
+    "P2 corner model and reference photo",
+    "main city east-facing gallery",
+    "tree inspection restored",
+    "no error or warning logs"
+  ],
+  "source": "photos.json",
+  "limits": [
+    "2012 structural reference",
+    "2.6m gallery depth estimated",
+    "orientation inferred",
+    "current appearance not verified"
+  ]
+}

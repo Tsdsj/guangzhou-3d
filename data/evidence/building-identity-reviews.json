@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-26",
+  "sources": {
+    "liwanCulturalPlan": {
+      "title": "粤剧粤曲文化（荔湾）生态保护区总体规划（2021—2030年）附表七",
+      "publisher": "荔湾区人民政府",
+      "url": "https://www.lw.gov.cn/attachment/7/7813/7813682/10031492.pdf",
+      "sha256": "d0d6633c59e15945a1d16a6ed4faa61af355f4630a929c76132c0591220f9b87",
+      "pdfPages": [
+        108,
+        110
+      ],
+      "printedPages": [
+        109,
+        111
+      ],
+      "status": "government-published-plan",
+      "use": "56号正金银行、59号亚细亚火油、三街2号美国领事馆的地址分列"
+    },
+    "liwanVenueProposal": {
+      "title": "关于优化荔湾区公共文化场馆建设的建议",
+      "author": "梁丽辉",
+      "publisher": "荔湾区政府公开",
+      "url": "https://www.lw.gov.cn/attachment/7/7580/7580876/9573974.pdf",
+      "sha256": "58e0ed9cb785a9cf038fa4a8c249c33602778a7596bd3b6139e3b5fc6bb1b933",
+      "pdfPages": [
+        6,
+        7
+      ],
+      "status": "representative-proposal-not-government-determination",
+      "use": "56号旧馆与正金银行别名；区分北街73号、三街2号"
+    },
+    "shamianSurvey2026": {
+      "title": "沙面历史文化街区保护与活化利用项目历史文化遗产调查评估保护专章（公示简本）",
+      "publisher": "广州市规划和自然资源局荔湾区分局",
+      "publishedAt": "2026-09-04",
+      "url": "https://www.lw.gov.cn/zzzs/tzgg/content/post_10992582.html",
+      "attachment": "https://www.lw.gov.cn/attachment/8/8070/8070325/10992582.pdf",
+      "sha256": "19892184b3c695d9da7dde0624a0ab7b3f9673c052feef001f5bac8154bfd327",
+      "pdfPages": [
+        44,
+        45
+      ],
+      "status": "consultation-draft",
+      "use": "56号正金银行（美国领事馆）与其他地址分列"
+    },
+    "c02Plaque2021": {
+      "title": "美国领事旧馆铭牌照片",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_US_Consulate_Building_Tablet.jpg",
+      "sha256": "d66d9b262673f50cd12417e38f05d49c1a44eed0dee9074700c9a35dd2f05bed",
+      "date": "2021-12-28",
+      "status": "photographed-inscription",
+      "use": "56号、旧馆和正金银行称谓；不是测绘尺寸依据"
+    }
+  },
+  "entities": {
+    "osm:w352610288": {
+      "canonicalName": "正金银行旧址",
+      "address": {
+        "street": "沙面大街",
+        "number": "56"
+      },
+      "historicalAliases": [
+        "美国领事馆旧馆"
+      ],
+      "identityStatus": "document-address-supported",
+      "evidenceIds": [
+        "liwanCulturalPlan",
+        "liwanVenueProposal",
+        "shamianSurvey2026",
+        "c02Plaque2021"
+      ],
+      "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+      "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0",
+      "rawDescription": "former US Consulate, Asian Oil Company (UK)",
+      "sourceClaimReview": [
+        {
+          "claim": "former US Consulate",
+          "decision": "supported-as-historical-alias"
+        },
+        {
+          "claim": "Asian Oil Company (UK)",
+          "decision": "not-supported-for-this-address",
+          "reason": "公开清单将该名称对应59号及沙面四街1、3号；原OSM描述原样保留"
+        }
+      ],
+      "excludedMatches": [
+        {
+          "name": "亚细亚火油公司旧址",
+          "address": "沙面大街59号、沙面四街1、3号"
+        },
+        {
+          "name": "美国领事馆新馆",
+          "address": "沙面三街2号"
+        },
+        {
+          "name": "另一处正金银行旧址",
+          "address": "沙面北街73号"
+        }
+      ],
+      "photo": {
+        "path": "docs/research/p3-building-screening/C02.jpg",
+        "sha256": "d02bda0d26c538551d3b588cd804df124afb9983ec720c6dda838828f0846bb3",
+        "url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Liwan_Shamian_ZhengJin_Yinhang_Jiuzhi_20230107.141132.jpg",
+        "date": "2023-01-07 14:11:32",
+        "matchStatus": "plaque-and-facade-supported",
+        "pixelRegistrationVerified": false,
+        "currentAppearanceVerified": false,
+        "limits": [
+          "照片仍未完成像素配准",
+          "无可靠相机坐标",
+          "未核侧后面及2026现状"
+        ]
+      },
+      "heightStatus": "unknown",
+      "prototypeEligibility": "eligible-for-provisional-front-study",
+      "productionEligible": false,
+      "notes": "56号名称和历史别名已由公开资料及2021铭牌支持；双柱及左翼有照片支持，尺寸与现状仍待核。"
+    }
+  }
+}

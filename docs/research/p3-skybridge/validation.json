@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-26",
+  "nodeTests": {
+    "passed": 50,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sourceLengthM": 44.15792892749423,
+  "productionIntegrated": false,
+  "physicalPassabilityVerified": false,
+  "measuredDeckElevationM": null,
+  "baseHashesVerified": {
+    "data/guangzhou.json": "5b3eb3147e895e373ba208b7f63832c0536654e61539361b67b9b188581a9c98",
+    "data/guangzhou.bin.gz": "ee922e93366bd4588ce3f5aaedf0cbb579ff56f6be4766b759614626b37b1da9",
+    "data/guangzhou-veg.bin.gz": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd",
+    "data/guangzhou-evidence.json.gz": "8ad1fd8ccbcf4402c9bb7f87ac02b45f2752f1897d875d73eb29859058a65649"
+  },
+  "detailHashes": {
+    "data/detail/shamian.json": "f4fa8465483e22bcd9d2e9757d6cadfc660a2ade1a65c4e17c08af3274519b0e",
+    "data/detail/huasui.json": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea",
+    "data/detail/huaxia.json": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
+  },
+  "browser": {
+    "url": "http://localhost:5174/prototypes/p2/#S1",
+    "checks": [
+      "corner",
+      "section-detail",
+      "source-lines",
+      "evidence-colors",
+      "photo-dialog-open-close",
+      "S1-B2-S1"
+    ],
+    "narrowViewport": [
+      390,
+      844
+    ],
+    "narrowScrollWidth": 390,
+    "photoNaturalWidth": 3000,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "limitations": [
+      "not physical measurement",
+      "not mobile device performance",
+      "not full P3 acceptance"
+    ]
+  }
+}

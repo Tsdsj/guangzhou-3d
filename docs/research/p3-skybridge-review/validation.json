@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-26",
+  "fullTests": {
+    "passed": 52,
+    "failed": 0,
+    "skipped": 0
+  },
+  "afterLabelChangeTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "browserChecks": [
+    "historical-interface-field",
+    "source-link",
+    "north-view",
+    "section-direction"
+  ],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "sourceLengthAndParametersUnchanged": true,
+  "baseAndDetailHashesUnchanged": true,
+  "measuredDeckElevationM": null,
+  "productionIntegrated": false,
+  "photoPixelRegistrationVerified": false,
+  "sourceFiles": {
+    "prototypes/p2/skybridge.json": "6c43c459b54a190a7b06bd9165b4696129d912983b220c2e6700958ce0bd3b56",
+    "docs/research/p3-skybridge-review/evidence.json": "01ebbd8f259f08e56f23bc53079ce41870f972e08786db2774a8700828285e5f"
+  }
+}

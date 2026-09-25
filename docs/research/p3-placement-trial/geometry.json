@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-26",
+  "defaultManifestBuildings": 3,
+  "baseAndExistingDetailUnchanged": true,
+  "rows": [
+    {
+      "id": "trial-c01",
+      "sourceId": "osm:w509641361",
+      "actualReplacedSourceIds": [
+        "osm:w509641363"
+      ],
+      "sourceControlResidualM": 0,
+      "fillCount": 0,
+      "precision": "estimated"
+    },
+    {
+      "id": "trial-c02",
+      "sourceId": "osm:w352610288",
+      "actualReplacedSourceIds": [
+        "osm:w352610288"
+      ],
+      "sourceControlResidualM": 0,
+      "fillCount": 0,
+      "precision": "estimated"
+    }
+  ]
+}

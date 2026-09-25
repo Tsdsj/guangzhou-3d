@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-26",
+  "sample": "C01",
+  "tests": {
+    "passed": 55,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sourceControlPoints": 8,
+  "metricAccuracy": "unverified",
+  "productionIntegrated": false,
+  "baseAndDetailHashesUnchanged": true,
+  "browser": {
+    "desktop": [
+      "south-front",
+      "north-end",
+      "photo-face-linkage",
+      "aerial-source-outline",
+      "C01-S1-C01"
+    ],
+    "narrowViewport": [
+      390,
+      844
+    ],
+    "scrollWidth": 390,
+    "errors": [],
+    "warnings": []
+  },
+  "limitations": [
+    "estimated heights and sections",
+    "north photo was previously mislabelled and is corrected",
+    "porch source outline needs independent confirmation",
+    "long sides remain unknown",
+    "not full P3 acceptance"
+  ],
+  "artifactHashes": {
+    "prototypes/p2/c01.js": "4162c10ee9c58c2da0070f144d197cb6011de40035a543308d8c2905344e84ec",
+    "prototypes/p2/c01.json": "7eed60d6467294e025fe98d0b0920f42d87699b59aeb3c6c45fc69728a3bc57a"
+  }
+}

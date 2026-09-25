@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-26",
+  "nodeTestsPassed": 48,
+  "newReviewTestsPassed": 4,
+  "failures": 0,
+  "readonlyApiRequests": 16,
+  "responsesChecked": 16,
+  "photoFilesChecked": 2,
+  "additiveDelta": {
+    "ways": 3,
+    "nodes": 7
+  },
+  "endpointOutcomes": {
+    "sourceExplanationsFound": 8,
+    "needsEvidence": 2
+  },
+  "markingsDeferred": 14,
+  "baseSnapshotUnchanged": true,
+  "allExistingDetailPayloadsUnchanged": true,
+  "newGeometryRendered": false
+}

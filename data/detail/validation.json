@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-26",
+  "scope": "P3 first integration: 3 buildings, 2 ground-road junction tiles; larger rollout pending",
+  "tests": {
+    "total": 48,
+    "passed": 48
+  },
+  "baseDataUnchanged": true,
+  "assets": [
+    {
+      "id": "shamian",
+      "bytes": 8719,
+      "sha256": "f4fa8465483e22bcd9d2e9757d6cadfc660a2ade1a65c4e17c08af3274519b0e"
+    },
+    {
+      "id": "huasui",
+      "bytes": 59185,
+      "sha256": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea"
+    },
+    {
+      "id": "huaxia",
+      "bytes": 137841,
+      "sha256": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
+    }
+  ],
+  "browserEvidence": [
+    "three source-linked buildings observed in main scene",
+    "Huasui and Huaxia surfaces and lane markings observed",
+    "night Lourdes model rendered in city lighting",
+    "overhead view: all tiles idle and inactive",
+    "return to Shamian: ready and active, road tiles idle",
+    "no error/warn logs in inspected main-scene run",
+    "temporary tree inspection restores on scene switch",
+    "inspection export contains an explicit watermark",
+    "390x844 responsive inspection controls checked"
+  ],
+  "limits": [
+    "estimated heights and widths",
+    "B2 heading remains provisional",
+    "no 10-20 building rollout",
+    "no underground geometry or traffic-rule execution",
+    "no production deployment or cross-device performance claim",
+    "B2 eave height is reported; ground datum and overall height remain unverified"
+  ],
+  "gisTests": {
+    "total": 8,
+    "passed": 8
+  },
+  "sourceReviewTests": {
+    "total": 4,
+    "passed": 4
+  }
+}

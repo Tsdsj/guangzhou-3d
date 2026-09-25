@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-25",
+  "tests": {
+    "fullPassed": 36,
+    "fullFailed": 0,
+    "afterMetadataUpdatePassed": 3
+  },
+  "baseCityDataUnchanged": true,
+  "sources": {
+    "shamian3Completion2023": {
+      "title": "关于对全国重点文物保护单位广州沙面建筑群之沙面一街3号修缮工程进行竣工验收的工作汇报",
+      "publisher": "广东省古迹保护协会；广州市文化广电旅游局公开",
+      "documentDate": "2023-10-07",
+      "reference": "粤古协函〔2023〕650号",
+      "url": "https://wglj.gz.gov.cn/attachment/7/7536/7536808/9433868.pdf",
+      "sha256": "675ff8b4812e157c6eb7556be971a99c644ca164f889bc35c2d07e0a7e988b8b",
+      "pages": [
+        13,
+        21
+      ],
+      "reuse": "factual values and source link only; PDF and embedded photos are not bundled in public assets"
+    },
+    "shamianSurvey2026": {
+      "title": "沙面历史文化街区保护与活化利用项目历史文化遗产调查评估保护专章（公示简本）",
+      "publisher": "广州市规划和自然资源局荔湾区分局",
+      "publishedAt": "2026-09-04",
+      "url": "https://www.lw.gov.cn/zzzs/tzgg/content/post_10992582.html",
+      "attachment": "https://www.lw.gov.cn/attachment/8/8070/8070325/10992582.pdf",
+      "sha256": "19892184b3c695d9da7dde0624a0ab7b3f9673c052feef001f5bac8154bfd327",
+      "pages": [
+        15,
+        16,
+        46
+      ],
+      "status": "consultation draft, not final approval",
+      "reuse": "review reference only; embedded images are not redistributed"
+    }
+  },
+  "B2": {
+    "verticalControl": {
+      "landmark": "eave",
+      "value": 20.6,
+      "unit": "m",
+      "status": "reported",
+      "sourceId": "shamian3Completion2023",
+      "pages": [
+        13,
+        21
+      ],
+      "independentlyMeasured": false,
+      "datum": "report does not specify vertical datum; model ground zero remains inferred",
+      "modelAnchorInterpretation": "upper cornice control line; detailed section drawing not provided"
+    },
+    "entrance": {
+      "street": "沙面一街",
+      "streetSourceId": "osm:w132767198",
+      "streetStatus": "reported",
+      "direction": "east",
+      "directionStatus": "inferred-from-report-and-osm",
+      "sourceId": "shamian3Completion2023",
+      "pages": [
+        13,
+        21
+      ],
+      "note": "main entrance street is directly reported; east follows existing OSM street position, not a reported exact azimuth"
+    },
+    "photoFace": {
+      "id": "F0",
+      "placement": "north-short-edge",
+      "status": "provisional",
+      "note": "five-bay photographed face is not established as the principal entrance face; do not rotate or stretch it into the east long face"
+    },
+    "fieldLimits": [
+      "overall height unknown",
+      "floor elevations estimated",
+      "window dimensions estimated",
+      "unknown rear unchanged"
+    ]
+  },
+  "browser": [
+    "P2 displays reported eave 20.6m, not total height",
+    "P2 links to source PDF pages 13 and 21",
+    "B1 returns to estimated height 14.2m with B2 source link hidden",
+    "city B2 renders with complete facade visible in inspection view",
+    "tree visibility restored after inspection",
+    "no error/warn logs in inspected city run"
+  ],
+  "limits": [
+    "not independently measured",
+    "source ground datum unspecified",
+    "F0 geographic assignment still provisional",
+    "2026 survey is a consultation draft"
+  ]
+}

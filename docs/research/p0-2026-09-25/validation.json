@@ -1,0 +1,250 @@
+{
+  "checked_at_utc": "2026-09-24T19:24:26.817904+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "source hash source-samples/osm-buildings.json",
+      "passed": true
+    },
+    {
+      "check": "source hash source-samples/osm-huacheng-map.json",
+      "passed": true
+    },
+    {
+      "check": "source hash source-samples/osm-roads.json",
+      "passed": true
+    },
+    {
+      "check": "source hash source-samples/overture-huacheng.geojson",
+      "passed": true
+    },
+    {
+      "check": "source hash source-samples/overture-shamian.geojson",
+      "passed": true
+    },
+    {
+      "check": "production file unchanged since manifest package.json",
+      "passed": true
+    },
+    {
+      "check": "production file unchanged since manifest data/guangzhou.json",
+      "passed": true
+    },
+    {
+      "check": "production file unchanged since manifest data/guangzhou.bin.gz",
+      "passed": true
+    },
+    {
+      "check": "production file unchanged since manifest data/guangzhou-veg.bin.gz",
+      "passed": true
+    },
+    {
+      "check": "shamian unique source IDs",
+      "passed": true
+    },
+    {
+      "check": "shamian all geometries intersect ROI",
+      "passed": true
+    },
+    {
+      "check": "shamian counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "shamian candidate height not invented",
+      "passed": true
+    },
+    {
+      "check": "huacheng unique source IDs",
+      "passed": true
+    },
+    {
+      "check": "huacheng all geometries intersect ROI",
+      "passed": true
+    },
+    {
+      "check": "huacheng counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "huacheng candidate height not invented",
+      "passed": true
+    },
+    {
+      "check": "road additions reconcile",
+      "passed": true
+    },
+    {
+      "check": "all restriction references present",
+      "passed": true
+    },
+    {
+      "check": "3 building samples",
+      "passed": true
+    },
+    {
+      "check": "15 face/roof records without unverified precision claims",
+      "passed": true
+    },
+    {
+      "check": "127 unique photo metadata records",
+      "passed": true
+    },
+    {
+      "check": "12 visually reviewed photos",
+      "passed": true
+    },
+    {
+      "check": "B1-a source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B1-a image hash",
+      "passed": true
+    },
+    {
+      "check": "B1-b source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B1-b image hash",
+      "passed": true
+    },
+    {
+      "check": "B1-c source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B1-c image hash",
+      "passed": true
+    },
+    {
+      "check": "B2-a source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B2-a image hash",
+      "passed": true
+    },
+    {
+      "check": "B2-b source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B2-b image hash",
+      "passed": true
+    },
+    {
+      "check": "B3-a source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B3-a image hash",
+      "passed": true
+    },
+    {
+      "check": "B3-b source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B3-b image hash",
+      "passed": true
+    },
+    {
+      "check": "B1-d source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "B1-d image hash",
+      "passed": true
+    },
+    {
+      "check": "R1 source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "R1 image hash",
+      "passed": true
+    },
+    {
+      "check": "R2 source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "R2 image hash",
+      "passed": true
+    },
+    {
+      "check": "R3 source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "R3 image hash",
+      "passed": true
+    },
+    {
+      "check": "R4 source and license recorded",
+      "passed": true
+    },
+    {
+      "check": "R4 image hash",
+      "passed": true
+    },
+    {
+      "check": "building-coverage.png readable and substantial resolution",
+      "passed": true
+    },
+    {
+      "check": "road-evidence.png readable and substantial resolution",
+      "passed": true
+    },
+    {
+      "check": "README.md local links resolve",
+      "passed": true
+    },
+    {
+      "check": "photo-review.md local links resolve",
+      "passed": true
+    },
+    {
+      "check": "no tracked product changes",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Checks prove artifact integrity, internal consistency and source traceability only.",
+    "No surveyed geometry accuracy, all-facade completion, or new renderer performance was validated."
+  ],
+  "artifacts": {
+    "source-manifest.json": "43d55b4e09524d4dd534e68f558290be945724ec3f67204b26f51221814218ab",
+    "huacheng-junction-nodes.csv": "f51f54ad21b51d2acadb58a04734db6bce72297d3d3383fe370a94afb2f80ff2",
+    "summary.json": "73c796f4fc79193c1c68b8a6e88d8332192891548a8c060cf1555d91dfbbfa46",
+    "huacheng-road-inventory.csv": "53b5b6c3f645738f773ea3d2ce6db042fd8005af21240c6eb0c522b06e4346ed",
+    "photo-review.md": "92031e8141c5aaef70d8fa4598ee212d3f6b550e5b5b1201ec8b84f21aa55658",
+    "requirements.txt": "d078b850ead5a20c77a2833824e4d2f199e49217bdd85d7c2741aa082cf8c853",
+    "road-evidence.png": "75554ed17a26a8cad273511664ed11b323def4a61be7e51f70678beb12bf2c76",
+    "photo-inventory.csv": "a021036ec07576a16c164909d54b64c32a9466da2dc7433192088c8046ba2e0a",
+    "huacheng-full-highways.geojson": "36f2f1fdc833a76c6cc1ca62b06a4b7cc81652959b7c9886dd00aabb905b5ebf",
+    "huacheng-local-roads.geojson": "a927a39e8f6a17afadbffe52e44afe41f387aade55518d78e22a17d7ae0bac9a",
+    "shamian-overture-buildings.geojson": "840603745aeebc8efd044903859b68452e5f0891452a9f0646b222c6d86fb7d7",
+    "shamian-building-comparison.csv": "10a0b2affb18ae33c013daf247324427e7e2f7d6095b01ebc1ae1cd14f9f98cf",
+    "review_evidence.py": "a216df7d63c3bd641472e315984727caf0e944d6502065ee7fb728ed9cf42885",
+    "building-coverage.png": "21c5416d3755d2c5a272ef00566a9b86616c828230c1bf7bf5ed2261387d3951",
+    "shamian-osm-buildings.geojson": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0",
+    "README.md": "00c06679bfaa6847f244653ddf7d11debfd1020ea8f31233df0294aca00d9505",
+    "huacheng-overture-buildings.geojson": "3bedb49f45d893e873279ee23415f1bfe1a2fe922e7061af2dd0cb1ddf25ac62",
+    "facade-evidence.csv": "763c80d12a27755ae5d64610960791bda1288b2e237adcab37c69fd8666e96c7",
+    "building-samples.csv": "d2eb30c253d158e2bf0cd7536da4ed5f4839a59e737d3593f5f3dd4b7eb145fb",
+    "validate.py": "5f7b5b38ee7a00acce62ed1cb603e7ad33eb671be37b05d41fa16ea507c274bd",
+    "huacheng-overpass.ql": "ec93d760135b8f075d9f8ff01c20e2d0f7fe84eabf9f5a73442a85b0a954526c",
+    "huacheng-osm-buildings.geojson": "4932cb9b303bd591d5b1482c1ae17327a0c8df6eff858689e4a2dedd7a37ccfe",
+    "collect_overture.py": "36732989a2190969bb4e4a1d61b4594a21769bc5faccc336c864b5ea3fb65882",
+    "huacheng-building-comparison.csv": "242ccf62497e692e1173191702989c3516616a11bfa89dadab940f425fa42b4d",
+    "reproducibility.json": "e5445d8193899e14399ee846c270919af77b7fe7e8ea9b2ae733cacd00672ccc",
+    "huacheng-restrictions.json": "70620c51ca4cfcc47544c53b70a37e83ff410d8b8aedb88edafc222090748153",
+    "collect_sources.py": "7920a951762b9ed3327c6967ce3274d1f10d1044516b79fd2f17c382b1c62ebb",
+    "analyze.py": "96163ba74fb7699febe891b7401e8ce456cb306435ef511bab30f1aac856e363",
+    "selected-photos.json": "ac9abd99628868c4d23a7601b7b158801bfedde1d0f4503399f2aed0bec8b204",
+    "overture-provenance.json": "d94397545e249530f88ff1236aa50b6574f00c800ede47440c319d7fe5bb062a"
+  }
+}

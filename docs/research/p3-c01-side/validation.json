@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-26",
+  "sample": "C01",
+  "tests": {
+    "passed": 56,
+    "failed": 0,
+    "skipped": 0
+  },
+  "newSideWindows": 4,
+  "sourcePhoto": "C01-d",
+  "sourceEpoch": "2009-04-17",
+  "dimensionStatus": "estimated",
+  "heightAndPorchUnchanged": true,
+  "productionIntegrated": false,
+  "baseAndDetailHashesUnchanged": true,
+  "browser": {
+    "desktop": [
+      "side-view",
+      "photo-linkage",
+      "C01-to-B2-specific-control-hidden"
+    ],
+    "narrowViewport": [
+      390,
+      844
+    ],
+    "scrollWidth": 390,
+    "errors": [],
+    "warnings": []
+  },
+  "sideWindowReview": {
+    "photoId": "C01-d",
+    "epoch": "2009-04-17",
+    "visiblePerSide": 2,
+    "stationsFromNorthM": [
+      2.6,
+      6.6
+    ],
+    "segmentLengthM": 9.6,
+    "windowWidthM": 1.55,
+    "windowHeightM": 4.4,
+    "sillM": 1.2,
+    "dimensionStatus": "estimated",
+    "exteriorTrimVerified": false,
+    "totalWindowsPerSide": null,
+    "currentAppearanceVerified": false
+  },
+  "artifactHashes": {
+    "prototypes/p2/c01.js": "fdddb5866ab6c1e427406e8f7c145b5a29bd3090c0c3743479949345bb2614e8",
+    "prototypes/p2/c01.json": "b8dbf086aacaf0f9a737cbb4c8b3fcb14a11919a51ee433493f343fde4696a80",
+    "docs/research/p3-c01-side/photos.json": "9d16fc83c5a37ccda36280173767e086395339a584764d985c3ff4978d6d6746"
+  }
+}

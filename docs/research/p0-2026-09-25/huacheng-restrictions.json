@@ -1,0 +1,332 @@
+[
+  {
+    "type": "relation",
+    "id": 6659314,
+    "timestamp": "2016-10-21T08:56:37Z",
+    "version": 1,
+    "changeset": 43054025,
+    "user": "羊角忠实黑",
+    "uid": 3614011,
+    "members": [
+      {
+        "type": "way",
+        "ref": 248407676,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 2551976630,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 448781892,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_right_turn",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 6659315,
+    "timestamp": "2021-10-22T12:59:06Z",
+    "version": 3,
+    "changeset": 112837339,
+    "user": "YPGGUUY",
+    "uid": 3421839,
+    "members": [
+      {
+        "type": "way",
+        "ref": 995559510,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 2551976630,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 448781892,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_right_turn",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 6659316,
+    "timestamp": "2016-10-21T08:56:37Z",
+    "version": 1,
+    "changeset": 43054025,
+    "user": "羊角忠实黑",
+    "uid": 3614011,
+    "members": [
+      {
+        "type": "way",
+        "ref": 444126147,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 2551976630,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 448781892,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_straight_on",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 13354773,
+    "timestamp": "2021-10-22T12:59:06Z",
+    "version": 1,
+    "changeset": 112837339,
+    "user": "YPGGUUY",
+    "uid": 3421839,
+    "members": [
+      {
+        "type": "way",
+        "ref": 995559509,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 9123592555,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 995559505,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "only_straight_on",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 13354774,
+    "timestamp": "2021-10-22T12:59:06Z",
+    "version": 1,
+    "changeset": 112837339,
+    "user": "YPGGUUY",
+    "uid": 3421839,
+    "members": [
+      {
+        "type": "way",
+        "ref": 448786344,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 9123592556,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 995559509,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "only_straight_on",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 13354775,
+    "timestamp": "2021-10-22T12:59:06Z",
+    "version": 1,
+    "changeset": 112837339,
+    "user": "YPGGUUY",
+    "uid": 3421839,
+    "members": [
+      {
+        "type": "way",
+        "ref": 248407677,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 4539469296,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 457886991,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "only_straight_on",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 13354776,
+    "timestamp": "2021-10-22T12:59:06Z",
+    "version": 1,
+    "changeset": 112837339,
+    "user": "YPGGUUY",
+    "uid": 3421839,
+    "members": [
+      {
+        "type": "way",
+        "ref": 457886991,
+        "role": "from"
+      },
+      {
+        "type": "node",
+        "ref": 4416227872,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 995559507,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "only_straight_on",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 15655071,
+    "timestamp": "2023-03-28T07:57:09Z",
+    "version": 1,
+    "changeset": 134207714,
+    "user": "user_18542220",
+    "uid": 18542220,
+    "members": [
+      {
+        "type": "way",
+        "ref": 199898039,
+        "role": "from"
+      },
+      {
+        "type": "way",
+        "ref": 462138646,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 233525478,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_u_turn",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 15655072,
+    "timestamp": "2023-03-28T07:57:09Z",
+    "version": 1,
+    "changeset": 134207714,
+    "user": "user_18542220",
+    "uid": 18542220,
+    "members": [
+      {
+        "type": "way",
+        "ref": 462131779,
+        "role": "from"
+      },
+      {
+        "type": "way",
+        "ref": 199898039,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 462138646,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_u_turn",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 15655073,
+    "timestamp": "2023-03-28T07:57:09Z",
+    "version": 1,
+    "changeset": 134207714,
+    "user": "user_18542220",
+    "uid": 18542220,
+    "members": [
+      {
+        "type": "way",
+        "ref": 233525478,
+        "role": "from"
+      },
+      {
+        "type": "way",
+        "ref": 462131779,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 199898039,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_u_turn",
+      "type": "restriction"
+    }
+  },
+  {
+    "type": "relation",
+    "id": 15655074,
+    "timestamp": "2023-03-28T07:57:09Z",
+    "version": 1,
+    "changeset": 134207714,
+    "user": "user_18542220",
+    "uid": 18542220,
+    "members": [
+      {
+        "type": "way",
+        "ref": 462138646,
+        "role": "from"
+      },
+      {
+        "type": "way",
+        "ref": 233525478,
+        "role": "via"
+      },
+      {
+        "type": "way",
+        "ref": 462131779,
+        "role": "to"
+      }
+    ],
+    "tags": {
+      "restriction": "no_u_turn",
+      "type": "restriction"
+    }
+  }
+]

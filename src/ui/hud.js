@@ -85,7 +85,7 @@ export class Hud {
       el.className = `lbl t${l.tier ?? 3}${l.district ? ' district' : ''}`;
       el.innerHTML = `<div class="card"><span class="nm">${l.name}</span>${l.sub ? `<span class="sb">${l.sub}</span>` : ''}</div>${l.district ? '' : '<div class="pin"></div>'}`;
       this.labelsEl.appendChild(el);
-      const pri = l.tier === 0 ? 0 : l.district ? 1 : l.tier === 2 ? 2 : 3;
+      const pri = l.priority ?? (l.tier === 0 ? 0 : l.district ? 1 : l.tier === 2 ? 2 : 3);
       return { ...l, el, pri, bw: el.offsetWidth || 120, bh: el.offsetHeight || 40, p: new THREE.Vector3(l.x, l.y, l.z) };
     });
   }
@@ -95,8 +95,8 @@ export class Hud {
     const cands = [];
     for (const l of this.labels) {
       const d = cp.distanceTo(l.p);
-      const maxD = l.tier === 0 ? 16000 : l.district ? 6500 : l.tier === 2 ? 3200 : 1500;
-      const minD = l.district ? 800 : l.tier === 0 ? 60 : 90;
+      const maxD = l.maxDistance ?? (l.tier === 0 ? 16000 : l.district ? 6500 : l.tier === 2 ? 3200 : 1500);
+      const minD = l.minDistance ?? (l.district ? 800 : l.tier === 0 ? 60 : 90);
       let a = 1 - smooth(maxD * 0.7, maxD, d);
       a *= smooth(minD * 0.5, minD, d);
       this.v.copy(l.p).project(camera);

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "C02",
+  "sourceId": "osm:w352610288",
+  "name": "正金银行旧址",
+  "identityStatus": "document-address-supported",
+  "historicalAliases": [
+    "美国领事馆旧馆"
+  ],
+  "identityReviewPath": "data/evidence/building-identity-reviews.json",
+  "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+  "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0",
+  "origin": [
+    113.23780515,
+    23.1101676
+  ],
+  "axisEastNorth": [
+    0.9994333049173597,
+    -0.03366109062350581
+  ],
+  "coordinateSystem": "WGS84 -> AEQD -> local x east along south edge, y up, z south; right-handed",
+  "width": 23.35914640247317,
+  "depth": 35.40384117025351,
+  "planFit": {
+    "source": [
+      [
+        11.679573201236584,
+        -17.701920585126754
+      ],
+      [
+        11.679573201236584,
+        17.701920585126754
+      ],
+      [
+        -11.679573201236584,
+        17.701920585126754
+      ],
+      [
+        -11.679573201236584,
+        -17.701920585126754
+      ]
+    ],
+    "target": [
+      [
+        11.68807487056177,
+        -17.70192531454614
+      ],
+      [
+        11.67104279244826,
+        17.70191585417572
+      ],
+      [
+        -11.68810361002491,
+        17.70191585417572
+      ],
+      [
+        -11.67101632364361,
+        -17.701925317609433
+      ]
+    ]
+  },
+  "baselineHeight": null,
+  "heightStatus": "estimated",
+  "measuredHeightM": null,
+  "productionEligible": false,
+  "parameters": {
+    "totalHeightM": 16.4,
+    "groundCorniceM": 5.8,
+    "upperBaseM": 6.0,
+    "archTopM": 15.2,
+    "porchDepthM": 2.2,
+    "entranceThresholdM": 0.45,
+    "centralWidthRatio": 0.66
+  },
+  "parameterStatus": "proportional-study-estimates",
+  "photo": {
+    "path": "../../docs/research/p3-building-screening/C02.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Liwan_Shamian_ZhengJin_Yinhang_Jiuzhi_20230107.141132.jpg",
+    "artist": "古海岸遗址",
+    "date": "2023-01-07 14:11:32",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sha256": "d02bda0d26c538551d3b588cd804df124afb9983ec720c6dda838828f0846bb3",
+    "pixelRegistrationVerified": false
+  },
+  "faceReview": {
+    "south": "provisional-photo-match",
+    "leftWing": "photo-supported-2021",
+    "rightWing": "partial-photo-support",
+    "sidesAndRear": "uncovered",
+    "roof": "uncovered-except-front-eave"
+  },
+  "photos": {
+    "C02-a": {
+      "path": "../../docs/research/p3-building-screening/C02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Liwan_Shamian_ZhengJin_Yinhang_Jiuzhi_20230107.141132.jpg",
+      "artist": "古海岸遗址",
+      "date": "2023-01-07 14:11:32",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "d02bda0d26c538551d3b588cd804df124afb9983ec720c6dda838828f0846bb3",
+      "pixelRegistrationVerified": false
+    },
+    "C02-b": {
+      "path": "../../docs/research/p3-c02-corner/C02-b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_US_Consulate_Building.jpg",
+      "artist": "钉钉",
+      "date": "2021-12-28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "e61042019ff2e138ee53a8a10e20f821e6d7f3e47e0dce605f6d528fc9e3dd0c",
+      "pixelRegistrationVerified": false
+    },
+    "C02-plaque": {
+      "path": "../../docs/research/p3-c02-corner/C02-plaque.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_US_Consulate_Building_Tablet.jpg",
+      "artist": "钉钉",
+      "date": "2021-12-28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "d66d9b262673f50cd12417e38f05d49c1a44eed0dee9074700c9a35dd2f05bed",
+      "pixelRegistrationVerified": false
+    }
+  },
+  "porticoReview": {
+    "photoId": "C02-b",
+    "epoch": "2021-12-28",
+    "roundColumnCount": 4,
+    "squareColumnCount": 4,
+    "roundPairHalfSpacingM": 0.4,
+    "squarePairHalfSpacingM": 0.34,
+    "spacingStatus": "estimated",
+    "depthStatus": "estimated",
+    "currentAppearanceVerified": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "basis": "reproduced previous per-segment phase and center-only acceptance on unchanged crossing paths and road surfaces",
+  "tiles": {
+    "huasui": {
+      "stripes": 88,
+      "leakingStripes": 4,
+      "outsideAreaM2": 0.5083399731812674
+    },
+    "huaxia": {
+      "stripes": 105,
+      "leakingStripes": 14,
+      "outsideAreaM2": 3.3499157944259164
+    }
+  }
+}

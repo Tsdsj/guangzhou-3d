@@ -1,0 +1,7 @@
+﻿id,modelMaxY,modelMinY,maxOverhangM,sourceControlResidualM,mode,renderRecords,proceduralFillOverlap,treeCentersInside,readiness
+B1,14.399999618530273,-0.3199999928474426,1.4749994201660162,0,runtime-manifest,osm:w352610322,0,0,retain-existing-estimate-no-survey-upgrade
+B2,21.148723602294922,-0.36581575870513916,1.0649999380111694,0,runtime-manifest,osm:w352610258,0,0,retain-existing-estimate-no-survey-upgrade
+B3,25.399999618530273,-0.30000001192092896,1.250000732421876,0,runtime-manifest,osm:w1521332870,0,0,retain-existing-estimate-no-survey-upgrade
+C01,19.399999618530273,-0.15800000727176666,0.36373896616182927,2.043022506701359e-05,hypothetical-source-affine-not-registered,osm:w509641363,0,0,hold-unmeasured-height-uncovered-faces-and-runtime-placement
+C02,16.399999618530273,-9.536743306171047e-08,1.3750017941397097,5.5176593096555356e-05,hypothetical-source-affine-not-registered,osm:w352610288,0,0,hold-unmeasured-height-uncovered-faces-and-runtime-placement
+S1,9.899999618530273,5.980000019073486,,,unplaced-bridge,,,,hold-height-width-and-building-interface

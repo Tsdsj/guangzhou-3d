@@ -10,8 +10,9 @@
     "lamps": 68150
   },
   "files": {
-    "guangzhou.json": "0a7189fc5d92c4a415db6736cd30a2346844dbed58e0675b57069e1d33a6eec9",
-    "guangzhou.bin.gz": "4122cbc0caf8cd3258d5b0944ce0c47e2e327f4cf903a170211d601f69ea8c1f",
-    "guangzhou-veg.bin.gz": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd"
+    "guangzhou.json": "5b3eb3147e895e373ba208b7f63832c0536654e61539361b67b9b188581a9c98",
+    "guangzhou.bin.gz": "ee922e93366bd4588ce3f5aaedf0cbb579ff56f6be4766b759614626b37b1da9",
+    "guangzhou-veg.bin.gz": "c17e19b717ff76f1d18fa5f7befcd5fc2462bfdc5d71fe45954c0268b49aa4cd",
+    "guangzhou-evidence.json.gz": "8ad1fd8ccbcf4402c9bb7f87ac02b45f2752f1897d875d73eb29859058a65649"
   }
 }

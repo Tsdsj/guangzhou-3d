@@ -2,21 +2,64 @@
 // + guangzhou-veg.bin（树木、路灯、灯光投影，首屏数据到齐后再下载，D.vegReady 完成时可用）。
 // 数据由 tools/build-city.mjs 从 OpenStreetMap 离线构建（© OpenStreetMap contributors, ODbL）。
 
-import { QUANT, unpackRecords, BLD, FILL, ROAD, RAIL, CHAIN } from './schema.js';
+import { QUANT, unpackRecords, BLD, FILL, ROAD, RAIL, CHAIN, CITY_FORMAT_VERSION, RENDER_SCHEMA_VERSION } from './schema.js';
+import { createEvidenceIndex } from './evidence.js';
+import { validateDetailManifest } from './detail-manifest.js';
 
 const TYPES = { Float32Array, Uint8Array, Uint16Array, Uint32Array, Int32Array, Int16Array, Int8Array };
 
-export async function loadCity(onProgress) {
+export async function loadCity(onProgress,options={}) {
+  const trialEnabled=options.detailTrial===true;
   const meta = await fetch('./data/guangzhou.json').then((r) => r.json());
+  if (![1, CITY_FORMAT_VERSION].includes(meta.version)) throw new Error(`Unsupported city data version: ${meta.version}`);
+  if (meta.version === CITY_FORMAT_VERSION && meta.renderSchemaVersion !== RENDER_SCHEMA_VERSION) throw new Error(`Unsupported render schema: ${meta.renderSchemaVersion}`);
   const files = meta.files;
+  let detailManifestError=null;
+  const detailAbort=new AbortController();
+  const detailTimer=setTimeout(()=>detailAbort.abort(),2500);
+  const detailPromise=meta.version===CITY_FORMAT_VERSION?fetch(trialEnabled?'./data/detail/trial-manifest.json':'./data/detail/manifest.json',{signal:detailAbort.signal}).then(async r=>{
+    if(!r.ok)throw new Error(`Detail manifest HTTP ${r.status}`);
+    const manifest=validateDetailManifest(await r.json(),meta);
+    if(manifest.trialOnly&&!trialEnabled)throw new Error('Trial manifest requires opt-in');
+    return manifest;
+  }).catch(error=>{detailManifestError=error.message;return null;}).finally(()=>clearTimeout(detailTimer)):Promise.resolve(null).finally(()=>clearTimeout(detailTimer));
   const S = {};
   addSections(meta, S, 0, await fetchData(files[0], onProgress));
   const D = decode(meta, S);
+  D.detailTrial={enabled:trialEnabled,failLoads:false};
+  D.detailManifest=await detailPromise;
+  D.detailManifestError=detailManifestError;
   D.vegReady = fetchData(files[1]).then((bin) => {
     addSections(meta, S, 1, bin);
     decodeVeg(D);
     return D;
   });
+  let evidencePromise = null;
+  D.evidenceStatus = meta.evidence ? 'idle' : 'unavailable';
+  D.evidenceError = null;
+  D.evidenceIndex = null;
+  D.loadEvidence = () => {
+    if (!meta.evidence) return Promise.resolve(null);
+    if (!evidencePromise) {
+      D.evidenceStatus = 'loading';
+      evidencePromise = fetchData(meta.evidence).then((bin) => {
+        const index = createEvidenceIndex(JSON.parse(new TextDecoder().decode(bin)));
+        for (const id of [...D.buildingSourceIds, ...D.roads.map((r) => r.sourceId)]) {
+          if (!index.getEntity(id)) throw new Error(`Evidence missing render source: ${id}`);
+        }
+        D.evidenceIndex = index;
+        D.evidenceStatus = 'ready';
+        return index;
+      }).catch((error) => {
+        D.evidenceStatus = 'error';
+        D.evidenceError = error.message;
+        return null;
+      });
+    }
+    return evidencePromise;
+  };
+  // No evidence download/JSON parse until a consumer explicitly asks for it.
+  Object.defineProperty(D, 'evidenceReady', { get: D.loadEvidence });
   return D;
 }
 
@@ -56,6 +99,10 @@ export const RC = { ARTERIAL: 0, SECONDARY: 1, STREET: 2, LANE: 3, ONEWAY: 6, EX
 export const RF = { BRIDGE: 1, RIVER: 2, LINK: 4, PED: 8, ONEWAY: 16, QILOU: 32 };
 
 function decode(meta, S) {
+  const identities = S.renderIdentity ? JSON.parse(new TextDecoder().decode(S.renderIdentity)) : null;
+  if (meta.version === CITY_FORMAT_VERSION && (!identities || identities.buildings?.length !== S.bldMeta.length / BLD.N || identities.roads?.length !== S.roadMeta.length / ROAD.N)) {
+    throw new Error('City source identity lengths do not match render records');
+  }
   // 道路
   const roads = [];
   const rm = S.roadMeta;
@@ -75,6 +122,7 @@ function decode(meta, S) {
     }
     const flags = rm[o + ROAD.FLAGS];
     roads.push({
+      sourceId: identities?.roads[i] || null,
       pts,
       ys,
       maxY,
@@ -124,6 +172,7 @@ function decode(meta, S) {
     trains,
     banks,
     nBuildings: S.bldMeta.length / BLD.N,
+    buildingSourceIds: identities?.buildings || [],
     nFill: S.fill.length / FILL.N,
     bridges: meta.bridges,
     landmarks: meta.landmarks,

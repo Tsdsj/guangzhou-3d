@@ -1,0 +1,29 @@
+{
+  "basis": "nominal structural plan vs fixed OSM outline; excludes ornaments and is not independent geographic accuracy",
+  "buildings": [
+    {
+      "sampleId": "B1",
+      "sourceId": "osm:w352610322",
+      "beforePlanIoU": 0.999823,
+      "beforeControlMaxOffsetM": 0.0054,
+      "sourceAreaM2": 678.672,
+      "metricAccuracy": "unverified"
+    },
+    {
+      "sampleId": "B2",
+      "sourceId": "osm:w352610258",
+      "beforePlanIoU": 0.999721,
+      "beforeControlMaxOffsetM": 0.0113,
+      "sourceAreaM2": 1013.906,
+      "metricAccuracy": "unverified"
+    },
+    {
+      "sampleId": "B3",
+      "sourceId": "osm:w392765468",
+      "beforePlanIoU": 0.983225,
+      "beforeControlMaxOffsetM": 0.6603,
+      "sourceAreaM2": 230.072,
+      "metricAccuracy": "unverified"
+    }
+  ]
+}

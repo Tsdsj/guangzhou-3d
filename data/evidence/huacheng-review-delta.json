@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "baseSource": "osmHuacheng",
+  "baseSha256": "1a245d4c704bb11cd17d81e8fc0a0ba92cc885a8f2f715a4b8027d5e8c6d3795",
+  "sourceManifest": "docs/research/p3-source-review-2026-09-26/sources.json",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "mode": "add-only; render data not refreshed",
+  "elements": [
+    {
+      "type": "node",
+      "id": 2551976713,
+      "lat": 23.1214443,
+      "lon": 113.3219222,
+      "timestamp": "2017-10-03T12:24:26Z",
+      "version": 4,
+      "changeset": 52594604,
+      "user": "Austin Zhu",
+      "uid": 4816761
+    },
+    {
+      "type": "node",
+      "id": 2551976808,
+      "lat": 23.1215837,
+      "lon": 113.3220257,
+      "timestamp": "2022-06-14T14:03:36Z",
+      "version": 5,
+      "changeset": 122374225,
+      "user": "YPGGUUY",
+      "uid": 3421839
+    },
+    {
+      "type": "node",
+      "id": 3412148396,
+      "lat": 23.121302,
+      "lon": 113.3224495,
+      "timestamp": "2022-06-14T14:03:36Z",
+      "version": 6,
+      "changeset": 122374225,
+      "user": "YPGGUUY",
+      "uid": 3421839
+    },
+    {
+      "type": "node",
+      "id": 4385454317,
+      "lat": 23.1214155,
+      "lon": 113.3220975,
+      "timestamp": "2022-06-14T14:03:36Z",
+      "version": 4,
+      "changeset": 122374225,
+      "user": "YPGGUUY",
+      "uid": 3421839
+    },
+    {
+      "type": "node",
+      "id": 4385454319,
+      "lat": 23.1215917,
+      "lon": 113.3216064,
+      "timestamp": "2017-10-03T12:39:07Z",
+      "version": 3,
+      "changeset": 52594921,
+      "user": "Austin Zhu",
+      "uid": 4816761
+    },
+    {
+      "type": "node",
+      "id": 4417215646,
+      "lat": 23.1213798,
+      "lon": 113.322251,
+      "timestamp": "2022-06-14T14:03:36Z",
+      "version": 3,
+      "changeset": 122374225,
+      "user": "YPGGUUY",
+      "uid": 3421839
+    },
+    {
+      "type": "node",
+      "id": 5063272655,
+      "lat": 23.1215851,
+      "lon": 113.3217146,
+      "timestamp": "2017-10-03T12:46:39Z",
+      "version": 2,
+      "changeset": 52595215,
+      "user": "Austin Zhu",
+      "uid": 4816761
+    },
+    {
+      "type": "way",
+      "id": 248407684,
+      "timestamp": "2024-04-20T11:52:59Z",
+      "version": 15,
+      "changeset": 150259771,
+      "user": "Lepuse",
+      "uid": 9560399,
+      "nodes": [
+        2551976629,
+        2551976713,
+        4385454317,
+        4417215646,
+        3412148396
+      ],
+      "tags": {
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "3",
+        "name": "花城大道",
+        "name:en": "Huacheng Avenue",
+        "name:zh": "花城大道",
+        "name:zh-Latn-pinyin": "huā chéng dà dào",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519199421,
+      "timestamp": "2024-04-20T11:53:07Z",
+      "version": 4,
+      "changeset": 150259771,
+      "user": "Lepuse",
+      "uid": 9560399,
+      "nodes": [
+        2551976808,
+        5063272655,
+        4385454319,
+        2551976815
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "name": "花城大道",
+        "name:en": "Huacheng Avenue",
+        "name:zh": "花城大道",
+        "name:zh-Latn-pinyin": "huā chéng dà dào",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1373459683,
+      "timestamp": "2025-03-31T17:01:19Z",
+      "version": 1,
+      "changeset": 164340420,
+      "user": "fhqi819hds91",
+      "uid": 22579215,
+      "nodes": [
+        5021418973,
+        12716683078
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    }
+  ]
+}

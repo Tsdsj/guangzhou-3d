@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "rerun analyze.py from packaged source-samples and compare SHA256",
+  "files": {
+    "summary.json": "73c796f4fc79193c1c68b8a6e88d8332192891548a8c060cf1555d91dfbbfa46",
+    "shamian-building-comparison.csv": "10a0b2affb18ae33c013daf247324427e7e2f7d6095b01ebc1ae1cd14f9f98cf",
+    "huacheng-building-comparison.csv": "242ccf62497e692e1173191702989c3516616a11bfa89dadab940f425fa42b4d",
+    "huacheng-full-highways.geojson": "36f2f1fdc833a76c6cc1ca62b06a4b7cc81652959b7c9886dd00aabb905b5ebf",
+    "huacheng-road-inventory.csv": "53b5b6c3f645738f773ea3d2ce6db042fd8005af21240c6eb0c522b06e4346ed",
+    "huacheng-restrictions.json": "70620c51ca4cfcc47544c53b70a37e83ff410d8b8aedb88edafc222090748153"
+  }
+}

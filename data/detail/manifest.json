@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "acceptedPrototype": "P2 / user continued to P3",
+  "baseOsmTimestamp": "2026-09-23T22:20:37Z",
+  "precision": "estimated",
+  "coordinateSystem": {
+    "kind": "existing-city-local",
+    "origin": {
+      "lon": 113.296,
+      "lat": 23.1185,
+      "kx": 102380.42171271454,
+      "kz": 110750
+    }
+  },
+  "tiles": [
+    {
+      "kind": "buildings",
+      "bounds": [
+        -5595.468854160485,
+        921.373550000145,
+        -5485.594185579082,
+        1027.3613000001064
+      ],
+      "buildings": [
+        {
+          "sampleId": "B1",
+          "sourceId": "osm:w352610322",
+          "replaceIds": [
+            "osm:w352610322"
+          ],
+          "position": [
+            -5583.879390422547,
+            0,
+            937.0003749999943
+          ],
+          "rotationY": -0.032166242423871914,
+          "footprint": [
+            [
+              -5594.486002112197,
+              921.373550000145
+            ],
+            [
+              -5572.289926684469,
+              922.0823500001653
+            ],
+            [
+              -5573.272778734213,
+              952.6272000002444
+            ],
+            [
+              -5595.468854160485,
+              951.9184000002241
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "short south edge facing Shamian street",
+          "scale": [
+            0.9994324547177613,
+            1,
+            1.0000021781333004
+          ]
+        },
+        {
+          "sampleId": "B2",
+          "sourceId": "osm:w352610258",
+          "replaceIds": [
+            "osm:w352610258"
+          ],
+          "position": [
+            -5530.62109504764,
+            0,
+            1006.706425000187
+          ],
+          "rotationY": 3.109256523655662,
+          "footprint": [
+            [
+              -5517.465210857513,
+              986.8489500000113
+            ],
+            [
+              -5518.775680256201,
+              1027.3613000001064
+            ],
+            [
+              -5543.776979238176,
+              1026.5639000002311
+            ],
+            [
+              -5542.466509839488,
+              986.0515500001359
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face F0 provisionally on north short edge; reported main entrance street is to east, not identified with F0",
+          "scale": [
+            0.9994010732265537,
+            1,
+            1.000021231918016
+          ],
+          "heightReference": {
+            "landmark": "eave",
+            "value": 20.6,
+            "unit": "m",
+            "status": "reported",
+            "sourceId": "shamian3Completion2023",
+            "pages": [
+              13,
+              21
+            ],
+            "independentlyMeasured": false,
+            "datum": "report does not specify vertical datum; model ground zero remains inferred",
+            "modelAnchorInterpretation": "upper cornice control line; detailed section drawing not provided"
+          }
+        },
+        {
+          "sampleId": "B3",
+          "sourceId": "osm:w392765468",
+          "replaceIds": [
+            "osm:w392765468",
+            "osm:w1521332870"
+          ],
+          "position": [
+            -5490.594287426985,
+            0,
+            935.9197455569067
+          ],
+          "rotationY": -0.048396537887505885,
+          "footprint": [
+            [
+              -5494.378425761388,
+              923.1566250001287
+            ],
+            [
+              -5485.594185579082,
+              923.5774749999317
+            ],
+            [
+              -5486.781798470279,
+              948.075375000169
+            ],
+            [
+              -5489.197976423291,
+              947.9424750001897
+            ],
+            [
+              -5489.3208329293275,
+              951.7079750001258
+            ],
+            [
+              -5493.108908531864,
+              951.586150000276
+            ],
+            [
+              -5492.986052025827,
+              947.8206499999465
+            ],
+            [
+              -5495.566038654039,
+              947.6766750002312
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "short south edge facing Shamian street",
+          "scale": [
+            0.9994675065029682,
+            1,
+            1.0000149868595498
+          ]
+        }
+      ],
+      "id": "shamian",
+      "url": "./data/detail/shamian.json",
+      "bytes": 8719,
+      "sha256": "f4fa8465483e22bcd9d2e9757d6cadfc660a2ade1a65c4e17c08af3274519b0e"
+    },
+    {
+      "kind": "roads",
+      "slot": 0,
+      "bounds": [
+        1556.182410032544,
+        -542.6749999999156,
+        1883.7997595139218,
+        -210.42499999990304
+      ],
+      "position": [
+        1719.9910847732328,
+        0,
+        -376.5499999999094
+      ],
+      "precision": "estimated",
+      "id": "huasui",
+      "url": "./data/detail/huasui.json",
+      "bytes": 59185,
+      "sha256": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea"
+    },
+    {
+      "kind": "roads",
+      "slot": 1,
+      "bounds": [
+        1883.7997595139218,
+        -542.6749999999156,
+        2221.655151165456,
+        -210.42499999990304
+      ],
+      "position": [
+        2052.727455339689,
+        0,
+        -376.54999999990935
+      ],
+      "precision": "estimated",
+      "id": "huaxia",
+      "url": "./data/detail/huaxia.json",
+      "bytes": 137841,
+      "sha256": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
+    }
+  ]
+}

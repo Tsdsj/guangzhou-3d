@@ -1,0 +1,13 @@
+﻿id,sourceId,name,address,areaM2,sourceLevels,photoStatus,priority,productionEligible,notes
+C01,osm:w509641361,基督教沙面会堂,沙面南街 60,315.86,1,visually-reviewed-partial-facade,1,False,地址与Commons类别对应；原照片为北端墙，南侧见C01专项样件
+C02,osm:w352610288,正金银行旧址,沙面大街 56,827.0,3,visually-reviewed-partial-facade,2,False,56号名称和历史别名已由公开资料及2021铭牌支持；双柱及左翼有照片支持，尺寸与现状仍待核。
+C03,osm:w1191446839,沙面大街69号（牧师住宅候选）,沙面大街 69,532.38,1,metadata-only-download-rate-limited,2,False,源地址与照片题名初配，需核门牌和轮廓
+C04,osm:w352610325,广东外事博物馆,,631.01,,missing,3,False,OSM名称明确，待补对应年代自由许可照片
+C05,osm:w352610283,海关宿舍（沙面大街6号）,沙面大街 6,1478.44,3,missing,3,False,需先拆清红楼主副楼及2/4/6号的身份范围
+C06,osm:w352610265,渣打银行旧址（沙面大街49号）,沙面大街 49,549.5,3,missing,3,False,源地址明确；不得与北街61号同名旧址混配
+C07,osm:w352610312,万宝楼（旧万国宝通银行）,沙面大街 46,1107.45,4,missing,3,False,名称与旧名仅来自OSM，需核照片
+C08,osm:w352610315,沙面大街50/52号（现星巴克标签）,沙面大街 50;52,401.23,2,missing,3,False,经营标签不代表历史建筑身份或当前营业状态
+C09,osm:w352610278,洛士利洋行旧址,沙面大街 62,462.01,3,missing,3,False,OSM名称地址明确，待补照片和尺寸
+C10,osm:w352610320,英国医院/招商局候选,,541.6,3,missing,3,False,OSM复合名称，需拆清时代与使用范围
+C11,osm:w352610272,旧摩罗叉公寓,,689.38,2,missing,3,False,OSM名称明确，待补门牌和照片
+C12,osm:w352610308,旧泰国人俱乐部,,419.16,,missing,3,False,OSM名称明确，待补门牌和照片

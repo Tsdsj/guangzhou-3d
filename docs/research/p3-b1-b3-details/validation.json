@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-25",
+  "scope": [
+    "B1 lower garland band",
+    "B1 city nameplate restored",
+    "B3 full opening-shaped louvers",
+    "B3 partial courtyard window spacing"
+  ],
+  "tests": {
+    "fullPassed": 41,
+    "fullFailed": 0,
+    "afterLabelIntegrationPassed": 10
+  },
+  "sources": [
+    "photo:B1-b",
+    "photo:B1-c",
+    "photo:B1-d",
+    "photo:B3-a",
+    "photo:B3-b"
+  ],
+  "baseDataUnchanged": true,
+  "triangles": {
+    "B1": 41362,
+    "B3": 73065
+  },
+  "browser": [
+    "P2 church corner and courtyard fragment",
+    "P2 bank and photo order",
+    "city bank garland and nameplate",
+    "city church louvers",
+    "no error/warn logs",
+    "trees restored after inspection"
+  ],
+  "limits": [
+    "heights unverified",
+    "garland spacing and right-hand symmetry inferred",
+    "louver pitch and color estimated",
+    "courtyard bay spacing not independently measured",
+    "nameplate lettering remains simplified"
+  ]
+}

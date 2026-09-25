@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-26",
+  "tests": {
+    "passed": 66,
+    "failed": 0,
+    "skipped": 0
+  },
+  "focusedPreflightTestsAfterLabelFixture": 4,
+  "rows": 6,
+  "baseAndDetailHashesUnchanged": true,
+  "productionManifestChanged": false,
+  "previewGroundFixed": true,
+  "c02StairTopM": 0.45,
+  "browser": {
+    "desktop": [
+      "C02-stair-contact",
+      "B1-ground-and-height-label",
+      "B2-reported-eave-label",
+      "C01-ground",
+      "B3-ground",
+      "S1-ground-switching"
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  "limitations": [
+    "no physical survey",
+    "no canopy clearance test",
+    "neighbor test is broad phase only",
+    "C01/C02 placement is hypothetical"
+  ],
+  "reportSha256": "63bffbf6134eb23f4170bc7d7666150c949724b65eb64f84a28eac3543718e42"
+}

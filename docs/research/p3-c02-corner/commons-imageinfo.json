@@ -1,0 +1,287 @@
+{
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata&titles=File%3AFormer+US+Consulate+Building.jpg%7CFile%3AFormer+US+Consulate+Building+Tablet.jpg%7CFile%3AConsulate+General+of+the+United+States+Shameen+Canton.JPG",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "33508401": {
+          "pageid": 33508401,
+          "ns": 6,
+          "title": "File:Consulate General of the United States Shameen Canton.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Consulate_General_of_the_United_States_Shameen_Canton.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Consulate_General_of_the_United_States_Shameen_Canton.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33508401",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-06-21 13:12:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Consulate General of the United States Shameen Canton",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Consulate General of the United States, Guangzhou (Former)|Files with coordinates missing SDC location of creation",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "23.109233",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "113.235039",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "​美國駐廣州總領事館（沙面）",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-06-02 17:43:00",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gzdavidwong\" title=\"User:Gzdavidwong\">Gzdavidwong</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "115222132": {
+          "pageid": 115222132,
+          "ns": 6,
+          "title": "File:Former US Consulate Building.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Former_US_Consulate_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Former_US_Consulate_Building.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115222132",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-02-13 08:50:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Former US Consulate Building",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Shamian",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Former US Consulate Building",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2021-12-28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E9%92%89%E9%92%89\" class=\"mw-redirect\" title=\"User:钉钉\">钉钉</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "115222136": {
+          "pageid": 115222136,
+          "ns": 6,
+          "title": "File:Former US Consulate Building Tablet.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Former_US_Consulate_Building_Tablet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Former_US_Consulate_Building_Tablet.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115222136",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-07-02 17:00:29",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Former US Consulate Building Tablet",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|December 2021 in Guangzhou|Signs in Guangzhou|Shamian",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Former US Consulate Building Tablet",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2021-12-28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E9%92%89%E9%92%89\" class=\"mw-redirect\" title=\"User:钉钉\">钉钉</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

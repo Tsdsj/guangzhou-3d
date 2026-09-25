@@ -1,0 +1,6203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "73b511b8-e626-4c50-b7b1-ec3ec20db86f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3111184,
+              23.1209902
+            ],
+            [
+              113.3109213,
+              23.1209926
+            ],
+            [
+              113.3109147,
+              23.1205214
+            ],
+            [
+              113.3111241,
+              23.1205189
+            ],
+            [
+              113.3111263,
+              23.120677
+            ],
+            [
+              113.3112417,
+              23.1206756
+            ],
+            [
+              113.3112395,
+              23.1205249
+            ],
+            [
+              113.311406,
+              23.1205228
+            ],
+            [
+              113.3114125,
+              23.1209742
+            ],
+            [
+              113.3112188,
+              23.1209766
+            ],
+            [
+              113.311217,
+              23.1208502
+            ],
+            [
+              113.3111164,
+              23.1208514
+            ],
+            [
+              113.3111184,
+              23.1209902
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "73b511b8-e626-4c50-b7b1-ec3ec20db86f",
+        "names": {
+          "primary": "远洋明珠大厦",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w941839869@2",
+            "update_time": "2022-03-06T13:07:47.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 25,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3109130859375,
+          "xmax": 113.3114242553711,
+          "ymin": 23.120515823364258,
+          "ymax": 23.12099266052246
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "edd84084-7a0a-4247-8617-09cafafa494b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3114225,
+              23.1219763
+            ],
+            [
+              113.3110884,
+              23.1219793
+            ],
+            [
+              113.3110873,
+              23.121874
+            ],
+            [
+              113.3111998,
+              23.121873
+            ],
+            [
+              113.3111964,
+              23.1215619
+            ],
+            [
+              113.3110819,
+              23.121563
+            ],
+            [
+              113.3110805,
+              23.1214202
+            ],
+            [
+              113.3114363,
+              23.121417
+            ],
+            [
+              113.3114376,
+              23.1215521
+            ],
+            [
+              113.3112733,
+              23.1215536
+            ],
+            [
+              113.3112766,
+              23.1218624
+            ],
+            [
+              113.3114213,
+              23.1218611
+            ],
+            [
+              113.3114225,
+              23.1219763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "edd84084-7a0a-4247-8617-09cafafa494b",
+        "names": {
+          "primary": "凯蓝大厦",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w941838733@1",
+            "update_time": "2021-05-11T14:17:29.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 24,
+        "num_floors_underground": null,
+        "min_floor": 3,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31106567382812,
+          "xmax": 113.31143951416016,
+          "ymin": 23.121416091918945,
+          "ymax": 23.12198257446289
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ee3c5e66-eef7-4364-9622-83e4231edf3b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.311445,
+              23.1219966
+            ],
+            [
+              113.3110664,
+              23.122
+            ],
+            [
+              113.3110648,
+              23.1218537
+            ],
+            [
+              113.3111773,
+              23.1218527
+            ],
+            [
+              113.3111744,
+              23.1215826
+            ],
+            [
+              113.3110599,
+              23.1215837
+            ],
+            [
+              113.311058,
+              23.1213999
+            ],
+            [
+              113.3114583,
+              23.1213963
+            ],
+            [
+              113.3114601,
+              23.1215724
+            ],
+            [
+              113.3112958,
+              23.1215739
+            ],
+            [
+              113.3112986,
+              23.1218417
+            ],
+            [
+              113.3114433,
+              23.1218404
+            ],
+            [
+              113.311445,
+              23.1219966
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ee3c5e66-eef7-4364-9622-83e4231edf3b",
+        "names": {
+          "primary": "凯蓝大厦",
+          "common": [
+            [
+              "zh",
+              "凯蓝大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w544809840@3",
+            "update_time": "2021-05-11T14:17:29.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 3,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31104278564453,
+          "xmax": 113.31146240234375,
+          "ymin": 23.12139320373535,
+          "ymax": 23.12200355529785
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17981b0a-61e2-4a69-9d14-d04fa8bd64e3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3114682,
+              23.1230187
+            ],
+            [
+              113.3113284,
+              23.1230263
+            ],
+            [
+              113.311319,
+              23.1228797
+            ],
+            [
+              113.3113551,
+              23.1228777
+            ],
+            [
+              113.3113505,
+              23.1228072
+            ],
+            [
+              113.3113044,
+              23.1228098
+            ],
+            [
+              113.3112951,
+              23.1226658
+            ],
+            [
+              113.3115148,
+              23.1226538
+            ],
+            [
+              113.3115189,
+              23.1227161
+            ],
+            [
+              113.3115338,
+              23.1227153
+            ],
+            [
+              113.3115386,
+              23.1227902
+            ],
+            [
+              113.3114815,
+              23.1227934
+            ],
+            [
+              113.3114864,
+              23.1228694
+            ],
+            [
+              113.3115485,
+              23.122866
+            ],
+            [
+              113.311552,
+              23.12292
+            ],
+            [
+              113.3115238,
+              23.1229215
+            ],
+            [
+              113.3115257,
+              23.1229504
+            ],
+            [
+              113.3114946,
+              23.1229521
+            ],
+            [
+              113.3114966,
+              23.1229837
+            ],
+            [
+              113.311466,
+              23.1229854
+            ],
+            [
+              113.3114682,
+              23.1230187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "17981b0a-61e2-4a69-9d14-d04fa8bd64e3",
+        "names": {
+          "primary": "聚龙阁",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w1498125902@3",
+            "update_time": "2026-05-23T08:56:28.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 33,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": "#F7CEB8",
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 2,
+        "bbox": {
+          "xmin": 113.31129455566406,
+          "xmax": 113.31155395507812,
+          "ymin": 23.122650146484375,
+          "ymax": 23.123029708862305
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c0ad119b-cd47-4c66-94fa-6a3cdb28042c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3112081,
+              23.1230342
+            ],
+            [
+              113.3109457,
+              23.1230533
+            ],
+            [
+              113.3109397,
+              23.1229836
+            ],
+            [
+              113.3109555,
+              23.1229824
+            ],
+            [
+              113.3109494,
+              23.1229113
+            ],
+            [
+              113.3110051,
+              23.1229072
+            ],
+            [
+              113.3109985,
+              23.1228308
+            ],
+            [
+              113.3109253,
+              23.1228362
+            ],
+            [
+              113.3109193,
+              23.1227662
+            ],
+            [
+              113.3109359,
+              23.122765
+            ],
+            [
+              113.3109301,
+              23.1226975
+            ],
+            [
+              113.3111579,
+              23.1226808
+            ],
+            [
+              113.3111636,
+              23.1227474
+            ],
+            [
+              113.3111795,
+              23.1227462
+            ],
+            [
+              113.3111855,
+              23.1228155
+            ],
+            [
+              113.3111234,
+              23.12282
+            ],
+            [
+              113.3111302,
+              23.1228986
+            ],
+            [
+              113.3111758,
+              23.1228953
+            ],
+            [
+              113.3111818,
+              23.122964
+            ],
+            [
+              113.3112019,
+              23.1229626
+            ],
+            [
+              113.3112081,
+              23.1230342
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c0ad119b-cd47-4c66-94fa-6a3cdb28042c",
+        "names": {
+          "primary": "龙庭阁",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w1498125901@3",
+            "update_time": "2026-05-23T08:56:28.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 33,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": "#F7CEB8",
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 2,
+        "bbox": {
+          "xmin": 113.31090545654297,
+          "xmax": 113.31121063232422,
+          "ymin": 23.1226806640625,
+          "ymax": 23.123056411743164
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5e3a45fc-73ff-480b-b3a3-90c792dd701f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3114144,
+              23.1230765
+            ],
+            [
+              113.3105753,
+              23.1231389
+            ],
+            [
+              113.3105471,
+              23.1227517
+            ],
+            [
+              113.3105454,
+              23.1227283
+            ],
+            [
+              113.3115958,
+              23.1226403
+            ],
+            [
+              113.3116137,
+              23.1228731
+            ],
+            [
+              113.3114144,
+              23.1230765
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "5e3a45fc-73ff-480b-b3a3-90c792dd701f",
+        "names": {
+          "primary": "南天广场",
+          "common": [
+            [
+              "zh",
+              "南天广场"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w544809828@5",
+            "update_time": "2026-05-23T08:56:28.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 7,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": "#8B4513",
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 3,
+        "bbox": {
+          "xmin": 113.31053161621094,
+          "xmax": 113.31161499023438,
+          "ymin": 23.122636795043945,
+          "ymax": 23.12314224243164
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4cecd088-9830-4b1a-97b4-570bbf50efce",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3116513,
+              23.123104
+            ],
+            [
+              113.3117753,
+              23.1230972
+            ],
+            [
+              113.3117814,
+              23.1231928
+            ],
+            [
+              113.3116574,
+              23.1231995
+            ],
+            [
+              113.3116513,
+              23.123104
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "4cecd088-9830-4b1a-97b4-570bbf50efce",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31163787841797,
+          "xmax": 113.31178283691406,
+          "ymin": 23.123096466064453,
+          "ymax": 23.123201370239258
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2d9e7fff-1f7f-435f-975d-347315e67ffb",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3105833,
+              23.1233753
+            ],
+            [
+              113.3114582,
+              23.1232965
+            ],
+            [
+              113.31153,
+              23.1233808
+            ],
+            [
+              113.3115998,
+              23.123423
+            ],
+            [
+              113.3116715,
+              23.1234395
+            ],
+            [
+              113.3116894,
+              23.123566
+            ],
+            [
+              113.3106072,
+              23.1236521
+            ],
+            [
+              113.3105833,
+              23.1233753
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2d9e7fff-1f7f-435f-975d-347315e67ffb",
+        "names": {
+          "primary": "礼顿阳光大厦",
+          "common": [
+            [
+              "zh",
+              "礼顿阳光大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w544809830@2",
+            "update_time": "2021-04-24T08:41:20.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 30,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3105697631836,
+          "xmax": 113.31169128417969,
+          "ymin": 23.123292922973633,
+          "ymax": 23.123655319213867
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5febe5b4-4460-4ae3-836a-32ca5a4c9844",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3117395,
+              23.124119
+            ],
+            [
+              113.3114876,
+              23.1243462
+            ],
+            [
+              113.3112909,
+              23.1241617
+            ],
+            [
+              113.3115429,
+              23.1239345
+            ],
+            [
+              113.3117395,
+              23.124119
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "5febe5b4-4460-4ae3-836a-32ca5a4c9844",
+        "names": {
+          "primary": "4栋",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w737870905@2",
+            "update_time": "2021-05-11T10:11:45.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 41,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "residential",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.311279296875,
+          "xmax": 113.31175231933594,
+          "ymin": 23.123933792114258,
+          "ymax": 23.12434959411621
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2be5b432-305c-44f0-bdec-fd739ee07d96",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3195041,
+              23.1231077
+            ],
+            [
+              113.3195828,
+              23.1231375
+            ],
+            [
+              113.3195529,
+              23.1232062
+            ],
+            [
+              113.3194743,
+              23.1231753
+            ],
+            [
+              113.3195041,
+              23.1231077
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2be5b432-305c-44f0-bdec-fd739ee07d96",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31947326660156,
+          "xmax": 113.31959533691406,
+          "ymin": 23.123104095458984,
+          "ymax": 23.123207092285156
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0e557050-bb07-41e5-906b-a20909ce1647",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3186591,
+              23.1223888
+            ],
+            [
+              113.3186178,
+              23.1223908
+            ],
+            [
+              113.3186085,
+              23.1222282
+            ],
+            [
+              113.3186498,
+              23.1222262
+            ],
+            [
+              113.3186591,
+              23.1223888
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "0e557050-bb07-41e5-906b-a20909ce1647",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31859588623047,
+          "xmax": 113.31867218017578,
+          "ymin": 23.122222900390625,
+          "ymax": 23.122392654418945
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0768887d-1341-4dfd-a52a-050952ab5e80",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3181172,
+              23.1236689
+            ],
+            [
+              113.3181171,
+              23.123714
+            ],
+            [
+              113.317704,
+              23.1236644
+            ],
+            [
+              113.317749,
+              23.1232243
+            ],
+            [
+              113.3177707,
+              23.1231099
+            ],
+            [
+              113.3177848,
+              23.123023
+            ],
+            [
+              113.3178473,
+              23.122569
+            ],
+            [
+              113.3182622,
+              23.1226205
+            ],
+            [
+              113.3183748,
+              23.1226254
+            ],
+            [
+              113.3182657,
+              23.1229772
+            ],
+            [
+              113.3182336,
+              23.1231833
+            ],
+            [
+              113.3182048,
+              23.1234142
+            ],
+            [
+              113.3182086,
+              23.1236804
+            ],
+            [
+              113.3181172,
+              23.1236689
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "0768887d-1341-4dfd-a52a-050952ab5e80",
+        "names": {
+          "primary": "高德置地广场（夏）",
+          "common": [
+            [
+              "en",
+              "GT Land Plaza(Summer Plaza)"
+            ],
+            [
+              "zh",
+              "高德置地广场（夏）"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w299687659@7",
+            "update_time": "2018-08-02T21:01:26.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": true,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31770324707031,
+          "xmax": 113.31838989257812,
+          "ymin": 23.122568130493164,
+          "ymax": 23.123714447021484
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ddf54ff4-c867-425f-9db7-54352bdef70b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3185319,
+              23.1236167
+            ],
+            [
+              113.3185439,
+              23.1236878
+            ],
+            [
+              113.3184175,
+              23.1237094
+            ],
+            [
+              113.3184045,
+              23.1236403
+            ],
+            [
+              113.3185319,
+              23.1236167
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ddf54ff4-c867-425f-9db7-54352bdef70b",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31838989257812,
+          "xmax": 113.31855773925781,
+          "ymin": 23.123613357543945,
+          "ymax": 23.12371253967285
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fc1bdfcb-a139-4828-b2e1-d8c75ce782a7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3181972,
+              23.1237201
+            ],
+            [
+              113.3182799,
+              23.1237236
+            ],
+            [
+              113.318278,
+              23.1237618
+            ],
+            [
+              113.3181953,
+              23.1237584
+            ],
+            [
+              113.3181972,
+              23.1237201
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fc1bdfcb-a139-4828-b2e1-d8c75ce782a7",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31819152832031,
+          "xmax": 113.31828308105469,
+          "ymin": 23.12371826171875,
+          "ymax": 23.123762130737305
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1c2e4ad6-a84c-490c-92d6-54a755bfa8d3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3181883,
+              23.1240022
+            ],
+            [
+              113.318107,
+              23.1239875
+            ],
+            [
+              113.318115,
+              23.1239499
+            ],
+            [
+              113.3179321,
+              23.1239169
+            ],
+            [
+              113.317944,
+              23.1238605
+            ],
+            [
+              113.3182082,
+              23.1239082
+            ],
+            [
+              113.3181883,
+              23.1240022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "1c2e4ad6-a84c-490c-92d6-54a755bfa8d3",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31791687011719,
+          "xmax": 113.31822204589844,
+          "ymin": 23.123857498168945,
+          "ymax": 23.12400245666504
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b28a26fb-707b-4761-8f4d-2eaadad6bee8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3182323,
+              23.1239961
+            ],
+            [
+              113.3182298,
+              23.123942
+            ],
+            [
+              113.318259,
+              23.1239408
+            ],
+            [
+              113.3182616,
+              23.1239949
+            ],
+            [
+              113.3182323,
+              23.1239961
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b28a26fb-707b-4761-8f4d-2eaadad6bee8",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31822967529297,
+          "xmax": 113.31827545166016,
+          "ymin": 23.123937606811523,
+          "ymax": 23.12399673461914
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b4da0c8b-1ebd-4c8d-b6b9-aa5896582bfc",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.318596,
+              23.1239537
+            ],
+            [
+              113.318573,
+              23.1239855
+            ],
+            [
+              113.3185386,
+              23.1239643
+            ],
+            [
+              113.3185615,
+              23.1239324
+            ],
+            [
+              113.318596,
+              23.1239537
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b4da0c8b-1ebd-4c8d-b6b9-aa5896582bfc",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31853485107422,
+          "xmax": 113.31861114501953,
+          "ymin": 23.123931884765625,
+          "ymax": 23.12398910522461
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cb6f885e-d9e0-4171-84e1-743785ce85ed",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3188505,
+              23.1237763
+            ],
+            [
+              113.3188515,
+              23.1238713
+            ],
+            [
+              113.3187371,
+              23.123873
+            ],
+            [
+              113.318736,
+              23.123778
+            ],
+            [
+              113.3188505,
+              23.1237763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cb6f885e-d9e0-4171-84e1-743785ce85ed",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31873321533203,
+          "xmax": 113.31885528564453,
+          "ymin": 23.123775482177734,
+          "ymax": 23.123876571655273
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2e2afd56-87d0-4f9c-b5b0-6df609021395",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3172332,
+              23.1245683
+            ],
+            [
+              113.3162215,
+              23.124647
+            ],
+            [
+              113.3162064,
+              23.1235897
+            ],
+            [
+              113.3170458,
+              23.1235244
+            ],
+            [
+              113.3171585,
+              23.1235216
+            ],
+            [
+              113.3171642,
+              23.1236013
+            ],
+            [
+              113.3173207,
+              23.1235905
+            ],
+            [
+              113.3173103,
+              23.1244845
+            ],
+            [
+              113.3172285,
+              23.1245021
+            ],
+            [
+              113.3172332,
+              23.1245683
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2e2afd56-87d0-4f9c-b5b0-6df609021395",
+        "names": {
+          "primary": "广东全球通大厦",
+          "common": [
+            [
+              "zh",
+              "广东全球通大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w312888482@5",
+            "update_time": "2019-09-15T14:55:05.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": true,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31619262695312,
+          "xmax": 113.31732177734375,
+          "ymin": 23.123517990112305,
+          "ymax": 23.12464714050293
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2fd8b0bd-18db-440a-843e-d04986ed8050",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3157963,
+              23.1236748
+            ],
+            [
+              113.3157997,
+              23.123311
+            ],
+            [
+              113.3158825,
+              23.1233117
+            ],
+            [
+              113.3158791,
+              23.1236755
+            ],
+            [
+              113.3157963,
+              23.1236748
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2fd8b0bd-18db-440a-843e-d04986ed8050",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3157958984375,
+          "xmax": 113.3158950805664,
+          "ymin": 23.123310089111328,
+          "ymax": 23.123676300048828
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "23b0e314-1ae3-4a07-80ec-82b1a5ecbf40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3142301,
+              23.1248424
+            ],
+            [
+              113.3134269,
+              23.1249009
+            ],
+            [
+              113.3133435,
+              23.1239319
+            ],
+            [
+              113.3136809,
+              23.1239073
+            ],
+            [
+              113.3137016,
+              23.1241478
+            ],
+            [
+              113.3141674,
+              23.1241139
+            ],
+            [
+              113.3142301,
+              23.1248424
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "23b0e314-1ae3-4a07-80ec-82b1a5ecbf40",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w313905697@1",
+            "update_time": "2017-10-03T12:29:59.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "education",
+        "class": "school",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3133316040039,
+          "xmax": 113.3142318725586,
+          "ymin": 23.1239070892334,
+          "ymax": 23.124902725219727
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bf0ef3cf-0739-4a1d-a23f-4fe04475950b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3127431,
+              23.1241038
+            ],
+            [
+              113.3124148,
+              23.1241364
+            ],
+            [
+              113.3123926,
+              23.1239468
+            ],
+            [
+              113.3127209,
+              23.1239143
+            ],
+            [
+              113.3127431,
+              23.1241038
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bf0ef3cf-0739-4a1d-a23f-4fe04475950b",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w1348002790@1",
+            "update_time": "2025-01-02T14:56:29.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "education",
+        "class": "school",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3123779296875,
+          "xmax": 113.312744140625,
+          "ymin": 23.123910903930664,
+          "ymax": 23.1241397857666
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fbcd51f8-ca1b-424b-884d-d8166234a396",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3128917,
+              23.1235082
+            ],
+            [
+              113.3118656,
+              23.1235661
+            ],
+            [
+              113.3118596,
+              23.1234769
+            ],
+            [
+              113.3119949,
+              23.1234693
+            ],
+            [
+              113.3119852,
+              23.1233239
+            ],
+            [
+              113.312876,
+              23.1232737
+            ],
+            [
+              113.3128917,
+              23.1235082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fbcd51f8-ca1b-424b-884d-d8166234a396",
+        "names": {
+          "primary": "礼顿阳光大厦",
+          "common": [
+            [
+              "zh",
+              "礼顿阳光大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w543582251@4",
+            "update_time": "2021-04-24T08:41:20.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 30,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31185913085938,
+          "xmax": 113.31290435791016,
+          "ymin": 23.12327003479004,
+          "ymax": 23.12356948852539
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a06e6599-73aa-45cb-ba6a-7df9ac609e0f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3143667,
+              23.1239249
+            ],
+            [
+              113.3141475,
+              23.1239368
+            ],
+            [
+              113.3141389,
+              23.1238017
+            ],
+            [
+              113.3143581,
+              23.1237897
+            ],
+            [
+              113.3143667,
+              23.1239249
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a06e6599-73aa-45cb-ba6a-7df9ac609e0f",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31412506103516,
+          "xmax": 113.31436920166016,
+          "ymin": 23.123788833618164,
+          "ymax": 23.123937606811523
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c302f1f1-fe95-4e14-a25a-58329c6e5bb7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3143603,
+              23.1233904
+            ],
+            [
+              113.3138719,
+              23.1234254
+            ],
+            [
+              113.3138635,
+              23.1233141
+            ],
+            [
+              113.3139507,
+              23.1231735
+            ],
+            [
+              113.3140352,
+              23.1231291
+            ],
+            [
+              113.3142228,
+              23.1231148
+            ],
+            [
+              113.3143092,
+              23.1231083
+            ],
+            [
+              113.3143457,
+              23.1231055
+            ],
+            [
+              113.3143603,
+              23.1233904
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c302f1f1-fe95-4e14-a25a-58329c6e5bb7",
+        "names": {
+          "primary": "B",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926113@3",
+            "update_time": "2024-06-28T17:15:37.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31385040283203,
+          "xmax": 113.31436157226562,
+          "ymin": 23.12310218811035,
+          "ymax": 23.123428344726562
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3eccbb5f-d176-4611-8ed7-8bcc3adcf0a5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3138568,
+              23.1225864
+            ],
+            [
+              113.3138498,
+              23.1224752
+            ],
+            [
+              113.3143115,
+              23.1224389
+            ],
+            [
+              113.3143248,
+              23.1226984
+            ],
+            [
+              113.3142929,
+              23.122701
+            ],
+            [
+              113.3141901,
+              23.1227091
+            ],
+            [
+              113.3139963,
+              23.1227245
+            ],
+            [
+              113.3138568,
+              23.1225864
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "3eccbb5f-d176-4611-8ed7-8bcc3adcf0a5",
+        "names": {
+          "primary": "D",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926112@3",
+            "update_time": "2024-06-28T17:15:37.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31383514404297,
+          "xmax": 113.31433868408203,
+          "ymin": 23.122438430786133,
+          "ymax": 23.122724533081055
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bc38fc9a-7651-4983-84fe-14f66da3e8a7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3143092,
+              23.1231083
+            ],
+            [
+              113.3142228,
+              23.1231148
+            ],
+            [
+              113.3141703,
+              23.1230044
+            ],
+            [
+              113.3141611,
+              23.1228798
+            ],
+            [
+              113.3141901,
+              23.1227091
+            ],
+            [
+              113.3142929,
+              23.122701
+            ],
+            [
+              113.3143244,
+              23.1228755
+            ],
+            [
+              113.3143279,
+              23.1229986
+            ],
+            [
+              113.3143092,
+              23.1231083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bc38fc9a-7651-4983-84fe-14f66da3e8a7",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926116@2",
+            "update_time": "2021-04-07T17:41:34.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31414794921875,
+          "xmax": 113.3143310546875,
+          "ymin": 23.122697830200195,
+          "ymax": 23.12311553955078
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a513ca50-8291-4e38-bc5b-42fbde2dbd6f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3132963,
+              23.1227971
+            ],
+            [
+              113.313256,
+              23.1227996
+            ],
+            [
+              113.3132423,
+              23.122523
+            ],
+            [
+              113.3137217,
+              23.1224853
+            ],
+            [
+              113.3137334,
+              23.1225962
+            ],
+            [
+              113.313551,
+              23.1227813
+            ],
+            [
+              113.3135046,
+              23.1227841
+            ],
+            [
+              113.3132963,
+              23.1227971
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a513ca50-8291-4e38-bc5b-42fbde2dbd6f",
+        "names": {
+          "primary": "C",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926111@3",
+            "update_time": "2024-06-28T17:15:37.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31324005126953,
+          "xmax": 113.31373596191406,
+          "ymin": 23.122482299804688,
+          "ymax": 23.122802734375
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "31b7b677-d2c7-44a0-ae7d-d4cf7b8e0b9e",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.313522,
+              23.1231737
+            ],
+            [
+              113.3133151,
+              23.1231953
+            ],
+            [
+              113.3132963,
+              23.1227971
+            ],
+            [
+              113.3135046,
+              23.1227841
+            ],
+            [
+              113.313522,
+              23.1231737
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "31b7b677-d2c7-44a0-ae7d-d4cf7b8e0b9e",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926115@2",
+            "update_time": "2021-04-07T17:41:34.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31329345703125,
+          "xmax": 113.31352233886719,
+          "ymin": 23.122783660888672,
+          "ymax": 23.12319564819336
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b10ca6cb-7661-484e-ad9d-639ce3d271d2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3137549,
+              23.1233301
+            ],
+            [
+              113.3137564,
+              23.1234336
+            ],
+            [
+              113.3132891,
+              23.1234671
+            ],
+            [
+              113.3132758,
+              23.1231994
+            ],
+            [
+              113.3133151,
+              23.1231953
+            ],
+            [
+              113.313522,
+              23.1231737
+            ],
+            [
+              113.3135363,
+              23.1231722
+            ],
+            [
+              113.3137549,
+              23.1233301
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b10ca6cb-7661-484e-ad9d-639ce3d271d2",
+        "names": {
+          "primary": "A",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717926114@3",
+            "update_time": "2024-06-28T17:15:37.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 32,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31326293945312,
+          "xmax": 113.31375885009766,
+          "ymin": 23.1231689453125,
+          "ymax": 23.123470306396484
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b4e0cdce-48ae-4ffc-ba92-5e7e45b6951d",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.312342,
+              23.1229777
+            ],
+            [
+              113.3123669,
+              23.1229046
+            ],
+            [
+              113.3124459,
+              23.1229277
+            ],
+            [
+              113.3124116,
+              23.1230282
+            ],
+            [
+              113.3122833,
+              23.1229906
+            ],
+            [
+              113.3122926,
+              23.1229632
+            ],
+            [
+              113.312342,
+              23.1229777
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b4e0cdce-48ae-4ffc-ba92-5e7e45b6951d",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31227111816406,
+          "xmax": 113.31244659423828,
+          "ymin": 23.12290382385254,
+          "ymax": 23.123031616210938
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "69017c0a-227a-44c5-a45a-af753bc7b1fa",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3121981,
+              23.1228637
+            ],
+            [
+              113.312211,
+              23.1229998
+            ],
+            [
+              113.3121285,
+              23.1230076
+            ],
+            [
+              113.3121145,
+              23.1228695
+            ],
+            [
+              113.3121981,
+              23.1228637
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "69017c0a-227a-44c5-a45a-af753bc7b1fa",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3121109008789,
+          "xmax": 113.31222534179688,
+          "ymin": 23.122861862182617,
+          "ymax": 23.123010635375977
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "56dc58a4-4c0b-443c-9411-058ed4e69c61",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3119127,
+              23.1228694
+            ],
+            [
+              113.3118987,
+              23.122622
+            ],
+            [
+              113.3128375,
+              23.1225431
+            ],
+            [
+              113.3128594,
+              23.1227906
+            ],
+            [
+              113.3119127,
+              23.1228694
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "56dc58a4-4c0b-443c-9411-058ed4e69c61",
+        "names": {
+          "primary": "双城国际",
+          "common": [
+            [
+              "zh",
+              "双城国际"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w544809831@2",
+            "update_time": "2018-08-02T21:03:20.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31189727783203,
+          "xmax": 113.31287384033203,
+          "ymin": 23.122539520263672,
+          "ymax": 23.12286949157715
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01f4d843-588b-47b5-821b-cf6bf13378bc",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3121563,
+              23.1219085
+            ],
+            [
+              113.3115727,
+              23.1219159
+            ],
+            [
+              113.3115679,
+              23.1215972
+            ],
+            [
+              113.3117012,
+              23.1215955
+            ],
+            [
+              113.311931,
+              23.1215926
+            ],
+            [
+              113.3121515,
+              23.1215898
+            ],
+            [
+              113.3121563,
+              23.1219085
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "01f4d843-588b-47b5-821b-cf6bf13378bc",
+        "names": {
+          "primary": "建滔广场",
+          "common": [
+            [
+              "zh",
+              "建滔广场"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w519672265@4",
+            "update_time": "2021-05-11T14:18:31.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 26,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31155395507812,
+          "xmax": 113.3121566772461,
+          "ymin": 23.12158966064453,
+          "ymax": 23.121917724609375
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ff3cffc9-deb5-46bb-9031-d85281880d12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.313117,
+              23.1219034
+            ],
+            [
+              113.313129,
+              23.1218179
+            ],
+            [
+              113.31317,
+              23.1218228
+            ],
+            [
+              113.3131581,
+              23.1219083
+            ],
+            [
+              113.313117,
+              23.1219034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ff3cffc9-deb5-46bb-9031-d85281880d12",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31310272216797,
+          "xmax": 113.31317138671875,
+          "ymin": 23.121814727783203,
+          "ymax": 23.121912002563477
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "90dca98a-1353-4bf2-b7b0-bc3558e76bd9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3157314,
+              23.1225478
+            ],
+            [
+              113.3157085,
+              23.12142
+            ],
+            [
+              113.3158762,
+              23.1214171
+            ],
+            [
+              113.315899,
+              23.1225449
+            ],
+            [
+              113.3157314,
+              23.1225478
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "90dca98a-1353-4bf2-b7b0-bc3558e76bd9",
+        "names": {
+          "primary": "珠江新城",
+          "common": [
+            [
+              "en",
+              "Zhujiang New Town"
+            ],
+            [
+              "zh",
+              "珠江新城"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w503810995@9",
+            "update_time": "2023-11-07T19:13:30.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": -2,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": 3,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3156967163086,
+          "xmax": 113.31590270996094,
+          "ymin": 23.121414184570312,
+          "ymax": 23.12255096435547
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fb19a803-8aec-48d0-b7ec-e45cd4e2b715",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3157241,
+              23.1220509
+            ],
+            [
+              113.3152665,
+              23.1220569
+            ],
+            [
+              113.3152643,
+              23.1219169
+            ],
+            [
+              113.3157134,
+              23.121911
+            ],
+            [
+              113.3157057,
+              23.1214175
+            ],
+            [
+              113.3158782,
+              23.1214152
+            ],
+            [
+              113.3158858,
+              23.1219058
+            ],
+            [
+              113.3163433,
+              23.1218998
+            ],
+            [
+              113.3163456,
+              23.1220476
+            ],
+            [
+              113.3158916,
+              23.1220536
+            ],
+            [
+              113.3158993,
+              23.1225452
+            ],
+            [
+              113.3157318,
+              23.1225474
+            ],
+            [
+              113.3157241,
+              23.1220509
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fb19a803-8aec-48d0-b7ec-e45cd4e2b715",
+        "names": {
+          "primary": "珠江新城",
+          "common": [
+            [
+              "en",
+              "Zhujiang New Town"
+            ],
+            [
+              "zh",
+              "珠江新城"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w995559493@2",
+            "update_time": "2023-11-07T19:13:31.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": -1,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": 1,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31526184082031,
+          "xmax": 113.31636047363281,
+          "ymin": 23.12141227722168,
+          "ymax": 23.12255096435547
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eeecd3c2-1363-41df-ac5a-89989d645e24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3152621,
+              23.1219149
+            ],
+            [
+              113.3163414,
+              23.1219016
+            ],
+            [
+              113.3163435,
+              23.1220457
+            ],
+            [
+              113.3152642,
+              23.1220591
+            ],
+            [
+              113.3152621,
+              23.1219149
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "eeecd3c2-1363-41df-ac5a-89989d645e24",
+        "names": {
+          "primary": "珠江新城",
+          "common": [
+            [
+              "en",
+              "Zhujiang New Town"
+            ],
+            [
+              "zh",
+              "珠江新城"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w503814640@10",
+            "update_time": "2023-11-07T19:13:30.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": -3,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": 3,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31526184082031,
+          "xmax": 113.31634521484375,
+          "ymin": 23.121898651123047,
+          "ymax": 23.12206268310547
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "515a6823-cdd3-4f98-b4b7-4c8a68e348c2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.31446,
+              23.1226465
+            ],
+            [
+              113.3154187,
+              23.1225705
+            ],
+            [
+              113.315426,
+              23.1227637
+            ],
+            [
+              113.3152578,
+              23.1227745
+            ],
+            [
+              113.3153135,
+              23.1232561
+            ],
+            [
+              113.3146779,
+              23.1233053
+            ],
+            [
+              113.3146408,
+              23.1228233
+            ],
+            [
+              113.3144778,
+              23.1228368
+            ],
+            [
+              113.31446,
+              23.1226465
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "515a6823-cdd3-4f98-b4b7-4c8a68e348c2",
+        "names": {
+          "primary": "广州市海关",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w313905695@11",
+            "update_time": "2025-08-23T06:24:22.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 100.0,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31444549560547,
+          "xmax": 113.3154296875,
+          "ymin": 23.122570037841797,
+          "ymax": 23.123308181762695
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "122a79c8-342d-4f12-a9b2-418bc51ad991",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3163904,
+              23.1225449
+            ],
+            [
+              113.3164825,
+              23.1226091
+            ],
+            [
+              113.3165621,
+              23.1226457
+            ],
+            [
+              113.3166494,
+              23.1226562
+            ],
+            [
+              113.3167456,
+              23.1226383
+            ],
+            [
+              113.3168409,
+              23.1225934
+            ],
+            [
+              113.3168827,
+              23.1225567
+            ],
+            [
+              113.3168978,
+              23.1225411
+            ],
+            [
+              113.3169452,
+              23.1224905
+            ],
+            [
+              113.3169737,
+              23.1224312
+            ],
+            [
+              113.3169842,
+              23.122387
+            ],
+            [
+              113.3169868,
+              23.1223646
+            ],
+            [
+              113.3170316,
+              23.1223694
+            ],
+            [
+              113.3171231,
+              23.1223867
+            ],
+            [
+              113.3171923,
+              23.1223884
+            ],
+            [
+              113.3171892,
+              23.1224297
+            ],
+            [
+              113.3172289,
+              23.1224362
+            ],
+            [
+              113.3172565,
+              23.1224407
+            ],
+            [
+              113.3172624,
+              23.1224213
+            ],
+            [
+              113.3174518,
+              23.1224425
+            ],
+            [
+              113.3174217,
+              23.122534
+            ],
+            [
+              113.3174788,
+              23.1225365
+            ],
+            [
+              113.3173928,
+              23.1228573
+            ],
+            [
+              113.3173658,
+              23.122973
+            ],
+            [
+              113.3173333,
+              23.1230794
+            ],
+            [
+              113.317329,
+              23.1230952
+            ],
+            [
+              113.3173424,
+              23.1231183
+            ],
+            [
+              113.3173491,
+              23.1231553
+            ],
+            [
+              113.3173377,
+              23.123188
+            ],
+            [
+              113.3173088,
+              23.1232133
+            ],
+            [
+              113.3172753,
+              23.1232305
+            ],
+            [
+              113.3172351,
+              23.1232342
+            ],
+            [
+              113.3172227,
+              23.1232351
+            ],
+            [
+              113.3171727,
+              23.1232385
+            ],
+            [
+              113.317045,
+              23.1232452
+            ],
+            [
+              113.3166647,
+              23.1232694
+            ],
+            [
+              113.3164193,
+              23.1232851
+            ],
+            [
+              113.3163666,
+              23.1232884
+            ],
+            [
+              113.3163249,
+              23.1232911
+            ],
+            [
+              113.3162805,
+              23.1232011
+            ],
+            [
+              113.316251,
+              23.1230753
+            ],
+            [
+              113.316251,
+              23.122947
+            ],
+            [
+              113.3162778,
+              23.1227472
+            ],
+            [
+              113.3163301,
+              23.1226288
+            ],
+            [
+              113.3163904,
+              23.1225449
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "122a79c8-342d-4f12-a9b2-418bc51ad991",
+        "names": {
+          "primary": "高德置地广场（春）",
+          "common": [
+            [
+              "en",
+              "GT Land Plaza(Spring Plaza)"
+            ],
+            [
+              "zh",
+              "高德置地广场（春）"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w299812757@12",
+            "update_time": "2025-08-23T06:21:46.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": -1,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 5,
+        "num_floors_underground": 2,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": true,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31623840332031,
+          "xmax": 113.3174819946289,
+          "ymin": 23.122364044189453,
+          "ymax": 23.123292922973633
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4ac806fe-1390-4969-8848-b1e946b36cba",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3165232,
+              23.1225361
+            ],
+            [
+              113.3164803,
+              23.1225065
+            ],
+            [
+              113.3164615,
+              23.1224646
+            ],
+            [
+              113.3164669,
+              23.122435
+            ],
+            [
+              113.316499,
+              23.1224152
+            ],
+            [
+              113.3165339,
+              23.1224004
+            ],
+            [
+              113.3165768,
+              23.122393
+            ],
+            [
+              113.3166117,
+              23.122393
+            ],
+            [
+              113.31666,
+              23.1224177
+            ],
+            [
+              113.316727,
+              23.1224769
+            ],
+            [
+              113.3167699,
+              23.1225435
+            ],
+            [
+              113.3166761,
+              23.1225583
+            ],
+            [
+              113.3165929,
+              23.1225534
+            ],
+            [
+              113.3165232,
+              23.1225361
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "4ac806fe-1390-4969-8848-b1e946b36cba",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w684901406@2",
+            "update_time": "2023-04-20T08:21:34.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": 1,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "outbuilding",
+        "class": "roof",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31645965576172,
+          "xmax": 113.3167724609375,
+          "ymin": 23.122392654418945,
+          "ymax": 23.12255859375
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fb7ee680-c50a-463e-86b6-530b39dc6d89",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3166048,
+              23.1213902
+            ],
+            [
+              113.3161462,
+              23.1214072
+            ],
+            [
+              113.3161271,
+              23.1209706
+            ],
+            [
+              113.3165857,
+              23.1209537
+            ],
+            [
+              113.3166048,
+              23.1213902
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fb7ee680-c50a-463e-86b6-530b39dc6d89",
+        "names": {
+          "primary": "富力盈凯广场",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w513786152@4",
+            "update_time": "2023-11-07T19:13:31.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 296.5,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31612396240234,
+          "xmax": 113.31661987304688,
+          "ymin": 23.12095069885254,
+          "ymax": 23.121410369873047
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cdba535c-c26c-4df1-acba-4b271efd49e4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3166799,
+              23.1210411
+            ],
+            [
+              113.3166178,
+              23.1210414
+            ],
+            [
+              113.3166167,
+              23.1208882
+            ],
+            [
+              113.3166788,
+              23.1208879
+            ],
+            [
+              113.3166799,
+              23.1210411
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cdba535c-c26c-4df1-acba-4b271efd49e4",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31660461425781,
+          "xmax": 113.31668090820312,
+          "ymin": 23.120887756347656,
+          "ymax": 23.121042251586914
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8cc1efa2-1c4d-452a-8073-f8cbbd9db507",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3171945,
+              23.1214892
+            ],
+            [
+              113.3171021,
+              23.1214874
+            ],
+            [
+              113.3170402,
+              23.1200264
+            ],
+            [
+              113.3174525,
+              23.120014
+            ],
+            [
+              113.3174651,
+              23.1203971
+            ],
+            [
+              113.31747,
+              23.1205468
+            ],
+            [
+              113.3175705,
+              23.1207388
+            ],
+            [
+              113.3176678,
+              23.1209131
+            ],
+            [
+              113.3177636,
+              23.1210848
+            ],
+            [
+              113.3176491,
+              23.1214608
+            ],
+            [
+              113.3171945,
+              23.1214892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "8cc1efa2-1c4d-452a-8073-f8cbbd9db507",
+        "names": {
+          "primary": "广州友谊商店(国金店)",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w312888407@6",
+            "update_time": "2025-08-23T06:16:27.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 5,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "retail",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3170394897461,
+          "xmax": 113.31776428222656,
+          "ymin": 23.120010375976562,
+          "ymax": 23.121492385864258
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c60945a6-c687-4858-8d59-2b7e72e0f965",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3179816,
+              23.1205223
+            ],
+            [
+              113.3176678,
+              23.1209131
+            ],
+            [
+              113.31747,
+              23.1205468
+            ],
+            [
+              113.3174651,
+              23.1203971
+            ],
+            [
+              113.317541,
+              23.1203526
+            ],
+            [
+              113.3179816,
+              23.1205223
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c60945a6-c687-4858-8d59-2b7e72e0f965",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w717941983@2",
+            "update_time": "2023-04-20T08:21:34.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": 1,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "outbuilding",
+        "class": "roof",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31745147705078,
+          "xmax": 113.3179931640625,
+          "ymin": 23.120351791381836,
+          "ymax": 23.12091636657715
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f32f2d1f-c923-424d-8a25-dc025fabd4fd",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3167909,
+              23.1206773
+            ],
+            [
+              113.3159619,
+              23.120685
+            ],
+            [
+              113.3159582,
+              23.1203495
+            ],
+            [
+              113.3167872,
+              23.1203418
+            ],
+            [
+              113.3167909,
+              23.1206773
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "f32f2d1f-c923-424d-8a25-dc025fabd4fd",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w949430318@1",
+            "update_time": "2021-06-01T15:33:29.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 3,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31595611572266,
+          "xmax": 113.31680297851562,
+          "ymin": 23.120338439941406,
+          "ymax": 23.120685577392578
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "456a6e72-3209-4fbe-a264-280630bc871a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3147209,
+              23.1207862
+            ],
+            [
+              113.3147163,
+              23.1204978
+            ],
+            [
+              113.3154522,
+              23.1204877
+            ],
+            [
+              113.3154568,
+              23.1207761
+            ],
+            [
+              113.3147209,
+              23.1207862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "456a6e72-3209-4fbe-a264-280630bc871a",
+        "names": {
+          "primary": "广州市政务服务中心",
+          "common": [
+            [
+              "zh",
+              "广州市政务服务中心"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w299684381@4",
+            "update_time": "2025-08-23T06:18:59.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 40.0,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "office",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31471252441406,
+          "xmax": 113.31546020507812,
+          "ymin": 23.120487213134766,
+          "ymax": 23.120786666870117
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a1db3231-7e9b-4dcd-8734-7597305be7ae",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3152988,
+              23.1208337
+            ],
+            [
+              113.3152988,
+              23.1208929
+            ],
+            [
+              113.3151596,
+              23.120903
+            ],
+            [
+              113.3150204,
+              23.1209132
+            ],
+            [
+              113.3148812,
+              23.1208937
+            ],
+            [
+              113.3148812,
+              23.1208444
+            ],
+            [
+              113.3152988,
+              23.1208337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a1db3231-7e9b-4dcd-8734-7597305be7ae",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31488037109375,
+          "xmax": 113.31529998779297,
+          "ymin": 23.120830535888672,
+          "ymax": 23.12091636657715
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0be27ca5-b4f1-47b8-ac0c-2bf2c02a21ec",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3152602,
+              23.1216205
+            ],
+            [
+              113.3147267,
+              23.121643
+            ],
+            [
+              113.3147167,
+              23.1214508
+            ],
+            [
+              113.3147077,
+              23.1212418
+            ],
+            [
+              113.3153868,
+              23.121217
+            ],
+            [
+              113.3153936,
+              23.1213729
+            ],
+            [
+              113.3153959,
+              23.1214258
+            ],
+            [
+              113.3152507,
+              23.1214311
+            ],
+            [
+              113.3152602,
+              23.1216205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "0be27ca5-b4f1-47b8-ac0c-2bf2c02a21ec",
+        "names": {
+          "primary": "南岳大厦",
+          "common": [
+            [
+              "zh",
+              "南岳大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w995559492@1",
+            "update_time": "2026-08-19T11:31:42.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": true,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31470489501953,
+          "xmax": 113.31539916992188,
+          "ymin": 23.121213912963867,
+          "ymax": 23.12164306640625
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7c97bcd4-c027-4ae0-a549-c577d6a6d50a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3143555,
+              23.1217307
+            ],
+            [
+              113.3142168,
+              23.1215712
+            ],
+            [
+              113.3141926,
+              23.12127
+            ],
+            [
+              113.3142579,
+              23.1212063
+            ],
+            [
+              113.314477,
+              23.1211891
+            ],
+            [
+              113.314526,
+              23.1217174
+            ],
+            [
+              113.3143555,
+              23.1217307
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "7c97bcd4-c027-4ae0-a549-c577d6a6d50a",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w313905701@2",
+            "update_time": "2017-12-15T15:01:59.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31417846679688,
+          "xmax": 113.31452941894531,
+          "ymin": 23.121187210083008,
+          "ymax": 23.12173080444336
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6112be6f-fa75-4927-96fa-7237d5fe15b5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3142168,
+              23.1215712
+            ],
+            [
+              113.3140961,
+              23.1215817
+            ],
+            [
+              113.3137059,
+              23.1216157
+            ],
+            [
+              113.3135885,
+              23.1216239
+            ],
+            [
+              113.3135705,
+              23.1213447
+            ],
+            [
+              113.3141926,
+              23.12127
+            ],
+            [
+              113.3142168,
+              23.1215712
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "6112be6f-fa75-4927-96fa-7237d5fe15b5",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w586026849@1",
+            "update_time": "2018-05-06T08:34:23.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31356811523438,
+          "xmax": 113.3142318725586,
+          "ymin": 23.12126922607422,
+          "ymax": 23.121623992919922
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8d983780-240e-4489-bc1d-bda60d4ff85c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3140961,
+              23.1215817
+            ],
+            [
+              113.3137059,
+              23.1216157
+            ],
+            [
+              113.3136772,
+              23.1213368
+            ],
+            [
+              113.3140674,
+              23.1213029
+            ],
+            [
+              113.3140961,
+              23.1215817
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "8d983780-240e-4489-bc1d-bda60d4ff85c",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w313905699@1",
+            "update_time": "2018-05-06T08:34:23.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31367492675781,
+          "xmax": 113.3141098022461,
+          "ymin": 23.121299743652344,
+          "ymax": 23.12161636352539
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14c81f33-faab-41ae-b719-9f1dd48d58f3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3135348,
+              23.1217834
+            ],
+            [
+              113.3133063,
+              23.1217975
+            ],
+            [
+              113.3132655,
+              23.1215739
+            ],
+            [
+              113.3132546,
+              23.121372
+            ],
+            [
+              113.3133179,
+              23.1213641
+            ],
+            [
+              113.3133444,
+              23.1212998
+            ],
+            [
+              113.3134035,
+              23.1212667
+            ],
+            [
+              113.3135645,
+              23.1212523
+            ],
+            [
+              113.3135705,
+              23.1213447
+            ],
+            [
+              113.3135885,
+              23.1216239
+            ],
+            [
+              113.3135348,
+              23.1217834
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "14c81f33-faab-41ae-b719-9f1dd48d58f3",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w316616553@3",
+            "update_time": "2018-05-06T08:34:23.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31324005126953,
+          "xmax": 113.31359100341797,
+          "ymin": 23.121252059936523,
+          "ymax": 23.121797561645508
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b610b9d7-49dd-45c0-9319-6fffae25ea8c",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.312546,
+              23.1214845
+            ],
+            [
+              113.3124356,
+              23.1215071
+            ],
+            [
+              113.312473,
+              23.1214364
+            ],
+            [
+              113.3124733,
+              23.1212694
+            ],
+            [
+              113.3125052,
+              23.1211947
+            ],
+            [
+              113.3126396,
+              23.1212003
+            ],
+            [
+              113.3127788,
+              23.1212933
+            ],
+            [
+              113.3128485,
+              23.1214117
+            ],
+            [
+              113.3128646,
+              23.1215647
+            ],
+            [
+              113.3128441,
+              23.1216241
+            ],
+            [
+              113.312758,
+              23.1215591
+            ],
+            [
+              113.3126506,
+              23.1215181
+            ],
+            [
+              113.312546,
+              23.1214845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b610b9d7-49dd-45c0-9319-6fffae25ea8c",
+        "names": {
+          "primary": "广州远洋大厦",
+          "common": [
+            [
+              "zh",
+              "广州远洋大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w941839293@1",
+            "update_time": "2021-05-11T14:21:52.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 4,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31242370605469,
+          "xmax": 113.3128662109375,
+          "ymin": 23.121191024780273,
+          "ymax": 23.121627807617188
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5138e7bf-e878-40e2-a87f-a3b65846c7e2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3123419,
+              23.1215496
+            ],
+            [
+              113.3124356,
+              23.1215071
+            ],
+            [
+              113.312546,
+              23.1214845
+            ],
+            [
+              113.3126506,
+              23.1215181
+            ],
+            [
+              113.312758,
+              23.1215591
+            ],
+            [
+              113.3128146,
+              23.1215904
+            ],
+            [
+              113.3128441,
+              23.1216241
+            ],
+            [
+              113.3128755,
+              23.1216599
+            ],
+            [
+              113.3128743,
+              23.1217609
+            ],
+            [
+              113.3128225,
+              23.1218098
+            ],
+            [
+              113.3127217,
+              23.1218422
+            ],
+            [
+              113.3125922,
+              23.1218577
+            ],
+            [
+              113.3124877,
+              23.1218585
+            ],
+            [
+              113.3123736,
+              23.1218261
+            ],
+            [
+              113.3122606,
+              23.1217531
+            ],
+            [
+              113.3122498,
+              23.1216555
+            ],
+            [
+              113.3122841,
+              23.1215841
+            ],
+            [
+              113.3123419,
+              23.1215496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "5138e7bf-e878-40e2-a87f-a3b65846c7e2",
+        "names": {
+          "primary": "广州远洋大厦",
+          "common": [
+            [
+              "zh",
+              "广州远洋大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w316616555@6",
+            "update_time": "2021-05-11T14:21:52.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 25,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31224822998047,
+          "xmax": 113.3128890991211,
+          "ymin": 23.12148094177246,
+          "ymax": 23.121858596801758
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9417a8b3-e1f3-44c6-b08a-4bcad61cd986",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.311931,
+              23.1215926
+            ],
+            [
+              113.3117012,
+              23.1215955
+            ],
+            [
+              113.3116985,
+              23.1215535
+            ],
+            [
+              113.3115957,
+              23.1215535
+            ],
+            [
+              113.311593,
+              23.1214118
+            ],
+            [
+              113.3119283,
+              23.1214043
+            ],
+            [
+              113.311931,
+              23.1215926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "9417a8b3-e1f3-44c6-b08a-4bcad61cd986",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w544809839@1",
+            "update_time": "2017-12-05T16:08:01.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31159210205078,
+          "xmax": 113.31194305419922,
+          "ymin": 23.121400833129883,
+          "ymax": 23.121599197387695
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b1dfdd18-7328-4eb9-bdf5-f45e94aa4efc",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3122694,
+              23.1211749
+            ],
+            [
+              113.3122963,
+              23.1211699
+            ],
+            [
+              113.312307,
+              23.1211995
+            ],
+            [
+              113.3122802,
+              23.1212143
+            ],
+            [
+              113.3122694,
+              23.1211749
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b1dfdd18-7328-4eb9-bdf5-f45e94aa4efc",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.312255859375,
+          "xmax": 113.31230926513672,
+          "ymin": 23.121166229248047,
+          "ymax": 23.121217727661133
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "012e6b1d-19b9-46fa-8811-1198dad234c9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3116612,
+              23.1212243
+            ],
+            [
+              113.3120958,
+              23.1212387
+            ],
+            [
+              113.3120939,
+              23.1213126
+            ],
+            [
+              113.3116582,
+              23.1212992
+            ],
+            [
+              113.3116612,
+              23.1212243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "012e6b1d-19b9-46fa-8811-1198dad234c9",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3116455078125,
+          "xmax": 113.3121109008789,
+          "ymin": 23.12122344970703,
+          "ymax": 23.121313095092773
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6951fe0-dc43-4a73-b79f-13464b1de60f",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3118888,
+              23.1209357
+            ],
+            [
+              113.3118898,
+              23.1210117
+            ],
+            [
+              113.3115487,
+              23.1210197
+            ],
+            [
+              113.3115467,
+              23.1209437
+            ],
+            [
+              113.3118888,
+              23.1209357
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "b6951fe0-dc43-4a73-b79f-13464b1de60f",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.3115463256836,
+          "xmax": 113.31190490722656,
+          "ymin": 23.120935440063477,
+          "ymax": 23.121023178100586
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4ee5a522-f107-42df-afd3-c601ef567348",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3124849,
+              23.1209043
+            ],
+            [
+              113.3122895,
+              23.1209108
+            ],
+            [
+              113.3122724,
+              23.1204761
+            ],
+            [
+              113.3128358,
+              23.1204573
+            ],
+            [
+              113.3128533,
+              23.1209025
+            ],
+            [
+              113.3126709,
+              23.1209086
+            ],
+            [
+              113.3126626,
+              23.1206989
+            ],
+            [
+              113.312477,
+              23.1207051
+            ],
+            [
+              113.3124849,
+              23.1209043
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "4ee5a522-f107-42df-afd3-c601ef567348",
+        "names": {
+          "primary": "广弘天琪",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w941839474@1",
+            "update_time": "2021-05-11T14:23:03.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 31,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31227111816406,
+          "xmax": 113.3128662109375,
+          "ymin": 23.12045669555664,
+          "ymax": 23.120914459228516
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f04cf6a5-14b0-48b2-91d1-0b15fc3e7a96",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3121451,
+              23.1208986
+            ],
+            [
+              113.3116243,
+              23.1209176
+            ],
+            [
+              113.3116061,
+              23.1204957
+            ],
+            [
+              113.311898,
+              23.1204851
+            ],
+            [
+              113.3119048,
+              23.1206426
+            ],
+            [
+              113.3117662,
+              23.1206477
+            ],
+            [
+              113.3117714,
+              23.1207683
+            ],
+            [
+              113.3121389,
+              23.1207549
+            ],
+            [
+              113.3121451,
+              23.1208986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "f04cf6a5-14b0-48b2-91d1-0b15fc3e7a96",
+        "names": {
+          "primary": "珠江都荟华庭",
+          "common": null,
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w941839649@1",
+            "update_time": "2021-05-11T14:24:01.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 33,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31159210205078,
+          "xmax": 113.3121566772461,
+          "ymin": 23.120481491088867,
+          "ymax": 23.12091827392578
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6c269fe5-947c-4880-8b13-feabb8e07b45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3137836,
+              23.1208525
+            ],
+            [
+              113.3131847,
+              23.1208489
+            ],
+            [
+              113.3131874,
+              23.120462
+            ],
+            [
+              113.3137863,
+              23.1204656
+            ],
+            [
+              113.3137836,
+              23.1208525
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "6c269fe5-947c-4880-8b13-feabb8e07b45",
+        "names": {
+          "primary": "星辰大厦",
+          "common": [
+            [
+              "zh",
+              "星辰大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w316535696@6",
+            "update_time": "2025-12-22T15:08:16.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 78.0,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 18,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31317138671875,
+          "xmax": 113.31378936767578,
+          "ymin": 23.120458602905273,
+          "ymax": 23.120853424072266
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d2c8d6ac-6135-4de0-92a7-b40938675c3e",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3140097,
+              23.1204658
+            ],
+            [
+              113.3145168,
+              23.1204633
+            ],
+            [
+              113.3145193,
+              23.1208754
+            ],
+            [
+              113.3140122,
+              23.1208779
+            ],
+            [
+              113.3140097,
+              23.1204658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "d2c8d6ac-6135-4de0-92a7-b40938675c3e",
+        "names": {
+          "primary": "保利大厦",
+          "common": [
+            [
+              "zh",
+              "保利大厦"
+            ]
+          ],
+          "rules": null
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w316535682@5",
+            "update_time": "2023-02-03T18:13:45.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 70.0,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 22,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31399536132812,
+          "xmax": 113.31452178955078,
+          "ymin": 23.12046241760254,
+          "ymax": 23.120878219604492
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ebcbae5c-e7d2-4c9c-ba55-a7dd62155113",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.317541,
+              23.1203526
+            ],
+            [
+              113.3175354,
+              23.1203287
+            ],
+            [
+              113.3175512,
+              23.1202892
+            ],
+            [
+              113.3175952,
+              23.1202367
+            ],
+            [
+              113.3177565,
+              23.1200712
+            ],
+            [
+              113.3179456,
+              23.1199586
+            ],
+            [
+              113.3180171,
+              23.1199851
+            ],
+            [
+              113.318094,
+              23.1201275
+            ],
+            [
+              113.3181509,
+              23.1202652
+            ],
+            [
+              113.3181692,
+              23.1203291
+            ],
+            [
+              113.3181775,
+              23.1203983
+            ],
+            [
+              113.3181594,
+              23.1205158
+            ],
+            [
+              113.3180907,
+              23.1205455
+            ],
+            [
+              113.3180049,
+              23.1205303
+            ],
+            [
+              113.3179816,
+              23.1205223
+            ],
+            [
+              113.3177762,
+              23.1204523
+            ],
+            [
+              113.3176875,
+              23.1204147
+            ],
+            [
+              113.3175838,
+              23.1203749
+            ],
+            [
+              113.317541,
+              23.1203526
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ebcbae5c-e7d2-4c9c-ba55-a7dd62155113",
+        "names": {
+          "primary": "广州国际金融中心(广州西塔)",
+          "common": [
+            [
+              "yue",
+              "廣州國際金融中心"
+            ],
+            [
+              "uk",
+              "Західна вежа Гуанчжоу"
+            ],
+            [
+              "pt",
+              "Centro Financeiro Internacional de Cantão"
+            ],
+            [
+              "zh-Latn-pinyin",
+              "Guǎngzhōu Guójì Jīnróng Zhōngxīn"
+            ],
+            [
+              "vi",
+              "Trung tâm Tài chính Quốc tế Quảng Châu"
+            ],
+            [
+              "ko",
+              "광저우 국제금융센터"
+            ],
+            [
+              "de",
+              "Internationales Finanzzentrum Guangzhou"
+            ],
+            [
+              "ru",
+              "Международный финансовый центр"
+            ],
+            [
+              "th",
+              "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์"
+            ],
+            [
+              "en",
+              "Guangzhou International Finance Center"
+            ],
+            [
+              "es",
+              "Centro Financiero Internacional de Cantón"
+            ],
+            [
+              "ja-Hira",
+              "こうしゅうこくさいきんゆうせんたー"
+            ],
+            [
+              "ja",
+              "広州国際金融センター"
+            ],
+            [
+              "zh",
+              "广州国际金融中心(广州西塔)"
+            ]
+          ],
+          "rules": [
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "广州西塔",
+              "between": null,
+              "side": null
+            },
+            {
+              "variant": "alternate",
+              "language": "en",
+              "perspectives": null,
+              "value": "Guangzhou West Tower",
+              "between": null,
+              "side": null
+            },
+            {
+              "variant": "short",
+              "language": null,
+              "perspectives": null,
+              "value": "IFC",
+              "between": null,
+              "side": null
+            }
+          ]
+        },
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "license": "ODbL-1.0",
+            "record_id": "w184738716@33",
+            "update_time": "2025-11-23T09:38:29.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "osm",
+            "resource": "planet",
+            "version": "2026-09-06T00:00:00.000Z"
+          }
+        ],
+        "level": null,
+        "height": 440.2,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": 103,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "facade_color": "#000000",
+        "facade_material": "glass",
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 4,
+        "bbox": {
+          "xmin": 113.31752014160156,
+          "xmax": 113.31819152832031,
+          "ymin": 23.11995506286621,
+          "ymax": 23.120546340942383
+        },
+        "_comparison": "matched"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "92d64ee1-b609-4b71-8ef7-a70917ab1b39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3187598,
+              23.1207034
+            ],
+            [
+              113.3186977,
+              23.1207013
+            ],
+            [
+              113.3187011,
+              23.1206152
+            ],
+            [
+              113.3187631,
+              23.1206173
+            ],
+            [
+              113.3187598,
+              23.1207034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "92d64ee1-b609-4b71-8ef7-a70917ab1b39",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31869506835938,
+          "xmax": 113.31876373291016,
+          "ymin": 23.120615005493164,
+          "ymax": 23.12070655822754
+        },
+        "_comparison": "new_candidate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f388476c-1d4a-4cb3-85fd-bbd0fd585130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.3194462,
+              23.1206078
+            ],
+            [
+              113.3195567,
+              23.120609
+            ],
+            [
+              113.3195547,
+              23.1207189
+            ],
+            [
+              113.3194462,
+              23.1207177
+            ],
+            [
+              113.3194462,
+              23.1206078
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "f388476c-1d4a-4cb3-85fd-bbd0fd585130",
+        "names": null,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "doi:10.5281/zenodo.8174931",
+            "license": null,
+            "record_id": null,
+            "update_time": "2024-11-01T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "zenodo",
+            "resource": "east_asian_buildings",
+            "version": "2024-11-01"
+          }
+        ],
+        "level": null,
+        "height": null,
+        "min_height": null,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_floor": null,
+        "subtype": null,
+        "class": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "has_parts": false,
+        "version": 1,
+        "bbox": {
+          "xmin": 113.31944274902344,
+          "xmax": 113.3195571899414,
+          "ymin": 23.120607376098633,
+          "ymax": 23.1207218170166
+        },
+        "_comparison": "new_candidate"
+      }
+    }
+  ]
+}

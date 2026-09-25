@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-26",
+  "sample": "C02",
+  "tests": {
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0
+  },
+  "roundColumns": 4,
+  "squareColumns": 4,
+  "newLeftWindows": 3,
+  "acceptedNewPhotos": 2,
+  "excludedReviewedPhotos": 2,
+  "unreviewedRateLimitedPhotos": 1,
+  "metricAccuracy": "unverified",
+  "totalHeightM": 16.4,
+  "porchDepthM": 2.2,
+  "productionIntegrated": false,
+  "baseAndDetailHashesUnchanged": true,
+  "browser": {
+    "desktop": [
+      "portico-detail",
+      "front",
+      "photo-cycle",
+      "plaque-reference"
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  "artifactHashes": {
+    "prototypes/p2/c02.js": "8a87cc492dff7e9d2fda735179898b7ab89fe81c3a595b203dc259aba8baea11",
+    "prototypes/p2/c02.json": "4310269bb56f6294474a533a7d87197dfdf9ba315949c0f5f2b67005412a9a4f",
+    "data/evidence/building-identity-reviews.json": "d269d713be1851f1306d36951aae9197f47f1d74f31789907a542fd5481d646b"
+  }
+}

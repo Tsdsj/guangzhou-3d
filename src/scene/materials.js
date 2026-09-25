@@ -853,18 +853,21 @@ export function makeParcelMaterial() {
 }
 
 // ============ 道路：沥青、车道线、斑马线、中央绿化带、老城麻石巷 ============
-export function makeRoadMaterial(onDeck = false) {
+export function makeRoadMaterial(onDeck = false, paintOnly = false) {
   const m = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.85, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -4 });
   return patchMaterial(m, {
-    key: onDeck ? 'roadDeck' : 'road',
+    key: onDeck ? 'roadDeck' : paintOnly ? 'roadPaint' : 'road',
     vPars: `${WORLD_VPARS} attribute vec4 aRoad; attribute vec3 aClr; varying vec4 vRoad; varying vec3 vClr;`,
     vMain: `${WORLD_VMAIN} vRoad = aRoad; vClr = aClr;`,
-    fPars: `varying vec3 vWPos; varying vec4 vRoad; varying vec3 vClr; uniform float uWet; uniform float uStreetOn; ${SDF_PARS}`,
+    fPars: `varying vec3 vWPos; varying vec4 vRoad; varying vec3 vClr; uniform float uWet; uniform float uStreetOn; uniform vec4 uDetailRoadBoxes[2]; uniform vec2 uDetailRoadActive; ${SDF_PARS}`,
     replace: [
       [
         'color_fragment',
         `
         ${onDeck ? '' : 'vec2 sd = gzSdf(vWPos.xz); if (sd.x < 0.3) discard;'}
+        bool gzDetailCovered = false;
+        ${onDeck ? '' : `for(int i=0;i<2;i++){vec4 b=uDetailRoadBoxes[i]; if(uDetailRoadActive[i]>.5 && vWPos.x>=b.x && vWPos.z>=b.y && vWPos.x<b.z && vWPos.z<b.w)gzDetailCovered=true;}`}
+        ${paintOnly ? 'if(!gzDetailCovered)discard;' : onDeck ? '' : 'if(gzDetailCovered && mod(floor(vRoad.w+.5),10.0)!=3.0)discard;'}
         // aRoad.w 编码：等级 + 10 × 车道数（双向路为单向车道数，单行路为总车道数）
         float ua = vRoad.x; float va = vRoad.y; float W = vRoad.z;
         float code = floor(vRoad.w + 0.5);
@@ -881,7 +884,7 @@ export function makeRoadMaterial(onDeck = false) {
         float av = abs(va);
         float inMid = step(s0, ua) * step(ua, s1);
         float pxw = max(fwidth(va), 0.01);
-        float line = 0.0; vec3 lcol = vec3(0.85);
+        float line = 0.0; float gzMedian = 0.0; vec3 lcol = vec3(0.85);
         if (cls == 3.0) {
           // 老城街巷 / 步行街：麻石条铺地
           vec2 tp = vec2(ua / 1.1, va / 0.5);
@@ -907,6 +910,7 @@ export function makeRoadMaterial(onDeck = false) {
           }
           col *= 1.0 - 0.1 * wheel * inMid;
           if (med > 0.0 && av < med && inMid > 0.5) {
+            gzMedian = 1.0;
             // 中央分隔带：花岗岩路缘 + 绿篱（在路口处断开）
             col = av < med - 0.3 ? mix(vec3(0.1, 0.19, 0.07), vec3(0.2, 0.28, 0.1), n2) : vec3(0.5, 0.49, 0.46);
             rough = 0.9;
@@ -943,9 +947,10 @@ export function makeRoadMaterial(onDeck = false) {
             }
             float eL = W * 0.5 - 0.55;
             line = max(line, (1.0 - smoothstep(0.08, 0.08 + pxw, abs(av - eL))) * inMid);
-            line = max(line, max(max(zebra, stop), arrow));
+            ${paintOnly ? '' : 'line = max(line, max(max(zebra, stop), arrow));'}
           }
         }
+        ${paintOnly ? 'if(max(line,gzMedian)<.2)discard;' : ''}
         col = mix(col, lcol * 0.75, line * 0.9);
         col *= 1.0 - uWet * 0.25;
         diffuseColor.rgb = col;

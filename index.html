@@ -40,6 +40,7 @@
       </header>
 
       <div id="chips" aria-label="场景统计"></div>
+      <div id="tree-inspection-note" hidden role="status">树木暂隐 · 仅供模型检查</div>
 
       <aside id="panel" aria-label="预设场景">
         <div class="panel-head">
@@ -56,8 +57,10 @@
           <div class="foot-actions">
             <button class="act" id="btn-shot" type="button"><svg viewBox="0 0 24 24"><path d="M4 8V5h3M17 5h3v3M20 16v3h-3M7 19H4v-3" /><circle cx="12" cy="12" r="3" /></svg>导出截图</button>
             <button class="act" id="btn-hide" type="button"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z" /><circle cx="12" cy="12" r="3" /></svg>隐藏界面</button>
+            <button class="act" id="btn-trees" type="button" aria-pressed="false" title="仅供查看被树冠遮挡的模型；切换场景后恢复" hidden>暂隐树木</button>
           </div>
           <div class="attrib" id="attrib">地图数据 © OpenStreetMap 贡献者（ODbL）</div>
+          <div class="attrib" id="detail-status" aria-live="polite">精细片区按位置加载 · 尺寸估计</div>
         </div>
       </aside>
 

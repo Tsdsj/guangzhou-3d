@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-26",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "requests": [
+    {
+      "file": "selected-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/ways.json?ways=248407682,248407685,559470933,559470935,559470965,717926117,717926125,717926126,991905340,995559496,1062033386,1157862096,1157862097,1157862098,1157862099,1157862100,1374133798,1374133824,1374671570,1374671577,1374671591,1374671611,1374671612,1374671613",
+      "retrievedAt": "2026-09-25T17:32:48.879172+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:49 GMT",
+      "sha256": "a1d40d40f52d8e26e1fe4febeaa255d7e99b922f011a81dc3d1ed68ad4347791",
+      "bytes": 6795,
+      "status": "ok"
+    },
+    {
+      "file": "node-2551976629-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/2551976629/ways.json",
+      "retrievedAt": "2026-09-25T17:32:48.879640+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:49 GMT",
+      "sha256": "d388b95ffbb39d2a25db7f4757a7bc3d122d97429bb3f80bad16e186e9316dc9",
+      "bytes": 1051,
+      "status": "ok"
+    },
+    {
+      "file": "node-2551976815-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/2551976815/ways.json",
+      "retrievedAt": "2026-09-25T17:32:49.332780+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:49 GMT",
+      "sha256": "88b20c51f3c2a88365889bd729d3063cabb623ab463566542b3cffb68ee0d287",
+      "bytes": 999,
+      "status": "ok"
+    },
+    {
+      "file": "node-5021418973-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5021418973/ways.json",
+      "retrievedAt": "2026-09-25T17:32:49.391765+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:50 GMT",
+      "sha256": "afaf9cdf4cbbdaa070e970586bcc62bf7764288a266c7fcb3f32d0e065e68571",
+      "bytes": 772,
+      "status": "ok"
+    },
+    {
+      "file": "node-5396001464-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5396001464/ways.json",
+      "retrievedAt": "2026-09-25T17:32:49.772805+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:50 GMT",
+      "sha256": "11cbdd4a4aa01510419ccc09de48f82a3b94be0dfdcb5313e9f62911579bb625",
+      "bytes": 1456,
+      "status": "ok"
+    },
+    {
+      "file": "node-5396001465-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5396001465/ways.json",
+      "retrievedAt": "2026-09-25T17:32:50.205776+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:50 GMT",
+      "sha256": "7ecbf144a4104d64905ffcae358cea3cc0c024f69f7ec89a3c2083d02c3aee58",
+      "bytes": 1006,
+      "status": "ok"
+    },
+    {
+      "file": "node-5396001466-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5396001466/ways.json",
+      "retrievedAt": "2026-09-25T17:32:50.233047+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:50 GMT",
+      "sha256": "a7b3c1b4e3c1e9ca516f9de4a1bfbad1d4c906a963c12ffbb0aca4b3820a5529",
+      "bytes": 1456,
+      "status": "ok"
+    },
+    {
+      "file": "node-5396001467-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5396001467/ways.json",
+      "retrievedAt": "2026-09-25T17:32:50.647269+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:51 GMT",
+      "sha256": "65032622db03468c0eff0055803e682262ecdbe6ef3d9a629ebab1db1cf00d90",
+      "bytes": 878,
+      "status": "ok"
+    },
+    {
+      "file": "node-5396001519-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/5396001519/ways.json",
+      "retrievedAt": "2026-09-25T17:32:50.765091+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:51 GMT",
+      "sha256": "137b4546b9fec7c9deb6c0749cf57c85476e7ecd48cac12d810802574050eeec",
+      "bytes": 928,
+      "status": "ok"
+    },
+    {
+      "file": "node-6417258406-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/6417258406/ways.json",
+      "retrievedAt": "2026-09-25T17:32:51.081437+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:51 GMT",
+      "sha256": "27768363a7b283c30e97100d349224d24178cb046867225066b318182015f5fa",
+      "bytes": 2007,
+      "status": "ok"
+    },
+    {
+      "file": "node-9193190521-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/9193190521/ways.json",
+      "retrievedAt": "2026-09-25T17:32:51.616406+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:51 GMT",
+      "sha256": "55b9b2cc97fc8449c3242ff407079953f397b1d052549e59ee7a84d0eaaaa982",
+      "bytes": 507,
+      "status": "ok"
+    },
+    {
+      "file": "node-9756881916-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/9756881916/ways.json",
+      "retrievedAt": "2026-09-25T17:32:51.798454+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:52 GMT",
+      "sha256": "27539894cd352fa0d106e8d3e7c82a3728e1931444560969a46e77c0423da35c",
+      "bytes": 485,
+      "status": "ok"
+    },
+    {
+      "file": "node-12728511072-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/12728511072/ways.json",
+      "retrievedAt": "2026-09-25T17:32:52.058928+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:52 GMT",
+      "sha256": "79266c876055cc920155d774b4afe0cbe886b290c8fe84ee91bbf569b4a6ece3",
+      "bytes": 547,
+      "status": "ok"
+    },
+    {
+      "file": "node-12728511075-ways.json",
+      "url": "https://api.openstreetmap.org/api/0.6/node/12728511075/ways.json",
+      "retrievedAt": "2026-09-25T17:32:52.490712+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:52 GMT",
+      "sha256": "4c21613281f28d65689c03217d0fa00357e0b0fc15581a94172c0dc6f6f98fe6",
+      "bytes": 518,
+      "status": "ok"
+    },
+    {
+      "file": "nodes-00.json",
+      "url": "https://api.openstreetmap.org/api/0.6/nodes.json?nodes=2551976629,2551976692,2551976713,2551976721,2551976808,2551976815,3037310529,3037310530,3037310532,3037310633,3037310634,3037310635,3037310636,3037310637,3037310639,3037310640,3038774542,3038984589,3038984590,3038984591,3038984592,3038984593,3038984595,3038984596,3038984597,3038984599,3038984600,3038984601,3038984602,3038984603,3038984604,3038984606,3038984607,3038984608,3038984610,3038984611,3038984612,3038984613,3038984614,3038984615,3038984616,3038984619,3038984620,3038984623,3038984624,3038984625,3038984626,3038984627,3038984629,3038984631,3038988734,3038988735,3038988736,3038988737,3038988739,3038988741,3038988742,3038988743,3038988745,3038988746,3038988747,3038988748,3038988751,3188088362,3188088864,3188088865,3188088866,3188088867,3188088868,3188088965,3188089662,3188091861,3188091862,3188091961,3412148396,4385454317,4385454319,4417215646,4940664624,5021418973,5063272655,5396001464,5396001465,5396001466,5396001467,5396001519,5396001520,5408792649,5408792650,5408792651,5408792652,5599782002,6417258406,6453866424,6742477274,6742477275,6742477276,6742487488,6742487498,6742487499",
+      "retrievedAt": "2026-09-25T17:32:52.946603+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:53 GMT",
+      "sha256": "15352ea6753cd76efbd2208f04638f150aa8fb504ee994998f8818c43b9a72be",
+      "bytes": 17891,
+      "status": "ok"
+    },
+    {
+      "file": "nodes-01.json",
+      "url": "https://api.openstreetmap.org/api/0.6/nodes.json?nodes=6742487500,6742487501,6742592142,6742592144,6796956735,6909039326,9164550653,9164550662,9193190520,9193190521,9193190526,9193190529,9756881916,10768027126,10768027127,10768027133,10768027135,10768027138,10768027142,10768027143,10768027144,10768027145,10768027146,10768027147,12716683078,12723135216,12723135218,12723135219,12723135220,12723135318,12723135319,12723135320,12728510935,12728510957,12728510958,12728510966,12728510967,12728510968,12728511006,12728511007,12728511008,12728511068,12728511070,12728511071,12728511072,12728511073,12728511074,12728511075,12728511076,12728511078",
+      "retrievedAt": "2026-09-25T17:32:52.946870+00:00",
+      "serverDate": "Fri, 25 Sep 2026 17:32:53 GMT",
+      "sha256": "3ce6d6d571fc258cfc3def7deb3c85bfa6e7d092550181e6aff31f4a8d278c85",
+      "bytes": 9676,
+      "status": "ok"
+    }
+  ]
+}

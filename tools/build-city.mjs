@@ -18,6 +18,7 @@ import * as THREE from '../vendor/three/build/three.module.js';
 import * as SCHEMA from '../src/world/schema.js';
 import { buildTerrain } from './terrain.mjs';
 import { buildRails } from './rail.mjs';
+import { buildCityEvidence } from './build-evidence.mjs';
 import {
   proj, LON0, LAT0, KX, KZ, hash32, rand01, RNG, area, centroid, bbox, pointInRing, segDist, cleanRing, simplify,
   dropCollinear, assembleRings, minRect, Grid, signedDistance, components, writePNG,
@@ -60,8 +61,9 @@ function polysOf(e) {
     return r.length >= 3 ? [{ outer: r, holes: [] }] : [];
   }
   if (e.k === 'r' && e.m) {
-    const outs = assembleRings(e.m.filter((m) => m.r !== 'inner').map((m) => m.g));
-    const ins = assembleRings(e.m.filter((m) => m.r === 'inner').map((m) => m.g));
+    const members = e.m.filter((m) => (!m.k || m.k === 'w') && m.g?.length >= 2);
+    const outs = assembleRings(members.filter((m) => m.r !== 'inner').map((m) => m.g));
+    const ins = assembleRings(members.filter((m) => m.r === 'inner').map((m) => m.g));
     const holes = ins.filter((r) => r.closed).map((r) => cleanRing(r.pts.map(P)));
     // 被抓取范围裁断的外环：直接闭合（断口在远离城市的范围边缘）
     return outs
@@ -183,6 +185,7 @@ const HW = {
 const roads = [];
 for (const e of roadsRaw) {
   const t = e.t;
+  if (e.k !== 'w' || !t.highway || !e.g?.length) continue;
   let hw = t.highway;
   const link = /_link$/.test(hw);
   hw = hw.replace(/_link$/, '');
@@ -1652,7 +1655,7 @@ const TERRAIN = (() => {
   const hillRings = [];
   for (const e of landRaw) {
     if (e.k === 'w' && e.id === 255622888 && e.g && e.g.length > 3) hillRings.push(e.g.map(P));
-    if (e.k === 'r' && e.id === 12583382) for (const m of e.m || []) if (m.r === 'outer' && m.g.length > 3) hillRings.push(m.g.map(P));
+    if (e.k === 'r' && e.id === 12583382) for (const m of e.m || []) if (m.r === 'outer' && m.g?.length > 3) hillRings.push(m.g.map(P));
   }
   const [x0, z0] = proj(113.13, 23.32);
   const [x1, z1] = proj(113.47, 23.02);
@@ -1753,6 +1756,7 @@ const HT = TERRAIN.H;
 // ====================================================================================
 // 9. 输出
 // ====================================================================================
+const { renderIdentity, ...evidenceDocument } = buildCityEvidence({ rawDir: RAW, renderBuildingKeys: BLD.map((b) => b.b.key), renderRoadIds: roads.map((r) => r.id) });
 // 两个数据文件：0 = 首屏（水系、道路、建筑、地块），1 = 植被与路灯（首屏之后加载）
 const FILES = [
   { name: 'guangzhou.bin', bufs: [], offset: 0 },
@@ -1938,9 +1942,11 @@ addPacked('lamps', lamps, 'lamp', SCHEMA.LAMP.N, 1);
   log('bank lines', lines.length);
 }
 addPacked('pools', pools, 'pool', SCHEMA.POOL.N, 1);
+addSection('renderIdentity', new TextEncoder().encode(JSON.stringify(renderIdentity)));
 
 const header = {
-  version: 1,
+  version: SCHEMA.CITY_FORMAT_VERSION,
+  renderSchemaVersion: SCHEMA.RENDER_SCHEMA_VERSION,
   source: 'OpenStreetMap contributors (ODbL) · Overpass API',
   osmTimestamp: load('roads.json').ts,
   origin: { lon: LON0, lat: LAT0, kx: KX, kz: KZ },
@@ -1965,6 +1971,10 @@ const gzip = (buf) => {
   gz[9] = 255;
   return gz;
 };
+const evidenceBytes = Buffer.from(JSON.stringify(evidenceDocument));
+const evidenceGzip = gzip(evidenceBytes);
+header.evidence = { version: 1, name: 'guangzhou-evidence.json.gz', size: evidenceGzip.length, raw: evidenceBytes.length };
+fs.writeFileSync(OUT_DIR + header.evidence.name, evidenceGzip);
 let rawSize = 0;
 let gzSize = 0;
 header.files = [];

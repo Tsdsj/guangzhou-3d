@@ -1,0 +1,4 @@
+﻿sample_id,osm_id,name,osm_name,address,centroid_lon,centroid_lat,source_polygon_area_m2,source_levels,measured_height,dimension_status,reference_epoch,evidence,decision
+B1,w352610322,台湾银行广州支行旧址,台湾银行广州支行(日)旧址,沙面大街26号,113.2414595,23.1100395,679.04,3,,no independent measurements,2021可见部位；2012/2016只作历史结构参考,B1-a | B1-b | B1-c | B1-d,可制作临街外观样件；四面完整与绝对精度不通过
+B2,w352610258,沙面一街3号（东方汇理银行旧址）,东风汇理银行旧址,沙面一街3号,113.2419797,23.1094101,1014.45,4,,no independent measurements,2023可见部位；2012只作历史结构参考,B2-a | B2-b,可制作临街外观样件；四面完整与绝对精度不通过
+B3,w392765468,露德圣母堂,天主教路德堂,沙面大街14号,113.2423704,23.110044,230.19,1,,no independent measurements,2026主立面/一侧；2025另一侧院落局部,B3-a | B3-b,可制作临街外观样件；四面完整与绝对精度不通过

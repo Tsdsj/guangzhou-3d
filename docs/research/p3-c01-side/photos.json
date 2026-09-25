@@ -1,0 +1,50 @@
+[
+  {
+    "id": "C01-d",
+    "title": "File:Christ church shamian.JPG",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Christ_church_shamian.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Christ_church_shamian.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "Chintunglee",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2009-04-17",
+    "camera_lon": "",
+    "camera_lat": "",
+    "path": "docs/research/p3-c01-side/C01-d.jpg",
+    "sha256": "47ddb9da96b9d0e3ee8d9076c9e7d2ee93fdd030d3dbbba7a1a0ecc34903a65f",
+    "status": "visually-reviewed",
+    "face": "interior-north-side-windows",
+    "reviewNote": "朝向北侧三联祭坛窗的室内照片；两侧各能辨认两个半圆拱长窗，近处窗被画面截断，不能证明整面窗数。"
+  },
+  {
+    "id": "C01-e",
+    "title": "File:广州沙面建筑群 01.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E6%B2%99%E9%9D%A2%E5%BB%BA%E7%AD%91%E7%BE%A4_01.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/%E5%B9%BF%E5%B7%9E%E6%B2%99%E9%9D%A2%E5%BB%BA%E7%AD%91%E7%BE%A4_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "DragonSamYU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2014-03-16 14:12:12",
+    "camera_lon": "",
+    "camera_lat": "",
+    "path": "docs/research/p3-c01-side/C01-e.jpg",
+    "sha256": "32d336e2e80cc38921825cc77243bff21191308c28d9468bf0e01317cad77368",
+    "status": "visually-reviewed",
+    "face": "south-tower",
+    "reviewNote": "2014南面仰视，补充钟塔和门廊结构；近大远小且两个立面深度不同，未用于宽度比或高度量算。"
+  },
+  {
+    "id": "C01-f",
+    "title": "File:Guangzhou Shamian 2012.11.15 09-51-26.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_09-51-26.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Guangzhou_Shamian_2012.11.15_09-51-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "Zhangzhugang",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "date": "2012-11-15 09:51:26",
+    "camera_lon": "113.23274968",
+    "camera_lat": "23.10935905",
+    "status": "failed",
+    "error": "HTTP Error 429: Too many requests (f061ab2)"
+  }
+]

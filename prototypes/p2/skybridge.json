@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "id": "S1",
+  "sourceId": "osm:w559470933",
+  "sourceVersion": 1,
+  "sourceTags": {
+    "bridge": "yes",
+    "footway": "sidewalk",
+    "highway": "footway",
+    "layer": "1"
+  },
+  "sourceSha256": "1a245d4c704bb11cd17d81e8fc0a0ba92cc885a8f2f715a4b8027d5e8c6d3795",
+  "sourcePath": "data/evidence/huacheng-osm.json",
+  "license": "ODbL-1.0",
+  "origin": [
+    113.31756825,
+    23.123041450000002
+  ],
+  "axisEastNorth": [
+    0.9392119483798078,
+    0.34333790355946003
+  ],
+  "coordinateSystem": "WGS84 -> midpoint AEQD -> x Spring to Summer, z south-facing perpendicular; y is hypothetical ground-relative height",
+  "lengthM": 44.15792892749423,
+  "interfaces": [
+    {
+      "nodeId": 5396001464,
+      "buildingId": "osm:w299812757",
+      "label": "春广场",
+      "lon": 113.3173658,
+      "lat": 23.122973,
+      "point": [
+        -22.078969391039383,
+        -1.7155007321356663e-05
+      ],
+      "doorVerified": false
+    },
+    {
+      "nodeId": 5396001465,
+      "buildingId": "osm:w299687659",
+      "label": "夏广场",
+      "lon": 113.3177707,
+      "lat": 23.1231099,
+      "point": [
+        22.078959536454846,
+        -1.7155007319580307e-05
+      ],
+      "doorVerified": false
+    }
+  ],
+  "contextFootprints": [
+    {
+      "sourceId": "osm:w299812757",
+      "label": "春广场",
+      "outer": [
+        [
+          -22.078969391039383,
+          -1.7155007321356663e-05
+        ],
+        [
+          -21.175686078229226,
+          -12.0
+        ],
+        [
+          -32.07896446374711,
+          -12.0
+        ],
+        [
+          -32.07896446374711,
+          12.0
+        ],
+        [
+          -23.744251481463614,
+          12.0
+        ],
+        [
+          -22.078969391039383,
+          -1.7155007321356663e-05
+        ]
+      ],
+      "holes": [],
+      "status": "source-footprint-clipped-for-study"
+    },
+    {
+      "sourceId": "osm:w299687659",
+      "label": "夏广场",
+      "outer": [
+        [
+          22.078959536454846,
+          -1.7155007319580307e-05
+        ],
+        [
+          20.13121703763214,
+          9.534644618742417
+        ],
+        [
+          19.57001669703185,
+          12.0
+        ],
+        [
+          32.07896446374711,
+          12.0
+        ],
+        [
+          32.07896446374711,
+          -12.0
+        ],
+        [
+          24.22286547771691,
+          -12.0
+        ],
+        [
+          22.078959536454846,
+          -1.7155007319580307e-05
+        ]
+      ],
+      "holes": [],
+      "status": "source-footprint-clipped-for-study"
+    }
+  ],
+  "measuredDeckElevationM": null,
+  "parameters": {
+    "deckTopM": {
+      "value": 6.5,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    },
+    "widthM": {
+      "value": 6,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    },
+    "clearHeightM": {
+      "value": 3.2,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    },
+    "slabThicknessM": {
+      "value": 0.45,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    },
+    "roofThicknessM": {
+      "value": 0.2,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    },
+    "framePitchM": {
+      "value": 1.5,
+      "status": "estimated",
+      "basis": "可浏览比例假设；未经测量或像素配准"
+    }
+  },
+  "photoMatch": "provisional",
+  "photo": {
+    "path": "../../docs/research/p3-source-review-2026-09-26/R6.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_blue_sign_September_2024_R12S_06.jpg",
+    "artist": "Ghaud Lnegauk",
+    "date": "2024-09-20 17:24:53",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "b665c93be0bd50446ceb9419d7063c923c97ded52327fe693dd3c532ae02f219"
+  },
+  "productionEligible": false,
+  "interfaceEvidence": {
+    "springFloor": {
+      "label": "三楼",
+      "status": "historically-reported",
+      "epoch": "2013-07-12",
+      "sourceId": "xkb20130712",
+      "wayMatch": "inferred-by-building-pair"
+    },
+    "summerFloor": null,
+    "currentAccessVerified": false,
+    "currentInterfaceFloorVerified": false,
+    "measuredDeckElevationM": null
+  },
+  "controlSources": {
+    "xkb20130712": {
+      "title": "媒体曝光一年后 电动扶梯仍罢工",
+      "url": "https://finance.sina.cn/sa/2013-07-12/detail-ikftpnnx6386719.d.html?from=wap",
+      "publisher": "新快报，新浪转载",
+      "author": "罗韵",
+      "published": "2013-07-12",
+      "kind": "firsthand-report-republished",
+      "finding": "记者的现场报道将通往夏商场的连廊描述为位于春商场三楼另一侧。",
+      "limit": "历史文字描述，未给米制标高、夏端楼层或OSM ID；按建筑配对关联到S1，现状待核。"
+    },
+    "gtland20141119": {
+      "title": "高德置地倾情打造国际时尚圣诞之都",
+      "url": "https://www.guandian.cn/article/20141119/153783.html",
+      "publisher": "观点网，页面标注来源高德置地",
+      "published": "2014-11-19",
+      "kind": "developer-statement-republished",
+      "finding": "春夏连廊与秋冬连廊分别描述，支持存在两组不同连廊。",
+      "limit": "六层护栏、圣诞装置尺寸不能作为连廊楼层或高度。"
+    },
+    "gz202107": {
+      "title": "广州已有135个地铁车站通过连廊与周边物业连接",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_7364274.html",
+      "kind": "government-publication",
+      "finding": "高德置地与西塔存在空中连廊连接的报道。",
+      "limit": "所指路径不同，不能证明春夏桥面标高或当前开放。"
+    },
+    "nf20141225": {
+      "title": "高德置地：用艺术打造商业空间",
+      "url": "https://cpc.people.com.cn/n/2014/1225/c87228-26271007.html",
+      "publisher": "南方日报，人民网转载",
+      "published": "2014-12-25",
+      "kind": "report-republished",
+      "finding": "图注标注春夏连廊；原图片链接本轮返回404，没有完成新角度视觉核实。",
+      "imageUrl": "https://www.people.com.cn/h/pic/20141225/71/3318184914938543155.jpg",
+      "imageReviewed": false
+    }
+  },
+  "photoOrientation": {
+    "status": "provisional-metadata-side",
+    "side": "north",
+    "cameraPoint": [
+      14.56474034738622,
+      -8.890191932623825
+    ],
+    "pixelRegistrationVerified": false,
+    "note": "相机元数据在北侧，仅为线索；GPS未独立校准，不作为测绘控制点"
+  }
+}

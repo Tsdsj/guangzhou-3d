@@ -1,0 +1,32 @@
+[
+  {
+    "id": "C01-b",
+    "title": "File:Christ church shamian 2.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Christ_church_shamian_2.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Christ_church_shamian_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "Chintunglee",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2009-04-17",
+    "path": "docs/research/p3-c01/C01-b.jpg",
+    "sha256": "92fad9b1cff392550d4113bf07dc3eff53cfa9a44b21ca9b3165eb420536de8a",
+    "status": "visually-reviewed",
+    "face": "south-tower",
+    "reviewNote": "2023照片支持入口拱门和塔身，长侧被遮挡；2009转角补塔身开口与穹隆形态。日期不同，不视为同期测量。"
+  },
+  {
+    "id": "C01-c",
+    "title": "File:沙面南街60号.jpg",
+    "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B2%99%E9%9D%A2%E5%8D%97%E8%A1%9760%E5%8F%B7.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%E6%B2%99%E9%9D%A2%E5%8D%97%E8%A1%9760%E5%8F%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "artist": "Inclavatura",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2023-04-24",
+    "path": "docs/research/p3-c01/C01-c.jpg",
+    "sha256": "696e7848499d7151c527b8e744e3499ceda578daf554a1b0f965e399172946ca",
+    "status": "visually-reviewed",
+    "face": "south-tower",
+    "reviewNote": "2023照片支持入口拱门和塔身，长侧被遮挡；2009转角补塔身开口与穹隆形态。日期不同，不视为同期测量。"
+  }
+]

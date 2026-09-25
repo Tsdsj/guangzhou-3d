@@ -1,0 +1,2004 @@
+{
+  "date": "2026-09-26",
+  "scopeBbox": [
+    113.3112,
+    23.1204,
+    113.3177,
+    23.1234
+  ],
+  "sourceBbox": [
+    113.311,
+    23.1205,
+    113.3195,
+    23.124
+  ],
+  "sourceFile": "data/evidence/huacheng-osm.json",
+  "sourceSha256": "1a245d4c704bb11cd17d81e8fc0a0ba92cc885a8f2f715a4b8027d5e8c6d3795",
+  "wayCountInScope": 183,
+  "kindCounts": {
+    "ground-assumed": 154,
+    "tunnel": 15,
+    "bridge": 5,
+    "vertical-transition": 7,
+    "building-passage": 2
+  },
+  "specialWays": [
+    {
+      "sourceId": "osm:w248407682",
+      "tags": {
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "3",
+        "layer": "-1",
+        "name": "CBD隧道",
+        "name:en": "CBD Tunnel",
+        "name:zh": "CBD隧道",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3175461,
+          23.1217984
+        ],
+        [
+          113.3208175,
+          23.1215281
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n2551976721",
+          "position": [
+            113.3175461,
+            23.1217984
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w526242006",
+              "kind": "ground-assumed"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n2551976629",
+          "position": [
+            113.3208175,
+            23.1215281
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": false,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "outside-snapshot"
+    },
+    {
+      "sourceId": "osm:w248407685",
+      "tags": {
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "3",
+        "layer": "-1",
+        "name": "CBD隧道",
+        "name:en": "CBD Tunnel",
+        "name:zh": "CBD隧道",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3208302,
+          23.1216448
+        ],
+        [
+          113.3175497,
+          23.1219167
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n2551976815",
+          "position": [
+            113.3208302,
+            23.1216448
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": false,
+          "attachedWays": []
+        },
+        {
+          "nodeId": "osm:n2551976692",
+          "position": [
+            113.3175497,
+            23.1219167
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w248407677",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "outside-snapshot"
+    },
+    {
+      "sourceId": "osm:w503810994",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "kind": "bridge",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "bridge structure requires an elevation model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3172169,
+          23.1221248
+        ],
+        [
+          113.318052,
+          23.1220088
+        ],
+        [
+          113.3182811,
+          23.1217992
+        ],
+        [
+          113.3181187,
+          23.1216138
+        ],
+        [
+          113.3176801,
+          23.1215999
+        ],
+        [
+          113.3172051,
+          23.121639
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n4940664624",
+          "position": [
+            113.3172169,
+            23.1221248
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w559470965",
+              "kind": "bridge"
+            },
+            {
+              "sourceId": "osm:w559485940",
+              "kind": "vertical-transition"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n3038774542",
+          "position": [
+            113.3172051,
+            23.121639
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w559470965",
+              "kind": "bridge"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w559470933",
+      "tags": {
+        "bridge": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "kind": "bridge",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "bridge structure requires an elevation model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3173658,
+          23.122973
+        ],
+        [
+          113.3177707,
+          23.1231099
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001464",
+          "position": [
+            113.3173658,
+            23.122973
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        },
+        {
+          "nodeId": "osm:n5396001465",
+          "position": [
+            113.3177707,
+            23.1231099
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w559470935",
+      "tags": {
+        "bridge": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "kind": "bridge",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "bridge structure requires an elevation model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.317045,
+          23.1232452
+        ],
+        [
+          113.3170458,
+          23.1235244
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001466",
+          "position": [
+            113.317045,
+            23.1232452
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        },
+        {
+          "nodeId": "osm:n5396001467",
+          "position": [
+            113.3170458,
+            23.1235244
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w559470965",
+      "tags": {
+        "bridge": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "kind": "bridge",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "bridge structure requires an elevation model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3171945,
+          23.1214892
+        ],
+        [
+          113.3172051,
+          23.121639
+        ],
+        [
+          113.3172169,
+          23.1221248
+        ],
+        [
+          113.3172289,
+          23.1224362
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001519",
+          "position": [
+            113.3171945,
+            23.1214892
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        },
+        {
+          "nodeId": "osm:n6417258406",
+          "position": [
+            113.3172289,
+            23.1224362
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w559485936",
+      "tags": {
+        "bridge": "yes",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "kind": "bridge",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "bridge structure requires an elevation model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3176801,
+          23.1215999
+        ],
+        [
+          113.3176773,
+          23.121545
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396109321",
+          "position": [
+            113.3176801,
+            23.1215999
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w503810994",
+              "kind": "bridge"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n5396109322",
+          "position": [
+            113.3176773,
+            23.121545
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w559485938",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w559485938",
+      "tags": {
+        "bridge": "yes",
+        "highway": "steps"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry"
+      ],
+      "points": [
+        [
+          113.3176773,
+          23.121545
+        ],
+        [
+          113.317393,
+          23.1215647
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396109322",
+          "position": [
+            113.3176773,
+            23.121545
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w559485936",
+              "kind": "bridge"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n5396109323",
+          "position": [
+            113.317393,
+            23.1215647
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559518",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w559485940",
+      "tags": {
+        "bridge": "yes",
+        "highway": "steps"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry"
+      ],
+      "points": [
+        [
+          113.3172169,
+          23.1221248
+        ],
+        [
+          113.3169447,
+          23.1221393
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n4940664624",
+          "position": [
+            113.3172169,
+            23.1221248
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w503810994",
+              "kind": "bridge"
+            },
+            {
+              "sourceId": "osm:w559470965",
+              "kind": "bridge"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n5396109324",
+          "position": [
+            113.3169447,
+            23.1221393
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1373459671",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w688292104",
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "driveway",
+        "tunnel": "building_passage"
+      },
+      "kind": "building-passage",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "through-building geometry; not automatically underground"
+      ],
+      "points": [
+        [
+          113.3166647,
+          23.1232694
+        ],
+        [
+          113.3166671,
+          23.1232494
+        ],
+        [
+          113.3166778,
+          23.1232166
+        ],
+        [
+          113.3166934,
+          23.1231949
+        ],
+        [
+          113.3167256,
+          23.1231755
+        ],
+        [
+          113.3167673,
+          23.1231586
+        ],
+        [
+          113.3168214,
+          23.1231496
+        ],
+        [
+          113.3168885,
+          23.1231431
+        ],
+        [
+          113.3169582,
+          23.1231406
+        ],
+        [
+          113.3170177,
+          23.1231396
+        ],
+        [
+          113.3170975,
+          23.1231425
+        ],
+        [
+          113.3171468,
+          23.1231487
+        ],
+        [
+          113.3171798,
+          23.1231594
+        ],
+        [
+          113.3172064,
+          23.1231823
+        ],
+        [
+          113.3172134,
+          23.1232049
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n6796956735",
+          "position": [
+            113.3166647,
+            23.1232694
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w993462510",
+              "kind": "ground-assumed"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n13261421896",
+          "position": [
+            113.3172134,
+            23.1232049
+          ],
+          "nodeTags": {
+            "bus": "yes",
+            "name": "华成路(高德置地广场)总站",
+            "name:en": "Huacheng Road (GT Land Plaza) Bus Terminal",
+            "name:zh": "华成路(高德置地广场)总站",
+            "public_transport": "stop_position"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1445405483",
+              "kind": "building-passage"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w991905340",
+      "tags": {
+        "conveying": "forward",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "level": "-1;0",
+        "tunnel": "yes"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height",
+        "incline cannot be flattened without elevation evidence"
+      ],
+      "points": [
+        [
+          113.3155406,
+          23.1207149
+        ],
+        [
+          113.3155412,
+          23.1204905
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550653",
+          "position": [
+            113.3155406,
+            23.1207149
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905343",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n5021418973",
+          "position": [
+            113.3155412,
+            23.1204905
+          ],
+          "nodeTags": {
+            "name": "珠江新城站 B1出入口",
+            "railway": "subway_entrance",
+            "ref": "B1",
+            "wheelchair": "yes"
+          },
+          "insideSourceBbox": false,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "outside-snapshot"
+    },
+    {
+      "sourceId": "osm:w991905341",
+      "tags": {
+        "conveying": "forward",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "level": "-1;0",
+        "tunnel": "yes"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height",
+        "incline cannot be flattened without elevation evidence"
+      ],
+      "points": [
+        [
+          113.3154999,
+          23.1225269
+        ],
+        [
+          113.315501,
+          23.1227268
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550654",
+          "position": [
+            113.3154999,
+            23.1225269
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905345",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n5408792653",
+          "position": [
+            113.315501,
+            23.1227268
+          ],
+          "nodeTags": {
+            "name": "珠江新城站 A1出入口",
+            "opening_hours": "06:09-00:01",
+            "railway": "subway_entrance",
+            "ref": "A1",
+            "wheelchair": "limited"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1373459667",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w991905343",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3155831,
+          23.1218174
+        ],
+        [
+          113.3155825,
+          23.1212305
+        ],
+        [
+          113.3155392,
+          23.1212305
+        ],
+        [
+          113.3155406,
+          23.1207149
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550656",
+          "position": [
+            113.3155831,
+            23.1218174
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559494",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9164550653",
+          "position": [
+            113.3155406,
+            23.1207149
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905340",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w991905345",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3154987,
+          23.1223045
+        ],
+        [
+          113.3154999,
+          23.1225269
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550658",
+          "position": [
+            113.3154987,
+            23.1223045
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559514",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559515",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9164550654",
+          "position": [
+            113.3154999,
+            23.1225269
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905341",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559494",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3158086,
+          23.1219756
+        ],
+        [
+          113.3157134,
+          23.121911
+        ],
+        [
+          113.3155831,
+          23.1218174
+        ],
+        [
+          113.315314,
+          23.121624
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550660",
+          "position": [
+            113.3158086,
+            23.1219756
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559495",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559514",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559519",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9193190519",
+          "position": [
+            113.315314,
+            23.121624
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559497",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559495",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3158086,
+          23.1219756
+        ],
+        [
+          113.3158858,
+          23.1219058
+        ],
+        [
+          113.3160969,
+          23.121718
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550660",
+          "position": [
+            113.3158086,
+            23.1219756
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559494",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559514",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559519",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9193190520",
+          "position": [
+            113.3160969,
+            23.121718
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559496",
+              "kind": "tunnel"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559496",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3160969,
+          23.121718
+        ],
+        [
+          113.3160949,
+          23.1213832
+        ],
+        [
+          113.3160754,
+          23.1200178
+        ],
+        [
+          113.3160596,
+          23.1189032
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190520",
+          "position": [
+            113.3160969,
+            23.121718
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559495",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9193190521",
+          "position": [
+            113.3160596,
+            23.1189032
+          ],
+          "nodeTags": {
+            "description": "非工作日电梯停止",
+            "entrance": "service",
+            "level": "1",
+            "ref": "地铁C"
+          },
+          "insideSourceBbox": false,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "outside-snapshot"
+    },
+    {
+      "sourceId": "osm:w995559497",
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "level": "-1;0",
+        "tunnel": "yes"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height",
+        "incline cannot be flattened without elevation evidence"
+      ],
+      "points": [
+        [
+          113.315314,
+          23.121624
+        ],
+        [
+          113.3153114,
+          23.1213739
+        ],
+        [
+          113.3153936,
+          23.1213729
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190519",
+          "position": [
+            113.315314,
+            23.121624
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559494",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9048102837",
+          "position": [
+            113.3153936,
+            23.1213729
+          ],
+          "nodeTags": {
+            "name": "花城大道",
+            "opening_hours": "06:09-00:01",
+            "railway": "subway_entrance",
+            "ref": "B2",
+            "wheelchair": "no"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559498",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559500",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3160949,
+          23.1213832
+        ],
+        [
+          113.3162613,
+          23.1213828
+        ],
+        [
+          113.3162608,
+          23.121453
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190526",
+          "position": [
+            113.3160949,
+            23.1213832
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559496",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9193190528",
+          "position": [
+            113.3162608,
+            23.121453
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559501",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559501",
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "level": "-1;0"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry",
+        "level requires review; not a metric height",
+        "incline cannot be flattened without elevation evidence"
+      ],
+      "points": [
+        [
+          113.3162608,
+          23.121453
+        ],
+        [
+          113.3163848,
+          23.1214539
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190528",
+          "position": [
+            113.3162608,
+            23.121453
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559500",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9048102842",
+          "position": [
+            113.3163848,
+            23.1214539
+          ],
+          "nodeTags": {
+            "level": "-1",
+            "name": "珠江新城站 C出入口",
+            "opening_hours": "06:09-00:01",
+            "railway": "subway_entrance",
+            "ref": "C",
+            "wheelchair": "limited"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1373459677",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559514",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3158086,
+          23.1219756
+        ],
+        [
+          113.3157241,
+          23.1220509
+        ],
+        [
+          113.3154987,
+          23.1223045
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550660",
+          "position": [
+            113.3158086,
+            23.1219756
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559494",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559495",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559519",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9164550658",
+          "position": [
+            113.3154987,
+            23.1223045
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905345",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559515",
+              "kind": "tunnel"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559515",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3154987,
+          23.1223045
+        ],
+        [
+          113.3147027,
+          23.1223192
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550658",
+          "position": [
+            113.3154987,
+            23.1223045
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w991905345",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559514",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9193190540",
+          "position": [
+            113.3147027,
+            23.1223192
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559516",
+              "kind": "vertical-transition"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559516",
+      "tags": {
+        "conveying": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "level": "-1;0",
+        "tunnel": "yes"
+      },
+      "kind": "vertical-transition",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "vertical connection requires a dedicated geometry",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height",
+        "incline cannot be flattened without elevation evidence"
+      ],
+      "points": [
+        [
+          113.3147027,
+          23.1223192
+        ],
+        [
+          113.3144563,
+          23.1223237
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190540",
+          "position": [
+            113.3147027,
+            23.1223192
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559515",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n6750842698",
+          "position": [
+            113.3144563,
+            23.1223237
+          ],
+          "nodeTags": {
+            "name": "珠江新城A2出入口",
+            "opening_hours": "06:09-00:01",
+            "railway": "subway_entrance",
+            "ref": "A2"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1373459669",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559519",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3158086,
+          23.1219756
+        ],
+        [
+          113.3158916,
+          23.1220536
+        ],
+        [
+          113.31627,
+          23.122243
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550660",
+          "position": [
+            113.3158086,
+            23.1219756
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559494",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559495",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559514",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9164550662",
+          "position": [
+            113.31627,
+            23.122243
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559520",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w1062033386",
+              "kind": "tunnel"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w995559520",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "level": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height",
+        "level requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3167366,
+          23.1224741
+        ],
+        [
+          113.31627,
+          23.122243
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9048102849",
+          "position": [
+            113.3167366,
+            23.1224741
+          ],
+          "nodeTags": {
+            "level": "-1",
+            "name": "珠江新城站 D出入口",
+            "opening_hours": "06:09-00:01",
+            "railway": "subway_entrance",
+            "ref": "D",
+            "wheelchair": "limited"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1373459685",
+              "kind": "ground-assumed"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9164550662",
+          "position": [
+            113.31627,
+            23.122243
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559519",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w1062033386",
+              "kind": "tunnel"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    },
+    {
+      "sourceId": "osm:w1062033386",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.31627,
+          23.122243
+        ],
+        [
+          113.3168446,
+          23.1222221
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n9164550662",
+          "position": [
+            113.31627,
+            23.122243
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w995559519",
+              "kind": "tunnel"
+            },
+            {
+              "sourceId": "osm:w995559520",
+              "kind": "tunnel"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n9756881916",
+          "position": [
+            113.3168446,
+            23.1222221
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w1374671611",
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3164193,
+          23.1232851
+        ],
+        [
+          113.3164248,
+          23.1232654
+        ],
+        [
+          113.316446,
+          23.1232514
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n12728511070",
+          "position": [
+            113.3164193,
+            23.1232851
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1374671610",
+              "kind": "ground-assumed"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n12728511072",
+          "position": [
+            113.316446,
+            23.1232514
+          ],
+          "nodeTags": {
+            "amenity": "parking",
+            "layer": "-1",
+            "parking": "underground"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w1374671612",
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "kind": "tunnel",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "tunnel section is retained outside the flat surface model",
+        "layer requires review; not a metric height"
+      ],
+      "points": [
+        [
+          113.3163666,
+          23.1232884
+        ],
+        [
+          113.3163758,
+          23.1232606
+        ],
+        [
+          113.3163974,
+          23.1232367
+        ],
+        [
+          113.3164189,
+          23.1232261
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n12728511068",
+          "position": [
+            113.3163666,
+            23.1232884
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w1374671609",
+              "kind": "ground-assumed"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n12728511075",
+          "position": [
+            113.3164189,
+            23.1232261
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": []
+        }
+      ],
+      "endpointStatus": "needs-source-review"
+    },
+    {
+      "sourceId": "osm:w1445405483",
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "driveway",
+        "tunnel": "building_passage"
+      },
+      "kind": "building-passage",
+      "groundRenderable": false,
+      "heightM": null,
+      "heightStatus": "unknown",
+      "reasons": [
+        "through-building geometry; not automatically underground"
+      ],
+      "points": [
+        [
+          113.3172134,
+          23.1232049
+        ],
+        [
+          113.3172227,
+          23.1232351
+        ]
+      ],
+      "endpoints": [
+        {
+          "nodeId": "osm:n13261421896",
+          "position": [
+            113.3172134,
+            23.1232049
+          ],
+          "nodeTags": {
+            "bus": "yes",
+            "name": "华成路(高德置地广场)总站",
+            "name:en": "Huacheng Road (GT Land Plaza) Bus Terminal",
+            "name:zh": "华成路(高德置地广场)总站",
+            "public_transport": "stop_position"
+          },
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w688292104",
+              "kind": "building-passage"
+            }
+          ]
+        },
+        {
+          "nodeId": "osm:n6453866424",
+          "position": [
+            113.3172227,
+            23.1232351
+          ],
+          "nodeTags": {},
+          "insideSourceBbox": true,
+          "attachedWays": [
+            {
+              "sourceId": "osm:w688292105",
+              "kind": "ground-assumed"
+            }
+          ]
+        }
+      ],
+      "endpointStatus": "both-attached"
+    }
+  ],
+  "endpointSummary": {
+    "outside-snapshot": 4,
+    "both-attached": 19,
+    "needs-source-review": 6
+  },
+  "renderAudit": {
+    "checkedUniqueSourceIds": 143,
+    "unresolvedSourceIds": [],
+    "nonGroundInSurface": []
+  },
+  "sourceGeometryIncomplete": [],
+  "limits": [
+    "layer and level are not metric heights",
+    "shared node membership is not a claim of legal access or physical passability",
+    "full source way endpoints used; ROI cuts are not invented graph nodes",
+    "special ways remain in the evidence network but have no new 3D geometry"
+  ]
+}

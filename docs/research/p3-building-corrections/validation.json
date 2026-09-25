@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-25",
+  "scope": "P3 existing buildings correction",
+  "basis": "control-plan alignment to input OSM, not surveyed exterior-wall accuracy",
+  "baseDataUnchanged": true,
+  "treesRemoved": 0,
+  "buildings": [
+    {
+      "sampleId": "B1",
+      "sourceId": "osm:w352610322",
+      "maxPlanControlResidualM": 0,
+      "treeCentersInside": 0,
+      "triangles": 41362,
+      "metricAccuracy": "unverified",
+      "heading": "short south edge facing Shamian street"
+    },
+    {
+      "sampleId": "B2",
+      "sourceId": "osm:w352610258",
+      "maxPlanControlResidualM": 0,
+      "treeCentersInside": 0,
+      "triangles": 113155,
+      "metricAccuracy": "unverified",
+      "heading": "photo face F0 provisionally on north short edge; reported main entrance street is to east, not identified with F0"
+    },
+    {
+      "sampleId": "B3",
+      "sourceId": "osm:w392765468",
+      "maxPlanControlResidualM": 0,
+      "treeCentersInside": 0,
+      "triangles": 73065,
+      "metricAccuracy": "unverified",
+      "heading": "short south edge facing Shamian street"
+    }
+  ]
+}

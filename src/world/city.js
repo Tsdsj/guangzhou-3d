@@ -16,6 +16,8 @@ import { buildRoadMeshes, buildElevated, buildRiverBridges, buildHaixin, buildRa
 import { buildTerrainMeshes } from './terrain.js';
 import { buildTraffic, buildWalkers } from './traffic.js';
 import { RC } from './data.js';
+import { classifyDetails,emitRoutedParts } from './detail-spatial.js';
+import { createDetailLayer } from './detail-layer.js';
 import { RNG, hash32, lin } from '../core/rng.js';
 import { BLD, TREE_REC as TR } from './schema.js';
 
@@ -120,6 +122,8 @@ export class World {
     this.liteK = 1;
     this._v = new THREE.Vector3();
     this.stats = {};
+    this.detailFallbacks=new Map();
+    this.details=null;
   }
 
   async build(D, step = () => {}) {
@@ -132,6 +136,10 @@ export class World {
     const c = D.city;
     U.uCityBox.value.set(c.x0, c.z0, c.x1, c.z1);
     this.D = D;
+    D.detailGroups=classifyDetails(D,D.detailManifest);
+    for(const tile of D.detailManifest?.tiles||[])if(tile.kind==='buildings'){
+      const group=new THREE.Group();group.name=`fallback-${tile.id}`;this.detailFallbacks.set(tile.id,group);this.root.add(group);
+    }
 
     step('地面与水系');
     await nextFrame();
@@ -141,7 +149,14 @@ export class World {
 
     step('路网与跨江桥');
     await nextFrame();
-    this.root.add(buildRoadMeshes(D, this.mats));
+    const baseRoads=buildRoadMeshes(D,this.mats);this.root.add(baseRoads);
+    this.detailRoadPaint=new THREE.Group();this.detailRoadPaint.visible=false;this.root.add(this.detailRoadPaint);
+    if(D.detailManifest){
+      const paint=Object.assign(M.makeRoadMaterial(false,true),{depthWrite:false,polygonOffsetFactor:-4,polygonOffsetUnits:-24});
+      for(const m of baseRoads.children)if(m.material===this.mats.road){
+        const overlay=new THREE.Mesh(m.geometry,paint);overlay.renderOrder=5;overlay.layers.set(1);this.detailRoadPaint.add(overlay);
+      }
+    }
     this.root.add(buildElevated(D, this.mats));
     this.root.add(buildRails(D, this.mats));
     const rb = buildRiverBridges(D, this.mats);
@@ -153,20 +168,31 @@ export class World {
     await nextFrame();
     const fp = buildFootprints(D);
     this.mats.facadeMerged = M.makeFacadeMaterial({ merged: true, btex: fp.btex });
-    for (const g of fp.geos) {
+    for (const [i,g] of fp.geos.entries()) {
       const m = new THREE.Mesh(g, this.mats.facadeMerged);
       m.castShadow = true;
       m.receiveShadow = true;
-      this.root.add(m);
+      (this.detailFallbacks.get(fp.detailTiles[i])||this.root).add(m);
     }
 
     step('街区补全与建筑细节');
     await nextFrame();
     const P = new Parts();
+    const fallbackParts=new Map([...this.detailFallbacks.keys()].map(id=>[id,new Parts()]));
     const bm = D.S.bldMeta;
-    for (let i = 0; i < D.nBuildings; i++) osmRoofDetails(P, bm, i, fp.qEdgesOf, fp.outerOf);
+    for (let i = 0; i < D.nBuildings; i++) {
+      const target=fallbackParts.get(D.detailGroups.sourceTiles.get(D.buildingSourceIds[i]))||P;
+      emitRoutedParts(P,target,p=>osmRoofDetails(p,bm,i,fp.qEdgesOf,fp.outerOf));
+    }
     const fill = D.S.fill;
-    for (let k = 0; k < D.nFill; k++) emitFillLot(P, fill, k);
+    for (let k = 0; k < D.nFill; k++) {
+      const target=fallbackParts.get(D.detailGroups.fillTiles.get(k))||P;
+      emitRoutedParts(P,target,p=>emitFillLot(p,fill,k));
+    }
+    for(const parts of fallbackParts.values()){
+      P.pools.push(...parts.pools);P.qfront.push(...parts.qfront);
+      P.stats.qilou+=parts.stats.qilou;P.stats.lingnan+=parts.stats.lingnan;
+    }
     for (const lm of D.landmarks) {
       P.y0 = lm.y || 0;
       if (lm.kind === 'chen') chenClan(P, lm);
@@ -180,6 +206,7 @@ export class World {
     this.citicMasts(P, D);
     this.signals(P, D);
     this.root.add(this.buildParts(P));
+    for(const[id,parts]of fallbackParts)this.detailFallbacks.get(id).add(this.buildParts(parts));
     // 数据范围外的远景体块单独成组，按 3 km 大块合并绘制
     const far = new Parts();
     this.farCity(far, D);
@@ -205,7 +232,10 @@ export class World {
     this.walkers.group.traverse((o) => o.layers.set(1));
     this.root.add(this.walkers.group);
 
-    this.labels = D.labels;
+    const names={B1:'台湾银行旧址',B2:'沙面一街3号',B3:'露德圣母堂',C01:'沙面会堂 · 试落位',C02:'正金银行 · 试落位'};
+    this.labels = [...D.labels,...(D.detailManifest?.tiles||[]).flatMap(t=>(t.buildings||[]).map(b=>({
+      name:names[b.sampleId],sub:b.heightReference?`文献檐高 ${b.heightReference.value}m · 其余尺寸估计`:'精细外观参考 · 尺寸估计',x:b.position[0],y:b.sampleId==='B3'?23:b.heightReference?b.heightReference.value+2:14,z:b.position[2],tier:3,priority:-1,minDistance:8,maxDistance:600,
+    })))];
     const st = D.meta.stats;
     this.stats = {
       buildings: st.buildings + st.fill,
@@ -216,6 +246,8 @@ export class World {
       bridges: D.bridges.filter((b) => b.name).length + 1,
       roadKm: st.roadKm,
     };
+    this.details=createDetailLayer(this,D);
+    if(!this.details){const el=document.getElementById('detail-status');if(el){el.textContent='精细片区暂不可用 · 显示基础场景';el.title=D.detailManifestError||'No detail metadata';}}
   }
 
   // ---------- 地块铺装（按优先级顺序绘制，不写深度；顶点带高度，山地上已细分贴地）----------
@@ -488,8 +520,16 @@ export class World {
     this.lodAt = null;
   }
 
+  setTreesHidden(hidden) {
+    this.treesHidden=!!hidden;
+    if(this.treeRoot)this.treeRoot.visible=!this.treesHidden;
+    this.detailDirty=true;
+  }
+
   buildVeg(D) {
     const g = new THREE.Group();
+    const treeRoot=new THREE.Group();treeRoot.name='trees';treeRoot.visible=!this.treesHidden;
+    this.treeRoot=treeRoot;g.add(treeRoot);
     const TG = this.treeGeo;
     const tintOf = (sp, t) => {
       switch (sp) {
@@ -531,7 +571,7 @@ export class World {
         m.layers.set(1);
         m.computeBoundingSphere();
         m.visible = false;
-        g.add(m);
+        treeRoot.add(m);
         const box = new THREE.Box3();
         idx.forEach((i, j) => {
           chunkOf[i] = c;
@@ -553,7 +593,7 @@ export class World {
         hm.receiveShadow = true;
         hm.frustumCulled = false;
         hm.layers.set(1);
-        g.add(hm);
+        treeRoot.add(hm);
         this.treeLod.push({ chunks, chunkOf, localOf, hi: hm, orig: Mx, tint: T, xz: XZ, n, cap, cur: [] });
       }
     };
@@ -609,7 +649,7 @@ export class World {
         const m = new THREE.Mesh(geo, this.treeMats.billboard);
         m.receiveShadow = true;
         m.layers.set(1);
-        g.add(m);
+        treeRoot.add(m);
         this.treeBB.push({ m, box });
       }
     }

@@ -69,6 +69,9 @@ svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width:
 .scene .txt i { font-style: normal; font-size: 11px; font-family: var(--mono); color: var(--accent-2); }
 .panel-foot { padding: 12px 14px 14px; border-top: 1px solid var(--border); transition: opacity 0.2s; }
 .foot-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+#btn-trees { grid-column: 1 / -1; }
+#btn-trees[hidden], #tree-inspection-note[hidden] { display: none; }
+#tree-inspection-note { position: absolute; z-index: 7; bottom: 64px; left: 50%; transform: translateX(-50%); padding: 8px 14px; border-radius: 8px; color: #fff; background: rgba(55, 41, 24, .9); font-size: 13px; pointer-events: none; }
 .attrib { margin-top: 10px; font-size: 10.5px; color: var(--dim); text-align: center; line-height: 1.5; }
 
 /* ---------- 小地图 ---------- */
@@ -123,6 +126,7 @@ body.ui-hidden #panel, body.ui-hidden #brand, body.ui-hidden #chips, body.ui-hid
 body.ui-hidden #btn-show { opacity: 0.8; pointer-events: auto; }
 
 @media (max-width: 760px) {
+  #tree-inspection-note { bottom: 156px; white-space: nowrap; }
   /* 手机：面板变成底部横向滑动的场景卡片条，不遮挡画面 */
   #panel { top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; border-radius: 14px; }
   .panel-head { display: none; }

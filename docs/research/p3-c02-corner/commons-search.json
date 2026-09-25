@@ -1,0 +1,125 @@
+{
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Shamian+%22consulate%22&srnamespace=6&srlimit=12",
+  "response": {
+    "batchcomplete": "",
+    "continue": {
+      "sroffset": 12,
+      "continue": "-||"
+    },
+    "query": {
+      "searchinfo": {
+        "totalhits": 35
+      },
+      "search": [
+        {
+          "ns": 6,
+          "title": "File:Guangzhou Shamian 2012.11.15 09-47-52.jpg",
+          "pageid": 24447952,
+          "size": 657,
+          "wordcount": 28,
+          "snippet": "DescriptionGuangzhou <span class=\"searchmatch\">Shamian</span> 2012.11.15 09-47-52.jpg 中文：​沙面岛，位于中国广东省广州市。 English: <span class=\"searchmatch\">Shamian</span> Island, in Guangzhou, Guangdong, China. The Soviet Consulate",
+          "timestamp": "2026-01-29T16:05:01Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Guangzhou Shamian 2012.11.15 09-48-12.jpg",
+          "pageid": 24447990,
+          "size": 657,
+          "wordcount": 22,
+          "snippet": "DescriptionGuangzhou <span class=\"searchmatch\">Shamian</span> 2012.11.15 09-48-12.jpg 中文：​沙面岛，位于中国广东省广州市。 English: <span class=\"searchmatch\">Shamian</span> Island, in Guangzhou, Guangdong, China. The Soviet Consulate",
+          "timestamp": "2026-01-29T16:05:32Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:GZ ShaMian 4 Jie 1.jpg",
+          "pageid": 665434,
+          "size": 970,
+          "wordcount": 143,
+          "snippet": "DescriptionGZ <span class=\"searchmatch\">ShaMian</span> 4 Jie 1.jpg 中文：​廣州zh:沙面 建築群 近 zh:白天鵝賓館, <span class=\"searchmatch\">ShaMian</span>, GuangZhou, PRChina English: Former German Consulate on <span class=\"searchmatch\">Shamian</span> Island, Guangzhou",
+          "timestamp": "2026-08-22T18:43:28Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Canton - consulate at Shameen LCCN2004707902.jpg",
+          "pageid": 32175833,
+          "size": 1098,
+          "wordcount": 7,
+          "snippet": "DescriptionCanton - consulate at <span class=\"searchmatch\">Shameen</span> LCCN2004707902.jpg English: Title: Canton - consulate at <span class=\"searchmatch\">Shameen</span> Physical description: 1 slide : lantern ; 3.25",
+          "timestamp": "2025-12-30T17:27:37Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Guangzhou Liwan Shamian Meiguo Lingshiguan Jiuzhi 20230107.150324.jpg",
+          "pageid": 134205609,
+          "size": 767,
+          "wordcount": 183,
+          "snippet": "DescriptionGuangzhou Liwan <span class=\"searchmatch\">Shamian</span> Meiguo Lingshiguan Jiuzhi 20230107.150324.jpg 中文（中国大陆）：​美国领事馆旧址，位于广东省广州市荔湾区沙面街道沙面三街2号。属于全国重点文物保护单位。",
+          "timestamp": "2026-01-31T23:51:02Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Canton - consulate at Shameen LCCN2004707902.tif",
+          "pageid": 32175863,
+          "size": 1008,
+          "wordcount": 7,
+          "snippet": "DescriptionCanton - consulate at <span class=\"searchmatch\">Shameen</span> LCCN2004707902.tif English: Title: Canton - consulate at <span class=\"searchmatch\">Shameen</span> Physical description: 1 slide : lantern ; 3.25",
+          "timestamp": "2024-01-31T17:07:09Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Consulate General of the United States Shameen Canton.JPG",
+          "pageid": 33508401,
+          "size": 412,
+          "wordcount": 168,
+          "snippet": "DescriptionConsulate General of the United States <span class=\"searchmatch\">Shameen</span> Canton.JPG 中文（繁體）：​美國駐廣州總領事館（沙面） Date 2 June 2014, 17:43:00 Source Own work Author Gzdavidwong",
+          "timestamp": "2025-12-17T04:08:32Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Former US Consulate Building.jpg",
+          "pageid": 115222132,
+          "size": 254,
+          "wordcount": 165,
+          "snippet": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+          "timestamp": "2026-01-26T18:18:37Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Former US Consulate Building Tablet.jpg",
+          "pageid": 115222136,
+          "size": 333,
+          "wordcount": 165,
+          "snippet": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+          "timestamp": "2026-08-07T03:55:58Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:Polandconsulate.JPG",
+          "pageid": 5089995,
+          "size": 579,
+          "wordcount": 158,
+          "snippet": "Poland in Guangzhou - Guangzhou, 63 <span class=\"searchmatch\">Shamian</span> Main Street, 510130 Polski: Konsulat Generalny RP w Kantonie - Kanton, <span class=\"searchmatch\">Shamian</span> Dajie nr 63, 510130 中文（简体）：​波兰共和国驻广州总领事馆",
+          "timestamp": "2026-07-25T10:21:15Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:PolandGZConsulate.jpg",
+          "pageid": 34498890,
+          "size": 592,
+          "wordcount": 42,
+          "snippet": "Poland in Guangzhou - Guangzhou, 63 <span class=\"searchmatch\">Shamian</span> Main Street, 510130 Polski: Konsulat Generalny RP w Kantonie - Kanton, <span class=\"searchmatch\">Shamian</span> Dajie nr 63, 510130 中文（简体）：​波兰共和国驻广州总领事馆",
+          "timestamp": "2026-04-07T11:07:39Z"
+        },
+        {
+          "ns": 6,
+          "title": "File:沙面三街2号.jpg",
+          "pageid": 131123702,
+          "size": 450,
+          "wordcount": 145,
+          "snippet": "I, the copyright holder of this work, hereby publish it under the following licenses: This file is licensed under the Creative Commons Attribution-Share",
+          "timestamp": "2025-11-20T02:11:26Z"
+        }
+      ]
+    }
+  }
+}

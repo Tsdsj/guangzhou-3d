@@ -12,8 +12,12 @@ import { Hud } from './ui/hud.js';
 import { CameraRig } from './ui/cameraRig.js';
 import { loadCity } from './world/data.js';
 import { World } from './world/city.js';
+import {isDetailTrial,TRIAL_SCENES} from './world/detail-trial.js';
 import { WATER_Y } from './world/geo.js';
 import { TREE_REC, LAMP } from './world/schema.js';
+
+const detailTrialEnabled=isDetailTrial(location.search);
+if(detailTrialEnabled)SCENES.push(...TRIAL_SCENES);
 
 const canvas = document.getElementById('viewport');
 const loaderSub = document.getElementById('loader-sub');
@@ -70,6 +74,7 @@ const panel = new Panel({
   onScene: (id) => applyScene(id),
   onAction: (a) => {
     if (a === 'shot') wantShot = true;
+    else if (a === 'trees') setTreeInspection(!world.treesHidden);
     else if (a === 'hide') {
       document.body.classList.toggle('ui-hidden');
       if (document.body.classList.contains('ui-hidden') && !matchMedia('(pointer: coarse)').matches) hud.toast('按 H 键或右下角按钮恢复界面');
@@ -86,6 +91,7 @@ function applyAtmos() {
   water.uniforms.uReflK.value = params.weather === 'rain' ? 0.8 : 1.0;
 }
 function setScene(id) {
+  if(id&&id!==current)setTreeInspection(false);
   if (id && id !== current) startTier(id);
   current = id;
   panel.setScene(id);
@@ -93,6 +99,13 @@ function setScene(id) {
     hashCam = `scene=${id}`;
     history.replaceState(null, '', `#${hashCam}`);
   }
+}
+
+function setTreeInspection(hidden) {
+  world.setTreesHidden(hidden);
+  const button=document.getElementById('btn-trees');
+  button.setAttribute('aria-pressed',String(hidden));button.textContent=hidden?'恢复树木':'暂隐树木';
+  document.getElementById('tree-inspection-note').hidden=!hidden;
 }
 
 // ---------- 预设场景 ----------
@@ -533,7 +546,7 @@ const touch = () => {
 };
 for (const ev of ['pointerdown', 'wheel', 'keydown', 'touchstart']) window.addEventListener(ev, touch, { passive: true, capture: true });
 function tour(now) {
-  if (reduceMotion.matches || probe || document.hidden) {
+  if (reduceMotion.matches || probe || document.hidden || SCENES.some(s=>s.id===current&&s.group==='detail')) {
     lastInput = now;
     return;
   }
@@ -586,7 +599,9 @@ function frame(now) {
   atmos.sky.position.copy(camera.position);
   atmos.updateEnv(now);
   rain.update(camera, params.weather === 'rain' ? 1 : 0);
-  updateShadow(now);
+  if(world.details)world.details.update(camera.position.x,camera.position.z,camera.position.y);
+  updateShadow(now,!!world.detailDirty);
+  world.detailDirty=false;
   if (waterInView()) water.update(renderer, scene, camera);
   const pre = probe && [renderer.info.render.calls, renderer.info.render.triangles];
   post.update(camera, rig.controls.target);
@@ -609,7 +624,15 @@ function frame(now) {
   if (wantShot) {
     wantShot = false;
     const a = document.createElement('a');
-    a.href = renderer.domElement.toDataURL('image/png');
+    let output=renderer.domElement;
+    if(world.treesHidden){
+      output=document.createElement('canvas');output.width=renderer.domElement.width;output.height=renderer.domElement.height;
+      const ctx=output.getContext('2d');ctx.drawImage(renderer.domElement,0,0);
+      const size=Math.max(18,Math.round(output.width/60));ctx.font=`${size}px sans-serif`;
+      const caption='树木暂隐 · 仅供模型检查';ctx.fillStyle='rgba(20,25,30,.82)';ctx.fillRect(12,12,ctx.measureText(caption).width+32,size+24);
+      ctx.fillStyle='#fff';ctx.fillText(caption,28,size+20);
+    }
+    a.href = output.toDataURL('image/png');
     a.download = `guangzhou-${current || 'view'}.png`;
     a.click();
     hud.toast('已导出当前视角截图');
@@ -626,7 +649,7 @@ async function boot() {
   applyAtmos();
   loaderSub.textContent = '下载城市数据…';
   const tl = performance.now();
-  D = await loadCity((f) => (loaderSub.textContent = `下载城市数据… ${Math.round(f * 100)}%`));
+  D = await loadCity((f) => (loaderSub.textContent = `下载城市数据… ${Math.round(f * 100)}%`),{detailTrial:detailTrialEnabled});
   const t0 = performance.now();
   const steps = [`下载 ${Math.round(t0 - tl)}`];
   let ts = t0;
@@ -638,6 +661,7 @@ async function boot() {
     ts = now;
     loaderSub.textContent = `构建：${s}`;
   });
+  if(detailTrialEnabled){const {mountDetailTrial}=await import('./ui/detail-trial.js');mountDetailTrial(world,D,applyScene);}
   steps.push(`${sn} ${Math.round(performance.now() - ts)}`);
   hud.setLabels(world.labels);
   hud.drawMap(D);

@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "photos": {
+    "photo:B1-a": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211114.jpg",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "artist": "方人也",
+      "date": "Taken on 14 November 2021 12:26:59",
+      "review_note": "已目视：银行名称、26号门牌、门头山花、石材线脚和木门清楚。仅入口局部，不能证明整面开间或楼高。人物不应烘焙进立面。",
+      "sha256": "36e493824b1201d55425abf744dee637c29930e17f4326963ed3e90139e0470f",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B1-b": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:Former_Guangzhou_Sub-branch,_Bank_of_Taiwan_20211226.jpg",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "artist": "方人也",
+      "date": "Taken on 26 December 2021 14:28:27",
+      "review_note": "已目视：2021年的首层开间、窗栏、横向墙缝与上层柱廊局部；树干和行人遮挡，顶部未完整入镜。",
+      "sha256": "cafed145aa98533ba02aa8ab1313c2af216f853056c31f2c4ece37f1495be735",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B1-c": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_10-02-58.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Zhangzhugang",
+      "date": "Taken on 15 November 2012 10:02:58",
+      "review_note": "已目视：2012年同一临街立面；可辅助理解柱廊和开间连续性。仅历史结构参考，不能代替2021/2026现状。",
+      "sha256": "7aa19527dfea607efcfdf40bd637174f1b8fc5b86fa03ae9438c5c0a7c00df80",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B2-a": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:%E6%B2%99%E9%9D%A2%E4%B8%80%E8%A1%973%E5%8F%B7.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Inclavatura",
+      "date": "2023-04-25",
+      "review_note": "已目视：2023年临街主立面及相邻转角侧面，拱窗、百叶、壁柱、阳台和基座可辨；屋顶与局部侧面被树冠遮挡。",
+      "sha256": "6c990f744c7f22a141e67a4abf40a40e788fbe283932036dc47e67e238de5d09",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B2-b": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_Shamian_2012.11.15_10-05-02.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Zhangzhugang",
+      "date": "2012-11-15 10:05:02",
+      "review_note": "已目视：2012年门窗与柱式细部。与2023年照片的百叶/门窗颜色不同，只用于旧有几何参考，不混作同一时期材质。",
+      "sha256": "491e0f5ad17dada74b73ac9676d33b92ec9bb88afd98f09f8f420f570dc1184b",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B3-a": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Lourdes_Chapel,_Shamian_20260518.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "JULIANISME",
+      "date": "2026-05-18 14:21:14",
+      "review_note": "已目视：2026年主入口、钟塔、尖拱、圆窗及一侧长墙；局部屋面可见，另一侧与背面不能由此确认。",
+      "sha256": "ef4db8c561c5871bebbe175e43fb3a9bc459c931ded9e05ddf7b2ee8d3b3326e",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B3-b": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:20251116_14_Shamian_Dajie_(182309).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Yumeto",
+      "date": "2025-11-16 18:23:09",
+      "review_note": "已目视：2025年另一侧院落，教堂侧墙局部、邻楼及院内附属体量；遮挡严重，不能把画面里所有楼都归入教堂轮廓。",
+      "sha256": "b11ff05920d542d5bd715076fa937092e710f01054c10f873f799c9a65b7bf4e",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:B1-d": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:BankofTaiwan_Shamian.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Boubloub",
+      "date": "Taken on 29 January 2016 17:56:16",
+      "review_note": "已目视：2016年斜向仰视的通高柱、弧形阳台、檐口。透视明显，有树遮挡，未显示背面；仅历史结构参考。",
+      "sha256": "0e4c7e2a5e403b10d19ab0f1c017a6a4091c42c6a97759abe07950cf6009f4fd",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:R1": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_03.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 17:24:32",
+      "review_note": "已目视：街口斑马线、信号灯与邻近建筑可辨，车辆遮挡路面。元数据点在珠江西路附近；精确拍摄方位未标定，不作为华夏路路口量测图。",
+      "sha256": "54a25093e9d44a79b8a1eea02c1be867fed2b564a6eb456092e95f35cd05b4b0",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:R2": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3%E5%8D%80_TianHe_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E_ZhuJiang_New_Town_September_2024_R12S_08.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 17:32:05",
+      "review_note": "已目视：主要为IFC和周边高楼，路面基本不可见。排除作为道路结构证据，仅保留检索反例。",
+      "sha256": "754d13f2087779a7f48d01b269b6b03abe44f363f5d4d5f91a6706bcc6486ece",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:R3": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_blue_sign_September_2024_R12S.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 14:47:40",
+      "review_note": "已目视：路牌明确指向华穗路南/北，存在掉头/左转、直行、右转导向；路缘及护柱可见。可佐证2024年该进口方向的交通组织，不能推算路宽，也不能当成2026现状确认。",
+      "sha256": "837113bb3d92f5c625be91d651b511df5b3cf6900d1b85d47cc46b44de565a9c",
+      "sourceId": "p0PhotoReview"
+    },
+    "photo:R4": {
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E8%8F%AF%E7%A9%97%E8%B7%AF_HuaSui_Road_directory_sign_September_2024_R12S.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Ghaud Lnegauk",
+      "date": "2024-09-20 14:56:47",
+      "review_note": "已目视：花城大道、华穗路等导向牌可辨。用于地点身份交叉核对；不能量测断面、车道数量或高程。",
+      "sha256": "ec10aebfd4867d1fa33350c491a2ec7cfb1fe60921e38e23bb558c19950b4cf2",
+      "sourceId": "p0PhotoReview"
+    }
+  },
+  "entities": {
+    "osm:w352610322": [
+      {
+        "id": "front",
+        "label": "临街主立面（南侧，结合OSM位置推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B1-a",
+          "photo:B1-b",
+          "photo:B1-c",
+          "photo:B1-d"
+        ],
+        "known": "入口/柱廊/部分开间",
+        "unknown": "树遮挡；跨年份；顶部局部缺证",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-a",
+        "label": "侧面A",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "未取得足够独立照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-b",
+        "label": "侧面B",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "未取得足够独立照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "rear",
+        "label": "背面",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "未取得照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "roof",
+        "label": "屋顶",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "檐口局部不等于完整屋顶",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      }
+    ],
+    "osm:w352610258": [
+      {
+        "id": "front",
+        "label": "临街主立面（东侧，结合OSM位置推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B2-a",
+          "photo:B2-b"
+        ],
+        "known": "楼层线/拱窗/壁柱/入口",
+        "unknown": "树遮挡；旧照片色彩冲突",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-a",
+        "label": "转角侧面（南侧，结合OSM位置推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B2-a"
+        ],
+        "known": "局部开间与转角",
+        "unknown": "侧面远端和顶部不可完整观察",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-b",
+        "label": "另一侧面",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "无足够照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "rear",
+        "label": "背面",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "无照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "roof",
+        "label": "屋顶",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "树遮挡",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      }
+    ],
+    "osm:w392765468": [
+      {
+        "id": "front",
+        "label": "主入口立面（南侧，结合OSM位置推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B3-a"
+        ],
+        "known": "钟塔/尖拱/入口/圆窗",
+        "unknown": "基座局部遮挡；没有高度标定",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-a",
+        "label": "长侧墙（西侧，结合相机坐标与轮廓推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B3-a"
+        ],
+        "known": "圆窗/尖拱窗/扶壁",
+        "unknown": "局部树遮挡；需独立定标",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "side-b",
+        "label": "院落侧墙（东侧，结合相机坐标推定）",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B3-b"
+        ],
+        "known": "侧窗和院落关系",
+        "unknown": "植被/车遮挡；附属楼须另行归属",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "rear",
+        "label": "背面",
+        "coverage": "unknown",
+        "evidenceIds": [],
+        "known": "",
+        "unknown": "无完整背面照片",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      },
+      {
+        "id": "roof",
+        "label": "屋顶",
+        "coverage": "partial",
+        "evidenceIds": [
+          "photo:B3-a"
+        ],
+        "known": "坡向/局部屋面/装饰",
+        "unknown": "未覆盖整个屋顶；无坡度量测",
+        "metricAccuracy": "unverified",
+        "sourceId": "p0PhotoReview"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-26",
+  "sourceHashesVerified": true,
+  "sourceBoundCandidateCount": 12,
+  "screenedOutlineCount": 63,
+  "visuallyReviewedPhotos": 2,
+  "metadataOnlyPhotos": 1,
+  "productionReadyCount": 0,
+  "baseAndDetailHashesUnchanged": true,
+  "newGeometryRendered": false,
+  "notes": "仅验证研究数据；不代替项目测试或新增视觉模型验收"
+}

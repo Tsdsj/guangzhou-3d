@@ -1,0 +1,32 @@
+{
+  "date":"2026-09-26",
+  "B1":{
+    "sourceId":"osm:w352610322",
+    "currentModelHeightM":14.2,
+    "heightDecision":"keep-estimate",
+    "unacceptedLeads":[{"eaveM":15,"totalM":16.8,"reason":"仅找到百科/游记转述，未取得可追溯的一手尺寸页，不进入几何控制"}],
+    "primaryReference":{"url":"https://wap.ycwb.com/2021-12/18/content_40460312.htm","publisher":"广州学习平台，金羊网转载；图片来源沙面街道办","finding":"身份、地址及可见柱式描述；未提供目标高度"}
+  },
+  "B2":{
+    "sourceId":"osm:w352610258",
+    "eaveM":20.6,
+    "eaveStatus":"reported-existing-control",
+    "entranceDirection":"east",
+    "entranceDirectionStatus":"inferred-from-report-and-osm",
+    "photoFaceF0Status":"north-short-edge-provisional",
+    "decision":"no-orientation-upgrade",
+    "reason":"百科的东主立面/北侧阳台描述与现有解释相容，但未追溯其原始测绘出处；不把文字一致当作照片像素配准",
+    "primaryReference":"https://wglj.gz.gov.cn/attachment/7/7536/7536808/9433868.pdf",
+    "secondaryLead":"https://bkso.baidu.com/item/东方汇理银行旧址/66761214"
+  },
+  "B3":{
+    "sourceId":"osm:w392765468",
+    "currentModelHeightM":25.4,
+    "heightDecision":"keep-estimate",
+    "reportedStructure":{"hallLevels":1,"towerLevels":3,"orientation":"south-facing","hallAreaM2":238},
+    "primaryReference":{"url":"https://www.lw.gov.cn/attachment/8/8070/8070325/10992582.pdf","page":61,"publisher":"广州市规划和自然资源局荔湾区分局","status":"2026-09-04公示简本，非最终审批结论","review":"已对照本地原PDF渲染页；仅取文字事实，不转载页面图片"},
+    "reason":"层数和面积不能直接换算塔高；网上28m缺少可追溯测绘出处，同名异地教堂数值排除"
+  },
+  "runtimeGeometryChanged":false,
+  "nextCandidate":"C01"
+}

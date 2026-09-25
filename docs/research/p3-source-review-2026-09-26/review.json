@@ -1,0 +1,833 @@
+{
+  "date": "2026-09-26",
+  "sourceWindowUTC": {
+    "start": "2026-09-25T17:32:48.879172+00:00",
+    "end": "2026-09-25T17:32:52.946870+00:00"
+  },
+  "requestCount": 16,
+  "sourceErrors": 0,
+  "endpointSummary": {
+    "connection-recovered": 3,
+    "building-interface": 3,
+    "tagged-terminal": 2,
+    "needs-evidence": 2
+  },
+  "endpoints": [
+    {
+      "sourceId": "osm:w248407682",
+      "kind": "tunnel",
+      "oldStatus": "outside-snapshot",
+      "status": "connection-recovered",
+      "wayVersion": 6,
+      "endpoints": [
+        {
+          "nodeId": "osm:n2551976629",
+          "position": [
+            113.3208175,
+            23.1215281
+          ],
+          "responseFile": "node-2551976629-ways.json",
+          "originalInsideSourceBbox": false,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "highway-connection",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w248407684",
+              "version": 15,
+              "name": "花城大道",
+              "tags": {
+                "bicycle": "no",
+                "foot": "no",
+                "highway": "primary",
+                "horse": "no",
+                "lanes": "3",
+                "name": "花城大道",
+                "name:en": "Huacheng Avenue",
+                "name:zh": "花城大道",
+                "name:zh-Latn-pinyin": "huā chéng dà dào",
+                "oneway": "yes"
+              }
+            }
+          ],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w248407685",
+      "kind": "tunnel",
+      "oldStatus": "outside-snapshot",
+      "status": "connection-recovered",
+      "wayVersion": 6,
+      "endpoints": [
+        {
+          "nodeId": "osm:n2551976815",
+          "position": [
+            113.3208302,
+            23.1216448
+          ],
+          "responseFile": "node-2551976815-ways.json",
+          "originalInsideSourceBbox": false,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "highway-connection",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w519199421",
+              "version": 4,
+              "name": "花城大道",
+              "tags": {
+                "highway": "primary",
+                "lanes": "3",
+                "name": "花城大道",
+                "name:en": "Huacheng Avenue",
+                "name:zh": "花城大道",
+                "name:zh-Latn-pinyin": "huā chéng dà dào",
+                "oneway": "yes"
+              }
+            }
+          ],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w559470933",
+      "kind": "bridge",
+      "oldStatus": "needs-source-review",
+      "status": "building-interface",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001464",
+          "position": [
+            113.3173658,
+            23.122973
+          ],
+          "responseFile": "node-5396001464-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w299812757",
+              "version": 12,
+              "name": "高德置地广场（春）",
+              "tags": {
+                "building": "commercial",
+                "building:levels": "5",
+                "building:levels:underground": "2",
+                "layer": "-1",
+                "name": "高德置地广场（春）",
+                "name:en": "GT Land Plaza(Spring Plaza)",
+                "name:zh": "高德置地广场（春）",
+                "shop": "mall",
+                "website": "http://www.gtlandplaza.com/",
+                "wheelchair": "limited"
+              }
+            }
+          ],
+          "nodeTags": {}
+        },
+        {
+          "nodeId": "osm:n5396001465",
+          "position": [
+            113.3177707,
+            23.1231099
+          ],
+          "responseFile": "node-5396001465-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w299687659",
+              "version": 7,
+              "name": "高德置地广场（夏）",
+              "tags": {
+                "building": "commercial",
+                "name": "高德置地广场（夏）",
+                "name:en": "GT Land Plaza(Summer Plaza)",
+                "name:zh": "高德置地广场（夏）",
+                "website": "http://www.gtlandplaza.com/"
+              }
+            }
+          ],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w559470935",
+      "kind": "bridge",
+      "oldStatus": "needs-source-review",
+      "status": "building-interface",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001466",
+          "position": [
+            113.317045,
+            23.1232452
+          ],
+          "responseFile": "node-5396001466-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w299812757",
+              "version": 12,
+              "name": "高德置地广场（春）",
+              "tags": {
+                "building": "commercial",
+                "building:levels": "5",
+                "building:levels:underground": "2",
+                "layer": "-1",
+                "name": "高德置地广场（春）",
+                "name:en": "GT Land Plaza(Spring Plaza)",
+                "name:zh": "高德置地广场（春）",
+                "shop": "mall",
+                "website": "http://www.gtlandplaza.com/",
+                "wheelchair": "limited"
+              }
+            }
+          ],
+          "nodeTags": {}
+        },
+        {
+          "nodeId": "osm:n5396001467",
+          "position": [
+            113.3170458,
+            23.1235244
+          ],
+          "responseFile": "node-5396001467-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w312888482",
+              "version": 5,
+              "name": "广东全球通大厦",
+              "tags": {
+                "building": "yes",
+                "name": "广东全球通大厦",
+                "name:zh": "广东全球通大厦",
+                "office": "yes"
+              }
+            }
+          ],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w559470965",
+      "kind": "bridge",
+      "oldStatus": "needs-source-review",
+      "status": "building-interface",
+      "wayVersion": 3,
+      "endpoints": [
+        {
+          "nodeId": "osm:n5396001519",
+          "position": [
+            113.3171945,
+            23.1214892
+          ],
+          "responseFile": "node-5396001519-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w312888407",
+              "version": 6,
+              "name": "广州友谊商店(国金店)",
+              "tags": {
+                "building": "retail",
+                "building:levels": "5",
+                "name": "广州友谊商店(国金店)",
+                "shop": "mall",
+                "wheelchair": "yes"
+              }
+            }
+          ],
+          "nodeTags": {}
+        },
+        {
+          "nodeId": "osm:n6417258406",
+          "position": [
+            113.3172289,
+            23.1224362
+          ],
+          "responseFile": "node-6417258406-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "building-interface",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w299812755",
+              "version": 6,
+              "name": "高德置地广场B座",
+              "tags": {
+                "building:levels": "15",
+                "building:min_level": "4",
+                "building:part": "commercial",
+                "name": "高德置地广场B座"
+              }
+            },
+            {
+              "sourceId": "osm:w299812757",
+              "version": 12,
+              "name": "高德置地广场（春）",
+              "tags": {
+                "building": "commercial",
+                "building:levels": "5",
+                "building:levels:underground": "2",
+                "layer": "-1",
+                "name": "高德置地广场（春）",
+                "name:en": "GT Land Plaza(Spring Plaza)",
+                "name:zh": "高德置地广场（春）",
+                "shop": "mall",
+                "website": "http://www.gtlandplaza.com/",
+                "wheelchair": "limited"
+              }
+            }
+          ],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w991905340",
+      "kind": "vertical-transition",
+      "oldStatus": "outside-snapshot",
+      "status": "connection-recovered",
+      "wayVersion": 2,
+      "endpoints": [
+        {
+          "nodeId": "osm:n5021418973",
+          "position": [
+            113.3155412,
+            23.1204905
+          ],
+          "responseFile": "node-5021418973-ways.json",
+          "originalInsideSourceBbox": false,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "highway-connection",
+          "linkedWays": [
+            {
+              "sourceId": "osm:w1373459683",
+              "version": 1,
+              "name": null,
+              "tags": {
+                "footway": "sidewalk",
+                "highway": "footway"
+              }
+            }
+          ],
+          "nodeTags": {
+            "name": "珠江新城站 B1出入口",
+            "railway": "subway_entrance",
+            "ref": "B1",
+            "wheelchair": "yes"
+          }
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w995559496",
+      "kind": "tunnel",
+      "oldStatus": "outside-snapshot",
+      "status": "tagged-terminal",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n9193190521",
+          "position": [
+            113.3160596,
+            23.1189032
+          ],
+          "responseFile": "node-9193190521-ways.json",
+          "originalInsideSourceBbox": false,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "tagged-terminal",
+          "linkedWays": [],
+          "nodeTags": {
+            "description": "非工作日电梯停止",
+            "entrance": "service",
+            "level": "1",
+            "ref": "地铁C"
+          }
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w1062033386",
+      "kind": "tunnel",
+      "oldStatus": "needs-source-review",
+      "status": "needs-evidence",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n9756881916",
+          "position": [
+            113.3168446,
+            23.1222221
+          ],
+          "responseFile": "node-9756881916-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "unresolved",
+          "linkedWays": [],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w1374671611",
+      "kind": "tunnel",
+      "oldStatus": "needs-source-review",
+      "status": "tagged-terminal",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n12728511072",
+          "position": [
+            113.316446,
+            23.1232514
+          ],
+          "responseFile": "node-12728511072-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "tagged-terminal",
+          "linkedWays": [],
+          "nodeTags": {
+            "amenity": "parking",
+            "layer": "-1",
+            "parking": "underground"
+          }
+        }
+      ],
+      "physicalPassabilityVerified": false
+    },
+    {
+      "sourceId": "osm:w1374671612",
+      "kind": "tunnel",
+      "oldStatus": "needs-source-review",
+      "status": "needs-evidence",
+      "wayVersion": 1,
+      "endpoints": [
+        {
+          "nodeId": "osm:n12728511075",
+          "position": [
+            113.3164189,
+            23.1232261
+          ],
+          "responseFile": "node-12728511075-ways.json",
+          "originalInsideSourceBbox": true,
+          "physicalPassabilityVerified": false,
+          "heightM": null,
+          "status": "unresolved",
+          "linkedWays": [],
+          "nodeTags": {}
+        }
+      ],
+      "physicalPassabilityVerified": false
+    }
+  ],
+  "markingSummary": {
+    "unknown": 8,
+    "conflict": 6
+  },
+  "markings": [
+    {
+      "sourceId": "osm:w717926117",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 2,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742477274",
+          "version": 3,
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal"
+          }
+        },
+        {
+          "nodeId": "osm:n6742477275",
+          "version": 3,
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w717926125",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 2,
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w717926126",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 2,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742487500",
+          "version": 4,
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "nodeId": "osm:n6742487501",
+          "version": 3,
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1157862096",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742487499",
+          "version": 3,
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1157862097",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742487499",
+          "version": 3,
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1157862098",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742487498",
+          "version": 3,
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1157862099",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742477276",
+          "version": 4,
+          "tags": {
+            "highway": "traffic_signals",
+            "traffic_signals": "signal"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1157862100",
+      "previousStatus": "unknown",
+      "currentStatus": "unknown",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n6742487488",
+          "version": 3,
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374671570",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12728510958",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374671577",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12728510968",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374133798",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12723135220",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374133824",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12723135320",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374671591",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12728511008",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    },
+    {
+      "sourceId": "osm:w1374671613",
+      "previousStatus": "conflict",
+      "currentStatus": "conflict",
+      "wayVersion": 1,
+      "tags": {
+        "crossing": "unmarked",
+        "crossing:markings": "yes",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "responseFile": "selected-ways.json",
+      "nodeEvidence": [
+        {
+          "nodeId": "osm:n12728511078",
+          "version": 1,
+          "tags": {
+            "crossing": "unmarked",
+            "crossing:markings": "yes",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "geometryAndTagsChanged": false,
+      "renderDecision": "deferred-no-new-independent-evidence"
+    }
+  ],
+  "deltaSummary": {
+    "way": 3,
+    "node": 7
+  },
+  "deltaFile": "data/evidence/huacheng-review-delta.json",
+  "unchangedExistingObjects": 172,
+  "baseSnapshotUnchanged": true,
+  "renderGeometryUpdated": false,
+  "limits": [
+    "current OSM records are not a current physical-site survey",
+    "building boundary references do not establish indoor connectivity or connector height",
+    "terminal tags do not establish current access/opening conditions",
+    "repeated conflicting tags on a node and way are not independent confirmation"
+  ]
+}

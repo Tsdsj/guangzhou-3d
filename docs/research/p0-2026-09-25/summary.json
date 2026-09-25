@@ -1,0 +1,292 @@
+{
+  "scope": "bbox-intersecting original features, not clipped feature counts; area unions clipped to bbox",
+  "metric_crs_wkt": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",23.1185,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",113.296,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "areas": {
+    "shamian": {
+      "bbox": [
+        113.234,
+        23.1065,
+        113.2455,
+        23.1112
+      ],
+      "area_km2": 0.6132,
+      "osm_outline_records": 158,
+      "osm_part_records": 11,
+      "overture_records": 200,
+      "matched_iou_ge_0_5": 158,
+      "additional_candidates_overlap_lt_0_1": 42,
+      "ambiguous_records": 0,
+      "osm_union_area_m2": 110575.77,
+      "overture_union_area_m2": 117690.3,
+      "overture_outside_osm_area_m2": 7114.53,
+      "osm_outside_overture_area_m2": 0.0,
+      "overture_source_counts": {
+        "doi:10.5281/zenodo.8174931": 42,
+        "OpenStreetMap": 158
+      },
+      "osm_height": 0,
+      "osm_levels": 73,
+      "overture_height": 0,
+      "overture_floors": 73,
+      "new_candidates_height": 0,
+      "candidate_area_median_m2": 67.28,
+      "candidate_under_100m2": 24
+    },
+    "huacheng": {
+      "bbox": [
+        113.311,
+        23.1205,
+        113.3195,
+        23.124
+      ],
+      "area_km2": 0.3375,
+      "osm_outline_records": 45,
+      "osm_part_records": 7,
+      "overture_records": 66,
+      "matched_iou_ge_0_5": 45,
+      "additional_candidates_overlap_lt_0_1": 21,
+      "ambiguous_records": 0,
+      "osm_union_area_m2": 87856.37,
+      "overture_union_area_m2": 90767.15,
+      "overture_outside_osm_area_m2": 2910.78,
+      "osm_outside_overture_area_m2": 0.0,
+      "overture_source_counts": {
+        "OpenStreetMap": 45,
+        "doi:10.5281/zenodo.8174931": 21
+      },
+      "osm_height": 6,
+      "osm_levels": 26,
+      "overture_height": 6,
+      "overture_floors": 26,
+      "new_candidates_height": 0,
+      "candidate_area_median_m2": 115.86,
+      "candidate_under_100m2": 8
+    }
+  },
+  "roads": {
+    "local_snapshot": "2026-09-23T22:20:37Z",
+    "local_way_count": 104,
+    "tag_presence": {
+      "lanes": 9,
+      "width": 0,
+      "sidewalk": 3,
+      "cycleway": 0,
+      "turn:lanes": 0,
+      "bridge": 0,
+      "tunnel": 9,
+      "layer": 9
+    },
+    "live_map": {
+      "elements": 2587,
+      "nodes": 2154,
+      "highway_ways_in_roi": 247,
+      "additional_way_count": 143,
+      "additional_types": {
+        "footway": 131,
+        "steps": 12
+      },
+      "full_way_tag_presence": {
+        "lanes": 9,
+        "width": 0,
+        "sidewalk": 3,
+        "cycleway": 0,
+        "turn:lanes": 0,
+        "incline": 9,
+        "ele": 0
+      },
+      "highway_types": {
+        "tertiary": 10,
+        "unclassified": 13,
+        "primary": 16,
+        "secondary_link": 15,
+        "footway": 131,
+        "steps": 12,
+        "tertiary_link": 2,
+        "service": 23,
+        "secondary": 20,
+        "pedestrian": 3,
+        "primary_link": 2
+      },
+      "restrictions": [
+        {
+          "id": 6659314,
+          "tags": {
+            "restriction": "no_right_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 6659315,
+          "tags": {
+            "restriction": "no_right_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 6659316,
+          "tags": {
+            "restriction": "no_straight_on",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 13354773,
+          "tags": {
+            "restriction": "only_straight_on",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 13354774,
+          "tags": {
+            "restriction": "only_straight_on",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 13354775,
+          "tags": {
+            "restriction": "only_straight_on",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 13354776,
+          "tags": {
+            "restriction": "only_straight_on",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 15655071,
+          "tags": {
+            "restriction": "no_u_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 15655072,
+          "tags": {
+            "restriction": "no_u_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 15655073,
+          "tags": {
+            "restriction": "no_u_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        },
+        {
+          "id": 15655074,
+          "tags": {
+            "restriction": "no_u_turn",
+            "type": "restriction"
+          },
+          "members_complete": true
+        }
+      ],
+      "tagged_highway_nodes_inside_roi": {
+        "traffic_signals": 9,
+        "crossing": 53,
+        "bus_stop": 13
+      }
+    },
+    "junction_nodes": [
+      {
+        "node_id": 4418948288,
+        "lon": 113.3130729,
+        "lat": 23.1223637,
+        "road_names": "华穗路 | 花城大道",
+        "way_ids": "199898039 | 444433525 | 448790074 | 462131779"
+      },
+      {
+        "node_id": 4575367456,
+        "lon": 113.3129847,
+        "lat": 23.1223685,
+        "road_names": "华穗路 | 花城大道",
+        "way_ids": "199898039 | 462138645 | 462138646 | 481045545"
+      },
+      {
+        "node_id": 4739868628,
+        "lon": 113.3157175,
+        "lat": 23.121395,
+        "road_names": " | 华夏路 | 花城大道",
+        "way_ids": "199898412 | 444126149 | 457885320 | 624720029"
+      },
+      {
+        "node_id": 4419070748,
+        "lon": 113.3129654,
+        "lat": 23.1220725,
+        "road_names": "华穗路 | 花城大道",
+        "way_ids": "233525478 | 444428461 | 450614677 | 462138646"
+      },
+      {
+        "node_id": 4575302669,
+        "lon": 113.3130492,
+        "lat": 23.1220664,
+        "road_names": "华穗路 | 花城大道",
+        "way_ids": "233525478 | 462131778 | 462131779 | 734144749"
+      },
+      {
+        "node_id": 4539469296,
+        "lon": 113.3158931,
+        "lat": 23.1220911,
+        "road_names": "华夏路 | 花城大道",
+        "way_ids": "248407677 | 457886990 | 457886991 | 995559512"
+      },
+      {
+        "node_id": 4539457219,
+        "lon": 113.3157379,
+        "lat": 23.1219144,
+        "road_names": "华夏路 | 花城大道",
+        "way_ids": "457885320 | 457885321 | 481045546 | 995559508"
+      },
+      {
+        "node_id": 3663701895,
+        "lon": 113.3158887,
+        "lat": 23.12191,
+        "road_names": "华夏路 | 花城大道",
+        "way_ids": "457885321 | 526242005 | 995559511 | 995559512"
+      },
+      {
+        "node_id": 4416227872,
+        "lon": 113.3157381,
+        "lat": 23.1221158,
+        "road_names": "华夏路 | 花城大道",
+        "way_ids": "457886991 | 995559506 | 995559507 | 995559508"
+      }
+    ]
+  },
+  "projection_comparison": [
+    {
+      "area": "shamian",
+      "sample_grid": "11x11",
+      "rms_difference_m": 3.563,
+      "max_difference_m": 4.063
+    },
+    {
+      "area": "huacheng",
+      "sample_grid": "11x11",
+      "rms_difference_m": 0.971,
+      "max_difference_m": 1.21
+    },
+    {
+      "area": "project",
+      "sample_grid": "11x11",
+      "rms_difference_m": 3.2,
+      "max_difference_m": 7.045
+    }
+  ]
+}

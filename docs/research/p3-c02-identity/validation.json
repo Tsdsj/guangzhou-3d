@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-26",
+  "sample": "C02",
+  "tests": {
+    "passed": 58,
+    "failed": 0,
+    "skipped": 0
+  },
+  "identityStatus": "document-address-supported",
+  "productionEligible": false,
+  "photoPixelRegistrationVerified": false,
+  "heightM": null,
+  "newGeometryRendered": false,
+  "rawOsmUnchanged": true,
+  "baseAndDetailHashesUnchanged": true,
+  "photoHashVerified": true,
+  "artifactHashes": {
+    "data/evidence/building-identity-reviews.json": "d30f4a8244e604fa5e5dd1cd14d9bc37c41bc3a74ead45b55649867c114b92ba",
+    "docs/research/p3-c02-identity/plan.json": "e2d6b3cca5259f3f08d684a5ea4ae0da93eeac5ecd491cda903b560baacc5e3d",
+    "docs/research/p3-building-screening/candidates.json": "5fe0a4667369a9f69f893347b8a6fb6557e1606a811adc5e5e6c2ea3ac6e52ad"
+  }
+}

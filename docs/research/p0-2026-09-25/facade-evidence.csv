@@ -1,0 +1,16 @@
+﻿sample_id,face,coverage,photos,known,unknown,metric_accuracy
+B1,临街主立面（南侧，结合OSM位置推定）,partial,B1-a | B1-b | B1-c | B1-d,入口/柱廊/部分开间,树遮挡；跨年份；顶部局部缺证,unverified
+B1,侧面A,unknown,,,未取得足够独立照片,unverified
+B1,侧面B,unknown,,,未取得足够独立照片,unverified
+B1,背面,unknown,,,未取得照片,unverified
+B1,屋顶,unknown,,,檐口局部不等于完整屋顶,unverified
+B2,临街主立面（东侧，结合OSM位置推定）,partial,B2-a | B2-b,楼层线/拱窗/壁柱/入口,树遮挡；旧照片色彩冲突,unverified
+B2,转角侧面（南侧，结合OSM位置推定）,partial,B2-a,局部开间与转角,侧面远端和顶部不可完整观察,unverified
+B2,另一侧面,unknown,,,无足够照片,unverified
+B2,背面,unknown,,,无照片,unverified
+B2,屋顶,unknown,,,树遮挡,unverified
+B3,主入口立面（南侧，结合OSM位置推定）,partial,B3-a,钟塔/尖拱/入口/圆窗,基座局部遮挡；没有高度标定,unverified
+B3,长侧墙（西侧，结合相机坐标与轮廓推定）,partial,B3-a,圆窗/尖拱窗/扶壁,局部树遮挡；需独立定标,unverified
+B3,院落侧墙（东侧，结合相机坐标推定）,partial,B3-b,侧窗和院落关系,植被/车遮挡；附属楼须另行归属,unverified
+B3,背面,unknown,,,无完整背面照片,unverified
+B3,屋顶,partial,B3-a,坡向/局部屋面/装饰,未覆盖整个屋顶；无坡度量测,unverified

@@ -178,6 +178,41 @@ export const SCENES = [
     near: [113.3245, 23.1330],
     eye: 7,
   },
+  {
+    id:'detail-bank',group:'detail',name:'精细 · 台湾银行旧址',sub:'已接入城市 · 照片结构参考，尺寸估计',icon:'old',
+    atmos:{timeOfDay:15.5,weather:'clear',haze:20,lightIntensity:100,exposure:104},
+    cam:[113.2414447,23.1096153,2.4],tgt:[113.2414595,23.1100395,8],
+  },
+  {
+    id:'detail-indochine',group:'detail',name:'精细 · 沙面一街3号',sub:'照片面暂置北侧 · 文献檐高20.6m',icon:'old',
+    atmos:{timeOfDay:10.5,weather:'clear',haze:20,lightIntensity:100,exposure:104},
+    cam:[113.2419945,23.10991,2.4],tgt:[113.24199,23.10959,10.6],
+  },
+  {
+    id:'detail-indochine-east',group:'detail',name:'精细 · 东方汇理银行柱廊',sub:'东侧推定 · 2012结构参考，廊深估计',icon:'old',
+    atmos:{timeOfDay:10.5,weather:'clear',haze:20,lightIntensity:100,exposure:104},
+    cam:[113.24245,23.10983,19],tgt:[113.2421,23.10942,10],
+  },
+  {
+    id:'detail-lourdes',group:'detail',name:'精细 · 露德圣母堂',sub:'钟塔与中殿一并接入 · 高度估计',icon:'old',
+    atmos:{timeOfDay:15.2,weather:'clear',haze:20,lightIntensity:100,exposure:104},
+    cam:[113.24212,23.10970,43],tgt:[113.2423707,23.1100493,11],
+  },
+  {
+    id:'detail-shamian',group:'detail',name:'精细 · 沙面建筑组',sub:'三栋同场鸟瞰 · 保留周边建筑与树木',icon:'top',
+    atmos:{timeOfDay:14.5,weather:'clear',haze:20,lightIntensity:100,exposure:102},
+    cam:[113.2410,23.10915,95],tgt:[113.24198,23.10987,8],
+  },
+  {
+    id:'detail-huasui',group:'detail',name:'精细 · 华穗路口',sub:'过街路径保留 · 缺证标线待核',icon:'top',
+    atmos:{timeOfDay:12.6,weather:'clear',haze:20,lightIntensity:100,exposure:100},
+    cam:[113.31303,23.12195,280],tgt:[113.31303,23.12222,0],
+  },
+  {
+    id:'detail-huaxia',group:'detail',name:'精细 · 华夏路口',sub:'标线按路面裁剪 · 样式和尺寸估计',icon:'top',
+    atmos:{timeOfDay:12.6,weather:'clear',haze:20,lightIntensity:100,exposure:100},
+    cam:[113.31581,23.12175,310],tgt:[113.31581,23.12202,0],
+  },
 ];
 
 export const DEFAULT_ATMOS = { timeOfDay: 17.9, weather: 'humid', haze: 38, lightIntensity: 100, exposure: 100 };

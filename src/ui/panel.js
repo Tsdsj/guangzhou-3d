@@ -1,4 +1,4 @@
-// 场景面板：只保留预设场景（机位 + 时间 + 天气），以及截图 / 隐藏界面两个操作。
+// 场景面板：预设场景、截图、隐藏界面与精细建筑的临时遮挡检查。
 
 import { SCENES, SCENE_KEYS } from '../core/scenes.js';
 
@@ -36,7 +36,7 @@ export class Panel {
     this.o = opts;
     const body = document.getElementById('panel-body');
     body.innerHTML = SCENES.map(
-      (s, i) => `${s.group === 'street' && SCENES[i - 1]?.group !== 'street' ? '<div class="scene-group">街景漫步 · 人眼高度</div>' : ''}
+      (s, i) => `${s.group === 'street' && SCENES[i - 1]?.group !== 'street' ? '<div class="scene-group">街景漫步 · 人眼高度</div>' : s.group === 'detail' && SCENES[i - 1]?.group !== 'detail' ? '<div class="scene-group">精细片区 · 外观参考，尺寸估计</div>' : ''}
       <button type="button" class="scene" data-id="${s.id}">
         <span class="thumb" style="background:${swatch(s.atmos)}">${I[s.icon] || ''}<em>${SCENE_KEYS[i] || ''}</em></span>
         <span class="txt"><b>${s.name}</b><small>${s.sub}</small><i>${fmtTime(s.atmos.timeOfDay)} · ${WX[s.atmos.weather]}</i></span>
@@ -46,10 +46,14 @@ export class Panel {
     this.btns.forEach((b) => (b.onclick = () => opts.onScene(b.dataset.id)));
     document.getElementById('btn-shot').onclick = () => opts.onAction('shot');
     document.getElementById('btn-hide').onclick = () => opts.onAction('hide');
+    document.getElementById('btn-trees').onclick = () => opts.onAction('trees');
     document.getElementById('btn-show').onclick = () => opts.onAction('hide');
     document.getElementById('btn-collapse').onclick = () => document.getElementById('panel').classList.toggle('collapsed');
   }
   setScene(id) {
+    const treeButton=document.getElementById('btn-trees');
+    treeButton.hidden=treeButton.getAttribute('aria-pressed')!=='true'&&!SCENES.some(s=>s.id===id&&s.group==='detail'&&!['detail-huasui','detail-huaxia'].includes(id));
     this.btns.forEach((b) => b.classList.toggle('on', b.dataset.id === id));
+    if(SCENES.some(s=>s.id===id&&s.group==='detail'))this.btns.find(b=>b.dataset.id===id)?.scrollIntoView({block:'nearest'});
   }
 }

@@ -31,6 +31,8 @@ export const U = {
   uTreeLod: { value: new THREE.Vector2(900, 12000) },
   // 每像素对应的视角弧度（公告板上细树干保持至少约 1 像素宽，避免闪烁）
   uPxAng: { value: 0.0006 },
+  uDetailRoadBoxes: { value: [new THREE.Vector4(),new THREE.Vector4()] },
+  uDetailRoadActive: { value: new THREE.Vector2() },
 };
 
 // 两级水域距离场：内圈高精度纹理之外回退到外圈低精度纹理

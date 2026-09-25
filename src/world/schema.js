@@ -2,6 +2,10 @@
 // 每类记录在运行端都是定长的 Float32 数组（N 个字段一条）；下载时按字段分组量化成更小的整数类型，
 // 加载后再还原成同样的布局，因此运行端代码只需按下面的字段名取值。
 
+// v2 adds UTF-8 renderIdentity and a lazy evidence sidecar; the geometry layout stays v1.
+export const CITY_FORMAT_VERSION = 2;
+export const RENDER_SCHEMA_VERSION = 1;
+
 // 真实建筑（bldMeta，每栋 24 个字段）
 export const BLD = {
   N: 24,

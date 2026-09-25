@@ -1,0 +1,3 @@
+
+# Preserve the bytes of research CSV snapshots across checkouts.
+docs/research/**/*.csv -text whitespace=cr-at-eol

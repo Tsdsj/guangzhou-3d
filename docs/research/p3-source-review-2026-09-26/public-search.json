@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-26",
+  "scope": "bounded public search for evidence matching the 14 deferred crossing ways",
+  "queries": [
+    "花城大道 华穗路 斑马线 人行横道 site:gz.gov.cn",
+    "花城大道 华夏路 交通 标线 设计 site:gz.gov.cn",
+    "site:commons.wikimedia.org Huasui 2025",
+    "site:commons.wikimedia.org Huaxia Road Guangzhou crossing"
+  ],
+  "results": [
+    {
+      "url": "https://fgw.gz.gov.cn/gkmlpt/content/10/10834/post_10834779.html",
+      "decision": "not adopted",
+      "reason": "员村南街至科韵路建设项目，不是本次华穗/华夏路口样区"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:2024_in_Huasui_Road,_Guangzhou",
+      "decision": "metadata reviewed only",
+      "reason": "9个目录条目以餐厅为主题；没有仅凭标题判为全部无道路信息"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Huaxia_Road,_Guangzhou",
+      "decision": "two additional photos inspected",
+      "photoReviewFile": "photos.json",
+      "reason": "R5无可判读路面；R6的可见条纹未绑定到14条目标way，不能解除待核"
+    }
+  ],
+  "conclusion": "no new evidence sufficient to clear any of the 14 targeted marking cases; not a claim that no free evidence exists"
+}
