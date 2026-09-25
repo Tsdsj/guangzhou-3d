@@ -1,0 +1,1339 @@
+{
+ "date": "2026-09-26",
+ "definitions": [
+  "Counts what is actually integrated, never candidates:",
+  "  * Shamian study area = OSM building outlines (not building:part) within 50 m of roads named 沙面*;",
+  "  * street-facing facade area = outline edges within 25 m of a 沙面* road along their outward normal,",
+  "    times the rendered height (detail model height where integrated, base record height otherwise);",
+  "  * photographed faces = the model front plus the extra faces documented for the first five models;",
+  "  * road coverage = rendered centreline inside detail road tiles vs the whole city road length."
+ ],
+ "shamian": {
+  "buildingsInStudyArea": 144,
+  "detailedBuildings": 11,
+  "detailedShareByCount": 0.0764,
+  "streetFacadeM2": 83629.1,
+  "photographedStreetFacadeM2": 4734.5,
+  "photographedStreetFacadeShare": 0.0566,
+  "detailedBuildingsAllWallsM2": 16794.1,
+  "detailedBuildingsPhotographedM2": 4734.5,
+  "detailedBuildingsPhotographedShare": 0.2819
+ },
+ "city": {
+  "osmBuildingRecords": 19823,
+  "proceduralFill": 84205,
+  "detailedBuildings": 11,
+  "detailedShareOfOsmRecords": 0.000555
+ },
+ "roads": {
+  "detailCentrelineM": 4883.6,
+  "huachengCorridorM": 650.1,
+  "cityRoadM": 2199000,
+  "detailShareOfCityRoadLength": 0.00222,
+  "junctions": [
+   "CBD隧道",
+   "华夏路",
+   "华明直街",
+   "华穗路"
+  ]
+ },
+ "notMeaning": "counts integrated evidence-based models only; heights and facade areas are estimates; this is not measured or whole-city 1:1 coverage",
+ "buildings": [
+  {
+   "sourceId": "osm:w338885560",
+   "sample": null,
+   "heightM": 12.95,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1971.0
+  },
+  {
+   "sourceId": "osm:w352610257",
+   "sample": null,
+   "heightM": 16.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 3336.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 5680.9
+  },
+  {
+   "sourceId": "osm:w352610258",
+   "sample": "B2",
+   "heightM": 21.15,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 1386.3,
+   "photographedFacadeM2": 1386.3,
+   "allWallsM2": 2772.5
+  },
+  {
+   "sourceId": "osm:w352610259",
+   "sample": null,
+   "heightM": 13.11,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 910.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1821.0
+  },
+  {
+   "sourceId": "osm:w352610260",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 163.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 916.9
+  },
+  {
+   "sourceId": "osm:w352610261",
+   "sample": null,
+   "heightM": 19.95,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1008.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2016.4
+  },
+  {
+   "sourceId": "osm:w352610262",
+   "sample": null,
+   "heightM": 16.6,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 350.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1860.2
+  },
+  {
+   "sourceId": "osm:w352610263",
+   "sample": null,
+   "heightM": 14.68,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 778.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1556.5
+  },
+  {
+   "sourceId": "osm:w352610264",
+   "sample": null,
+   "heightM": 16.6,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 370.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1560.8
+  },
+  {
+   "sourceId": "osm:w352610265",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 452.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 922.5
+  },
+  {
+   "sourceId": "osm:w352610266",
+   "sample": null,
+   "heightM": 15.57,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 242.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1312.3
+  },
+  {
+   "sourceId": "osm:w352610267",
+   "sample": null,
+   "heightM": 15.3,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 138.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 717.4
+  },
+  {
+   "sourceId": "osm:w352610268",
+   "sample": null,
+   "heightM": 16.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 395.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1908.1
+  },
+  {
+   "sourceId": "osm:w352610269",
+   "sample": null,
+   "heightM": 19.52,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 375.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1634.6
+  },
+  {
+   "sourceId": "osm:w352610271",
+   "sample": null,
+   "heightM": 6.81,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 249.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 499.4
+  },
+  {
+   "sourceId": "osm:w352610272",
+   "sample": null,
+   "heightM": 8.8,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 503.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1007.1
+  },
+  {
+   "sourceId": "osm:w352610273",
+   "sample": null,
+   "heightM": 14.52,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 783.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1567.6
+  },
+  {
+   "sourceId": "osm:w352610274",
+   "sample": null,
+   "heightM": 13.05,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 247.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1729.7
+  },
+  {
+   "sourceId": "osm:w352610275",
+   "sample": null,
+   "heightM": 13.25,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 533.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1067.3
+  },
+  {
+   "sourceId": "osm:w352610276",
+   "sample": null,
+   "heightM": 14.86,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 645.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1291.2
+  },
+  {
+   "sourceId": "osm:w352610277",
+   "sample": null,
+   "heightM": 16.91,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 403.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1535.4
+  },
+  {
+   "sourceId": "osm:w352610278",
+   "sample": "C09",
+   "heightM": 14.9,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 262.4,
+   "photographedFacadeM2": 262.4,
+   "allWallsM2": 1306.2
+  },
+  {
+   "sourceId": "osm:w352610279",
+   "sample": null,
+   "heightM": 16.18,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 378.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1580.4
+  },
+  {
+   "sourceId": "osm:w352610281",
+   "sample": null,
+   "heightM": 15.6,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 214.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1772.8
+  },
+  {
+   "sourceId": "osm:w352610282",
+   "sample": null,
+   "heightM": 28.1,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 3717.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 6014.9
+  },
+  {
+   "sourceId": "osm:w352610283",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 463.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1564.6
+  },
+  {
+   "sourceId": "osm:w352610284",
+   "sample": null,
+   "heightM": 14.71,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 600.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1599.2
+  },
+  {
+   "sourceId": "osm:w352610286",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 221.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1420.5
+  },
+  {
+   "sourceId": "osm:w352610287",
+   "sample": "C13",
+   "heightM": 11.1,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 189.1,
+   "photographedFacadeM2": 189.1,
+   "allWallsM2": 1088.4
+  },
+  {
+   "sourceId": "osm:w352610288",
+   "sample": "C02",
+   "heightM": 16.4,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 963.5,
+   "photographedFacadeM2": 382.9,
+   "allWallsM2": 1927.0
+  },
+  {
+   "sourceId": "osm:w352610289",
+   "sample": null,
+   "heightM": 11.52,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 123.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 810.7
+  },
+  {
+   "sourceId": "osm:w352610291",
+   "sample": null,
+   "heightM": 10.92,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 282.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1431.2
+  },
+  {
+   "sourceId": "osm:w352610292",
+   "sample": null,
+   "heightM": 15.33,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 928.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1856.8
+  },
+  {
+   "sourceId": "osm:w352610293",
+   "sample": null,
+   "heightM": 19.76,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1099.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2199.7
+  },
+  {
+   "sourceId": "osm:w352610294",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 401.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 802.7
+  },
+  {
+   "sourceId": "osm:w352610295",
+   "sample": null,
+   "heightM": 8.78,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 106.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 535.7
+  },
+  {
+   "sourceId": "osm:w352610296",
+   "sample": null,
+   "heightM": 20.5,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1148.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2296.1
+  },
+  {
+   "sourceId": "osm:w352610299",
+   "sample": "C15",
+   "heightM": 13.65,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 578.6,
+   "photographedFacadeM2": 340.4,
+   "allWallsM2": 1157.1
+  },
+  {
+   "sourceId": "osm:w352610300",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 283.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 566.2
+  },
+  {
+   "sourceId": "osm:w352610301",
+   "sample": null,
+   "heightM": 12.1,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 288.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1164.3
+  },
+  {
+   "sourceId": "osm:w352610302",
+   "sample": null,
+   "heightM": 20.31,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 466.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1836.1
+  },
+  {
+   "sourceId": "osm:w352610303",
+   "sample": null,
+   "heightM": 13.79,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 412.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1386.7
+  },
+  {
+   "sourceId": "osm:w352610304",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 314.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 913.8
+  },
+  {
+   "sourceId": "osm:w352610306",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 265.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 926.9
+  },
+  {
+   "sourceId": "osm:w352610307",
+   "sample": null,
+   "heightM": 15.13,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 993.9
+  },
+  {
+   "sourceId": "osm:w352610308",
+   "sample": null,
+   "heightM": 16.3,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 301.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1341.4
+  },
+  {
+   "sourceId": "osm:w352610309",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 325.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1143.5
+  },
+  {
+   "sourceId": "osm:w352610310",
+   "sample": null,
+   "heightM": 11.32,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 105.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 657.6
+  },
+  {
+   "sourceId": "osm:w352610311",
+   "sample": null,
+   "heightM": 11.94,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 273.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1201.1
+  },
+  {
+   "sourceId": "osm:w352610312",
+   "sample": "C07",
+   "heightM": 13.7,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 948.9,
+   "photographedFacadeM2": 342.7,
+   "allWallsM2": 1897.7
+  },
+  {
+   "sourceId": "osm:w352610313",
+   "sample": null,
+   "heightM": 14.78,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1110.1
+  },
+  {
+   "sourceId": "osm:w352610314",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 662.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1324.3
+  },
+  {
+   "sourceId": "osm:w352610315",
+   "sample": "C08",
+   "heightM": 13.15,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 342.8,
+   "photographedFacadeM2": 342.8,
+   "allWallsM2": 1090.0
+  },
+  {
+   "sourceId": "osm:w352610316",
+   "sample": null,
+   "heightM": 12.07,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 265.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1181.0
+  },
+  {
+   "sourceId": "osm:w352610317",
+   "sample": null,
+   "heightM": 13.8,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 511.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2140.6
+  },
+  {
+   "sourceId": "osm:w352610318",
+   "sample": null,
+   "heightM": 17.67,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 449.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2345.5
+  },
+  {
+   "sourceId": "osm:w352610319",
+   "sample": null,
+   "heightM": 10.82,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 213.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 955.1
+  },
+  {
+   "sourceId": "osm:w352610320",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 230.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 930.7
+  },
+  {
+   "sourceId": "osm:w352610321",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 261.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 948.4
+  },
+  {
+   "sourceId": "osm:w352610322",
+   "sample": "B1",
+   "heightM": 14.4,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 319.8,
+   "photographedFacadeM2": 319.8,
+   "allWallsM2": 1519.7
+  },
+  {
+   "sourceId": "osm:w352610323",
+   "sample": null,
+   "heightM": 15.2,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 388.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1918.0
+  },
+  {
+   "sourceId": "osm:w352610324",
+   "sample": null,
+   "heightM": 15.98,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1014.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2028.1
+  },
+  {
+   "sourceId": "osm:w352610325",
+   "sample": null,
+   "heightM": 20.66,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 480.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2080.9
+  },
+  {
+   "sourceId": "osm:w352610326",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 71.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 487.1
+  },
+  {
+   "sourceId": "osm:w352610327",
+   "sample": null,
+   "heightM": 25.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 3292.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 4482.8
+  },
+  {
+   "sourceId": "osm:w352610328",
+   "sample": null,
+   "heightM": 16.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 400.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1939.8
+  },
+  {
+   "sourceId": "osm:w352610329",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 747.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2266.6
+  },
+  {
+   "sourceId": "osm:w352610330",
+   "sample": null,
+   "heightM": 16.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1018.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2417.4
+  },
+  {
+   "sourceId": "osm:w392765468",
+   "sample": "B3",
+   "heightM": 25.4,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 942.6,
+   "photographedFacadeM2": 223.4,
+   "allWallsM2": 1884.6
+  },
+  {
+   "sourceId": "osm:w509641341",
+   "sample": null,
+   "heightM": 17.25,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 907.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1590.2
+  },
+  {
+   "sourceId": "osm:w509641343",
+   "sample": null,
+   "heightM": 9.51,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 53.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 290.6
+  },
+  {
+   "sourceId": "osm:w509641346",
+   "sample": null,
+   "heightM": 12.31,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 526.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1270.5
+  },
+  {
+   "sourceId": "osm:w509641349",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 235.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 594.2
+  },
+  {
+   "sourceId": "osm:w509641361",
+   "sample": "C01",
+   "heightM": 19.4,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 1096.3,
+   "photographedFacadeM2": 877.1,
+   "allWallsM2": 1546.1
+  },
+  {
+   "sourceId": "osm:w509641362",
+   "sample": null,
+   "heightM": 11.77,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 414.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1117.4
+  },
+  {
+   "sourceId": "osm:w515400661",
+   "sample": null,
+   "heightM": 13.56,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 233.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 765.1
+  },
+  {
+   "sourceId": "osm:w515400662",
+   "sample": null,
+   "heightM": 10.18,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 53.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 380.6
+  },
+  {
+   "sourceId": "osm:w515400663",
+   "sample": null,
+   "heightM": 13.27,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 398.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 793.1
+  },
+  {
+   "sourceId": "osm:w515400664",
+   "sample": null,
+   "heightM": 11.72,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 150.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 783.2
+  },
+  {
+   "sourceId": "osm:w515400665",
+   "sample": null,
+   "heightM": 10.48,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 635.2
+  },
+  {
+   "sourceId": "osm:w515401364",
+   "sample": null,
+   "heightM": 14.77,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 220.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1368.3
+  },
+  {
+   "sourceId": "osm:w791257922",
+   "sample": null,
+   "heightM": 13.04,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 294.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1616.9
+  },
+  {
+   "sourceId": "osm:w791257923",
+   "sample": null,
+   "heightM": 90.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 15309.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 55322.5
+  },
+  {
+   "sourceId": "osm:w791257924",
+   "sample": null,
+   "heightM": 11.03,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 683.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1367.6
+  },
+  {
+   "sourceId": "osm:w942147730",
+   "sample": null,
+   "heightM": 20.5,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1172.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2344.1
+  },
+  {
+   "sourceId": "osm:w942148037",
+   "sample": null,
+   "heightM": 22.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 325.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2277.9
+  },
+  {
+   "sourceId": "osm:w942148038",
+   "sample": null,
+   "heightM": 10.46,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 159.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 316.9
+  },
+  {
+   "sourceId": "osm:w942148230",
+   "sample": null,
+   "heightM": 16.6,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 522.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2441.9
+  },
+  {
+   "sourceId": "osm:w942148904",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 283.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 684.1
+  },
+  {
+   "sourceId": "osm:w942149624",
+   "sample": null,
+   "heightM": 16.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 342.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 948.0
+  },
+  {
+   "sourceId": "osm:w942149625",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 369.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 738.0
+  },
+  {
+   "sourceId": "osm:w942151828",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 145.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1006.8
+  },
+  {
+   "sourceId": "osm:w942151829",
+   "sample": null,
+   "heightM": 15.2,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 876.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1752.7
+  },
+  {
+   "sourceId": "osm:w942152076",
+   "sample": null,
+   "heightM": 12.31,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 580.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1160.7
+  },
+  {
+   "sourceId": "osm:w942152101",
+   "sample": null,
+   "heightM": 12.83,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 250.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1454.8
+  },
+  {
+   "sourceId": "osm:w956516986",
+   "sample": null,
+   "heightM": 8.11,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 343.2
+  },
+  {
+   "sourceId": "osm:w956516987",
+   "sample": null,
+   "heightM": 6.72,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 153.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 549.4
+  },
+  {
+   "sourceId": "osm:w956516988",
+   "sample": null,
+   "heightM": 14.47,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 334.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1197.1
+  },
+  {
+   "sourceId": "osm:w956516989",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 615.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1230.9
+  },
+  {
+   "sourceId": "osm:w956516990",
+   "sample": null,
+   "heightM": 13.47,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1252.2
+  },
+  {
+   "sourceId": "osm:w956516991",
+   "sample": null,
+   "heightM": 14.89,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 388.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1370.7
+  },
+  {
+   "sourceId": "osm:w956517222",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 378.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 757.6
+  },
+  {
+   "sourceId": "osm:w956517223",
+   "sample": null,
+   "heightM": 7.66,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 470.7
+  },
+  {
+   "sourceId": "osm:w956517224",
+   "sample": null,
+   "heightM": 14.16,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 371.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1187.5
+  },
+  {
+   "sourceId": "osm:w956517225",
+   "sample": null,
+   "heightM": 7.05,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 568.9
+  },
+  {
+   "sourceId": "osm:w956517226",
+   "sample": null,
+   "heightM": 6.77,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 367.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 555.8
+  },
+  {
+   "sourceId": "osm:w956517227",
+   "sample": null,
+   "heightM": 6.1,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 320.4
+  },
+  {
+   "sourceId": "osm:w982037784",
+   "sample": null,
+   "heightM": 24.4,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 2902.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 7772.4
+  },
+  {
+   "sourceId": "osm:w982037996",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 245.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1048.3
+  },
+  {
+   "sourceId": "osm:w982037997",
+   "sample": null,
+   "heightM": 22.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2421.4
+  },
+  {
+   "sourceId": "osm:w982037998",
+   "sample": null,
+   "heightM": 28.31,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2972.0
+  },
+  {
+   "sourceId": "osm:w982037999",
+   "sample": null,
+   "heightM": 7.22,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 59.3,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 447.8
+  },
+  {
+   "sourceId": "osm:w982038000",
+   "sample": null,
+   "heightM": 6.69,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 192.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 384.4
+  },
+  {
+   "sourceId": "osm:w982038001",
+   "sample": null,
+   "heightM": 13.53,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1712.6
+  },
+  {
+   "sourceId": "osm:w982038002",
+   "sample": null,
+   "heightM": 13.79,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1518.9
+  },
+  {
+   "sourceId": "osm:w982039450",
+   "sample": null,
+   "heightM": 12.7,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1143.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1346.8
+  },
+  {
+   "sourceId": "osm:w982039502",
+   "sample": null,
+   "heightM": 8.8,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 399.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 681.5
+  },
+  {
+   "sourceId": "osm:w982039991",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 237.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 639.4
+  },
+  {
+   "sourceId": "osm:w982042246",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 324.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1154.6
+  },
+  {
+   "sourceId": "osm:w982042347",
+   "sample": null,
+   "heightM": 13.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1026.0
+  },
+  {
+   "sourceId": "osm:w982042348",
+   "sample": null,
+   "heightM": 12.7,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 847.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1609.6
+  },
+  {
+   "sourceId": "osm:w982371453",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 57.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 439.0
+  },
+  {
+   "sourceId": "osm:w982457851",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 241.8,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1054.1
+  },
+  {
+   "sourceId": "osm:w982457852",
+   "sample": "C14",
+   "heightM": 9.9,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 67.7,
+   "photographedFacadeM2": 67.7,
+   "allWallsM2": 604.7
+  },
+  {
+   "sourceId": "osm:w982458079",
+   "sample": null,
+   "heightM": 8.83,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 571.6
+  },
+  {
+   "sourceId": "osm:w982458080",
+   "sample": null,
+   "heightM": 8.86,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 648.3
+  },
+  {
+   "sourceId": "osm:w982458081",
+   "sample": null,
+   "heightM": 9.58,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 133.7,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 826.5
+  },
+  {
+   "sourceId": "osm:w982458082",
+   "sample": null,
+   "heightM": 14.57,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 234.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1251.8
+  },
+  {
+   "sourceId": "osm:w982458083",
+   "sample": null,
+   "heightM": 8.18,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 282.6
+  },
+  {
+   "sourceId": "osm:w982458084",
+   "sample": null,
+   "heightM": 9.28,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 387.2
+  },
+  {
+   "sourceId": "osm:w982458085",
+   "sample": null,
+   "heightM": 17.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 668.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1337.1
+  },
+  {
+   "sourceId": "osm:w982458086",
+   "sample": null,
+   "heightM": 11.15,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 225.5,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 673.4
+  },
+  {
+   "sourceId": "osm:w982458087",
+   "sample": null,
+   "heightM": 10.36,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 665.3
+  },
+  {
+   "sourceId": "osm:w1191446835",
+   "sample": null,
+   "heightM": 7.38,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 168.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 518.2
+  },
+  {
+   "sourceId": "osm:w1191446837",
+   "sample": null,
+   "heightM": 13.89,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 1007.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 2416.4
+  },
+  {
+   "sourceId": "osm:w1191446839",
+   "sample": null,
+   "heightM": 7.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 583.1,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 736.1
+  },
+  {
+   "sourceId": "osm:w1311803375",
+   "sample": null,
+   "heightM": 13.37,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 166.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1063.2
+  },
+  {
+   "sourceId": "osm:w1311803376",
+   "sample": null,
+   "heightM": 4.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 153.2,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 306.4
+  },
+  {
+   "sourceId": "osm:w1319844941",
+   "sample": null,
+   "heightM": 4.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 0.0,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 185.8
+  },
+  {
+   "sourceId": "osm:w1494392652",
+   "sample": null,
+   "heightM": 13.79,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 285.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 1220.1
+  },
+  {
+   "sourceId": "osm:w1494392653",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 460.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 921.0
+  },
+  {
+   "sourceId": "osm:w1518044190",
+   "sample": null,
+   "heightM": 40.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 3933.4,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 7866.7
+  },
+  {
+   "sourceId": "osm:w1521332868",
+   "sample": null,
+   "heightM": 4.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 65.9,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 288.8
+  },
+  {
+   "sourceId": "osm:w1530552889",
+   "sample": null,
+   "heightM": 10.0,
+   "heightSource": "base render record (inferred)",
+   "streetFacadeM2": 58.6,
+   "photographedFacadeM2": 0,
+   "allWallsM2": 193.8
+  }
+ ]
+}

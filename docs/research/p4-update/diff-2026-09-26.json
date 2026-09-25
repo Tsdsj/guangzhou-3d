@@ -1,0 +1,363 @@
+{
+ "snapshot": "data/evidence/snapshots/2026-09-26",
+ "files": {
+  "data/evidence/snapshots/2026-09-26/shamian-map.json": "46158b5c617dd89147521abd57457b246ba07cd9ac726708db6044d288ffc74e",
+  "data/evidence/snapshots/2026-09-26/huacheng-map.json": "bfaa706b34a6bc146da801ddbe1a08a7566dcba0f545afdbae4ee48aa8ce6822"
+ },
+ "areas": {
+  "shamian": {
+   "baseline": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+   "compared": 168,
+   "changes": [],
+   "added": [
+    {
+     "id": "osm:w266274673",
+     "version": 15,
+     "timestamp": "2026-05-29T20:31:49Z",
+     "tags": {
+      "alt_name": "Wong Sha",
+      "building": "train_station",
+      "building:levels:underground": "1",
+      "layer": "-1",
+      "location": "underground",
+      "name": "黄沙",
+      "name:en": "Huangsha",
+      "name:zh": "黄沙",
+      "opening_hours": "06:03-23:58",
+      "operator": "广州地铁集团有限公司",
+      "ref": "1-05",
+      "start_date": "1997-6-28",
+      "wikidata": "Q5926048",
+      "wikimedia_commons": "Category:Huangsha Station",
+      "wikipedia": "zh:黄沙站"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w266274675",
+     "version": 17,
+     "timestamp": "2026-05-29T20:31:49Z",
+     "tags": {
+      "building": "train_station",
+      "building:levels:underground": "1",
+      "layer": "-1",
+      "location": "underground",
+      "name": "黄沙",
+      "name:en": "Huangsha",
+      "name:zh": "黄沙",
+      "opening_hours": "06:03-23:58",
+      "operator": "广州地铁集团有限公司",
+      "ref": "6-07",
+      "start_date": "2013-12-28",
+      "wikidata": "Q5926048",
+      "wikimedia_commons": "Category:Huangsha Station",
+      "wikipedia": "zh:黄沙站"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w298062052",
+     "version": 16,
+     "timestamp": "2024-08-19T18:25:53Z",
+     "tags": {
+      "addr:city": "廣州",
+      "addr:district": "荔湾区",
+      "addr:housenumber": "8",
+      "addr:postcode": "510140",
+      "addr:province": "广东省",
+      "addr:street": "黃沙大道",
+      "air_conditioning": "yes",
+      "building": "yes",
+      "building:levels": "3",
+      "building:levels:underground": "1",
+      "layer": "0",
+      "name": "广州荔湾领展广场",
+      "name:en": "Link Plaza Guangzhou",
+      "name:zh": "广州荔湾领展广场",
+      "name:zh-Hant": "廣州荔灣領展廣場",
+      "opening_hours": "Mo-Su 10:00-22:00",
+      "payment:alipay": "yes",
+      "payment:cash": "yes",
+      "payment:credit_cards": "yes",
+      "payment:unionpay": "yes",
+      "payment:wechat": "yes",
+      "phone": "+86 20 3101 8088",
+      "shop": "mall",
+      "smoking": "no",
+      "toilets": "yes",
+      "website": "http://www.gc-metropolitanplaza.com/",
+      "wikimedia_commons": "Category:Link Plaza Liwan",
+      "wikipedia": "zh:领展购物广场·广州"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w298062058",
+     "version": 6,
+     "timestamp": "2021-07-20T05:26:16Z",
+     "tags": {
+      "addr:city": "廣州",
+      "addr:housenumber": "8",
+      "addr:postcode": "510140",
+      "addr:street": "黃沙大道",
+      "building:levels": "20",
+      "building:part": "apartments",
+      "layer": "1",
+      "name": "逸翠湾",
+      "name:zh": "逸翠湾"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w509710341",
+     "version": 2,
+     "timestamp": "2022-01-06T12:36:45Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w554640970",
+     "version": 3,
+     "timestamp": "2021-05-09T18:57:13Z",
+     "tags": {
+      "building": "wholesale",
+      "building:levels": "9"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w932447160",
+     "version": 2,
+     "timestamp": "2022-02-27T06:05:07Z",
+     "tags": {
+      "building": "hospital",
+      "building:levels": "12"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w932447268",
+     "version": 2,
+     "timestamp": "2022-02-27T06:05:07Z",
+     "tags": {
+      "building": "hospital",
+      "building:levels": "15"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w933950929",
+     "version": 3,
+     "timestamp": "2022-02-27T06:05:07Z",
+     "tags": {
+      "building": "hospital",
+      "building:levels": "4"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w941077955",
+     "version": 1,
+     "timestamp": "2021-05-09T18:57:34Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w942880490",
+     "version": 1,
+     "timestamp": "2021-05-14T13:34:59Z",
+     "tags": {
+      "building": "wholesale",
+      "building:levels": "3",
+      "name": "滨滨电子城"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w942880812",
+     "version": 3,
+     "timestamp": "2026-05-20T11:36:08Z",
+     "tags": {
+      "addr:housenumber": "7",
+      "addr:street": "沙基东约",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "4",
+      "healthcare": "hospital",
+      "name": "穗华口腔荔湾院区"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w944335893",
+     "version": 1,
+     "timestamp": "2021-05-18T17:14:38Z",
+     "tags": {
+      "building": "residential",
+      "building:levels": "7"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w944336682",
+     "version": 1,
+     "timestamp": "2021-05-18T17:17:19Z",
+     "tags": {
+      "building": "residential",
+      "building:levels": "6"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w957569968",
+     "version": 1,
+     "timestamp": "2021-06-23T14:44:56Z",
+     "tags": {
+      "building": "yes",
+      "building:levels": "4"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w957569969",
+     "version": 1,
+     "timestamp": "2021-06-23T14:44:56Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w982132931",
+     "version": 2,
+     "timestamp": "2022-01-06T12:36:45Z",
+     "tags": {
+      "building": "yes",
+      "opening_hours": "05:57-23:47"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w982132932",
+     "version": 2,
+     "timestamp": "2022-01-06T12:36:45Z",
+     "tags": {
+      "building": "yes",
+      "opening_hours": "05:57-23:47"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w982132933",
+     "version": 2,
+     "timestamp": "2022-01-06T12:36:45Z",
+     "tags": {
+      "building": "yes",
+      "opening_hours": "05:57-23:47"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1018778430",
+     "version": 1,
+     "timestamp": "2022-01-06T12:36:45Z",
+     "tags": {
+      "building": "yes",
+      "opening_hours": "05:57-23:47"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1162758907",
+     "version": 1,
+     "timestamp": "2023-04-15T09:34:33Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1162758908",
+     "version": 1,
+     "timestamp": "2023-04-15T09:34:33Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1162758909",
+     "version": 1,
+     "timestamp": "2023-04-15T09:34:33Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1162758910",
+     "version": 1,
+     "timestamp": "2023-04-15T09:34:33Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1162758911",
+     "version": 1,
+     "timestamp": "2023-04-15T09:34:33Z",
+     "tags": {
+      "building": "yes"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    },
+    {
+     "id": "osm:w1311802321",
+     "version": 1,
+     "timestamp": "2024-08-28T15:01:27Z",
+     "tags": {
+      "building": "yes",
+      "power": "substation"
+     },
+     "reason": "outside-P0-crop-pre-existing"
+    }
+   ],
+   "counts": {},
+   "addedByReason": {
+    "outside-P0-crop-pre-existing": 26
+   },
+   "detailedBuildingsToReverify": [],
+   "detailedBuildingsUnchanged": [
+    "B1",
+    "B2",
+    "B3",
+    "C01",
+    "C02",
+    "C07",
+    "C08",
+    "C09",
+    "C13",
+    "C14",
+    "C15"
+   ]
+  },
+  "huacheng": {
+   "baseline": "data/evidence/huacheng-osm.json",
+   "elements": [
+    2587,
+    2587
+   ],
+   "added": [],
+   "removed": [],
+   "modified": [],
+   "counts": {},
+   "roadTileSourcesChanged": [],
+   "pendingReviewItemsChanged": []
+  }
+ }
+}

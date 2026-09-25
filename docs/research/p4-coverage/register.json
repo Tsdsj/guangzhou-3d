@@ -1,0 +1,1537 @@
+{
+ "date": "2026-09-26",
+ "states": {
+  "identity-only": 19,
+  "outline-only": 106,
+  "detailed": 11,
+  "photo-and-address": 8
+ },
+ "unmatchedAddressPhotos": [
+  "沙面一街10号",
+  "沙面一街12号",
+  "沙面一街14号",
+  "沙面一街16号",
+  "沙面一街18号",
+  "沙面一街20号",
+  "沙面一街4号",
+  "沙面一街6号",
+  "沙面一街8号",
+  "沙面三街2号",
+  "沙面三街4号",
+  "沙面三街6号",
+  "沙面五街1号",
+  "沙面北街1号",
+  "沙面北街29号",
+  "沙面北街39号",
+  "沙面北街41号",
+  "沙面北街43号",
+  "沙面北街51号",
+  "沙面北街61号",
+  "沙面北街65号",
+  "沙面北街67号",
+  "沙面北街73号",
+  "沙面北街91号",
+  "沙面北街93号",
+  "沙面北街95号",
+  "沙面北街97号",
+  "沙面北街99号",
+  "沙面南街12号",
+  "沙面大街10号",
+  "沙面大街12号",
+  "沙面大街16号",
+  "沙面大街18号",
+  "沙面大街19号",
+  "沙面大街1号",
+  "沙面大街20号",
+  "沙面大街21号",
+  "沙面大街22号",
+  "沙面大街23号",
+  "沙面大街24号",
+  "沙面大街25号",
+  "沙面大街27号",
+  "沙面大街2号",
+  "沙面大街36号",
+  "沙面大街39号",
+  "沙面大街41号",
+  "沙面大街4号",
+  "沙面大街54号",
+  "沙面大街61号",
+  "沙面大街68号"
+ ],
+ "rows": [
+  {
+   "sourceId": "osm:w338885560",
+   "state": "identity-only",
+   "sample": null,
+   "name": "原美国领事馆大楼",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w352610257",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 3336.4
+  },
+  {
+   "sourceId": "osm:w352610258",
+   "state": "detailed",
+   "sample": "B2",
+   "name": "东风汇理银行旧址",
+   "address": "沙面一街3",
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 1386.3
+  },
+  {
+   "sourceId": "osm:w352610259",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 910.5
+  },
+  {
+   "sourceId": "osm:w352610260",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街29",
+   "levelsTag": "2",
+   "photos": [
+    "File:沙面大街19、21、23、25、27、29号.jpg"
+   ],
+   "streetFacadeM2": 163.0
+  },
+  {
+   "sourceId": "osm:w352610261",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 1008.1
+  },
+  {
+   "sourceId": "osm:w352610262",
+   "state": "identity-only",
+   "sample": null,
+   "name": "广东悦海宾馆",
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 350.8
+  },
+  {
+   "sourceId": "osm:w352610263",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 778.3
+  },
+  {
+   "sourceId": "osm:w352610264",
+   "state": "identity-only",
+   "sample": null,
+   "name": "广东侨胞宾馆",
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 370.0
+  },
+  {
+   "sourceId": "osm:w352610265",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": "渣打银行旧址",
+   "address": "沙面大街49",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街49号.jpg"
+   ],
+   "streetFacadeM2": 452.2
+  },
+  {
+   "sourceId": "osm:w352610266",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 242.8
+  },
+  {
+   "sourceId": "osm:w352610267",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 138.7
+  },
+  {
+   "sourceId": "osm:w352610268",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 395.5
+  },
+  {
+   "sourceId": "osm:w352610269",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 375.9
+  },
+  {
+   "sourceId": "osm:w352610271",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 249.7
+  },
+  {
+   "sourceId": "osm:w352610272",
+   "state": "identity-only",
+   "sample": null,
+   "name": "旧摩罗叉公寓",
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 503.5
+  },
+  {
+   "sourceId": "osm:w352610273",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街59",
+   "levelsTag": null,
+   "photos": [
+    "File:沙面大街59号.jpg"
+   ],
+   "streetFacadeM2": 783.8
+  },
+  {
+   "sourceId": "osm:w352610274",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 247.2
+  },
+  {
+   "sourceId": "osm:w352610275",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 533.7
+  },
+  {
+   "sourceId": "osm:w352610276",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 645.6
+  },
+  {
+   "sourceId": "osm:w352610277",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 403.4
+  },
+  {
+   "sourceId": "osm:w352610278",
+   "state": "detailed",
+   "sample": "C09",
+   "name": "洛士利洋行旧址",
+   "address": "沙面大街62",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街62号.jpg"
+   ],
+   "streetFacadeM2": 262.4
+  },
+  {
+   "sourceId": "osm:w352610279",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 378.9
+  },
+  {
+   "sourceId": "osm:w352610281",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 214.0
+  },
+  {
+   "sourceId": "osm:w352610282",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 3717.1
+  },
+  {
+   "sourceId": "osm:w352610283",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": "海关宿舍",
+   "address": "沙面大街6",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街2、4、6号.jpg"
+   ],
+   "streetFacadeM2": 463.5
+  },
+  {
+   "sourceId": "osm:w352610284",
+   "state": "identity-only",
+   "sample": null,
+   "name": "沙面广州医药集团有限公司",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 600.2
+  },
+  {
+   "sourceId": "osm:w352610286",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街51",
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 221.6
+  },
+  {
+   "sourceId": "osm:w352610287",
+   "state": "detailed",
+   "sample": "C13",
+   "name": null,
+   "address": "沙面大街64",
+   "levelsTag": "2",
+   "photos": [
+    "File:沙面大街64号.jpg"
+   ],
+   "streetFacadeM2": 189.1
+  },
+  {
+   "sourceId": "osm:w352610288",
+   "state": "detailed",
+   "sample": "C02",
+   "name": null,
+   "address": "沙面大街56",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街56号.jpg"
+   ],
+   "streetFacadeM2": 963.5
+  },
+  {
+   "sourceId": "osm:w352610289",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 123.2
+  },
+  {
+   "sourceId": "osm:w352610291",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 282.9
+  },
+  {
+   "sourceId": "osm:w352610292",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 928.3
+  },
+  {
+   "sourceId": "osm:w352610293",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 1099.8
+  },
+  {
+   "sourceId": "osm:w352610294",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 401.4
+  },
+  {
+   "sourceId": "osm:w352610295",
+   "state": "identity-only",
+   "sample": null,
+   "name": "阅江楼艺术馆茶肆",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 106.4
+  },
+  {
+   "sourceId": "osm:w352610296",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 1148.1
+  },
+  {
+   "sourceId": "osm:w352610299",
+   "state": "detailed",
+   "sample": "C15",
+   "name": null,
+   "address": "沙面大街38",
+   "levelsTag": "2",
+   "photos": [
+    "File:沙面大街36、38号.jpg"
+   ],
+   "streetFacadeM2": 578.6
+  },
+  {
+   "sourceId": "osm:w352610300",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": null,
+   "address": "沙面五街4",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面五街4号.jpg"
+   ],
+   "streetFacadeM2": 283.1
+  },
+  {
+   "sourceId": "osm:w352610301",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 288.6
+  },
+  {
+   "sourceId": "osm:w352610302",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 466.9
+  },
+  {
+   "sourceId": "osm:w352610303",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 412.2
+  },
+  {
+   "sourceId": "osm:w352610304",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 314.5
+  },
+  {
+   "sourceId": "osm:w352610306",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 265.3
+  },
+  {
+   "sourceId": "osm:w352610307",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w352610308",
+   "state": "identity-only",
+   "sample": null,
+   "name": "旧泰国人俱乐部",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 301.7
+  },
+  {
+   "sourceId": "osm:w352610309",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": "旗昌洋行旧址",
+   "address": "沙面大街48",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街48号.jpg"
+   ],
+   "streetFacadeM2": 325.4
+  },
+  {
+   "sourceId": "osm:w352610310",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 105.0
+  },
+  {
+   "sourceId": "osm:w352610311",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 273.3
+  },
+  {
+   "sourceId": "osm:w352610312",
+   "state": "detailed",
+   "sample": "C07",
+   "name": "万宝楼",
+   "address": "沙面大街46",
+   "levelsTag": "4",
+   "photos": [
+    "File:沙面大街46号.jpg"
+   ],
+   "streetFacadeM2": 948.9
+  },
+  {
+   "sourceId": "osm:w352610313",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w352610314",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 662.1
+  },
+  {
+   "sourceId": "osm:w352610315",
+   "state": "detailed",
+   "sample": "C08",
+   "name": "星巴克",
+   "address": "沙面大街50/52",
+   "levelsTag": "2",
+   "photos": [
+    "File:沙面大街50、52号.jpg"
+   ],
+   "streetFacadeM2": 342.8
+  },
+  {
+   "sourceId": "osm:w352610316",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 265.4
+  },
+  {
+   "sourceId": "osm:w352610317",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 511.6
+  },
+  {
+   "sourceId": "osm:w352610318",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 449.0
+  },
+  {
+   "sourceId": "osm:w352610319",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 213.0
+  },
+  {
+   "sourceId": "osm:w352610320",
+   "state": "identity-only",
+   "sample": null,
+   "name": "英国医院&招商局",
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 230.4
+  },
+  {
+   "sourceId": "osm:w352610321",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 261.0
+  },
+  {
+   "sourceId": "osm:w352610322",
+   "state": "detailed",
+   "sample": "B1",
+   "name": "台湾银行广州支行(日)旧址",
+   "address": "沙面大街26",
+   "levelsTag": "3",
+   "photos": [
+    "File:沙面大街26号.jpg"
+   ],
+   "streetFacadeM2": 319.8
+  },
+  {
+   "sourceId": "osm:w352610323",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 388.3
+  },
+  {
+   "sourceId": "osm:w352610324",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 1014.0
+  },
+  {
+   "sourceId": "osm:w352610325",
+   "state": "identity-only",
+   "sample": null,
+   "name": "广东外事博物馆",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 480.9
+  },
+  {
+   "sourceId": "osm:w352610326",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 71.7
+  },
+  {
+   "sourceId": "osm:w352610327",
+   "state": "identity-only",
+   "sample": null,
+   "name": "广州海关",
+   "address": "沙面大街67",
+   "levelsTag": "8",
+   "photos": [],
+   "streetFacadeM2": 3292.3
+  },
+  {
+   "sourceId": "osm:w352610328",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 400.9
+  },
+  {
+   "sourceId": "osm:w352610329",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街53",
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 747.1
+  },
+  {
+   "sourceId": "osm:w352610330",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 1018.4
+  },
+  {
+   "sourceId": "osm:w392765468",
+   "state": "detailed",
+   "sample": "B3",
+   "name": "天主教路德堂",
+   "address": "沙面大街14",
+   "levelsTag": "1",
+   "photos": [
+    "File:沙面大街14号.jpg"
+   ],
+   "streetFacadeM2": 942.6
+  },
+  {
+   "sourceId": "osm:w509641341",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 907.2
+  },
+  {
+   "sourceId": "osm:w509641343",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 53.6
+  },
+  {
+   "sourceId": "osm:w509641346",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 526.5
+  },
+  {
+   "sourceId": "osm:w509641349",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 235.7
+  },
+  {
+   "sourceId": "osm:w509641361",
+   "state": "detailed",
+   "sample": "C01",
+   "name": "基督教沙面会堂",
+   "address": "沙面南街60",
+   "levelsTag": "1",
+   "photos": [],
+   "streetFacadeM2": 1096.3
+  },
+  {
+   "sourceId": "osm:w509641362",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 414.2
+  },
+  {
+   "sourceId": "osm:w515400661",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 233.4
+  },
+  {
+   "sourceId": "osm:w515400662",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 53.7
+  },
+  {
+   "sourceId": "osm:w515400663",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 398.9
+  },
+  {
+   "sourceId": "osm:w515400664",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 150.0
+  },
+  {
+   "sourceId": "osm:w515400665",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w515401364",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 220.2
+  },
+  {
+   "sourceId": "osm:w791257922",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 294.5
+  },
+  {
+   "sourceId": "osm:w791257923",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 15309.7
+  },
+  {
+   "sourceId": "osm:w791257924",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 683.7
+  },
+  {
+   "sourceId": "osm:w942147730",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 1172.2
+  },
+  {
+   "sourceId": "osm:w942148037",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "7",
+   "photos": [],
+   "streetFacadeM2": 325.1
+  },
+  {
+   "sourceId": "osm:w942148038",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 159.9
+  },
+  {
+   "sourceId": "osm:w942148230",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 522.2
+  },
+  {
+   "sourceId": "osm:w942148904",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 283.6
+  },
+  {
+   "sourceId": "osm:w942149624",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "5",
+   "photos": [],
+   "streetFacadeM2": 342.8
+  },
+  {
+   "sourceId": "osm:w942149625",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 369.0
+  },
+  {
+   "sourceId": "osm:w942151828",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 145.7
+  },
+  {
+   "sourceId": "osm:w942151829",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 876.3
+  },
+  {
+   "sourceId": "osm:w942152076",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 580.3
+  },
+  {
+   "sourceId": "osm:w942152101",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 250.7
+  },
+  {
+   "sourceId": "osm:w956516986",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w956516987",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 153.3
+  },
+  {
+   "sourceId": "osm:w956516988",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 334.0
+  },
+  {
+   "sourceId": "osm:w956516989",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 615.5
+  },
+  {
+   "sourceId": "osm:w956516990",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w956516991",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 388.7
+  },
+  {
+   "sourceId": "osm:w956517222",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 378.7
+  },
+  {
+   "sourceId": "osm:w956517223",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w956517224",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 371.5
+  },
+  {
+   "sourceId": "osm:w956517225",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w956517226",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 367.9
+  },
+  {
+   "sourceId": "osm:w956517227",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982037784",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "6",
+   "photos": [],
+   "streetFacadeM2": 2902.2
+  },
+  {
+   "sourceId": "osm:w982037996",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 245.2
+  },
+  {
+   "sourceId": "osm:w982037997",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982037998",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982037999",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 59.3
+  },
+  {
+   "sourceId": "osm:w982038000",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 192.2
+  },
+  {
+   "sourceId": "osm:w982038001",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982038002",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982039450",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 1143.0
+  },
+  {
+   "sourceId": "osm:w982039502",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 399.1
+  },
+  {
+   "sourceId": "osm:w982039991",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街8",
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 237.7
+  },
+  {
+   "sourceId": "osm:w982042246",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 324.5
+  },
+  {
+   "sourceId": "osm:w982042347",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982042348",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 847.6
+  },
+  {
+   "sourceId": "osm:w982371453",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街32",
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 57.1
+  },
+  {
+   "sourceId": "osm:w982457851",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": "广州俱乐部旧址",
+   "address": "沙面大街60",
+   "levelsTag": "1",
+   "photos": [
+    "File:沙面大街60号.jpg"
+   ],
+   "streetFacadeM2": 241.8
+  },
+  {
+   "sourceId": "osm:w982457852",
+   "state": "detailed",
+   "sample": "C14",
+   "name": null,
+   "address": "沙面大街58",
+   "levelsTag": "2",
+   "photos": [
+    "File:沙面大街58号.jpg"
+   ],
+   "streetFacadeM2": 67.7
+  },
+  {
+   "sourceId": "osm:w982458079",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982458080",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982458081",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 133.7
+  },
+  {
+   "sourceId": "osm:w982458082",
+   "state": "identity-only",
+   "sample": null,
+   "name": "漫豪思酒店",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 234.9
+  },
+  {
+   "sourceId": "osm:w982458083",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982458084",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w982458085",
+   "state": "identity-only",
+   "sample": null,
+   "name": "沙面游泳幼儿园",
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 668.5
+  },
+  {
+   "sourceId": "osm:w982458086",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 225.5
+  },
+  {
+   "sourceId": "osm:w982458087",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w1191446835",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 168.4
+  },
+  {
+   "sourceId": "osm:w1191446837",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 1007.9
+  },
+  {
+   "sourceId": "osm:w1191446839",
+   "state": "photo-and-address",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街69",
+   "levelsTag": "1",
+   "photos": [
+    "File:沙面大街69号.jpg"
+   ],
+   "streetFacadeM2": 583.1
+  },
+  {
+   "sourceId": "osm:w1311803375",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 166.4
+  },
+  {
+   "sourceId": "osm:w1311803376",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "1",
+   "photos": [],
+   "streetFacadeM2": 153.2
+  },
+  {
+   "sourceId": "osm:w1319844941",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "1",
+   "photos": [],
+   "streetFacadeM2": 0.0
+  },
+  {
+   "sourceId": "osm:w1494392652",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": null,
+   "photos": [],
+   "streetFacadeM2": 285.9
+  },
+  {
+   "sourceId": "osm:w1494392653",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面四街8",
+   "levelsTag": "3",
+   "photos": [],
+   "streetFacadeM2": 460.6
+  },
+  {
+   "sourceId": "osm:w1518044190",
+   "state": "identity-only",
+   "sample": null,
+   "name": "广东胜利宾馆",
+   "address": "沙面北街53",
+   "levelsTag": "2",
+   "photos": [],
+   "streetFacadeM2": 3933.4
+  },
+  {
+   "sourceId": "osm:w1521332868",
+   "state": "identity-only",
+   "sample": null,
+   "name": null,
+   "address": "沙面大街32",
+   "levelsTag": "1",
+   "photos": [],
+   "streetFacadeM2": 65.9
+  },
+  {
+   "sourceId": "osm:w1530552889",
+   "state": "outline-only",
+   "sample": null,
+   "name": null,
+   "address": null,
+   "levelsTag": "4",
+   "photos": [],
+   "streetFacadeM2": 58.6
+  }
+ ]
+}
