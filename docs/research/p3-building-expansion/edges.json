@@ -321,5 +321,204 @@
   ],
   "modelTopM": 13.65,
   "heightEvidence": null
+ },
+ {
+  "id": "C06",
+  "sourceId": "osm:w352610265",
+  "renderedReplaceIds": [
+   "osm:w352610265"
+  ],
+  "faces": [
+   {
+    "facing": "NE",
+    "street": "沙面三街",
+    "edge": 2,
+    "lengthM": 4.775,
+    "compass": 41.6,
+    "offDeg": 3.4,
+    "streetDistM": 8.11,
+    "candidates": [
+     {
+      "edge": 0,
+      "lengthM": 23.458,
+      "compass": 270.7,
+      "offDeg": 134.3,
+      "streetDistM": 29.85
+     },
+     {
+      "edge": 1,
+      "lengthM": 20.348,
+      "compass": 1.3,
+      "offDeg": 43.7,
+      "streetDistM": 20.14
+     },
+     {
+      "edge": 2,
+      "lengthM": 4.775,
+      "compass": 41.6,
+      "offDeg": 3.4,
+      "streetDistM": 8.11
+     },
+     {
+      "edge": 3,
+      "lengthM": 20.099,
+      "compass": 91.8,
+      "offDeg": 46.8,
+      "streetDistM": 6.04
+     },
+     {
+      "edge": 4,
+      "lengthM": 23.569,
+      "compass": 180.6,
+      "offDeg": 135.6,
+      "streetDistM": 17.61
+     }
+    ]
+   },
+   {
+    "facing": "N",
+    "street": "沙面大街",
+    "edge": 1,
+    "lengthM": 20.348,
+    "compass": 1.3,
+    "offDeg": 1.3,
+    "streetDistM": 10.28,
+    "candidates": [
+     {
+      "edge": 0,
+      "lengthM": 23.458,
+      "compass": 270.7,
+      "offDeg": 89.3,
+      "streetDistM": 22.1
+     },
+     {
+      "edge": 1,
+      "lengthM": 20.348,
+      "compass": 1.3,
+      "offDeg": 1.3,
+      "streetDistM": 10.28
+     },
+     {
+      "edge": 2,
+      "lengthM": 4.775,
+      "compass": 41.6,
+      "offDeg": 41.6,
+      "streetDistM": 11.7
+     },
+     {
+      "edge": 3,
+      "lengthM": 20.099,
+      "compass": 91.8,
+      "offDeg": 91.8,
+      "streetDistM": 23.28
+     },
+     {
+      "edge": 4,
+      "lengthM": 23.569,
+      "compass": 180.6,
+      "offDeg": 179.4,
+      "streetDistM": 33.58
+     }
+    ]
+   },
+   {
+    "facing": "E",
+    "street": "沙面三街",
+    "edge": 3,
+    "lengthM": 20.099,
+    "compass": 91.8,
+    "offDeg": 1.8,
+    "streetDistM": 6.04,
+    "candidates": [
+     {
+      "edge": 0,
+      "lengthM": 23.458,
+      "compass": 270.7,
+      "offDeg": 179.3,
+      "streetDistM": 29.85
+     },
+     {
+      "edge": 1,
+      "lengthM": 20.348,
+      "compass": 1.3,
+      "offDeg": 88.7,
+      "streetDistM": 20.14
+     },
+     {
+      "edge": 2,
+      "lengthM": 4.775,
+      "compass": 41.6,
+      "offDeg": 48.4,
+      "streetDistM": 8.11
+     },
+     {
+      "edge": 3,
+      "lengthM": 20.099,
+      "compass": 91.8,
+      "offDeg": 1.8,
+      "streetDistM": 6.04
+     },
+     {
+      "edge": 4,
+      "lengthM": 23.569,
+      "compass": 180.6,
+      "offDeg": 90.6,
+      "streetDistM": 17.61
+     }
+    ]
+   }
+  ],
+  "modelTopM": 15.1,
+  "heightEvidence": null
+ },
+ {
+  "id": "C17",
+  "sourceId": "osm:w352610309",
+  "renderedReplaceIds": [
+   "osm:w352610309"
+  ],
+  "faces": [
+   {
+    "facing": "S",
+    "street": "沙面大街",
+    "edge": 3,
+    "lengthM": 32.543,
+    "compass": 181.8,
+    "offDeg": 1.8,
+    "streetDistM": 16.58,
+    "candidates": [
+     {
+      "edge": 0,
+      "lengthM": 24.633,
+      "compass": 271.9,
+      "offDeg": 91.9,
+      "streetDistM": 28.98
+     },
+     {
+      "edge": 1,
+      "lengthM": 32.543,
+      "compass": 1.8,
+      "offDeg": 178.2,
+      "streetDistM": 41.22
+     },
+     {
+      "edge": 2,
+      "lengthM": 24.633,
+      "compass": 91.9,
+      "offDeg": 88.1,
+      "streetDistM": 28.82
+     },
+     {
+      "edge": 3,
+      "lengthM": 32.543,
+      "compass": 181.8,
+      "offDeg": 1.8,
+      "streetDistM": 16.58
+     }
+    ]
+   }
+  ],
+  "modelTopM": 14.3,
+  "heightEvidence": null
  }
 ]

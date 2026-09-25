@@ -1,6 +1,6 @@
 """Side-by-side sheet: reference photo | model render (trees hidden, labelled) | model with trees.
 
-Usage: python tools/acceptance/photo-compare.py <studies.json> <out.jpg>
+Usage: python tools/acceptance/photo-compare.py <studies.json> <out.jpg> [id,id,...]
 The photo is a free-licensed Commons thumbnail with its credit printed below; renders come from
 tools/acceptance/run-studies.pw.js. Structure comparison only: viewpoints are not pixel-registered.
 """
@@ -10,6 +10,9 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[2]
 studies = json.loads(Path(sys.argv[1]).read_text())['studies']
 out = Path(sys.argv[2])
+if len(sys.argv) > 3:  # optional comma-separated subset of study ids
+    keep = sys.argv[3].split(',')
+    studies = {k: v for k, v in studies.items() if k in keep}
 font = ImageFont.truetype('/System/Library/Fonts/STHeiti Medium.ttc', 18)
 small = ImageFont.truetype('/System/Library/Fonts/STHeiti Medium.ttc', 14)
 W, Hh = 520, 390

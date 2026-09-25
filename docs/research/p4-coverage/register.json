@@ -3,8 +3,8 @@
  "states": {
   "identity-only": 19,
   "outline-only": 106,
-  "detailed": 11,
-  "photo-and-address": 8
+  "detailed": 13,
+  "photo-and-address": 6
  },
  "unmatchedAddressPhotos": [
   "沙面一街10号",
@@ -153,15 +153,15 @@
   },
   {
    "sourceId": "osm:w352610265",
-   "state": "photo-and-address",
-   "sample": null,
+   "state": "detailed",
+   "sample": "C06",
    "name": "渣打银行旧址",
    "address": "沙面大街49",
    "levelsTag": "3",
    "photos": [
     "File:沙面大街49号.jpg"
    ],
-   "streetFacadeM2": 452.2
+   "streetFacadeM2": 788.6
   },
   {
    "sourceId": "osm:w352610266",
@@ -539,15 +539,15 @@
   },
   {
    "sourceId": "osm:w352610309",
-   "state": "photo-and-address",
-   "sample": null,
+   "state": "detailed",
+   "sample": "C17",
    "name": "旗昌洋行旧址",
    "address": "沙面大街48",
    "levelsTag": "3",
    "photos": [
     "File:沙面大街48号.jpg"
    ],
-   "streetFacadeM2": 325.4
+   "streetFacadeM2": 465.4
   },
   {
    "sourceId": "osm:w352610310",

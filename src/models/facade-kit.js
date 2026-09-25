@@ -1,5 +1,5 @@
 import * as THREE from '../../vendor/three/build/three.module.js';
-import { Builder, wallGeometry } from './detail-geometry.js';
+import { Builder, wallGeometry, openingPath } from './detail-geometry.js';
 
 // Evidence-driven facade studies: the source outline gives the plan, a reviewed photo gives the
 // structure of the photographed face(s) (storeys, bays, opening shapes, loggias, columns), and every
@@ -155,6 +155,20 @@ function buildFace(face, heights, spec) {
     b.triangle([[x0, top], [(x0 + x1) / 2, top + p.h], [x1, top]], 0.02, 0.3, 'wall', 'reference');
     b.tube([[x0 - 0.1, top + 0.05, 0.36], [(x0 + x1) / 2, top + p.h + 0.08, 0.36], [x1 + 0.1, top + 0.05, 0.36]], 0.08, 'trim', 'reference');
   }
+  for (const c of spec.crests || []) {
+    // Arched crest above the cornice, as photographed; its outline height is an estimate.
+    const [i0, i1] = c.bays, x0 = edges[i0], x1 = edges[i1 + 1], top = H + ent + (par?.h ?? 0);
+    const shape = openingPath({ x: (x0 + x1) / 2, y: top, width: x1 - x0, height: Math.max(c.h, (x1 - x0) / 2 + 0.2), kind: 'arch' }, THREE.Shape);
+    b.add(new THREE.ExtrudeGeometry(shape, { depth: 0.3, bevelEnabled: false, curveSegments: 14 }), 'wall', [0, 0, -0.2], [0, 0, 0], 'reference');
+    b.frame({ x: (x0 + x1) / 2, y: top, width: x1 - x0, height: Math.max(c.h, (x1 - x0) / 2 + 0.2), kind: 'arch' }, 0.12, 0.12, 'trim', 'estimate');
+  }
+  for (const pv of spec.pavilions || []) {
+    // Roof belvedere at a face corner: posts, slab and a low dome. Existence from the photo, size estimated.
+    const size = pv.size ?? 3, h = pv.h ?? 2.8, x = (pv.at === 'left' ? -1 : 1) * (W / 2 - size / 2 - 0.25), z = -size / 2 - 0.25, y = H + ent;
+    for (const dx of [-1, 1]) for (const dz of [-1, 1]) b.box(x + dx * (size / 2 - 0.2), y + h / 2, z + dz * (size / 2 - 0.2), 0.38, h, 0.38, 'column', 'reference');
+    b.box(x, y + h + 0.15, z, size + 0.4, 0.3, size + 0.4, 'trim', 'reference');
+    if (pv.dome !== false) b.add(new THREE.SphereGeometry(size * 0.42, 18, 8, 0, Math.PI * 2, 0, Math.PI / 2), 'column', [x, y + h + 0.3, z], [0, 0, 0], 'estimate');
+  }
   const g = b.finish('face-details'), wg = walls.finish('face-walls');
   wg.traverse((o) => { if (o.isMesh) o.userData.structuralWall = true; });
   const group = new THREE.Group();
@@ -168,7 +182,7 @@ export function facadeStudy(s) {
   const detailed = new Map(m.faces.map((f) => [f.edge, f]));
   const group = new THREE.Group();
   group.name = `facade-study-${s.id}`;
-  const walls = new Builder();
+  const walls = new Builder(), details = new Builder();
   const checks = { openings: [], solids: [] };
   let top = H;
   plan.forEach((a, i) => {
@@ -185,7 +199,16 @@ export function facadeStudy(s) {
       const built = buildFace({ width: L }, heights, { ...face, plinth: m.plinth, entablature: m.entablature, parapet: m.parapet });
       built.group.rotation.y = ry;
       built.group.position.set(mid[0], 0, mid[1]);
-      group.add(built.group);
+      built.group.updateMatrixWorld(true);
+      // Bake every face into two shared batches (structural walls / details) so a multi-face study
+      // costs the same number of draw calls as a single face.
+      built.group.traverse((o) => {
+        if (!o.isMesh) return;
+        const g = o.geometry.clone().applyMatrix4(o.matrixWorld);
+        (o.userData.structuralWall ? walls : details).add(g, o.userData.materialTag, [0, 0, 0], [0, 0, 0], o.userData.evidence, o.userData.detail);
+        o.geometry.dispose();
+        o.material.dispose();
+      });
       top = Math.max(top, built.top);
       const toModel = ([x, y, z]) => [mid[0] + x * Math.cos(ry) + z * Math.sin(ry), y, mid[1] - x * Math.sin(ry) + z * Math.cos(ry)];
       const inward = [-Math.sin(ry), 0, -Math.cos(ry)];
@@ -224,7 +247,7 @@ export function facadeStudy(s) {
   }
   const wg = walls.finish('outline-walls');
   wg.traverse((o) => { if (o.isMesh) o.userData.structuralWall = true; });
-  group.add(wg);
+  group.add(wg, details.finish('face-details'));
   const colors = { ...PALETTE, ...(m.colors || {}) };
   group.traverse((o) => {
     if (!o.isMesh) return;

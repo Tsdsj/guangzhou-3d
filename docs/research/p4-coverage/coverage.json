@@ -10,20 +10,20 @@
  ],
  "shamian": {
   "buildingsInStudyArea": 144,
-  "detailedBuildings": 11,
-  "detailedShareByCount": 0.0764,
-  "streetFacadeM2": 83629.1,
-  "photographedStreetFacadeM2": 4734.5,
-  "photographedStreetFacadeShare": 0.0566,
-  "detailedBuildingsAllWallsM2": 16794.1,
-  "detailedBuildingsPhotographedM2": 4734.5,
-  "detailedBuildingsPhotographedShare": 0.2819
+  "detailedBuildings": 13,
+  "detailedShareByCount": 0.0903,
+  "streetFacadeM2": 84105.4,
+  "photographedStreetFacadeM2": 5988.4,
+  "photographedStreetFacadeShare": 0.0712,
+  "detailedBuildingsAllWallsM2": 20038.0,
+  "detailedBuildingsPhotographedM2": 5988.4,
+  "detailedBuildingsPhotographedShare": 0.2989
  },
  "city": {
   "osmBuildingRecords": 19823,
   "proceduralFill": 84205,
-  "detailedBuildings": 11,
-  "detailedShareOfOsmRecords": 0.000555
+  "detailedBuildings": 13,
+  "detailedShareOfOsmRecords": 0.000656
  },
  "roads": {
   "detailCentrelineM": 4883.6,
@@ -122,12 +122,12 @@
   },
   {
    "sourceId": "osm:w352610265",
-   "sample": null,
-   "heightM": 10.0,
-   "heightSource": "base render record (inferred)",
-   "streetFacadeM2": 452.2,
-   "photographedFacadeM2": 0,
-   "allWallsM2": 922.5
+   "sample": "C06",
+   "heightM": 17.44,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 788.6,
+   "photographedFacadeM2": 788.6,
+   "allWallsM2": 1608.7
   },
   {
    "sourceId": "osm:w352610266",
@@ -455,12 +455,12 @@
   },
   {
    "sourceId": "osm:w352610309",
-   "sample": null,
-   "heightM": 10.0,
-   "heightSource": "base render record (inferred)",
-   "streetFacadeM2": 325.4,
-   "photographedFacadeM2": 0,
-   "allWallsM2": 1143.5
+   "sample": "C17",
+   "heightM": 14.3,
+   "heightSource": "detail model (estimated)",
+   "streetFacadeM2": 465.4,
+   "photographedFacadeM2": 465.4,
+   "allWallsM2": 1635.2
   },
   {
    "sourceId": "osm:w352610310",

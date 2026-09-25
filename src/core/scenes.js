@@ -219,7 +219,7 @@ export const SCENES = [
     cam:[113.23837,23.10839,150],tgt:[113.23704,23.10988,5],
   },
   {
-    id:'detail-shamian-dajie',group:'detail',name:'精细 · 沙面大街立面组',sub:'6栋照片结构研究 · 其余立面简化，尺寸估计',icon:'top',
+    id:'detail-shamian-dajie',group:'detail',name:'精细 · 沙面大街立面组',sub:'照片结构研究 · 其余立面简化，尺寸估计',icon:'top',
     atmos:{timeOfDay:10.8,weather:'clear',haze:20,lightIntensity:100,exposure:102},
     cam:[113.23876,23.10812,95],tgt:[113.23876,23.11015,6],
   },

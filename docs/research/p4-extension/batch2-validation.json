@@ -1,0 +1,115 @@
+{
+ "date": "2026-09-26",
+ "stage": "facade-study batch 2 (C06 渣打银行旧址, C17 旗昌洋行旧址) staged, then promoted into shamian-dajie (8 buildings)",
+ "device": {
+  "browser": "Chrome 153 (Playwright window)",
+  "gpu": "ANGLE Metal Renderer: Apple M5 Pro",
+  "viewport": [
+   1440,
+   900
+  ],
+  "qualityTier": 0
+ },
+ "staged": {
+  "faultCycles": 4,
+  "tiles": [
+   "shamian",
+   "shamian-west",
+   "shamian-dajie",
+   "trial-shamian-dajie"
+  ],
+  "invariantProblems": 0,
+  "detailMeshesAtReady": [
+   210,
+   210,
+   210,
+   210
+  ],
+  "expectedConsoleErrors": "16 injected HTTP 404"
+ },
+ "deferredFromBatch": {
+  "C19": "沙面大街59号: photographed face unresolved (north edge 55 m from the titled street); see data/evidence/facade-studies.json deferred"
+ },
+ "shots": [
+  {
+   "label": "detail-shamian-dajie-day",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 472,
+   "trisM": 2.62
+  },
+  {
+   "label": "detail-shamian-dajie-night",
+   "p50": 8.4,
+   "p95": 18.1,
+   "calls": 472,
+   "trisM": 2.62
+  },
+  {
+   "label": "detail-shamian-dajie-rain",
+   "p50": 8.5,
+   "p95": 17.0,
+   "calls": 474,
+   "trisM": 2.67
+  },
+  {
+   "label": "detail-dajie-front-day",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 382,
+   "trisM": 2.02
+  },
+  {
+   "label": "detail-dajie-front-night",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 382,
+   "trisM": 2.02
+  },
+  {
+   "label": "detail-dajie-front-rain",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 384,
+   "trisM": 2.07
+  }
+ ],
+ "defaultStress": {
+  "instantJumpViolations": 0,
+  "panelFlightViolations": 0,
+  "http404": {
+   "shamian-west": "error",
+   "shamian-dajie": "error",
+   "fallbackVisible": [
+    true,
+    true
+   ]
+  },
+  "recovered": [
+   "ready",
+   "ready"
+  ],
+  "slowResponseViolations": 0,
+  "abortMidLoad": [
+   "loading",
+   0
+  ],
+  "loadReleaseGeometries": [
+   1747,
+   1747,
+   1747,
+   1747,
+   1747,
+   1747,
+   1747,
+   1747,
+   1747,
+   1747
+  ],
+  "sceneGeometryObjects": [
+   6217
+  ]
+ },
+ "kitChange": "multi-face studies are baked into two shared batches (walls/details); C06 went from 30 to 13 meshes with identical triangles",
+ "verdict": "passes the same gate as batch 1"
+}

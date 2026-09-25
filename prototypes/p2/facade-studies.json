@@ -1263,6 +1263,527 @@
    "evidencePath": "data/evidence/facade-studies.json",
    "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
    "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0"
+  },
+  "C06": {
+   "version": 1,
+   "id": "C06",
+   "kind": "facade-study",
+   "sourceId": "osm:w352610265",
+   "name": "渣打银行旧址",
+   "address": "沙面大街49号",
+   "identity": {
+    "status": "address-and-name-supported",
+    "basis": [
+     "OSM name 渣打银行旧址, addr 沙面大街49",
+     "Commons photo title 沙面大街49号 (Inclavatura 2023-04-25)",
+     "survey p.45 lists 沙面大街49号"
+    ]
+   },
+   "plan": [
+    [
+     1.295808599427195,
+     -16.464694236579433
+    ],
+    [
+     16.65683629873405,
+     1.2647585630124372
+    ],
+    [
+     1.1328651854234,
+     14.419595648440495
+    ],
+    [
+     -3.642029236012319,
+     14.419595648440497
+    ],
+    [
+     -16.509193374759903,
+     -1.0213738499739966
+    ]
+   ],
+   "width": 4.775,
+   "depth": 30.884,
+   "model": {
+    "storeys": [
+     5.0,
+     4.3,
+     4.0
+    ],
+    "plinth": 0.7,
+    "entablature": 0.8,
+    "parapet": {
+     "kind": "balustrade",
+     "h": 1.0
+    },
+    "roof": {
+     "kind": "flat",
+     "evidence": "unknown"
+    },
+    "colors": {
+     "wall": "#ecd67f",
+     "trim": "#f3f0e4",
+     "column": "#f3f0e4",
+     "frame": "#4a2e27",
+     "plinth": "#a69a8f",
+     "rail": "#f0ece0"
+    },
+    "faces": [
+     {
+      "bays": 1,
+      "endPier": 0.55,
+      "quoins": false,
+      "crests": [
+       {
+        "bays": [
+         0,
+         0
+        ],
+        "h": 2.2
+       }
+      ],
+      "floors": [
+       {
+        "kind": "wall",
+        "openings": [
+         {
+          "kind": "rect",
+          "w": 0.62,
+          "sill": 0,
+          "h": 3.6,
+          "door": true,
+          "glaze": "wood"
+         }
+        ],
+        "pilasters": {
+         "counts": [
+          1,
+          1
+         ],
+         "shape": "round",
+         "radius": 0.24,
+         "pairGap": 0
+        }
+       },
+       {
+        "kind": "wall",
+        "openings": [
+         {
+          "kind": "rect",
+          "w": 0.72,
+          "sill": 0.1,
+          "h": 2.9,
+          "rail": true,
+          "glaze": "dark"
+         }
+        ]
+       },
+       {
+        "kind": "wall",
+        "openings": [
+         {
+          "kind": "rect",
+          "w": 0.74,
+          "sill": 0.2,
+          "h": 3.0,
+          "glaze": "dark"
+         }
+        ]
+       }
+      ],
+      "edge": 2
+     },
+     {
+      "bays": 4,
+      "endPier": 1.2,
+      "quoins": false,
+      "floors": [
+       {
+        "kind": "wall",
+        "opening": {
+         "kind": "arch",
+         "w": 0.6,
+         "sill": 0.8,
+         "h": 3.2
+        }
+       },
+       {
+        "kind": "loggia",
+        "depth": 2.2,
+        "columns": {
+         "counts": [
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "shape": "round",
+         "radius": 0.2,
+         "capital": "ionic"
+        },
+        "rail": true,
+        "back": {
+         "kind": "rect",
+         "w": 0.45,
+         "sill": 0,
+         "h": 2.6
+        }
+       },
+       {
+        "kind": "loggia",
+        "depth": 2.2,
+        "columns": {
+         "counts": [
+          0,
+          1,
+          1,
+          1,
+          0
+         ],
+         "shape": "square",
+         "radius": 0.28
+        },
+        "back": {
+         "kind": "rect",
+         "w": 0.45,
+         "sill": 0,
+         "h": 2.6
+        }
+       }
+      ],
+      "edge": 1
+     },
+     {
+      "bays": 4,
+      "endPier": 1.2,
+      "quoins": false,
+      "floors": [
+       {
+        "kind": "wall",
+        "opening": {
+         "kind": "arch",
+         "w": 0.6,
+         "sill": 0.8,
+         "h": 3.2
+        }
+       },
+       {
+        "kind": "loggia",
+        "depth": 2.2,
+        "columns": {
+         "counts": [
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "shape": "round",
+         "radius": 0.2,
+         "capital": "ionic"
+        },
+        "rail": true,
+        "back": {
+         "kind": "rect",
+         "w": 0.45,
+         "sill": 0,
+         "h": 2.6
+        }
+       },
+       {
+        "kind": "loggia",
+        "depth": 2.2,
+        "columns": {
+         "counts": [
+          0,
+          1,
+          1,
+          1,
+          0
+         ],
+         "shape": "square",
+         "radius": 0.28
+        },
+        "back": {
+         "kind": "rect",
+         "w": 0.45,
+         "sill": 0,
+         "h": 2.6
+        }
+       }
+      ],
+      "edge": 3
+     }
+    ]
+   },
+   "faceEvidence": [
+    {
+     "facing": "NE",
+     "street": "沙面三街",
+     "photos": [
+      "dajie-49"
+     ],
+     "observed": "Chamfered corner: entrance door between two free-standing columns under a small entablature, a round window above it, an open loggia with iron railing on the first floor, an open loggia on the second floor and an arched aedicule on the parapet. The round window is not modelled."
+    },
+    {
+     "facing": "N",
+     "street": "沙面大街",
+     "photos": [
+      "dajie-49"
+     ],
+     "observed": "North face on 沙面大街 (right of the corner in the photo): arched ground-floor windows, first-floor verandah with paired Ionic columns and railing, second-floor open loggia with square piers, balustraded parapet; far bays foreshortened."
+    },
+    {
+     "facing": "E",
+     "street": "沙面三街",
+     "photos": [
+      "dajie-49"
+     ],
+     "observed": "East face on 沙面三街 (left of the corner in the photo): same storey pattern as the north face; two bays near the corner are clear, the rest are behind a tree."
+    }
+   ],
+   "photos": {
+    "dajie-49": {
+     "path": "../../docs/research/p3-building-expansion/photos/dajie-49.jpg",
+     "url": "https://commons.wikimedia.org/wiki/File:%E6%B2%99%E9%9D%A2%E5%A4%A7%E8%A1%9749%E5%8F%B7.jpg",
+     "file": "沙面大街49号.jpg",
+     "artist": "Inclavatura",
+     "date": "2023-04-25",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "originalSha1": "8f61b988a184622fa8742651d8665d0edf41f5a8",
+     "thumbSha256": "ce87cc7eae89c40c5f1c1ccf1af7ad659c18d2f389f6d27c6efb451f992a3ceb",
+     "derivative": "resized to max 1024 px wide from the Commons 1280 px thumbnail (JPEG q82); content otherwise unmodified",
+     "pixelRegistrationVerified": false
+    }
+   },
+   "heightEvidence": null,
+   "conflicts": [],
+   "unknowns": [
+    "south and west faces",
+    "bays hidden behind the trees on both street faces",
+    "round window over the entrance",
+    "roof",
+    "all heights and loggia depths"
+   ],
+   "heightStatus": "estimated",
+   "measuredHeightM": null,
+   "metricAccuracy": "unverified",
+   "productionEligible": true,
+   "productionGate": {
+    "status": "default",
+    "since": "2026-09-26",
+    "acceptanceRecord": "docs/research/p4-extension/batch2-validation.json",
+    "basis": [
+     "address/name identity with a dated free-licensed photo",
+     "staged in ?detailTrial=inspect: load, 404 fallback x4 cycles with four building tiles, release; placement residual 0 (internal)",
+     "photo-vs-model structure sheet docs/research/p3-building-expansion/photo-compare-batch2.jpg"
+    ],
+    "dimensions": "estimated",
+    "metricAccuracy": "unverified"
+   },
+   "evidencePath": "data/evidence/facade-studies.json",
+   "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+   "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0"
+  },
+  "C17": {
+   "version": 1,
+   "id": "C17",
+   "kind": "facade-study",
+   "sourceId": "osm:w352610309",
+   "name": "旗昌洋行旧址",
+   "address": "沙面大街48号",
+   "identity": {
+    "status": "address-and-name-supported",
+    "basis": [
+     "OSM name 旗昌洋行旧址, addr 沙面大街48",
+     "Commons photo title 沙面大街48号 (Inclavatura 2023-04-25)",
+     "survey p.44 lists 沙面大街48号"
+    ]
+   },
+   "plan": [
+    [
+     -16.27674391735437,
+     12.316335260740884
+    ],
+    [
+     -16.266171952168534,
+     -12.316335260947625
+    ],
+    [
+     16.276743916638566,
+     -12.316335260900988
+    ],
+    [
+     16.266171952906266,
+     12.316335260740884
+    ]
+   ],
+   "width": 32.543,
+   "depth": 24.633,
+   "model": {
+    "storeys": [
+     4.6,
+     4.2,
+     4.0
+    ],
+    "plinth": 0.5,
+    "entablature": 0.9,
+    "parapet": {
+     "kind": "solid",
+     "h": 0.6
+    },
+    "roof": {
+     "kind": "flat",
+     "evidence": "unknown"
+    },
+    "colors": {
+     "wall": "#b59c91",
+     "trim": "#c9b3a8",
+     "frame": "#3f6b5a",
+     "rail": "#5d7480",
+     "plinth": "#8c7b72"
+    },
+    "faces": [
+     {
+      "bays": 10,
+      "endPier": 0.9,
+      "quoins": false,
+      "floors": [
+       {
+        "kind": "wall",
+        "opening": {
+         "kind": "arch",
+         "w": 0.72,
+         "sill": 0.5,
+         "h": 3.4
+        },
+        "pilasters": {
+         "counts": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+         ],
+         "width": 0.5
+        }
+       },
+       {
+        "kind": "wall",
+        "opening": {
+         "kind": "arch",
+         "w": 0.64,
+         "sill": 0.9,
+         "h": 2.9,
+         "rail": true
+        },
+        "pilasters": {
+         "counts": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+         ],
+         "width": 0.5
+        }
+       },
+       {
+        "kind": "wall",
+        "opening": {
+         "kind": "arch",
+         "w": 0.6,
+         "sill": 0.9,
+         "h": 2.6,
+         "rail": true
+        },
+        "pilasters": {
+         "counts": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+         ],
+         "width": 0.5
+        }
+       }
+      ],
+      "edge": 3
+     }
+    ]
+   },
+   "faceEvidence": [
+    {
+     "facing": "S",
+     "street": "沙面大街",
+     "photos": [
+      "dajie-48"
+     ],
+     "observed": "Long three-storey south face in grey-pink render: round-arched multi-pane windows in every bay on all three floors, decorative turned balusters under the upper windows, pilasters between bays, string courses and cornice. About ten bays; the far end is foreshortened and partly behind trees. The west end with a projecting verandah is not modelled."
+    }
+   ],
+   "photos": {
+    "dajie-48": {
+     "path": "../../docs/research/p3-building-expansion/photos/dajie-48.jpg",
+     "url": "https://commons.wikimedia.org/wiki/File:%E6%B2%99%E9%9D%A2%E5%A4%A7%E8%A1%9748%E5%8F%B7.jpg",
+     "file": "沙面大街48号.jpg",
+     "artist": "Inclavatura",
+     "date": "2023-04-25",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "originalSha1": "868e7855f23a8ef9f2d25130608d548a933be580",
+     "thumbSha256": "fc6581278f119598b61a451346a27d52f25d6ac26aa2814d6e61b67871c2e188",
+     "derivative": "resized to max 1024 px wide from the Commons 1280 px thumbnail (JPEG q82); content otherwise unmodified",
+     "pixelRegistrationVerified": false
+    }
+   },
+   "heightEvidence": null,
+   "conflicts": [],
+   "unknowns": [
+    "west verandah wing and west face",
+    "east bays behind trees (bay count ±2)",
+    "north face and roof",
+    "all heights"
+   ],
+   "heightStatus": "estimated",
+   "measuredHeightM": null,
+   "metricAccuracy": "unverified",
+   "productionEligible": true,
+   "productionGate": {
+    "status": "default",
+    "since": "2026-09-26",
+    "acceptanceRecord": "docs/research/p4-extension/batch2-validation.json",
+    "basis": [
+     "address/name identity with a dated free-licensed photo",
+     "staged in ?detailTrial=inspect: load, 404 fallback x4 cycles with four building tiles, release; placement residual 0 (internal)",
+     "photo-vs-model structure sheet docs/research/p3-building-expansion/photo-compare-batch2.jpg"
+    ],
+    "dimensions": "estimated",
+    "metricAccuracy": "unverified"
+   },
+   "evidencePath": "data/evidence/facade-studies.json",
+   "sourcePath": "docs/research/p0-2026-09-25/shamian-osm-buildings.geojson",
+   "sourceSha256": "5d2dcc46939e47ef123d3270fe6995991dda54bd837a1c2cf6df3dd573c18ae0"
   }
  },
  "placements": [
@@ -1531,6 +2052,96 @@
     "name": "沙面大街36、38号",
     "sub": "照片结构参考 · 尺寸估计",
     "y": 15.7
+   }
+  },
+  {
+   "sampleId": "C06",
+   "sourceId": "osm:w352610265",
+   "replaceIds": [
+    "osm:w352610265"
+   ],
+   "position": [
+    -5807.51395375717,
+    0,
+    993.6505953169217
+   ],
+   "rotationY": 2.416299310340308,
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "footprint": [
+    [
+     -5819.40555057299,
+     1005.1116250001737
+    ],
+    [
+     -5819.139361476336,
+     981.6547750002984
+    ],
+    [
+     -5798.796371682168,
+     982.1088500000963
+    ],
+    [
+     -5795.223294964104,
+     985.2763000001258
+    ],
+    [
+     -5795.837577494284,
+     1005.3663500000027
+    ]
+   ],
+   "precision": "estimated",
+   "headingBasis": "photo face NE on source edge 2 facing 沙面三街",
+   "label": {
+    "name": "渣打银行旧址",
+    "sub": "照片结构参考 · 尺寸估计",
+    "y": 17.1
+   }
+  },
+  {
+   "sampleId": "C17",
+   "sourceId": "osm:w352610309",
+   "replaceIds": [
+    "osm:w352610309"
+   ],
+   "position": [
+    -5847.800760535129,
+    0,
+    921.2240375000631
+   ],
+   "rotationY": -0.031995523946538665,
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "footprint": [
+    [
+     -5864.463174169352,
+     933.0133750000309
+    ],
+    [
+     -5863.664606879391,
+     908.3936499999438
+    ],
+    [
+     -5831.1383469016155,
+     909.4346999999124
+    ],
+    [
+     -5831.9369141901225,
+     934.0544249999994
+    ]
+   ],
+   "precision": "estimated",
+   "headingBasis": "photo face S on source edge 3 facing 沙面大街",
+   "label": {
+    "name": "旗昌洋行旧址",
+    "sub": "照片结构参考 · 尺寸估计",
+    "y": 16.3
    }
   }
  ]

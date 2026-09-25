@@ -337,7 +337,7 @@
         -6065.794273466858,
         900.5857749999838,
         -5655.177116104193,
-        946.3587500001748
+        1005.3663500000027
       ],
       "buildings": [
         {
@@ -636,12 +636,112 @@
             "since": "2026-09-26",
             "record": "docs/research/p3-acceptance/dajie-validation.json"
           }
+        },
+        {
+          "sampleId": "C06",
+          "sourceId": "osm:w352610265",
+          "replaceIds": [
+            "osm:w352610265"
+          ],
+          "position": [
+            -5807.51395375717,
+            0,
+            993.6505953169217
+          ],
+          "rotationY": 2.416299310340308,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5819.40555057299,
+              1005.1116250001737
+            ],
+            [
+              -5819.139361476336,
+              981.6547750002984
+            ],
+            [
+              -5798.796371682168,
+              982.1088500000963
+            ],
+            [
+              -5795.223294964104,
+              985.2763000001258
+            ],
+            [
+              -5795.837577494284,
+              1005.3663500000027
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face NE on source edge 2 facing 沙面三街",
+          "label": {
+            "name": "渣打银行旧址",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 17.1
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p4-extension/batch2-validation.json"
+          }
+        },
+        {
+          "sampleId": "C17",
+          "sourceId": "osm:w352610309",
+          "replaceIds": [
+            "osm:w352610309"
+          ],
+          "position": [
+            -5847.800760535129,
+            0,
+            921.2240375000631
+          ],
+          "rotationY": -0.031995523946538665,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5864.463174169352,
+              933.0133750000309
+            ],
+            [
+              -5863.664606879391,
+              908.3936499999438
+            ],
+            [
+              -5831.1383469016155,
+              909.4346999999124
+            ],
+            [
+              -5831.9369141901225,
+              934.0544249999994
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 3 facing 沙面大街",
+          "label": {
+            "name": "旗昌洋行旧址",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 16.3
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p4-extension/batch2-validation.json"
+          }
         }
       ],
       "id": "shamian-dajie",
       "url": "./data/detail/shamian-dajie.json",
-      "bytes": 22846,
-      "sha256": "a52d87272169def732b2058d8c30a3d4381e56331c80b4e0170787eb88b1cbe6"
+      "bytes": 30925,
+      "sha256": "53bac109a45d005d06c66f53d97854f9a1c3d292d0c1981fcf57d40873e34b1b"
     },
     {
       "kind": "roads",
@@ -660,8 +760,8 @@
       "precision": "estimated",
       "id": "huasui",
       "url": "./data/detail/huasui.json",
-      "bytes": 59185,
-      "sha256": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea"
+      "bytes": 63442,
+      "sha256": "0b092ec2ac4047c9ff4e92d886275596a635a84e8fabd6fcc611912521c133fe"
     },
     {
       "kind": "roads",
@@ -680,8 +780,8 @@
       "precision": "estimated",
       "id": "huaxia",
       "url": "./data/detail/huaxia.json",
-      "bytes": 137841,
-      "sha256": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
+      "bytes": 138464,
+      "sha256": "9a4da6ec409d5e62ae91ee364206dec2bcba86fb0289a37e161aa56cde68fb03"
     }
   ],
   "trialOnly": true

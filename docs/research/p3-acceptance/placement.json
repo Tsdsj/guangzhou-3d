@@ -598,6 +598,85 @@
         "since": "2026-09-26",
         "record": "docs/research/p3-acceptance/dajie-validation.json"
       }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C06",
+      "sourceId": "osm:w352610265",
+      "replaceIds": [
+        "osm:w352610265"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610265"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 17.438,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 2,
+      "treeCrownOverlapsBySpecies": {
+        "broad": 2
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "broad",
+          "x": -5795.5,
+          "z": 998.5,
+          "scale": 0.7900000214576721,
+          "crownRadiusM": 3.54,
+          "trunkToFootprintM": 0.13,
+          "crownTopM": 7.8
+        },
+        {
+          "species": "broad",
+          "x": -5814,
+          "z": 977,
+          "scale": 1.1200000047683716,
+          "crownRadiusM": 5.02,
+          "trunkToFootprintM": 4.77,
+          "crownTopM": 11
+        }
+      ],
+      "precision": "estimated",
+      "label": "渣打银行旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p4-extension/batch2-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C17",
+      "sourceId": "osm:w352610309",
+      "replaceIds": [
+        "osm:w352610309"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610309"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 14.3,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 0,
+      "treeCrownOverlapsBySpecies": {},
+      "treeCrownOverlapSamples": [],
+      "precision": "estimated",
+      "label": "旗昌洋行旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p4-extension/batch2-validation.json"
+      }
     }
   ],
   "stagedBuildings": []

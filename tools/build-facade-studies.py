@@ -43,7 +43,7 @@ def photo_record(pid):
                 derivative=d['localDerivative'], pixelRegistrationVerified=False)
 
 
-FACING = {'N': 0, 'E': 90, 'S': 180, 'W': 270}
+FACING = {'N': 0, 'NE': 45, 'E': 90, 'SE': 135, 'S': 180, 'SW': 225, 'W': 270, 'NW': 315}
 
 
 def outward(ring, i, poly):
@@ -71,6 +71,9 @@ def pick_edge(ring, poly, facing, street):
     if not cand:
         raise SystemExit(f'No edge faces {facing}')
     best = min(cand, key=lambda r: (r['streetDistM'], -r['lengthM']))
+    # A photographed street face must actually front that street; otherwise the face is unresolved.
+    if best['streetDistM'] > 25:
+        raise SystemExit(f'Face {facing} is {best["streetDistM"]} m from {street}: photographed face unresolved')
     return best, rows
 
 
