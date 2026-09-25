@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "note": "Authorised data upgrades of existing detail packages. Each entry keeps the previous hash, the reason, a before copy and the verification record, so round-specific checks can follow the chain instead of rewriting their baselines.",
+  "upgrades": [
+    {
+      "date": "2026-09-26",
+      "files": {
+        "data/detail/huasui.json": {
+          "from": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea",
+          "to": "0b092ec2ac4047c9ff4e92d886275596a635a84e8fabd6fcc611912521c133fe"
+        },
+        "data/detail/huaxia.json": {
+          "from": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc",
+          "to": "9a4da6ec409d5e62ae91ee364206dec2bcba86fb0289a37e161aa56cde68fb03"
+        }
+      },
+      "reason": "Lane-count carriageway widths yield to separately mapped sidewalk centreline strips (±0.85 m, ends trimmed 2 m): 237.7 m² of estimated asphalt over mapped sidewalks removed in the two-tile area. Lines, crossings, marking audit and marking counts unchanged; all paint stays inside the road surface.",
+      "before": "docs/research/p3-road-coverage/before/",
+      "record": "docs/research/p3-road-coverage/report.json"
+    }
+  ]
+}

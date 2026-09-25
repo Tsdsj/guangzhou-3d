@@ -1,0 +1,133 @@
+{
+ "date": "2026-09-26",
+ "basis": "detail road tiles huasui/huaxia vs fixed P0 OSM sample; lengths in the existing city-local metres",
+ "tileBoundingSpanM": 665.5,
+ "huachengCorridorM": 650.1,
+ "huachengCarriageways": 14,
+ "huachengCarriagewayCentrelineM": 1304.5,
+ "renderedCentrelineByNameM": {
+  "花城大道": 1399.7,
+  "(unnamed secondary_link)": 753.2,
+  "华穗路": 665.0,
+  "华夏路": 664.7,
+  "(unnamed unclassified)": 367.8,
+  "华政街": 274.8,
+  "华利北横街": 177.5,
+  "珠江西四街": 150.0,
+  "珠江西路": 107.1,
+  "(unnamed primary_link)": 91.0,
+  "华政直街": 73.8,
+  "华明直街": 58.0,
+  "华成路": 48.4,
+  "(unnamed tertiary_link)": 47.4,
+  "珠江东路": 5.0
+ },
+ "renderedCentrelineTotalM": 4883.6,
+ "junctionsWithHuachengAvenue": {
+  "华穗路": [
+   4418948288,
+   4419070748,
+   4575302669,
+   4575367456
+  ],
+  "华夏路": [
+   3663701895,
+   4416227872,
+   4539457219,
+   4539469296,
+   4739868628
+  ],
+  "CBD隧道": [
+   2551976692,
+   2551976721
+  ],
+  "华明直街": [
+   5266078851
+  ]
+ },
+ "surfaceM2": 33531.4,
+ "walkwayM2": 21813.9,
+ "crossingPaths": 33,
+ "paintedCrossingSources": 13,
+ "sidewalkCheck": {
+  "stations": 374,
+  "stationsWithMappedSidewalk": 302,
+  "nominalWidthBeyondSidewalkCentreline": 12,
+  "renderedSurfaceIntoSidewalkStrip": 2,
+  "examples": [
+   {
+    "sourceId": "osm:w450614677",
+    "name": "花城大道",
+    "s": 145,
+    "renderedHalfWidthM": 5.7,
+    "left": {
+     "sidewalkOffsetM": 4.48,
+     "sidewalkId": "osm:w1373650634",
+     "surfaceReachM": 5.7
+    },
+    "right": null
+   },
+   {
+    "sourceId": "osm:w717926157",
+    "name": null,
+    "s": 5,
+    "renderedHalfWidthM": 2.3,
+    "left": {
+     "sidewalkOffsetM": 9.54,
+     "sidewalkId": "osm:w1373650634",
+     "surfaceReachM": 11.08
+    },
+    "right": null
+   }
+  ],
+  "note": "offset = distance from the carriageway centreline to a mapped sidewalk centreline within 25 m; a sidewalk half-width is not mapped, so offset < rendered half-width means the estimated carriageway overlaps the mapped path"
+ },
+ "falseConnections": [
+  {
+   "a": "osm:w1373419751",
+   "b": "osm:w248407678",
+   "nameA": "珠江东路",
+   "nameB": null,
+   "overlapM2": 20.3,
+   "layerA": null,
+   "layerB": null,
+   "bridgeA": null,
+   "bridgeB": null
+  },
+  {
+   "a": "osm:w248407677",
+   "b": "osm:w448786344",
+   "nameA": "花城大道",
+   "nameB": null,
+   "overlapM2": 10.4,
+   "layerA": null,
+   "layerB": null,
+   "bridgeA": null,
+   "bridgeB": null
+  },
+  {
+   "a": "osm:w457886991",
+   "b": "osm:w995559509",
+   "nameA": "花城大道",
+   "nameB": null,
+   "overlapM2": 21.6,
+   "layerA": null,
+   "layerB": null,
+   "bridgeA": null,
+   "bridgeB": null
+  },
+  {
+   "a": "osm:w995559507",
+   "b": "osm:w995559509",
+   "nameA": "花城大道",
+   "nameB": null,
+   "overlapM2": 1.2,
+   "layerA": null,
+   "layerB": null,
+   "bridgeA": null,
+   "bridgeB": null
+  }
+ ],
+ "specialStructuresInGroundSurface": [],
+ "deferredSpecialStructures": 29
+}

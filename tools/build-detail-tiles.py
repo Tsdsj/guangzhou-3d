@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,gzip,struct,math,hashlib
 from shapely.geometry import shape,LineString,Polygon,box
-from shapely.ops import unary_union
+from shapely.ops import unary_union,substring
 from road_markings import package_markings
 from road_layers import classify_way
 from detail_placement import place_self_fitted
@@ -119,6 +119,16 @@ for e in rawosm:
  if t.get('footway')=='crossing' and full_line.buffer(1.55).intersects(roi):marking_sources.append(('osm:w'+str(e['id']),full_line,t))
  if not g.is_empty:ped.append(g)
  if t.get('footway')=='crossing'and not g.is_empty:crossings.append(('osm:w'+str(e['id']),g,t))
+# Mapped sidewalk centrelines are source positions; lane-count widths are defaults. Where the estimated
+# carriageway reaches a mapped sidewalk (±0.85 m strip, 2 m trimmed at each end so crossings stay open),
+# the carriageway yields. The sidewalk width itself is still unknown.
+sidewalk_strips=[]
+for e in rawosm:
+ t=e.get('tags',{})
+ if e['type']!='way' or t.get('footway')!='sidewalk' or not classify_way(t)['groundRenderable'] or not all(n in nodes for n in e['nodes']):continue
+ line=LineString([proj(nodes[n]['lon'],nodes[n]['lat'])for n in e['nodes']])
+ if line.length>5:sidewalk_strips.append(substring(line,2,line.length-2).buffer(.85,cap_style='flat'))
+before_area=surface.area;surface=surface.difference(unary_union(sidewalk_strips));sidewalk_yield=round(before_area-surface.area,1)
 walk=surface.buffer(2.3).union(unary_union(ped).buffer(.85)).difference(surface).intersection(roi)
 # Avoid paving over mapped buildings; road imagery and raw source footprints remain separate facts.
 building_polys=[]
@@ -145,7 +155,7 @@ for name,area,slot in [('huasui',box(west,north,mid,south),0),('huaxia',box(mid,
   classification=classify_way(e['tags'])
   if not classification['groundRenderable']:deferred.append({'sourceId':source_id,'kind':classification['kind'],'heightStatus':'unknown'})
   elif e['tags']['highway'] in ['footway','pedestrian']:ground_paths.append(source_id)
- road={'production':True,'sourceId':'osmHuacheng','widthStatus':'estimated','surfaces':polys(surface.intersection(area)),'walkways':polys(walk.intersection(area)), 'lines':lines,'crossings':cross,'restrictions':[],'groundPathSourceIds':ground_paths,'deferredStructures':deferred}
+ road={'production':True,'sourceId':'osmHuacheng','widthStatus':'estimated','surfaceRule':'lane-count width estimate; yields to mapped sidewalk centreline strips (±0.85 m, ends trimmed 2 m)','sidewalkYieldRoiM2':sidewalk_yield,'surfaces':polys(surface.intersection(area)),'walkways':polys(walk.intersection(area)), 'lines':lines,'crossings':cross,'restrictions':[],'groundPathSourceIds':ground_paths,'deferredStructures':deferred}
  road.update(package_markings(marking_sources,surface,area,(cx,cz)))
  save_tile(name,{'version':1,'samples':{'road':road}},{'kind':'roads','slot':slot,'bounds':list(area.bounds),'position':[cx,0,cz],'precision':'estimated'})
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

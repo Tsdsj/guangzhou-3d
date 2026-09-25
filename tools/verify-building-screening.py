@@ -14,6 +14,10 @@ for c in cs:
 for f in extra:
  p=f['properties'];assert not p['productionEligible'];assert p['areaM2']>0 and math.isfinite(p['areaM2']);assert p['height'] is None
 for p,h in load(ROOT/'.research/p2/main-data-baseline.json').items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h
-for p,h in load(ROOT/'docs/research/p3-skybridge/validation.json')['detailHashes'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h
+import sys;sys.path.insert(0,str(ROOT/'tools/lib'));from hash_chain import accepted
+# Detail packages may only differ from this round through recorded upgrades (data/detail/upgrades.json).
+for p,h in load(ROOT/'docs/research/p3-skybridge/validation.json')['detailHashes'].items():assert accepted(p,h),p
 v=dict(date='2026-09-26',sourceHashesVerified=True,sourceBoundCandidateCount=12,screenedOutlineCount=63,visuallyReviewedPhotos=sum(bool(c['photo'] and c['photo']['reviewStatus']=='visually-reviewed-partial-facade') for c in cs),metadataOnlyPhotos=1,productionReadyCount=0,baseAndDetailHashesUnchanged=True,newGeometryRendered=False,notes='仅验证研究数据；不代替项目测试或新增视觉模型验收')
-(D/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n');print(json.dumps(v,ensure_ascii=False))
+# validation.json is this round's frozen record; rewrite only on request.
+if '--write' in sys.argv:(D/'validation.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(v,ensure_ascii=False))

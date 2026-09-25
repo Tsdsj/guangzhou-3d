@@ -32,4 +32,6 @@ for tile in m['tiles']:
  rows.append({'tile':tile['id'],'markingRecords':len(r['markings']),'polygonParts':parts,'outsideRoadAreaM2':outside,'outsideTileAreaM2':tile_leak,'statusCounts':dict(Counter(a['status']for a in r['markingAudit']))})
 report={'date':'2026-09-25','basis':'input road geometry and tag consistency, not measured street accuracy','tiles':rows,'uniqueCrossingWays':len(sources),'uniqueStatusCounts':dict(Counter(x['status']for x in sources.values())),'deferred':[x for x in sources.values()if not x['render']],'patternNote':'yes means markings present; zebra pattern and dimensions remain inferred','seamEvidence':'bent-way and island-hole regression fixture','paintedSourceIdsSharedAcrossTiles':sorted(set.intersection(*paint_sources))}
 out=ROOT/'docs/research/p3-road-markings/after.json';out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items()if k!='deferred'},ensure_ascii=False,indent=2))
-(out.parent/'before.json').write_text(json.dumps({'basis':'reproduced previous per-segment phase and center-only acceptance on unchanged crossing paths and road surfaces','tiles':before},ensure_ascii=False,indent=2)+'\n')
+# before.json is the frozen 2026-09-25 comparison on the surfaces of that round; rewrite only on request.
+import sys
+if '--write-before' in sys.argv:(out.parent/'before.json').write_text(json.dumps({'basis':'reproduced previous per-segment phase and center-only acceptance on unchanged crossing paths and road surfaces','tiles':before},ensure_ascii=False,indent=2)+'\n')
