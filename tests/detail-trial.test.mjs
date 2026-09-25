@@ -7,7 +7,7 @@ const api=await import('../src/world/detail-trial.js').catch(e=>{if(e.code==='ER
 test('检查入口只由明确开关启用，默认城市不读取暂存清单',async t=>{
  assert.equal(typeof api.isDetailTrial,'function');assert.equal(api.isDetailTrial(''),false);assert.equal(api.isDetailTrial('?detailTrial=c01c02'),true);assert.equal(api.isDetailTrial('?detailTrial=inspect'),true);assert.equal(api.isDetailTrial('?detailTrial=anything'),false);
  const urls=[];t.mock.method(globalThis,'fetch',async url=>{urls.push(String(url));return new Response(fs.readFileSync(String(url).replace(/^\.\//,'')));});
- const base=await loadCity();await base.vegReady;assert.equal(base.detailManifest.tiles.length,4);assert.ok(!urls.some(u=>u.includes('trial-')));
+ const base=await loadCity();await base.vegReady;assert.equal(base.detailManifest.tiles.length,5);assert.ok(!urls.some(u=>u.includes('trial-')));
  // C01/C02 are promoted into the default west block; the old south church part is replaced with the parent outline.
  const C01=base.detailManifest.tiles.find(t=>t.id==='shamian-west').buildings.find(b=>b.sampleId==='C01');assert.ok(C01.replaceIds.includes('osm:w509641363'));
  const trial=await loadCity(null,{detailTrial:true});await trial.vegReady;assert.equal(trial.detailTrial.enabled,true);

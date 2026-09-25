@@ -304,6 +304,300 @@
         "since": "2026-09-26",
         "record": "docs/research/p3-acceptance/trial-validation.json"
       }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C07",
+      "sourceId": "osm:w352610312",
+      "replaceIds": [
+        "osm:w352610312"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610312"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9999999999999999,
+      "modelTopM": 13.7,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 4,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 3,
+        "kapok": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5791,
+          "z": 933.5,
+          "scale": 0.9300000071525574,
+          "crownRadiusM": 9.77,
+          "trunkToFootprintM": 1.66,
+          "crownTopM": 12.3
+        },
+        {
+          "species": "banyan",
+          "x": -5789.5,
+          "z": 912.5,
+          "scale": 0.8600000143051147,
+          "crownRadiusM": 9.04,
+          "trunkToFootprintM": 2.92,
+          "crownTopM": 11.4
+        },
+        {
+          "species": "kapok",
+          "x": -5821,
+          "z": 945,
+          "scale": 0.9599999785423279,
+          "crownRadiusM": 5.7,
+          "trunkToFootprintM": 3.2,
+          "crownTopM": 16.7
+        },
+        {
+          "species": "banyan",
+          "x": -5788,
+          "z": 893.5,
+          "scale": 1.2000000476837158,
+          "crownRadiusM": 12.61,
+          "trunkToFootprintM": 8.52,
+          "crownTopM": 15.9
+        }
+      ],
+      "precision": "estimated",
+      "label": "万宝楼（旧万国宝通银行）",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C08",
+      "sourceId": "osm:w352610315",
+      "replaceIds": [
+        "osm:w352610315"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610315"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9999999999999999,
+      "modelTopM": 13.149,
+      "maxPlanOverhangM": 0.718,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5885,
+          "z": 943.5,
+          "scale": 1.2000000476837158,
+          "crownRadiusM": 12.61,
+          "trunkToFootprintM": 10.42,
+          "crownTopM": 15.9
+        }
+      ],
+      "precision": "estimated",
+      "label": "沙面大街50、52号",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C09",
+      "sourceId": "osm:w352610278",
+      "replaceIds": [
+        "osm:w352610278"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610278"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 14.9,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "kapok": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "kapok",
+          "x": -6036,
+          "z": 938.5,
+          "scale": 1.0299999713897705,
+          "crownRadiusM": 6.12,
+          "trunkToFootprintM": 2.27,
+          "crownTopM": 17.9
+        }
+      ],
+      "precision": "estimated",
+      "label": "洛士利洋行旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C13",
+      "sourceId": "osm:w352610287",
+      "replaceIds": [
+        "osm:w352610287",
+        "osm:w1521332871"
+      ],
+      "replacedRenderRecords": [
+        "osm:w1521332871"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 11.1,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -6059.5,
+          "z": 937.5,
+          "scale": 1.0199999809265137,
+          "crownRadiusM": 10.72,
+          "trunkToFootprintM": 2.53,
+          "crownTopM": 13.5
+        }
+      ],
+      "precision": "estimated",
+      "label": "沙面大街64号（原瑞士领事馆）",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C14",
+      "sourceId": "osm:w982457852",
+      "replaceIds": [
+        "osm:w982457852"
+      ],
+      "replacedRenderRecords": [
+        "osm:w982457852"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9999999999999999,
+      "modelTopM": 9.9,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5992,
+          "z": 940,
+          "scale": 0.8399999737739563,
+          "crownRadiusM": 8.83,
+          "trunkToFootprintM": 8.76,
+          "crownTopM": 11.1
+        }
+      ],
+      "precision": "estimated",
+      "label": "沙面大街58号",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C15",
+      "sourceId": "osm:w352610299",
+      "replaceIds": [
+        "osm:w352610299"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610299"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 13.652,
+      "maxPlanOverhangM": 0.859,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 3,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 2,
+        "broad": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5673.5,
+          "z": 949,
+          "scale": 1.0099999904632568,
+          "crownRadiusM": 10.61,
+          "trunkToFootprintM": 3.21,
+          "crownTopM": 13.4
+        },
+        {
+          "species": "banyan",
+          "x": -5683.5,
+          "z": 928.5,
+          "scale": 0.8799999952316284,
+          "crownRadiusM": 9.25,
+          "trunkToFootprintM": 3.4,
+          "crownTopM": 11.7
+        },
+        {
+          "species": "broad",
+          "x": -5684,
+          "z": 941.5,
+          "scale": 1.1799999475479126,
+          "crownRadiusM": 5.29,
+          "trunkToFootprintM": 3.47,
+          "crownTopM": 11.6
+        }
+      ],
+      "precision": "estimated",
+      "label": "沙面大街36、38号",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/dajie-validation.json"
+      }
     }
   ],
   "stagedBuildings": []

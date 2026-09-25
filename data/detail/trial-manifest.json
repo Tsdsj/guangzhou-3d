@@ -332,6 +332,318 @@
       "sha256": "fac599b521d88b1210463f0ac82c89e2feef66db6908a8df94d8b05d3362bc6d"
     },
     {
+      "kind": "buildings",
+      "bounds": [
+        -6065.794273466858,
+        900.5857749999838,
+        -5655.177116104193,
+        946.3587500001748
+      ],
+      "buildings": [
+        {
+          "sampleId": "C07",
+          "sourceId": "osm:w352610312",
+          "replaceIds": [
+            "osm:w352610312"
+          ],
+          "position": [
+            -5805.048711594871,
+            0,
+            922.8422723579359
+          ],
+          "rotationY": -0.011512178508992148,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5817.306751927358,
+              900.5857749999838
+            ],
+            [
+              -5792.284976860802,
+              900.8626500000717
+            ],
+            [
+              -5792.796878969528,
+              945.1072750001082
+            ],
+            [
+              -5817.808415994521,
+              944.8193250002843
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 2 facing 沙面大街",
+          "label": {
+            "name": "万宝楼（旧万国宝通银行）",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 15.7
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        },
+        {
+          "sampleId": "C08",
+          "sourceId": "osm:w352610315",
+          "replaceIds": [
+            "osm:w352610315"
+          ],
+          "position": [
+            -5888.9536318483615,
+            0,
+            925.2476005697757
+          ],
+          "rotationY": -0.03229249701589485,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5901.729647671806,
+              917.1429000002815
+            ],
+            [
+              -5875.684068389252,
+              917.9735250001518
+            ],
+            [
+              -5876.175494413396,
+              933.3567000001084
+            ],
+            [
+              -5902.2313117389685,
+              932.5150000001088
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 2 facing 沙面大街",
+          "label": {
+            "name": "沙面大街50、52号",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 15.1
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        },
+        {
+          "sampleId": "C09",
+          "sourceId": "osm:w352610278",
+          "replaceIds": [
+            "osm:w352610278"
+          ],
+          "position": [
+            -6038.177154709743,
+            0,
+            923.0846375000742
+          ],
+          "rotationY": -0.01760806037371175,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -6046.751515028359,
+              909.822325000114
+            ],
+            [
+              -6029.142082493129,
+              910.1324250001968
+            ],
+            [
+              -6029.602794391129,
+              936.3469500000346
+            ],
+            [
+              -6047.212226926358,
+              936.0368499999519
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 2 facing 沙面大街",
+          "label": {
+            "name": "洛士利洋行旧址",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 16.9
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        },
+        {
+          "sampleId": "C13",
+          "sourceId": "osm:w352610287",
+          "replaceIds": [
+            "osm:w352610287",
+            "osm:w1521332871"
+          ],
+          "position": [
+            -6056.804242096874,
+            0,
+            919.0508591543312
+          ],
+          "rotationY": -0.0299131976396752,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -6064.852373587733,
+              902.8229250001586
+            ],
+            [
+              -6047.826509456539,
+              903.2991500002154
+            ],
+            [
+              -6048.5636484927545,
+              928.6498250001882
+            ],
+            [
+              -6048.768409335663,
+              935.2948249999366
+            ],
+            [
+              -6065.794273466858,
+              934.7853750002786
+            ],
+            [
+              -6065.589512623949,
+              928.1625250000021
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 3 facing 沙面大街",
+          "label": {
+            "name": "沙面大街64号（原瑞士领事馆）",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 13.1
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        },
+        {
+          "sampleId": "C14",
+          "sourceId": "osm:w982457852",
+          "replaceIds": [
+            "osm:w982457852"
+          ],
+          "position": [
+            -5980.042934417586,
+            0,
+            925.5015729636118
+          ],
+          "rotationY": -0.017811361372527618,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5983.255177482115,
+              913.5989000001796
+            ],
+            [
+              -5976.405927270241,
+              913.7207250000295
+            ],
+            [
+              -5976.83592504064,
+              937.4101500002619
+            ],
+            [
+              -5983.674937210951,
+              937.2883250000186
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 2 facing 沙面大街",
+          "label": {
+            "name": "沙面大街58号",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 11.9
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        },
+        {
+          "sampleId": "C15",
+          "sourceId": "osm:w352610299",
+          "replaceIds": [
+            "osm:w352610299"
+          ],
+          "position": [
+            -5667.915858474489,
+            0,
+            937.2390829574614
+          ],
+          "rotationY": -0.031988257068193936,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5655.740208423646,
+              946.3587500001748
+            ],
+            [
+              -5680.659603067294,
+              945.5613500002995
+            ],
+            [
+              -5680.086272706278,
+              928.1182250002713
+            ],
+            [
+              -5655.177116104193,
+              928.9156250001466
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face S on source edge 0 facing 沙面大街",
+          "label": {
+            "name": "沙面大街36、38号",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 15.7
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/dajie-validation.json"
+          }
+        }
+      ],
+      "id": "shamian-dajie",
+      "url": "./data/detail/shamian-dajie.json",
+      "bytes": 22846,
+      "sha256": "a52d87272169def732b2058d8c30a3d4381e56331c80b4e0170787eb88b1cbe6"
+    },
+    {
       "kind": "roads",
       "slot": 0,
       "bounds": [

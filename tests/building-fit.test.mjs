@@ -22,7 +22,8 @@ test('生产样件平面控制边界映射回原始OSM轮廓，钟塔凸出不�
   const manifest=read('data/detail/manifest.json');const data=read('data/detail/shamian.json').samples;
   for(const tile of manifest.tiles.filter(t=>t.kind==='buildings'))for(const b of tile.buildings){
     const samples=read(tile.url).samples;
-    assert.ok(samples.buildings[b.sampleId].planFit,`${b.sampleId}: source fit required`);
+    // Facade studies carry the source outline directly as their model-frame plan.
+    assert.ok(samples.buildings[b.sampleId].planFit||samples.buildings[b.sampleId].kind==='facade-study',`${b.sampleId}: source fit required`);
     const result=buildSample(b.sampleId,samples);
     assert.ok(result.planBoundary?.length===b.footprint.length);
     const c=Math.cos(b.rotationY),s=Math.sin(b.rotationY);

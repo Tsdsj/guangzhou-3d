@@ -90,6 +90,12 @@ for sid in ['C01','C02']:
  west_samples[sid]=sample;west_block.append(placement)
 save_tile('shamian-west',{'version':1,'samples':{'buildings':west_samples}},{'kind':'buildings','bounds':bounds_all([p['footprint']for p in west_block]),'buildings':west_block})
 
+# 沙面大街 row: facade studies promoted after staging (data/evidence/facade-studies.json gate).
+fs=load(ROOT/'prototypes/p2/facade-studies.json')
+central=[dict(p,integration={'status':'default','since':fs['studies'][p['sampleId']]['productionGate']['since'],'record':fs['studies'][p['sampleId']]['productionGate']['acceptanceRecord']}) for p in fs['placements'] if fs['studies'][p['sampleId']]['productionEligible']]
+if central:
+ save_tile('shamian-dajie',{'version':1,'samples':{'buildings':{p['sampleId']:fs['studies'][p['sampleId']] for p in central}}},{'kind':'buildings','bounds':bounds_all([p['footprint']for p in central]),'buildings':central})
+
 # Keep production road widths and city projection; retain base traffic/road alignment.
 world_roi=box(*[0,0,1,1]);west,north=proj(113.3112,23.1234);east,south=proj(113.3177,23.1204)
 roi=box(west,north,east,south);mid=proj(113.3144,23.12)[0]
@@ -143,4 +149,4 @@ for name,area,slot in [('huasui',box(west,north,mid,south),0),('huaxia',box(mid,
  road.update(package_markings(marking_sources,surface,area,(cx,cz)))
  save_tile(name,{'version':1,'samples':{'road':road}},{'kind':'roads','slot':slot,'bounds':list(area.bounds),'position':[cx,0,cz],'precision':'estimated'})
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-print('Packaged',len(placements)+len(west_block),'buildings in two blocks, two road tiles;',round(east-west),'m east-west bounding span (not road length)')
+print('Packaged',len(placements)+len(west_block)+len(central),'buildings in three blocks, two road tiles;',round(east-west),'m east-west bounding span (not road length)')

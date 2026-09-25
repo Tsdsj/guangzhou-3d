@@ -5,6 +5,7 @@ import { applyVerticalControl } from './building-controls.js';
 import { shutterLayout } from './shutters.js';
 import { christChurch } from './christ-church.js';
 import { specieBank } from './specie-bank.js';
+import { facadeStudy } from './facade-kit.js';
 
 function shell(b,w,d,h,partialRight=false,openLeft=false) {
   b.box(0,h/2,-d/2,w,h,.32,'unknown','unknown',false);
@@ -346,6 +347,8 @@ function junction(data) {
 const SELF_FITTED={C01:christChurch,C02:specieBank};
 export function buildSample(id,data) {
   if(SELF_FITTED[id])return{...SELF_FITTED[id](data.buildings[id]),id,metricAccuracy:'unverified',sourceIds:[data.buildings[id].sourceId]};
+  // Facade studies carry their plan in the model frame; the kit needs no plan fit.
+  if(data.buildings?.[id]?.kind==='facade-study')return{...facadeStudy(data.buildings[id]),id,metricAccuracy:'unverified',sourceIds:[data.buildings[id].sourceId]};
   const result=id==='J1'?junction(data):id==='B1'?bank(data.buildings.B1):id==='B2'?indochine(data.buildings.B2):id==='B3'?church(data.buildings.B3):null;
   if(!result)throw new Error(`Unknown sample ${id}`);
   if(id!=='J1'){

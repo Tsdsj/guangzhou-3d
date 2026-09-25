@@ -1,29 +1,29 @@
 {
   "m0": {
     "memory": {
-      "geometries": 1469,
+      "geometries": 1474,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 441893343
+      "heapUsed": 464037676
     },
     "census": {
-      "total": 6215,
+      "total": 6217,
       "byGroup": {
         "0:Mesh": 1,
         "1:fallback-shamian": 2,
         "2:fallback-shamian-west": 2,
-        "3:Mesh": 1,
-        "4:Group": 2,
-        "5:Mesh": 1,
-        "6:Group": 81,
-        "8:Group": 106,
-        "9:Group": 36,
-        "10:Group": 44,
-        "11:Group": 6,
-        "12:Mesh": 1,
+        "3:fallback-shamian-dajie": 2,
+        "4:Mesh": 1,
+        "5:Group": 2,
+        "6:Mesh": 1,
+        "7:Group": 81,
+        "9:Group": 106,
+        "10:Group": 36,
+        "11:Group": 44,
+        "12:Group": 6,
         "13:Mesh": 1,
         "14:Mesh": 1,
         "15:Mesh": 1,
@@ -166,43 +166,44 @@
         "152:Mesh": 1,
         "153:Mesh": 1,
         "154:Mesh": 1,
-        "155:Group": 1984,
-        "156:Group": 62,
-        "157:Group": 1,
-        "158:Group": 11,
-        "159:Group": 5,
-        "160:Group": 2,
-        "161:Group": 1,
-        "162:Group": 3,
-        "164:Group": 3721
+        "155:Mesh": 1,
+        "156:Group": 1984,
+        "157:Group": 62,
+        "158:Group": 1,
+        "159:Group": 11,
+        "160:Group": 5,
+        "161:Group": 2,
+        "162:Group": 1,
+        "163:Group": 3,
+        "165:Group": 3721
       }
     }
   },
   "m1": {
     "memory": {
-      "geometries": 1469,
+      "geometries": 1474,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 477365707
+      "heapUsed": 437255799
     },
     "census": {
-      "total": 6215,
+      "total": 6217,
       "byGroup": {
         "0:Mesh": 1,
         "1:fallback-shamian": 2,
         "2:fallback-shamian-west": 2,
-        "3:Mesh": 1,
-        "4:Group": 2,
-        "5:Mesh": 1,
-        "6:Group": 81,
-        "8:Group": 106,
-        "9:Group": 36,
-        "10:Group": 44,
-        "11:Group": 6,
-        "12:Mesh": 1,
+        "3:fallback-shamian-dajie": 2,
+        "4:Mesh": 1,
+        "5:Group": 2,
+        "6:Mesh": 1,
+        "7:Group": 81,
+        "9:Group": 106,
+        "10:Group": 36,
+        "11:Group": 44,
+        "12:Group": 6,
         "13:Mesh": 1,
         "14:Mesh": 1,
         "15:Mesh": 1,
@@ -345,43 +346,44 @@
         "152:Mesh": 1,
         "153:Mesh": 1,
         "154:Mesh": 1,
-        "155:Group": 1984,
-        "156:Group": 62,
-        "157:Group": 1,
-        "158:Group": 11,
-        "159:Group": 5,
-        "160:Group": 2,
-        "161:Group": 1,
-        "162:Group": 3,
-        "164:Group": 3721
+        "155:Mesh": 1,
+        "156:Group": 1984,
+        "157:Group": 62,
+        "158:Group": 1,
+        "159:Group": 11,
+        "160:Group": 5,
+        "161:Group": 2,
+        "162:Group": 1,
+        "163:Group": 3,
+        "165:Group": 3721
       }
     }
   },
   "m2": {
     "memory": {
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 422806057
+      "heapUsed": 513654671
     },
     "census": {
-      "total": 6215,
+      "total": 6217,
       "byGroup": {
         "0:Mesh": 1,
         "1:fallback-shamian": 2,
         "2:fallback-shamian-west": 2,
-        "3:Mesh": 1,
-        "4:Group": 2,
-        "5:Mesh": 1,
-        "6:Group": 81,
-        "8:Group": 106,
-        "9:Group": 36,
-        "10:Group": 44,
-        "11:Group": 6,
-        "12:Mesh": 1,
+        "3:fallback-shamian-dajie": 2,
+        "4:Mesh": 1,
+        "5:Group": 2,
+        "6:Mesh": 1,
+        "7:Group": 81,
+        "9:Group": 106,
+        "10:Group": 36,
+        "11:Group": 44,
+        "12:Group": 6,
         "13:Mesh": 1,
         "14:Mesh": 1,
         "15:Mesh": 1,
@@ -524,62 +526,71 @@
         "152:Mesh": 1,
         "153:Mesh": 1,
         "154:Mesh": 1,
-        "155:Group": 1984,
-        "156:Group": 62,
-        "157:Group": 1,
-        "158:Group": 11,
-        "159:Group": 5,
-        "160:Group": 2,
-        "161:Group": 1,
-        "162:Group": 3,
-        "164:Group": 3721
+        "155:Mesh": 1,
+        "156:Group": 1984,
+        "157:Group": 62,
+        "158:Group": 1,
+        "159:Group": 11,
+        "160:Group": 5,
+        "161:Group": 2,
+        "162:Group": 1,
+        "163:Group": 3,
+        "165:Group": 3721
       }
     }
   },
   "instant": {
-    "frames": 1449,
-    "elapsedMs": 17146,
+    "frames": 1404,
+    "elapsedMs": 17205,
     "violations": 0,
     "firstViolations": [],
     "stateFrames": {
-      "shamian:loading": 67,
-      "shamian-west:loading": 56,
-      "huasui:idle": 1196,
-      "huaxia:idle": 1196,
-      "shamian-west:ready": 1014,
-      "shamian:ready": 1003,
-      "shamian:idle": 300,
-      "shamian-west:idle": 300,
-      "huasui:loading": 13,
-      "huaxia:loading": 13,
-      "huasui:ready": 240,
-      "huaxia:ready": 240,
-      "shamian:cached": 79,
-      "shamian-west:cached": 79
+      "shamian:loading": 59,
+      "shamian-west:loading": 49,
+      "shamian-dajie:loading": 89,
+      "huasui:idle": 1210,
+      "huaxia:idle": 1210,
+      "shamian-west:ready": 1048,
+      "shamian:ready": 1038,
+      "shamian-dajie:ready": 1008,
+      "shamian:idle": 241,
+      "shamian-west:idle": 241,
+      "shamian-dajie:idle": 241,
+      "huasui:loading": 16,
+      "huaxia:loading": 16,
+      "huasui:ready": 178,
+      "huaxia:ready": 178,
+      "shamian:cached": 66,
+      "shamian-west:cached": 66,
+      "shamian-dajie:cached": 66
     }
   },
   "clicked": {
-    "frames": 2902,
-    "elapsedMs": 30188,
+    "frames": 2872,
+    "elapsedMs": 30221,
     "violations": 0,
     "firstViolations": [],
     "stateFrames": {
-      "shamian:idle": 1472,
-      "shamian-west:idle": 1527,
-      "huasui:idle": 2331,
-      "huaxia:idle": 2404,
-      "huasui:loading": 2,
-      "huasui:ready": 474,
-      "huaxia:loading": 3,
-      "huaxia:ready": 437,
-      "huaxia:cached": 58,
-      "huasui:cached": 95,
-      "shamian:loading": 8,
-      "shamian:ready": 1406,
-      "shamian-west:loading": 9,
-      "shamian-west:ready": 1346,
+      "shamian:idle": 1164,
+      "shamian-west:idle": 1175,
+      "shamian-dajie:idle": 1168,
+      "huasui:idle": 2710,
+      "huaxia:idle": 2723,
+      "shamian-dajie:loading": 18,
+      "shamian:loading": 11,
+      "shamian-west:loading": 11,
+      "shamian-west:ready": 1666,
+      "shamian:ready": 1681,
+      "shamian-dajie:ready": 1668,
       "shamian-west:cached": 20,
-      "shamian:cached": 16
+      "shamian-dajie:cached": 18,
+      "shamian:cached": 16,
+      "huasui:loading": 1,
+      "huasui:ready": 141,
+      "huaxia:loading": 1,
+      "huaxia:ready": 125,
+      "huaxia:cached": 23,
+      "huasui:cached": 20
     }
   },
   "fail404": {
@@ -611,44 +622,73 @@
     "assetVisible": true,
     "fallbackVisible": false
   },
+  "fail404Dajie": {
+    "snap": [
+      {
+        "id": "shamian-dajie",
+        "state": "error",
+        "active": false,
+        "desired": true,
+        "error": "Detail shamian-dajie: HTTP 404",
+        "kind": "buildings",
+        "assetPresent": false,
+        "assetVisible": false,
+        "fallbackVisible": true
+      }
+    ],
+    "problems": []
+  },
+  "recoveredDajie": {
+    "id": "shamian-dajie",
+    "state": "ready",
+    "active": true,
+    "desired": true,
+    "error": null,
+    "kind": "buildings",
+    "assetPresent": true,
+    "assetVisible": true,
+    "fallbackVisible": false
+  },
   "slow": {
-    "frames": 363,
+    "frames": 348,
     "violations": [],
     "states": {
-      "shamian:loading:base": 5,
-      "shamian-west:loading:base": 236,
-      "huasui:idle:none": 363,
-      "huaxia:idle:none": 363,
-      "shamian:ready:detail": 358,
-      "shamian-west:ready:detail": 127
+      "shamian:loading:base": 4,
+      "shamian-west:loading:base": 227,
+      "shamian-dajie:loading:base": 7,
+      "huasui:idle:none": 348,
+      "huaxia:idle:none": 348,
+      "shamian:ready:detail": 344,
+      "shamian-dajie:ready:detail": 341,
+      "shamian-west:ready:detail": 121
     }
   },
   "midState": "loading",
   "abortFar": {
     "memory": {
-      "geometries": 1785,
-      "textures": 37,
-      "programs": 106,
+      "geometries": 1750,
+      "textures": 48,
+      "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 481035525
+      "heapUsed": 445419040
     },
     "census": {
-      "total": 6215,
+      "total": 6217,
       "byGroup": {
         "0:Mesh": 1,
         "1:fallback-shamian": 2,
         "2:fallback-shamian-west": 2,
-        "3:Mesh": 1,
-        "4:Group": 2,
-        "5:Mesh": 1,
-        "6:Group": 81,
-        "8:Group": 106,
-        "9:Group": 36,
-        "10:Group": 44,
-        "11:Group": 6,
-        "12:Mesh": 1,
+        "3:fallback-shamian-dajie": 2,
+        "4:Mesh": 1,
+        "5:Group": 2,
+        "6:Mesh": 1,
+        "7:Group": 81,
+        "9:Group": 106,
+        "10:Group": 36,
+        "11:Group": 44,
+        "12:Group": 6,
         "13:Mesh": 1,
         "14:Mesh": 1,
         "15:Mesh": 1,
@@ -791,98 +831,99 @@
         "152:Mesh": 1,
         "153:Mesh": 1,
         "154:Mesh": 1,
-        "155:Group": 1984,
-        "156:Group": 62,
-        "157:Group": 1,
-        "158:Group": 11,
-        "159:Group": 5,
-        "160:Group": 2,
-        "161:Group": 1,
-        "162:Group": 3,
-        "164:Group": 3721
+        "155:Mesh": 1,
+        "156:Group": 1984,
+        "157:Group": 62,
+        "158:Group": 1,
+        "159:Group": 11,
+        "160:Group": 5,
+        "161:Group": 2,
+        "162:Group": 1,
+        "163:Group": 3,
+        "165:Group": 3721
       }
     }
   },
   "cycles": [
     {
       "i": 0,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 1,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 2,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 3,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 4,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 5,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 6,
-      "geometries": 1785,
-      "textures": 37,
+      "geometries": 1750,
+      "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 7,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 8,
-      "geometries": 1785,
-      "textures": 37,
+      "geometries": 1750,
+      "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     },
     {
       "i": 9,
-      "geometries": 1785,
+      "geometries": 1750,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "censusTotal": 6215
+      "censusTotal": 6217
     }
   ]
 }

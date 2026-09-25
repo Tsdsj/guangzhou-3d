@@ -81,6 +81,16 @@ export async function waitDetail(ids, states = ['ready'], timeout = 20000) {
   }
 }
 
+// 等到没有精细块处于加载中（任何场景通用）
+export async function waitNoLoading(timeout = 20000) {
+  const t0 = performance.now();
+  while (detailSnapshot().some((s) => s.state === 'loading')) {
+    if (performance.now() - t0 > timeout) throw new Error('detail tiles still loading');
+    await frame();
+  }
+  return Math.round(performance.now() - t0);
+}
+
 export function resources(filter = '/data/') {
   return performance
     .getEntriesByType('resource')
@@ -101,7 +111,7 @@ export async function shot({ label, scene, atmos = null, waitIds = [], waitState
   g.view(scene);
   while (g.rig.busy) await frame();
   if (atmos) for (const [k, v] of Object.entries(atmos)) g.set(k, v);
-  const waitMs = waitIds.length ? await waitDetail(waitIds, waitStates) : 0;
+  const waitMs = waitIds.length ? await waitDetail(waitIds, waitStates) : await waitNoLoading();
   await sleep(settle);
   const [row] = await g.bench({ ids: [scene], frames, settle: 600, atmos });
   const result = {
@@ -157,12 +167,13 @@ export async function switchStress({ ids, cycles = 30, minDwell = 60, maxDwell =
 }
 
 // 反复“故障—恢复”“基础—精细”循环（仅隔离试验入口可用），检查资源计数是否回到原值
-export async function trialCycles({ cycles = 8 }) {
+export async function trialCycles({ cycles = 8, ids = null }) {
   const root = document.getElementById('detail-trial-controls');
   if (!root) throw new Error('trial controls absent');
   const click = (name) => root.querySelector(`[data-trial="${name}"]`).click();
   const g = gz();
-  const ids = ['trial-c01', 'trial-c02'];
+  // Default: every building tile that is currently wanted at this camera.
+  ids ||= detailSnapshot().filter((d) => d.kind === 'buildings' && d.desired).map((d) => d.id);
   const rows = [];
   for (let i = 0; i < cycles; i++) {
     click('fail');

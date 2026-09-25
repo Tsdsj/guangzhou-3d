@@ -26,5 +26,15 @@ for sid in STAGED:
  name='trial-'+sid.lower();payload=dict(version=1,trialOnly=True,samples={'buildings':{sid:s}});bytes=json.dumps(payload,ensure_ascii=False,separators=(',',':')).encode();(OUT/(name+'.json')).write_bytes(bytes)
  tile=dict(id=name,kind='buildings',trialOnly=True,url=f'./data/detail/{name}.json',bytes=len(bytes),sha256=hashlib.sha256(bytes).hexdigest(),bounds=list(Polygon(ring).bounds),buildings=[placement]);manifest['tiles'].append(tile)
  report.append(dict(id=sid,sourceId=placement['sourceId'],replaceIds=placement['replaceIds'],position=placement['position'],rotationY=placement['rotationY']))
+# Facade studies (data/evidence/facade-studies.json -> tools/build-facade-studies.py) stay staged until promoted.
+fs=load(ROOT/'prototypes/p2/facade-studies.json')
+staged=[dict(p,label=dict(p['label'],sub='暂存候选 · 尺寸估计')) for p in fs['placements'] if p['sampleId'] not in promoted and not fs['studies'][p['sampleId']]['productionEligible']]
+for p in staged:assert not replaced&set(p['replaceIds']),f"{p['sampleId']} replaces a record owned by a default tile"
+if staged:
+ name='trial-shamian-dajie';payload=dict(version=1,trialOnly=True,samples={'buildings':{p['sampleId']:dict(fs['studies'][p['sampleId']],trialOnly=True) for p in staged}})
+ bytes=json.dumps(payload,ensure_ascii=False,separators=(',',':')).encode();(OUT/(name+'.json')).write_bytes(bytes)
+ from shapely.ops import unary_union
+ manifest['tiles'].append(dict(id=name,kind='buildings',trialOnly=True,url=f'./data/detail/{name}.json',bytes=len(bytes),sha256=hashlib.sha256(bytes).hexdigest(),bounds=list(unary_union([Polygon(p['footprint']) for p in staged]).bounds),buildings=staged))
+ report+= [dict(id=p['sampleId'],sourceId=p['sourceId'],replaceIds=p['replaceIds']) for p in staged]
 (OUT/'trial-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-print(json.dumps({'defaultTiles':len(manifest['tiles'])-len(report),'staged':report},ensure_ascii=False))
+print(json.dumps({'defaultTiles':sum(1 for t in manifest['tiles'] if not t.get('trialOnly')),'stagedTiles':sum(1 for t in manifest['tiles'] if t.get('trialOnly')),'staged':report},ensure_ascii=False))

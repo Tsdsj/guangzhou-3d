@@ -1,0 +1,705 @@
+{
+ "62": {
+  "id": "w352610278",
+  "props": {
+   "addr:housenumber": "62",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "#CABC91",
+   "building:levels": "3",
+   "name": "洛士利洋行旧址"
+  },
+  "area": 461.8,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 17.61,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 34.0
+   },
+   {
+    "i": 1,
+    "len": 26.22,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 21.1
+   },
+   {
+    "i": 2,
+    "len": 17.61,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 7.8
+   },
+   {
+    "i": 3,
+    "len": 26.22,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 20.8
+   }
+  ]
+ },
+ "64": {
+  "id": "w352610287",
+  "props": {
+   "addr:housenumber": "64",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "#F6F0D0",
+   "building:levels": "2",
+   "description:en": "former Swiss consulate"
+  },
+  "area": 544.9,
+  "rendered": false,
+  "parts": [
+   "w1521332871"
+  ],
+  "edges": [
+   {
+    "i": 0,
+    "len": 17.03,
+    "normalDeg": 2,
+    "road": "沙面五街",
+    "roadDist": 37.2
+   },
+   {
+    "i": 1,
+    "len": 25.36,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 27.7
+   },
+   {
+    "i": 2,
+    "len": 6.65,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 11.7
+   },
+   {
+    "i": 3,
+    "len": 17.03,
+    "normalDeg": 182,
+    "road": "沙面大街",
+    "roadDist": 8.3
+   },
+   {
+    "i": 4,
+    "len": 6.63,
+    "normalDeg": 272,
+    "road": "沙面大街",
+    "roadDist": 11.5
+   },
+   {
+    "i": 5,
+    "len": 25.35,
+    "normalDeg": 272,
+    "road": "沙面大街",
+    "roadDist": 27.5
+   }
+  ]
+ },
+ "50;52": {
+  "id": "w352610315",
+  "props": {
+   "addr:housenumber": "50;52",
+   "addr:street": "沙面大街",
+   "amenity": "cafe",
+   "branch": "广州沙面店",
+   "brand": "星巴克",
+   "brand:en": "Starbucks",
+   "brand:website": "https://www.starbucks.com.cn",
+   "brand:wikidata": "Q37158",
+   "brand:zh": "星巴克",
+   "building": "retail",
+   "building:colour": "cyan",
+   "building:levels": "2",
+   "cuisine": "coffee_shop",
+   "name": "星巴克",
+   "name:en": "Starbucks",
+   "name:zh": "星巴克",
+   "opening_hours": "06:30-23:00",
+   "outdoor_seating": "yes",
+   "phone": "+86 020 8121 4086",
+   "roof:colour": "brown",
+   "roof:shape": "hipped",
+   "takeaway": "yes"
+  },
+  "area": 401.0,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 26.06,
+    "normalDeg": 2,
+    "road": "沙面大街",
+    "roadDist": 31.4
+   },
+   {
+    "i": 1,
+    "len": 15.39,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 23.7
+   },
+   {
+    "i": 2,
+    "len": 26.07,
+    "normalDeg": 182,
+    "road": "沙面大街",
+    "roadDist": 16.1
+   },
+   {
+    "i": 3,
+    "len": 15.38,
+    "normalDeg": 272,
+    "road": "沙面大街",
+    "roadDist": 23.8
+   }
+  ]
+ },
+ "58": {
+  "id": "w982457852",
+  "props": {
+   "addr:housenumber": "58",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:levels": "2"
+  },
+  "area": 162.2,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 6.85,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 32.5
+   },
+   {
+    "i": 1,
+    "len": 23.69,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 20.7
+   },
+   {
+    "i": 2,
+    "len": 6.84,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 8.8
+   },
+   {
+    "i": 3,
+    "len": 23.69,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 20.6
+   }
+  ]
+ },
+ "46": {
+  "id": "w352610312",
+  "props": {
+   "addr:housenumber": "46",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "lightyellow",
+   "building:levels": "4",
+   "name": "万宝楼",
+   "old_name": "万国宝通银行"
+  },
+  "area": 1106.9,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 25.02,
+    "normalDeg": 1,
+    "road": "沙面三街",
+    "roadDist": 21.9
+   },
+   {
+    "i": 1,
+    "len": 44.25,
+    "normalDeg": 91,
+    "road": "沙面三街",
+    "roadDist": 8.2
+   },
+   {
+    "i": 2,
+    "len": 25.01,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 6.3
+   },
+   {
+    "i": 3,
+    "len": 44.24,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 28.2
+   }
+  ]
+ },
+ "38": {
+  "id": "w352610299",
+  "props": {
+   "addr:housenumber": "38",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "yellow",
+   "building:levels": "2",
+   "roof:shape": "hipped"
+  },
+  "area": 435.0,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 24.93,
+    "normalDeg": 182,
+    "road": "沙面大街",
+    "roadDist": 8.9
+   },
+   {
+    "i": 1,
+    "len": 17.45,
+    "normalDeg": 272,
+    "road": "沙面二街",
+    "roadDist": 9.3
+   },
+   {
+    "i": 2,
+    "len": 24.92,
+    "normalDeg": 2,
+    "road": "沙面二街",
+    "roadDist": 21.6
+   },
+   {
+    "i": 3,
+    "len": 17.45,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 17.4
+   }
+  ]
+ },
+ "48": {
+  "id": "w352610309",
+  "props": {
+   "addr:housenumber": "48",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:levels": "3",
+   "name": "旗昌洋行旧址"
+  },
+  "area": 801.6,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 24.63,
+    "normalDeg": 272,
+    "road": "沙面大街",
+    "roadDist": 29.0
+   },
+   {
+    "i": 1,
+    "len": 32.54,
+    "normalDeg": 2,
+    "road": "沙面大街",
+    "roadDist": 41.2
+   },
+   {
+    "i": 2,
+    "len": 24.63,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 28.8
+   },
+   {
+    "i": 3,
+    "len": 32.54,
+    "normalDeg": 182,
+    "road": "沙面大街",
+    "roadDist": 16.6
+   }
+  ]
+ },
+ "49": {
+  "id": "w352610265",
+  "props": {
+   "addr:housenumber": "49",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "lightyellow",
+   "building:levels": "3",
+   "name": "渣打银行旧址"
+  },
+  "area": 549.2,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 23.46,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 22.1
+   },
+   {
+    "i": 1,
+    "len": 20.35,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 10.3
+   },
+   {
+    "i": 2,
+    "len": 4.77,
+    "normalDeg": 42,
+    "road": "沙面三街",
+    "roadDist": 8.1
+   },
+   {
+    "i": 3,
+    "len": 20.1,
+    "normalDeg": 92,
+    "road": "沙面三街",
+    "roadDist": 6.0
+   },
+   {
+    "i": 4,
+    "len": 23.57,
+    "normalDeg": 181,
+    "road": "沙面三街",
+    "roadDist": 17.6
+   }
+  ]
+ },
+ "59": {
+  "id": "w352610273",
+  "props": {
+   "addr:housenumber": "59",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "old_name": "德国领事馆"
+  },
+  "area": 720.1,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 29.85,
+    "normalDeg": 93,
+    "road": "沙面四街",
+    "roadDist": 5.2
+   },
+   {
+    "i": 1,
+    "len": 24.13,
+    "normalDeg": 183,
+    "road": "沙面南街",
+    "roadDist": 15.1
+   },
+   {
+    "i": 2,
+    "len": 29.85,
+    "normalDeg": 273,
+    "road": "沙面四街",
+    "roadDist": 29.4
+   },
+   {
+    "i": 3,
+    "len": 24.13,
+    "normalDeg": 3,
+    "road": "沙面四街",
+    "roadDist": 17.4
+   }
+  ]
+ },
+ "60": {
+  "id": "w982457851",
+  "props": {
+   "addr:housenumber": "60",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "#F6F0D0",
+   "building:levels": "1",
+   "name": "广州俱乐部旧址"
+  },
+  "area": 818.9,
+  "rendered": false,
+  "parts": [
+   "w352610305"
+  ],
+  "edges": [
+   {
+    "i": 0,
+    "len": 8.94,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 28.5
+   },
+   {
+    "i": 1,
+    "len": 15.82,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 20.7
+   },
+   {
+    "i": 2,
+    "len": 11.78,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 12.6
+   },
+   {
+    "i": 3,
+    "len": 7.27,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 16.1
+   },
+   {
+    "i": 4,
+    "len": 4.22,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 19.7
+   },
+   {
+    "i": 5,
+    "len": 9.54,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 14.9
+   },
+   {
+    "i": 6,
+    "len": 18.55,
+    "normalDeg": 181,
+    "road": "沙面大街",
+    "roadDist": 9.9
+   },
+   {
+    "i": 7,
+    "len": 33.48,
+    "normalDeg": 271,
+    "road": "沙面大街",
+    "roadDist": 26.5
+   },
+   {
+    "i": 8,
+    "len": 8.71,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 43.3
+   },
+   {
+    "i": 9,
+    "len": 7.89,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 39.5
+   },
+   {
+    "i": 10,
+    "len": 14.05,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 35.7
+   },
+   {
+    "i": 11,
+    "len": 2.86,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 35.8
+   },
+   {
+    "i": 12,
+    "len": 7.49,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 32.1
+   }
+  ]
+ },
+ "69": {
+  "id": "w1191446839",
+  "props": {
+   "addr:housenumber": "69",
+   "addr:street": "沙面大街",
+   "building": "yes",
+   "building:colour": "#F6F0D0",
+   "building:levels": "1",
+   "start_date": "1865"
+  },
+  "area": 532.1,
+  "rendered": false,
+  "parts": [
+   "w1530552891"
+  ],
+  "edges": [
+   {
+    "i": 0,
+    "len": 20.09,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 3.0
+   },
+   {
+    "i": 1,
+    "len": 2.35,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 4.2
+   },
+   {
+    "i": 2,
+    "len": 13.94,
+    "normalDeg": 1,
+    "road": "沙面大街",
+    "roadDist": 5.3
+   },
+   {
+    "i": 3,
+    "len": 16.21,
+    "normalDeg": 91,
+    "road": "沙面大街",
+    "roadDist": 13.4
+   },
+   {
+    "i": 4,
+    "len": 13.89,
+    "normalDeg": 181,
+    "road": "沙面南街",
+    "roadDist": 6.6
+   },
+   {
+    "i": 5,
+    "len": 3.3,
+    "normalDeg": 271,
+    "road": "沙面南街",
+    "roadDist": 4.6
+   },
+   {
+    "i": 6,
+    "len": 20.14,
+    "normalDeg": 181,
+    "road": "沙面南街",
+    "roadDist": 1.1
+   },
+   {
+    "i": 7,
+    "len": 15.25,
+    "normalDeg": 271,
+    "road": "沙面南街",
+    "roadDist": 2.9
+   }
+  ]
+ },
+ "sijie8": {
+  "id": "w1494392653",
+  "props": {
+   "addr:housenumber": "8",
+   "addr:street": "沙面四街",
+   "building": "yes",
+   "building:colour": "#CABC91",
+   "building:levels": "3",
+   "roof:shape": "hipped"
+  },
+  "area": 493.7,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 29.07,
+    "normalDeg": 274,
+    "road": "沙面四街",
+    "roadDist": 9.1
+   },
+   {
+    "i": 1,
+    "len": 16.98,
+    "normalDeg": 184,
+    "road": "沙面四街",
+    "roadDist": 17.5
+   },
+   {
+    "i": 2,
+    "len": 29.07,
+    "normalDeg": 94,
+    "road": "沙面四街",
+    "roadDist": 26.1
+   },
+   {
+    "i": 3,
+    "len": 16.99,
+    "normalDeg": 4,
+    "road": "沙面大街",
+    "roadDist": 13.5
+   }
+  ]
+ },
+ "wujie4": {
+  "id": "w352610300",
+  "props": {
+   "addr:housenumber": "4",
+   "addr:street": "沙面五街",
+   "building": "yes",
+   "building:colour": "#6EBE9F",
+   "building:levels": "3",
+   "description:en": "old residence of Reiss Bradley, 1910s",
+   "start_date": "1912"
+  },
+  "area": 187.1,
+  "rendered": true,
+  "parts": [],
+  "edges": [
+   {
+    "i": 0,
+    "len": 10.52,
+    "normalDeg": 2,
+    "road": "沙面五街",
+    "roadDist": 17.7
+   },
+   {
+    "i": 1,
+    "len": 17.79,
+    "normalDeg": 92,
+    "road": "沙面大街",
+    "roadDist": 17.2
+   },
+   {
+    "i": 2,
+    "len": 10.52,
+    "normalDeg": 182,
+    "road": "沙面大街",
+    "roadDist": 8.3
+   },
+   {
+    "i": 3,
+    "len": 17.79,
+    "normalDeg": 272,
+    "road": "沙面五街",
+    "roadDist": 12.5
+   }
+  ]
+ }
+}

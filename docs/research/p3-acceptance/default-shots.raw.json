@@ -19,19 +19,19 @@
         "lightIntensity": 100,
         "exposure": 104
       },
-      "waitDetailMs": 481,
+      "waitDetailMs": 501,
       "bench": {
         "id": "detail-bank",
-        "fps": 90,
-        "ms": 11.1,
+        "fps": 91,
+        "ms": 11,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.9,
+        "p95": 16.7,
+        "cpu": 7.1,
         "calls": 414,
         "tris": 2.59,
         "auxCalls": 49,
         "auxTris": 0.29,
-        "geometries": 1029,
+        "geometries": 1078,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -66,6 +66,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -90,15 +101,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1029,
+        "geometries": 1078,
         "textures": 49,
-        "programs": 105,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 429621955
+        "programs": 106,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 470457789
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -114,16 +125,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-bank",
-        "fps": 91,
-        "ms": 11,
+        "fps": 90,
+        "ms": 11.1,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.8,
+        "p95": 17,
+        "cpu": 7.1,
         "calls": 414,
         "tris": 2.59,
         "auxCalls": 49,
-        "auxTris": 0.3,
-        "geometries": 1047,
+        "auxTris": 0.29,
+        "geometries": 1096,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -158,6 +169,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -182,15 +204,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1047,
+        "geometries": 1096,
         "textures": 49,
         "programs": 106,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 419015369
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 486738707
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -210,12 +232,12 @@
         "ms": 11.1,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.8,
+        "cpu": 7.1,
         "calls": 416,
         "tris": 2.63,
         "auxCalls": 49,
         "auxTris": 0.29,
-        "geometries": 1048,
+        "geometries": 1097,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -250,6 +272,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -274,15 +307,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1048,
+        "geometries": 1097,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 406060669
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 468272243
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -300,14 +333,14 @@
         "id": "detail-indochine",
         "fps": 102,
         "ms": 9.8,
-        "p50": 8.4,
+        "p50": 8.3,
         "p95": 16.7,
-        "cpu": 6.5,
+        "cpu": 6.9,
         "calls": 298,
         "tris": 1.71,
         "auxCalls": 37,
         "auxTris": 0.18,
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -342,6 +375,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -366,15 +410,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 412035957
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 480794987
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -390,16 +434,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-indochine",
-        "fps": 101,
-        "ms": 9.9,
+        "fps": 103,
+        "ms": 9.7,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.5,
+        "cpu": 6.9,
         "calls": 298,
         "tris": 1.71,
         "auxCalls": 37,
         "auxTris": 0.18,
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -434,6 +478,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -458,15 +513,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 406424657
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 443113677
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -485,13 +540,13 @@
         "fps": 102,
         "ms": 9.8,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.4,
+        "p95": 16.7,
+        "cpu": 6.9,
         "calls": 300,
         "tris": 1.76,
-        "auxCalls": 36,
+        "auxCalls": 37,
         "auxTris": 0.18,
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -526,6 +581,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -550,15 +616,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1109,
+        "geometries": 1158,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 425921705
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 412911978
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -574,16 +640,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-indochine-east",
-        "fps": 103,
-        "ms": 9.7,
+        "fps": 102,
+        "ms": 9.8,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.5,
+        "cpu": 6.9,
         "calls": 298,
         "tris": 1.69,
         "auxCalls": 39,
         "auxTris": 0.16,
-        "geometries": 1146,
+        "geometries": 1195,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -618,6 +684,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -642,15 +719,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1146,
+        "geometries": 1195,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 422604093
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 421721414
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -670,12 +747,12 @@
         "ms": 9.7,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.5,
+        "cpu": 6.9,
         "calls": 298,
         "tris": 1.68,
         "auxCalls": 39,
         "auxTris": 0.16,
-        "geometries": 1146,
+        "geometries": 1197,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -710,6 +787,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -734,15 +822,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1146,
+        "geometries": 1197,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 417585157
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 416076762
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -761,13 +849,13 @@
         "fps": 102,
         "ms": 9.8,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 6.5,
+        "p95": 16.9,
+        "cpu": 6.9,
         "calls": 300,
         "tris": 1.73,
-        "auxCalls": 38,
+        "auxCalls": 39,
         "auxTris": 0.16,
-        "geometries": 1146,
+        "geometries": 1197,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -802,6 +890,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -826,15 +925,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1146,
+        "geometries": 1197,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 409247173
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 409908142
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -853,13 +952,13 @@
         "fps": 95,
         "ms": 10.6,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 6.5,
+        "p95": 16.7,
+        "cpu": 6.8,
         "calls": 358,
         "tris": 2.42,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1173,
+        "geometries": 1222,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -894,6 +993,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -918,15 +1028,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1173,
+        "geometries": 1222,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 425501297
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 427718054
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -945,13 +1055,13 @@
         "fps": 95,
         "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 6.4,
+        "p95": 16.7,
+        "cpu": 6.8,
         "calls": 358,
         "tris": 2.42,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1173,
+        "geometries": 1222,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -986,6 +1096,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1010,15 +1131,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1173,
+        "geometries": 1222,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 411989053
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 413154834
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1035,15 +1156,15 @@
       "bench": {
         "id": "detail-lourdes",
         "fps": 95,
-        "ms": 10.5,
+        "ms": 10.6,
         "p50": 8.4,
         "p95": 16.8,
-        "cpu": 6.5,
+        "cpu": 6.8,
         "calls": 360,
         "tris": 2.47,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1176,
+        "geometries": 1222,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -1078,6 +1199,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1102,15 +1234,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1176,
+        "geometries": 1222,
         "textures": 49,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 427361749
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 429017662
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1126,16 +1258,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-christchurch",
-        "fps": 94,
-        "ms": 10.6,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.8,
-        "calls": 401,
+        "p95": 16.9,
+        "cpu": 7.1,
+        "calls": 406,
         "tris": 1.88,
-        "auxCalls": 46,
+        "auxCalls": 47,
         "auxTris": 0.21,
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1170,6 +1302,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1194,15 +1337,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 413434333
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 415836278
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1221,13 +1364,13 @@
         "fps": 95,
         "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.7,
-        "calls": 400,
+        "p95": 16.7,
+        "cpu": 7.2,
+        "calls": 405,
         "tris": 1.88,
         "auxCalls": 46,
         "auxTris": 0.21,
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1262,6 +1405,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1286,15 +1440,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 426168049
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 433269158
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1313,13 +1467,13 @@
         "fps": 94,
         "ms": 10.6,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.8,
-        "calls": 403,
+        "p95": 16.7,
+        "cpu": 7.2,
+        "calls": 408,
         "tris": 1.93,
         "auxCalls": 46,
         "auxTris": 0.21,
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1354,6 +1508,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1378,15 +1543,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1285,
+        "geometries": 1343,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 408465013
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 417195250
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1402,16 +1567,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-specie",
-        "fps": 94,
-        "ms": 10.7,
+        "fps": 95,
+        "ms": 10.6,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.7,
-        "calls": 373,
+        "cpu": 7.1,
+        "calls": 381,
         "tris": 2.01,
-        "auxCalls": 44,
+        "auxCalls": 50,
         "auxTris": 0.21,
-        "geometries": 1287,
+        "geometries": 1347,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1446,6 +1611,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1470,15 +1646,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1287,
+        "geometries": 1347,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 419306565
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 435598930
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1494,16 +1670,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-specie",
-        "fps": 95,
-        "ms": 10.5,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 6.7,
-        "calls": 373,
+        "p95": 16.9,
+        "cpu": 7.1,
+        "calls": 381,
         "tris": 2.01,
-        "auxCalls": 44,
+        "auxCalls": 50,
         "auxTris": 0.21,
-        "geometries": 1288,
+        "geometries": 1348,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1538,6 +1714,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1562,15 +1749,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1288,
+        "geometries": 1348,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 432543185
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 423132522
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1586,16 +1773,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-specie",
-        "fps": 95,
-        "ms": 10.5,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.6,
-        "calls": 375,
+        "cpu": 7.2,
+        "calls": 383,
         "tris": 2.05,
-        "auxCalls": 44,
+        "auxCalls": 50,
         "auxTris": 0.21,
-        "geometries": 1290,
+        "geometries": 1348,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1630,6 +1817,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1654,15 +1852,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1290,
+        "geometries": 1348,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 413836329
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 438439602
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1678,16 +1876,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian",
-        "fps": 92,
+        "fps": 91,
         "ms": 10.9,
         "p50": 8.4,
-        "p95": 17,
-        "cpu": 6.8,
+        "p95": 16.8,
+        "cpu": 7.2,
         "calls": 425,
         "tris": 2.75,
         "auxCalls": 54,
         "auxTris": 0.35,
-        "geometries": 1297,
+        "geometries": 1355,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -1722,6 +1920,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1746,15 +1955,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1297,
+        "geometries": 1355,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 433425397
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 426635078
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1771,15 +1980,15 @@
       "bench": {
         "id": "detail-shamian",
         "fps": 93,
-        "ms": 10.7,
+        "ms": 10.8,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 7.2,
         "calls": 425,
         "tris": 2.75,
-        "auxCalls": 54,
-        "auxTris": 0.35,
-        "geometries": 1297,
+        "auxCalls": 55,
+        "auxTris": 0.36,
+        "geometries": 1355,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -1814,6 +2023,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1838,15 +2058,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1297,
+        "geometries": 1355,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 426811725
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 418916794
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1866,12 +2086,12 @@
         "ms": 10.9,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.8,
+        "cpu": 7.1,
         "calls": 427,
         "tris": 2.8,
         "auxCalls": 54,
         "auxTris": 0.35,
-        "geometries": 1297,
+        "geometries": 1355,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -1906,6 +2126,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -1930,15 +2161,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1297,
+        "geometries": 1355,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 418011321
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 437904994
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -1954,16 +2185,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 97,
-        "ms": 10.3,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 6.6,
-        "calls": 352,
-        "tris": 1.92,
-        "auxCalls": 45,
+        "p95": 16.9,
+        "cpu": 7.3,
+        "calls": 395,
+        "tris": 1.97,
+        "auxCalls": 56,
         "auxTris": 0.18,
-        "geometries": 1300,
+        "geometries": 1362,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -1998,6 +2229,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -2022,15 +2264,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1300,
+        "geometries": 1362,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 432792681
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 434101818
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2046,16 +2288,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 99,
-        "ms": 10.1,
+        "fps": 98,
+        "ms": 10.3,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 6.6,
-        "calls": 353,
-        "tris": 1.92,
-        "auxCalls": 45,
+        "p95": 17,
+        "cpu": 7.4,
+        "calls": 396,
+        "tris": 1.97,
+        "auxCalls": 55,
         "auxTris": 0.18,
-        "geometries": 1300,
+        "geometries": 1362,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -2090,6 +2332,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -2114,15 +2367,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1300,
+        "geometries": 1362,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 421388077
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 431647474
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2139,15 +2392,15 @@
       "bench": {
         "id": "detail-shamian-west",
         "fps": 97,
-        "ms": 10.3,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.7,
-        "calls": 355,
-        "tris": 1.97,
-        "auxCalls": 44,
-        "auxTris": 0.17,
-        "geometries": 1300,
+        "p95": 16.7,
+        "cpu": 7.3,
+        "calls": 398,
+        "tris": 2.01,
+        "auxCalls": 56,
+        "auxTris": 0.18,
+        "geometries": 1362,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -2182,6 +2435,17 @@
           "fallbackVisible": false
         },
         {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
           "id": "huasui",
           "state": "idle",
           "active": false,
@@ -2206,15 +2470,633 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1300,
+        "geometries": 1362,
         "textures": 50,
         "programs": 107,
-        "detailRootChildren": 2,
-        "detailMeshes": 123,
-        "cachedAssets": 2,
-        "heapUsed": 438318045
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 426098366
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-dajie-day",
+      "scene": "detail-shamian-dajie",
+      "atmos": {
+        "timeOfDay": 10.8,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-dajie",
+        "fps": 94,
+        "ms": 10.7,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 7.5,
+        "calls": 445,
+        "tris": 2.01,
+        "auxCalls": 72,
+        "auxTris": 0.2,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 85
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 422451406
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-dajie-night",
+      "scene": "detail-shamian-dajie",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-dajie",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 7.6,
+        "calls": 445,
+        "tris": 2.01,
+        "auxCalls": 73,
+        "auxTris": 0.2,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 85
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 420002426
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-dajie-rain",
+      "scene": "detail-shamian-dajie",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-dajie",
+        "fps": 93,
+        "ms": 10.7,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 7.6,
+        "calls": 447,
+        "tris": 2.06,
+        "auxCalls": 71,
+        "auxTris": 0.2,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 85
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 419440718
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-dajie-front-day",
+      "scene": "detail-dajie-front",
+      "atmos": {
+        "timeOfDay": 10.8,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-dajie-front",
+        "fps": 96,
+        "ms": 10.4,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 7.1,
+        "calls": 382,
+        "tris": 1.94,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 9
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 432153842
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-dajie-front-night",
+      "scene": "detail-dajie-front",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-dajie-front",
+        "fps": 97,
+        "ms": 10.3,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 7.1,
+        "calls": 382,
+        "tris": 1.94,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 9
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 420197610
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-dajie-front-rain",
+      "scene": "detail-dajie-front",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-dajie-front",
+        "fps": 97,
+        "ms": 10.3,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 7.1,
+        "calls": 384,
+        "tris": 1.99,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1367,
+        "textures": 50,
+        "tier": 0,
+        "h": 9
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-dajie",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1367,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 3,
+        "detailMeshes": 188,
+        "cachedAssets": 3,
+        "heapUsed": 409293946
+      },
+      "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2227,19 +3109,19 @@
         "lightIntensity": 100,
         "exposure": 100
       },
-      "waitDetailMs": 228,
+      "waitDetailMs": 81,
       "bench": {
         "id": "detail-huasui",
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 6,
-        "calls": 149,
+        "p95": 9.7,
+        "cpu": 6.3,
+        "calls": 148,
         "tris": 1.36,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1316,
+        "geometries": 1319,
         "textures": 48,
         "tier": 0,
         "h": 280
@@ -2274,6 +3156,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2298,15 +3191,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1316,
+        "geometries": 1319,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 437228149
+        "heapUsed": 414055041
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2325,13 +3218,13 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10,
-        "cpu": 6.1,
+        "p95": 9.8,
+        "cpu": 6.3,
         "calls": 149,
         "tris": 1.36,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1324,
+        "geometries": 1327,
         "textures": 48,
         "tier": 0,
         "h": 280
@@ -2366,6 +3259,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2390,15 +3294,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1324,
+        "geometries": 1327,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 422104517
+        "heapUsed": 422007987
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2414,16 +3318,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huasui",
-        "fps": 115,
-        "ms": 8.7,
+        "fps": 120,
+        "ms": 8.3,
         "p50": 8.3,
         "p95": 10.2,
-        "cpu": 5.6,
-        "calls": 150,
+        "cpu": 6.2,
+        "calls": 151,
         "tris": 1.41,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1326,
+        "geometries": 1329,
         "textures": 48,
         "tier": 0,
         "h": 280
@@ -2458,6 +3362,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2482,15 +3397,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1326,
+        "geometries": 1329,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 385603912
+        "heapUsed": 437344487
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2506,16 +3421,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huaxia",
-        "fps": 120,
-        "ms": 8.3,
+        "fps": 118,
+        "ms": 8.4,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 5.9,
+        "p95": 10.3,
+        "cpu": 6.2,
         "calls": 151,
         "tris": 1.36,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1335,
+        "geometries": 1338,
         "textures": 48,
         "tier": 0,
         "h": 310
@@ -2550,6 +3465,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2574,15 +3500,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1335,
+        "geometries": 1338,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 388039199
+        "heapUsed": 440579395
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2601,13 +3527,13 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10,
-        "cpu": 5.9,
+        "p95": 10.2,
+        "cpu": 6.2,
         "calls": 151,
         "tris": 1.36,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1349,
+        "geometries": 1352,
         "textures": 48,
         "tier": 0,
         "h": 310
@@ -2642,6 +3568,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2666,15 +3603,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1349,
+        "geometries": 1352,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 386887911
+        "heapUsed": 417607003
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
     {
       "kind": "shot",
@@ -2690,16 +3627,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huaxia",
-        "fps": 118,
-        "ms": 8.5,
+        "fps": 115,
+        "ms": 8.7,
         "p50": 8.3,
-        "p95": 10,
-        "cpu": 5.7,
+        "p95": 10.3,
+        "cpu": 5.9,
         "calls": 153,
         "tris": 1.41,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 1358,
+        "geometries": 1361,
         "textures": 48,
         "tier": 0,
         "h": 310
@@ -2734,6 +3671,17 @@
           "fallbackVisible": true
         },
         {
+          "id": "shamian-dajie",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
           "id": "huasui",
           "state": "ready",
           "active": true,
@@ -2758,15 +3706,15 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1358,
+        "geometries": 1361,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 388252323
+        "heapUsed": 421355083
       },
-      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+      "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     }
   ]
 }

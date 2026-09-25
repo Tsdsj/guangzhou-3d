@@ -12,6 +12,7 @@ async (page) => {
   const scenes = [
     ['detail-bank', east], ['detail-indochine', east], ['detail-indochine-east', east], ['detail-lourdes', east],
     ['detail-christchurch', west], ['detail-specie', west], ['detail-shamian', east], ['detail-shamian-west', west],
+    ['detail-shamian-dajie', ['shamian-dajie']], ['detail-dajie-front', ['shamian-dajie']],
     ['detail-huasui', ['huasui']], ['detail-huaxia', ['huaxia']],
   ];
   const variants = [['day', null], ['night', { timeOfDay: 21 }], ['rain', { timeOfDay: 15.2, weather: 'rain' }]];

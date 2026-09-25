@@ -28,11 +28,15 @@ test('旋转填充体只按目标轮廓交叠分组，邻居与纯边界接触�
   assert.equal(overlaps(a,[[20,2],[22,2],[22,4],[20,4]]),false);
   assert.equal(overlaps(a,[[-1,4],[4,-1],[11,6],[6,11]]),true);
 });
-test('集成清单包含五栋已接入样件、相邻双路口与明确的估计精度',()=>{
+test('集成清单包含已接入样件、相邻双路口与明确的估计精度',()=>{
   assert.ok(fs.existsSync('data/detail/manifest.json'),'detail manifest is required');
   const m=JSON.parse(fs.readFileSync('data/detail/manifest.json'));
   const buildings=m.tiles.flatMap(t=>t.buildings||[]);
-  assert.deepEqual(buildings.map(b=>b.sampleId),['B1','B2','B3','C01','C02']);assert.equal(m.tiles.filter(t=>t.kind==='roads').length,2);
+  const samples=buildings.map(b=>b.sampleId);
+  assert.deepEqual(samples.slice(0,5),['B1','B2','B3','C01','C02']);assert.equal(m.tiles.filter(t=>t.kind==='roads').length,2);
+  // Facade studies enter the default city only with a recorded gate; each is a distinct source building.
+  const studies=JSON.parse(fs.readFileSync('prototypes/p2/facade-studies.json')).studies;
+  assert.deepEqual(samples.slice(5).sort(),Object.keys(studies).filter(id=>studies[id].productionEligible).sort());
   assert.ok(buildings.every(b=>b.precision==='estimated'&&b.sourceId.startsWith('osm:')&&b.label?.name&&b.integration?.status==='default'));
   assert.ok(buildings.find(b=>b.sampleId==='B3').replaceIds.includes('osm:w1521332870'));
   assert.ok(buildings.find(b=>b.sampleId==='C01').replaceIds.includes('osm:w509641363'));

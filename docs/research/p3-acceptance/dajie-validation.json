@@ -1,0 +1,277 @@
+{
+ "date": "2026-09-26",
+ "stage": "facade-study batch 1 (C07/C08/C09/C13/C14/C15) staged in ?detailTrial=inspect, then promoted to the default block 'shamian-dajie'",
+ "device": {
+  "browser": "Chrome 153 (Playwright window, visible)",
+  "gpu": "ANGLE Metal Renderer: Apple M5 Pro",
+  "viewport": [
+   1440,
+   900
+  ],
+  "devicePixelRatio": 1,
+  "qualityTier": 0,
+  "vsyncFloorMs": 8.3
+ },
+ "staged": {
+  "faultCycles": 4,
+  "tilesPerCycle": [
+   "shamian",
+   "shamian-west",
+   "trial-shamian-dajie (then named trial-shamian-central)"
+  ],
+  "invariantProblems": 0,
+  "detailMeshesAtReady": [
+   188,
+   188,
+   188,
+   188
+  ],
+  "expectedConsoleErrors": "12 injected HTTP 404"
+ },
+ "placement": [
+  {
+   "sampleId": "C07",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w352610312"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 13.7,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 4
+  },
+  {
+   "sampleId": "C08",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w352610315"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 13.149,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 1
+  },
+  {
+   "sampleId": "C09",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w352610278"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 14.9,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 1
+  },
+  {
+   "sampleId": "C13",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w1521332871"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 11.1,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 1
+  },
+  {
+   "sampleId": "C14",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w982457852"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 9.9,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 1
+  },
+  {
+   "sampleId": "C15",
+   "tile": "shamian-dajie",
+   "replacedRenderRecords": [
+    "osm:w352610299"
+   ],
+   "fillRecordsGrouped": 0,
+   "sourceControlResidualM": 0,
+   "modelTopM": 13.652,
+   "neighbourFootprintOverlaps": [],
+   "treeCentresInsideFootprint": 0,
+   "treeCrownPlanOverlaps": 3
+  }
+ ],
+ "shots": [
+  {
+   "label": "detail-shamian-dajie-day",
+   "p50": 8.4,
+   "p95": 16.8,
+   "calls": 445,
+   "trisM": 2.01,
+   "problems": []
+  },
+  {
+   "label": "detail-shamian-dajie-night",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 445,
+   "trisM": 2.01,
+   "problems": []
+  },
+  {
+   "label": "detail-shamian-dajie-rain",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 447,
+   "trisM": 2.06,
+   "problems": []
+  },
+  {
+   "label": "detail-dajie-front-day",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 382,
+   "trisM": 1.94,
+   "problems": []
+  },
+  {
+   "label": "detail-dajie-front-night",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 382,
+   "trisM": 1.94,
+   "problems": []
+  },
+  {
+   "label": "detail-dajie-front-rain",
+   "p50": 8.4,
+   "p95": 16.7,
+   "calls": 384,
+   "trisM": 1.99,
+   "problems": []
+  }
+ ],
+ "defaultStress": {
+  "instantJumps": {
+   "cycles": 60,
+   "frames": 1404,
+   "violations": 0
+  },
+  "panelFlights": {
+   "cycles": 20,
+   "frames": 2872,
+   "violations": 0
+  },
+  "http404": {
+   "shamian-west": [
+    "error",
+    true
+   ],
+   "shamian-dajie": [
+    "error",
+    true
+   ],
+   "recoveredAfterLeaveAndReturn": [
+    "ready",
+    "ready"
+   ],
+   "retryWithoutLeaving": false
+  },
+  "slowResponse2500ms": {
+   "violations": 0,
+   "frames": 348,
+   "baseVisibleWhileLoadingFrames": 227
+  },
+  "abortMidLoad": {
+   "stateBeforeLeaving": "loading",
+   "detailMeshesAfter": 0,
+   "cachedAssetsAfter": 0
+  },
+  "loadReleaseCycles": [
+   {
+    "geometries": 1750,
+    "textures": 48,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 37,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 48,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 37,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 48,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 37,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 48,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 37,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 48,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   },
+   {
+    "geometries": 1750,
+    "textures": 37,
+    "detailMeshes": 0,
+    "sceneGeometryObjects": 6217
+   }
+  ],
+  "memoryNote": "renderer geometry count rose 1474->1750 during the first panel flights while the scene-graph census stayed at 6217 objects: first uploads of existing far geometry, not new objects. After that the count, census and detail meshes stay flat through 10 load/release cycles; textures alternate 48/37 with post-processing state and do not grow."
+ },
+ "regression": {
+  "scenes": 30,
+  "consoleErrorsOrWarnings": [],
+  "invariantProblems": 0,
+  "p50Range": [
+   8.3,
+   16.6
+  ],
+  "p95Max": 18.1
+ },
+ "limitations": [
+  "single desktop GPU; no phone or integrated-GPU result",
+  "minutes-long sessions, not a long-duration memory test",
+  "facade structure follows single 2023 photos; heights, depths and spacings are estimates and uncovered faces are plain"
+ ],
+ "verdict": "passes the same load/fallback/release/switching gate as C01/C02; frame-time medians stay at the vsync floor on this device"
+}

@@ -219,6 +219,16 @@ export const SCENES = [
     cam:[113.23837,23.10839,150],tgt:[113.23704,23.10988,5],
   },
   {
+    id:'detail-shamian-dajie',group:'detail',name:'精细 · 沙面大街立面组',sub:'6栋照片结构研究 · 其余立面简化，尺寸估计',icon:'top',
+    atmos:{timeOfDay:10.8,weather:'clear',haze:20,lightIntensity:100,exposure:102},
+    cam:[113.23876,23.10812,95],tgt:[113.23876,23.11015,6],
+  },
+  {
+    id:'detail-dajie-front',group:'detail',name:'精细 · 洛士利洋行一带',sub:'沙面大街62/64/58号正立面 · 越过树冠俯看，尺寸估计',icon:'old',
+    atmos:{timeOfDay:10.8,weather:'clear',haze:20,lightIntensity:100,exposure:102},
+    cam:[113.23710,23.10970,26],tgt:[113.23694,23.11018,7],
+  },
+  {
     id:'detail-huasui',group:'detail',name:'精细 · 华穗路口',sub:'过街路径保留 · 缺证标线待核',icon:'top',
     atmos:{timeOfDay:12.6,weather:'clear',haze:20,lightIntensity:100,exposure:100},
     cam:[113.31303,23.12195,280],tgt:[113.31303,23.12222,0],
