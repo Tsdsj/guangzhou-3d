@@ -7,6 +7,71 @@
       1
     ]
   },
+  "resources": [
+    {
+      "name": "/data/guangzhou.json",
+      "transferSize": 46392,
+      "encodedBodySize": 46092,
+      "decodedBodySize": 46092,
+      "durationMs": 1
+    },
+    {
+      "name": "/data/detail/manifest.json",
+      "transferSize": 22438,
+      "encodedBodySize": 22138,
+      "decodedBodySize": 22138,
+      "durationMs": 3
+    },
+    {
+      "name": "/data/guangzhou.bin.gz",
+      "transferSize": 5263373,
+      "encodedBodySize": 5263073,
+      "decodedBodySize": 5263073,
+      "durationMs": 15
+    },
+    {
+      "name": "/data/guangzhou-veg.bin.gz",
+      "transferSize": 1976965,
+      "encodedBodySize": 1976665,
+      "decodedBodySize": 1976665,
+      "durationMs": 6
+    },
+    {
+      "name": "/data/detail/shamian.json",
+      "transferSize": 9019,
+      "encodedBodySize": 8719,
+      "decodedBodySize": 8719,
+      "durationMs": 3
+    },
+    {
+      "name": "/data/detail/shamian-west.json",
+      "transferSize": 9388,
+      "encodedBodySize": 9088,
+      "decodedBodySize": 9088,
+      "durationMs": 3
+    },
+    {
+      "name": "/data/detail/shamian-dajie.json",
+      "transferSize": 38910,
+      "encodedBodySize": 38610,
+      "decodedBodySize": 38610,
+      "durationMs": 3
+    },
+    {
+      "name": "/data/detail/huasui.json",
+      "transferSize": 63742,
+      "encodedBodySize": 63442,
+      "decodedBodySize": 63442,
+      "durationMs": 2
+    },
+    {
+      "name": "/data/detail/huaxia.json",
+      "transferSize": 138764,
+      "encodedBodySize": 138464,
+      "decodedBodySize": 138464,
+      "durationMs": 2
+    }
+  ],
   "log": [
     {
       "kind": "shot",
@@ -19,19 +84,19 @@
         "lightIntensity": 100,
         "exposure": 104
       },
-      "waitDetailMs": 501,
+      "waitDetailMs": 493,
       "bench": {
         "id": "detail-bank",
-        "fps": 91,
-        "ms": 11,
+        "fps": 90,
+        "ms": 11.1,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 7.1,
+        "cpu": 6.4,
         "calls": 414,
         "tris": 2.59,
         "auxCalls": 49,
         "auxTris": 0.29,
-        "geometries": 1078,
+        "geometries": 1098,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -101,13 +166,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1078,
+        "geometries": 1098,
         "textures": 49,
         "programs": 106,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 470457789
+        "heapUsed": 429243678
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -128,13 +193,13 @@
         "fps": 90,
         "ms": 11.1,
         "p50": 8.4,
-        "p95": 17,
-        "cpu": 7.1,
+        "p95": 16.7,
+        "cpu": 6.4,
         "calls": 414,
         "tris": 2.59,
         "auxCalls": 49,
-        "auxTris": 0.29,
-        "geometries": 1096,
+        "auxTris": 0.3,
+        "geometries": 1104,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -204,13 +269,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1096,
+        "geometries": 1104,
         "textures": 49,
         "programs": 106,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 486738707
+        "heapUsed": 448411824
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -228,16 +293,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-bank",
-        "fps": 90,
-        "ms": 11.1,
+        "fps": 91,
+        "ms": 11,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 7.1,
+        "cpu": 6.4,
         "calls": 416,
         "tris": 2.63,
-        "auxCalls": 49,
+        "auxCalls": 48,
         "auxTris": 0.29,
-        "geometries": 1097,
+        "geometries": 1105,
         "textures": 49,
         "tier": 0,
         "h": 2
@@ -307,13 +372,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1097,
+        "geometries": 1105,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 468272243
+        "heapUsed": 438100172
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -331,16 +396,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-indochine",
-        "fps": 102,
-        "ms": 9.8,
-        "p50": 8.3,
+        "fps": 101,
+        "ms": 9.9,
+        "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.1,
         "calls": 298,
         "tris": 1.71,
         "auxCalls": 37,
         "auxTris": 0.18,
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -410,13 +475,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 480794987
+        "heapUsed": 441977104
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -436,14 +501,14 @@
         "id": "detail-indochine",
         "fps": 103,
         "ms": 9.7,
-        "p50": 8.4,
+        "p50": 8.3,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.1,
         "calls": 298,
         "tris": 1.71,
         "auxCalls": 37,
         "auxTris": 0.18,
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -513,13 +578,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 443113677
+        "heapUsed": 441133472
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -539,14 +604,14 @@
         "id": "detail-indochine",
         "fps": 102,
         "ms": 9.8,
-        "p50": 8.4,
+        "p50": 8.3,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.1,
         "calls": 300,
         "tris": 1.76,
-        "auxCalls": 37,
+        "auxCalls": 36,
         "auxTris": 0.18,
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "tier": 0,
         "h": 4
@@ -616,13 +681,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1158,
+        "geometries": 1175,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 412911978
+        "heapUsed": 436516272
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -644,12 +709,12 @@
         "ms": 9.8,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.1,
         "calls": 298,
-        "tris": 1.69,
-        "auxCalls": 39,
+        "tris": 1.68,
+        "auxCalls": 38,
         "auxTris": 0.16,
-        "geometries": 1195,
+        "geometries": 1212,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -719,13 +784,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1195,
+        "geometries": 1212,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 421721414
+        "heapUsed": 442188788
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -747,12 +812,12 @@
         "ms": 9.7,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.1,
         "calls": 298,
         "tris": 1.68,
         "auxCalls": 39,
         "auxTris": 0.16,
-        "geometries": 1197,
+        "geometries": 1217,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -822,13 +887,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1197,
+        "geometries": 1217,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 416076762
+        "heapUsed": 438639212
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -846,16 +911,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-indochine-east",
-        "fps": 102,
-        "ms": 9.8,
+        "fps": 103,
+        "ms": 9.7,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 6.9,
+        "p95": 16.8,
+        "cpu": 6.1,
         "calls": 300,
         "tris": 1.73,
         "auxCalls": 39,
         "auxTris": 0.16,
-        "geometries": 1197,
+        "geometries": 1218,
         "textures": 49,
         "tier": 0,
         "h": 19
@@ -925,13 +990,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1197,
+        "geometries": 1218,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 409908142
+        "heapUsed": 434030164
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -950,15 +1015,15 @@
       "bench": {
         "id": "detail-lourdes",
         "fps": 95,
-        "ms": 10.6,
+        "ms": 10.5,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.8,
+        "cpu": 6,
         "calls": 358,
         "tris": 2.42,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1222,
+        "geometries": 1243,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -1028,13 +1093,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1222,
+        "geometries": 1243,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 427718054
+        "heapUsed": 452376528
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1056,12 +1121,12 @@
         "ms": 10.5,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.8,
+        "cpu": 6.1,
         "calls": 358,
         "tris": 2.42,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1222,
+        "geometries": 1243,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -1131,13 +1196,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1222,
+        "geometries": 1243,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 413154834
+        "heapUsed": 439980968
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1155,16 +1220,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-lourdes",
-        "fps": 95,
-        "ms": 10.6,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.8,
+        "p95": 16.7,
+        "cpu": 6.1,
         "calls": 360,
         "tris": 2.47,
         "auxCalls": 33,
         "auxTris": 0.27,
-        "geometries": 1222,
+        "geometries": 1246,
         "textures": 49,
         "tier": 0,
         "h": 43
@@ -1234,13 +1299,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1222,
+        "geometries": 1246,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 429017662
+        "heapUsed": 426962432
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1261,13 +1326,13 @@
         "fps": 96,
         "ms": 10.4,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 7.1,
-        "calls": 406,
-        "tris": 1.88,
-        "auxCalls": 47,
+        "p95": 16.7,
+        "cpu": 6.4,
+        "calls": 414,
+        "tris": 1.89,
+        "auxCalls": 49,
         "auxTris": 0.21,
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1337,13 +1402,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 415836278
+        "heapUsed": 451355232
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1364,13 +1429,13 @@
         "fps": 95,
         "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.2,
-        "calls": 405,
-        "tris": 1.88,
-        "auxCalls": 46,
+        "p95": 16.8,
+        "cpu": 6.4,
+        "calls": 413,
+        "tris": 1.89,
+        "auxCalls": 49,
         "auxTris": 0.21,
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1440,13 +1505,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 433269158
+        "heapUsed": 442096544
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1464,16 +1529,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-christchurch",
-        "fps": 94,
-        "ms": 10.6,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.2,
-        "calls": 408,
-        "tris": 1.93,
-        "auxCalls": 46,
+        "p95": 16.8,
+        "cpu": 6.4,
+        "calls": 416,
+        "tris": 1.94,
+        "auxCalls": 49,
         "auxTris": 0.21,
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "tier": 0,
         "h": 30
@@ -1543,13 +1608,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1343,
+        "geometries": 1375,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 417195250
+        "heapUsed": 431815584
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1568,15 +1633,15 @@
       "bench": {
         "id": "detail-specie",
         "fps": 95,
-        "ms": 10.6,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.1,
+        "p95": 16.9,
+        "cpu": 6.4,
         "calls": 381,
         "tris": 2.01,
-        "auxCalls": 50,
-        "auxTris": 0.21,
-        "geometries": 1347,
+        "auxCalls": 51,
+        "auxTris": 0.22,
+        "geometries": 1379,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1646,13 +1711,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1347,
+        "geometries": 1379,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 435598930
+        "heapUsed": 449630060
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1670,16 +1735,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-specie",
-        "fps": 96,
-        "ms": 10.4,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 7.1,
+        "p95": 16.7,
+        "cpu": 6.3,
         "calls": 381,
         "tris": 2.01,
         "auxCalls": 50,
         "auxTris": 0.21,
-        "geometries": 1348,
+        "geometries": 1380,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1749,13 +1814,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1348,
+        "geometries": 1380,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 423132522
+        "heapUsed": 437185140
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1773,16 +1838,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-specie",
-        "fps": 96,
-        "ms": 10.4,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.2,
+        "p95": 16.8,
+        "cpu": 6.4,
         "calls": 383,
         "tris": 2.05,
         "auxCalls": 50,
         "auxTris": 0.21,
-        "geometries": 1348,
+        "geometries": 1382,
         "textures": 50,
         "tier": 0,
         "h": 25
@@ -1852,13 +1917,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1348,
+        "geometries": 1382,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 438439602
+        "heapUsed": 452560204
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1880,12 +1945,12 @@
         "ms": 10.9,
         "p50": 8.4,
         "p95": 16.8,
-        "cpu": 7.2,
+        "cpu": 6.4,
         "calls": 425,
         "tris": 2.75,
         "auxCalls": 54,
         "auxTris": 0.35,
-        "geometries": 1355,
+        "geometries": 1389,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -1955,13 +2020,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1355,
+        "geometries": 1389,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 426635078
+        "heapUsed": 442245660
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -1982,13 +2047,13 @@
         "fps": 93,
         "ms": 10.8,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.2,
+        "p95": 16.8,
+        "cpu": 6.4,
         "calls": 425,
         "tris": 2.75,
-        "auxCalls": 55,
-        "auxTris": 0.36,
-        "geometries": 1355,
+        "auxCalls": 54,
+        "auxTris": 0.35,
+        "geometries": 1389,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -2058,13 +2123,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1355,
+        "geometries": 1389,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 418916794
+        "heapUsed": 435080792
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2082,16 +2147,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian",
-        "fps": 92,
-        "ms": 10.9,
+        "fps": 93,
+        "ms": 10.8,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.1,
+        "p95": 16.8,
+        "cpu": 6.4,
         "calls": 427,
         "tris": 2.8,
         "auxCalls": 54,
         "auxTris": 0.35,
-        "geometries": 1355,
+        "geometries": 1389,
         "textures": 50,
         "tier": 0,
         "h": 95
@@ -2161,13 +2226,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1355,
+        "geometries": 1389,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 437904994
+        "heapUsed": 429951668
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2185,16 +2250,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 96,
-        "ms": 10.4,
+        "fps": 97,
+        "ms": 10.3,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 7.3,
-        "calls": 395,
+        "p95": 16.7,
+        "cpu": 6.4,
+        "calls": 403,
         "tris": 1.97,
-        "auxCalls": 56,
-        "auxTris": 0.18,
-        "geometries": 1362,
+        "auxCalls": 58,
+        "auxTris": 0.19,
+        "geometries": 1394,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -2264,13 +2329,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1362,
+        "geometries": 1394,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 434101818
+        "heapUsed": 428779620
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2288,16 +2353,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 98,
+        "fps": 97,
         "ms": 10.3,
         "p50": 8.4,
-        "p95": 17,
-        "cpu": 7.4,
-        "calls": 396,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 404,
         "tris": 1.97,
-        "auxCalls": 55,
-        "auxTris": 0.18,
-        "geometries": 1362,
+        "auxCalls": 58,
+        "auxTris": 0.19,
+        "geometries": 1394,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -2367,13 +2432,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1362,
+        "geometries": 1394,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 431647474
+        "heapUsed": 455153924
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2391,16 +2456,16 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 97,
-        "ms": 10.4,
+        "fps": 98,
+        "ms": 10.3,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.3,
-        "calls": 398,
-        "tris": 2.01,
-        "auxCalls": 56,
-        "auxTris": 0.18,
-        "geometries": 1362,
+        "p95": 16.8,
+        "cpu": 6.5,
+        "calls": 406,
+        "tris": 2.02,
+        "auxCalls": 58,
+        "auxTris": 0.19,
+        "geometries": 1394,
         "textures": 50,
         "tier": 0,
         "h": 150
@@ -2470,13 +2535,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1362,
+        "geometries": 1394,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 426098366
+        "heapUsed": 452710596
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2494,19 +2559,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-dajie",
-        "fps": 94,
-        "ms": 10.7,
+        "fps": 86,
+        "ms": 11.7,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 7.5,
-        "calls": 445,
-        "tris": 2.01,
-        "auxCalls": 72,
-        "auxTris": 0.2,
-        "geometries": 1367,
+        "p95": 16.9,
+        "cpu": 6.8,
+        "calls": 472,
+        "tris": 2.62,
+        "auxCalls": 74,
+        "auxTris": 0.31,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 85
+        "h": 95
       },
       "viewport": [
         1440,
@@ -2573,13 +2638,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 422451406
+        "heapUsed": 437489812
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2597,19 +2662,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-dajie",
-        "fps": 95,
-        "ms": 10.5,
+        "fps": 87,
+        "ms": 11.6,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.6,
-        "calls": 445,
-        "tris": 2.01,
+        "p95": 16.8,
+        "cpu": 6.7,
+        "calls": 471,
+        "tris": 2.62,
         "auxCalls": 73,
-        "auxTris": 0.2,
-        "geometries": 1367,
+        "auxTris": 0.31,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 85
+        "h": 95
       },
       "viewport": [
         1440,
@@ -2676,13 +2741,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 420002426
+        "heapUsed": 448601036
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2700,19 +2765,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-shamian-dajie",
-        "fps": 93,
-        "ms": 10.7,
-        "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.6,
-        "calls": 447,
-        "tris": 2.06,
-        "auxCalls": 71,
-        "auxTris": 0.2,
-        "geometries": 1367,
+        "fps": 86,
+        "ms": 11.7,
+        "p50": 9.1,
+        "p95": 17,
+        "cpu": 6.8,
+        "calls": 474,
+        "tris": 2.67,
+        "auxCalls": 73,
+        "auxTris": 0.31,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 85
+        "h": 95
       },
       "viewport": [
         1440,
@@ -2779,13 +2844,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 419440718
+        "heapUsed": 431405988
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2803,19 +2868,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-dajie-front",
-        "fps": 96,
-        "ms": 10.4,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.1,
+        "p95": 17,
+        "cpu": 6.4,
         "calls": 382,
-        "tris": 1.94,
+        "tris": 2.02,
         "auxCalls": 46,
         "auxTris": 0.21,
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 9
+        "h": 26
       },
       "viewport": [
         1440,
@@ -2882,13 +2947,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 432153842
+        "heapUsed": 414899937
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -2906,19 +2971,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-dajie-front",
-        "fps": 97,
-        "ms": 10.3,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.1,
+        "p95": 17,
+        "cpu": 6.6,
         "calls": 382,
-        "tris": 1.94,
+        "tris": 2.02,
         "auxCalls": 46,
         "auxTris": 0.21,
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 9
+        "h": 26
       },
       "viewport": [
         1440,
@@ -2985,13 +3050,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 420197610
+        "heapUsed": 414722922
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -3009,19 +3074,19 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-dajie-front",
-        "fps": 97,
-        "ms": 10.3,
+        "fps": 95,
+        "ms": 10.5,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 7.1,
+        "cpu": 6.5,
         "calls": 384,
-        "tris": 1.99,
+        "tris": 2.07,
         "auxCalls": 46,
         "auxTris": 0.21,
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "tier": 0,
-        "h": 9
+        "h": 26
       },
       "viewport": [
         1440,
@@ -3088,13 +3153,13 @@
       ],
       "problems": [],
       "memory": {
-        "geometries": 1367,
+        "geometries": 1397,
         "textures": 50,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 409293946
+        "heapUsed": 415870514
       },
       "status": "精细片区 3 / 5 · 外观参考，尺寸估计"
     },
@@ -3109,14 +3174,14 @@
         "lightIntensity": 100,
         "exposure": 100
       },
-      "waitDetailMs": 81,
+      "waitDetailMs": 89,
       "bench": {
         "id": "detail-huasui",
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 9.7,
-        "cpu": 6.3,
+        "p95": 10.2,
+        "cpu": 5.5,
         "calls": 148,
         "tris": 1.36,
         "auxCalls": 0,
@@ -3197,7 +3262,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 414055041
+        "heapUsed": 385531392
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
@@ -3218,8 +3283,8 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 9.8,
-        "cpu": 6.3,
+        "p95": 10.1,
+        "cpu": 5.6,
         "calls": 149,
         "tris": 1.36,
         "auxCalls": 0,
@@ -3300,7 +3365,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 422007987
+        "heapUsed": 390315091
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
@@ -3318,12 +3383,12 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huasui",
-        "fps": 120,
-        "ms": 8.3,
+        "fps": 117,
+        "ms": 8.5,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 6.2,
-        "calls": 151,
+        "p95": 10.3,
+        "cpu": 5.4,
+        "calls": 150,
         "tris": 1.41,
         "auxCalls": 0,
         "auxTris": 0,
@@ -3403,7 +3468,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 437344487
+        "heapUsed": 388801879
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
@@ -3421,11 +3486,11 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huaxia",
-        "fps": 118,
-        "ms": 8.4,
+        "fps": 120,
+        "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.3,
-        "cpu": 6.2,
+        "p95": 9.8,
+        "cpu": 5.5,
         "calls": 151,
         "tris": 1.36,
         "auxCalls": 0,
@@ -3506,7 +3571,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 440579395
+        "heapUsed": 387916139
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
@@ -3528,7 +3593,7 @@
         "ms": 8.3,
         "p50": 8.3,
         "p95": 10.2,
-        "cpu": 6.2,
+        "cpu": 5.6,
         "calls": 151,
         "tris": 1.36,
         "auxCalls": 0,
@@ -3609,7 +3674,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 417607003
+        "heapUsed": 389598031
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     },
@@ -3627,11 +3692,11 @@
       "waitDetailMs": 0,
       "bench": {
         "id": "detail-huaxia",
-        "fps": 115,
-        "ms": 8.7,
+        "fps": 120,
+        "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.3,
-        "cpu": 5.9,
+        "p95": 10,
+        "cpu": 5.6,
         "calls": 153,
         "tris": 1.41,
         "auxCalls": 0,
@@ -3712,7 +3777,7 @@
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 421355083
+        "heapUsed": 386542283
       },
       "status": "精细片区 2 / 5 · 外观参考，尺寸估计"
     }

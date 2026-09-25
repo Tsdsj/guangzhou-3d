@@ -1,0 +1,165 @@
+{
+  "note": "final state (14 detailed buildings): same camera, all detail tiles disabled (base massing) vs enabled; alternated twice per scene; 1440x900 tier 0",
+  "rows": [
+    {
+      "id": "shamian",
+      "mode": "base",
+      "fps": 75,
+      "p50": 15.2,
+      "p95": 18.3,
+      "calls": 619,
+      "tris": 3.22,
+      "active": 0
+    },
+    {
+      "id": "shamian",
+      "mode": "detail",
+      "fps": 72,
+      "p50": 16.6,
+      "p95": 18.2,
+      "calls": 687,
+      "tris": 3.45,
+      "active": 3
+    },
+    {
+      "id": "shamian",
+      "mode": "base",
+      "fps": 75,
+      "p50": 16.6,
+      "p95": 17.5,
+      "calls": 619,
+      "tris": 3.22,
+      "active": 0
+    },
+    {
+      "id": "shamian",
+      "mode": "detail",
+      "fps": 73,
+      "p50": 16.6,
+      "p95": 17.8,
+      "calls": 687,
+      "tris": 3.45,
+      "active": 3
+    },
+    {
+      "id": "detail-shamian-dajie",
+      "mode": "base",
+      "fps": 87,
+      "p50": 9.2,
+      "p95": 17.6,
+      "calls": 411,
+      "tris": 2.52,
+      "active": 0
+    },
+    {
+      "id": "detail-shamian-dajie",
+      "mode": "detail",
+      "fps": 86,
+      "p50": 8.4,
+      "p95": 17,
+      "calls": 472,
+      "tris": 2.62,
+      "active": 3
+    },
+    {
+      "id": "detail-shamian-dajie",
+      "mode": "base",
+      "fps": 87,
+      "p50": 8.5,
+      "p95": 17,
+      "calls": 412,
+      "tris": 2.52,
+      "active": 0
+    },
+    {
+      "id": "detail-shamian-dajie",
+      "mode": "detail",
+      "fps": 83,
+      "p50": 9.9,
+      "p95": 17,
+      "calls": 472,
+      "tris": 2.62,
+      "active": 3
+    },
+    {
+      "id": "detail-dajie-front",
+      "mode": "base",
+      "fps": 95,
+      "p50": 8.4,
+      "p95": 17,
+      "calls": 361,
+      "tris": 2,
+      "active": 0
+    },
+    {
+      "id": "detail-dajie-front",
+      "mode": "detail",
+      "fps": 95,
+      "p50": 8.4,
+      "p95": 16.7,
+      "calls": 382,
+      "tris": 2.02,
+      "active": 3
+    },
+    {
+      "id": "detail-dajie-front",
+      "mode": "base",
+      "fps": 95,
+      "p50": 8.4,
+      "p95": 17.4,
+      "calls": 361,
+      "tris": 2,
+      "active": 0
+    },
+    {
+      "id": "detail-dajie-front",
+      "mode": "detail",
+      "fps": 94,
+      "p50": 8.4,
+      "p95": 16.7,
+      "calls": 382,
+      "tris": 2.02,
+      "active": 3
+    },
+    {
+      "id": "detail-shamian",
+      "mode": "base",
+      "fps": 93,
+      "p50": 8.4,
+      "p95": 16.8,
+      "calls": 359,
+      "tris": 2.52,
+      "active": 0
+    },
+    {
+      "id": "detail-shamian",
+      "mode": "detail",
+      "fps": 93,
+      "p50": 8.4,
+      "p95": 16.8,
+      "calls": 425,
+      "tris": 2.75,
+      "active": 3
+    },
+    {
+      "id": "detail-shamian",
+      "mode": "base",
+      "fps": 94,
+      "p50": 8.4,
+      "p95": 16.8,
+      "calls": 359,
+      "tris": 2.52,
+      "active": 0
+    },
+    {
+      "id": "detail-shamian",
+      "mode": "detail",
+      "fps": 92,
+      "p50": 8.4,
+      "p95": 16.7,
+      "calls": 425,
+      "tris": 2.75,
+      "active": 3
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "m0": {
     "memory": {
-      "geometries": 1474,
+      "geometries": 1471,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 464037676
+      "heapUsed": 471017828
     },
     "census": {
       "total": 6217,
@@ -181,13 +181,13 @@
   },
   "m1": {
     "memory": {
-      "geometries": 1474,
+      "geometries": 1471,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 437255799
+      "heapUsed": 454896687
     },
     "census": {
       "total": 6217,
@@ -361,13 +361,13 @@
   },
   "m2": {
     "memory": {
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 48,
       "programs": 105,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 513654671
+      "heapUsed": 439946305
     },
     "census": {
       "total": 6217,
@@ -540,25 +540,25 @@
     }
   },
   "instant": {
-    "frames": 1404,
-    "elapsedMs": 17205,
+    "frames": 1372,
+    "elapsedMs": 17228,
     "violations": 0,
     "firstViolations": [],
     "stateFrames": {
-      "shamian:loading": 59,
-      "shamian-west:loading": 49,
-      "shamian-dajie:loading": 89,
-      "huasui:idle": 1210,
-      "huaxia:idle": 1210,
-      "shamian-west:ready": 1048,
-      "shamian:ready": 1038,
-      "shamian-dajie:ready": 1008,
-      "shamian:idle": 241,
-      "shamian-west:idle": 241,
-      "shamian-dajie:idle": 241,
-      "huasui:loading": 16,
-      "huaxia:loading": 16,
-      "huasui:ready": 178,
+      "shamian:loading": 57,
+      "shamian-west:loading": 47,
+      "shamian-dajie:loading": 119,
+      "huasui:idle": 1180,
+      "huaxia:idle": 1180,
+      "shamian-west:ready": 1019,
+      "shamian:ready": 1009,
+      "shamian-dajie:ready": 947,
+      "shamian:idle": 240,
+      "shamian-west:idle": 240,
+      "shamian-dajie:idle": 240,
+      "huasui:loading": 12,
+      "huaxia:loading": 14,
+      "huasui:ready": 180,
       "huaxia:ready": 178,
       "shamian:cached": 66,
       "shamian-west:cached": 66,
@@ -566,28 +566,28 @@
     }
   },
   "clicked": {
-    "frames": 2872,
-    "elapsedMs": 30221,
+    "frames": 2865,
+    "elapsedMs": 30216,
     "violations": 0,
     "firstViolations": [],
     "stateFrames": {
-      "shamian:idle": 1164,
-      "shamian-west:idle": 1175,
-      "shamian-dajie:idle": 1168,
-      "huasui:idle": 2710,
-      "huaxia:idle": 2723,
-      "shamian-dajie:loading": 18,
-      "shamian:loading": 11,
-      "shamian-west:loading": 11,
-      "shamian-west:ready": 1666,
-      "shamian:ready": 1681,
-      "shamian-dajie:ready": 1668,
+      "shamian:idle": 1170,
+      "shamian-west:idle": 1181,
+      "shamian-dajie:idle": 1173,
+      "huasui:idle": 2702,
+      "huaxia:idle": 2715,
+      "shamian-dajie:loading": 22,
+      "shamian:loading": 8,
+      "shamian-west:loading": 8,
+      "shamian-west:ready": 1656,
+      "shamian:ready": 1670,
+      "shamian-dajie:ready": 1653,
       "shamian-west:cached": 20,
-      "shamian-dajie:cached": 18,
-      "shamian:cached": 16,
+      "shamian-dajie:cached": 17,
+      "shamian:cached": 17,
       "huasui:loading": 1,
-      "huasui:ready": 141,
-      "huaxia:loading": 1,
+      "huasui:ready": 142,
+      "huaxia:loading": 2,
       "huaxia:ready": 125,
       "huaxia:cached": 23,
       "huasui:cached": 20
@@ -650,29 +650,29 @@
     "fallbackVisible": false
   },
   "slow": {
-    "frames": 348,
+    "frames": 354,
     "violations": [],
     "states": {
-      "shamian:loading:base": 4,
-      "shamian-west:loading:base": 227,
-      "shamian-dajie:loading:base": 7,
-      "huasui:idle:none": 348,
-      "huaxia:idle:none": 348,
-      "shamian:ready:detail": 344,
-      "shamian-dajie:ready:detail": 341,
-      "shamian-west:ready:detail": 121
+      "shamian:loading:base": 3,
+      "shamian-west:loading:base": 228,
+      "shamian-dajie:loading:base": 9,
+      "huasui:idle:none": 354,
+      "huaxia:idle:none": 354,
+      "shamian:ready:detail": 351,
+      "shamian-dajie:ready:detail": 345,
+      "shamian-west:ready:detail": 126
     }
   },
   "midState": "loading",
   "abortFar": {
     "memory": {
-      "geometries": 1750,
-      "textures": 48,
-      "programs": 105,
+      "geometries": 1748,
+      "textures": 37,
+      "programs": 106,
       "detailRootChildren": 0,
       "detailMeshes": 0,
       "cachedAssets": 0,
-      "heapUsed": 445419040
+      "heapUsed": 499947586
     },
     "census": {
       "total": 6217,
@@ -847,7 +847,7 @@
   "cycles": [
     {
       "i": 0,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 48,
       "detailMeshes": 0,
       "cachedAssets": 0,
@@ -855,7 +855,7 @@
     },
     {
       "i": 1,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
@@ -863,15 +863,15 @@
     },
     {
       "i": 2,
-      "geometries": 1750,
-      "textures": 48,
+      "geometries": 1748,
+      "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
       "censusTotal": 6217
     },
     {
       "i": 3,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
@@ -879,15 +879,15 @@
     },
     {
       "i": 4,
-      "geometries": 1750,
-      "textures": 48,
+      "geometries": 1748,
+      "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
       "censusTotal": 6217
     },
     {
       "i": 5,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
@@ -895,15 +895,15 @@
     },
     {
       "i": 6,
-      "geometries": 1750,
-      "textures": 48,
+      "geometries": 1748,
+      "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
       "censusTotal": 6217
     },
     {
       "i": 7,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
@@ -911,15 +911,15 @@
     },
     {
       "i": 8,
-      "geometries": 1750,
-      "textures": 48,
+      "geometries": 1748,
+      "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,
       "censusTotal": 6217
     },
     {
       "i": 9,
-      "geometries": 1750,
+      "geometries": 1748,
       "textures": 37,
       "detailMeshes": 0,
       "cachedAssets": 0,

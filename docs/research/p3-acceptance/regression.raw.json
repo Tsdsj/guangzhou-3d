@@ -1,6 +1,6 @@
 {
-  "firstLoadMs": 1523,
-  "loadWait": 1441,
+  "firstLoadMs": 1488,
+  "loadWait": 1412,
   "rows": [
     {
       "id": "cbd-dusk",
@@ -10,7 +10,7 @@
       "p95": 16.7,
       "calls": 489,
       "trisM": 1.63,
-      "auxCalls": 79,
+      "auxCalls": 80,
       "tier": 0,
       "active": [],
       "problems": []
@@ -19,7 +19,7 @@
       "id": "river-night",
       "h": 36,
       "fps": 103,
-      "p50": 8.3,
+      "p50": 8.4,
       "p95": 16.7,
       "calls": 513,
       "trisM": 1.83,
@@ -36,7 +36,7 @@
       "p95": 9.1,
       "calls": 338,
       "trisM": 2.43,
-      "auxCalls": 46,
+      "auxCalls": 45,
       "tier": 0,
       "active": [],
       "problems": []
@@ -44,7 +44,7 @@
     {
       "id": "axis-morning",
       "h": 470,
-      "fps": 94,
+      "fps": 91,
       "p50": 8.4,
       "p95": 16.7,
       "calls": 450,
@@ -57,9 +57,9 @@
     {
       "id": "qilou",
       "h": 2,
-      "fps": 91,
+      "fps": 92,
       "p50": 8.4,
-      "p95": 17,
+      "p95": 16.8,
       "calls": 551,
       "trisM": 2.81,
       "auxCalls": 0,
@@ -72,10 +72,10 @@
       "h": 110,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10.2,
+      "p95": 9.5,
       "calls": 291,
       "trisM": 1.41,
-      "auxCalls": 28,
+      "auxCalls": 29,
       "tier": 0,
       "active": [],
       "problems": []
@@ -85,7 +85,7 @@
       "h": 190,
       "fps": 77,
       "p50": 16.6,
-      "p95": 18.1,
+      "p95": 16.8,
       "calls": 698,
       "trisM": 3.36,
       "auxCalls": 81,
@@ -98,10 +98,10 @@
       "h": 340,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10.2,
+      "p95": 10.3,
       "calls": 299,
       "trisM": 1.48,
-      "auxCalls": 40,
+      "auxCalls": 39,
       "tier": 0,
       "active": [],
       "problems": []
@@ -109,9 +109,9 @@
     {
       "id": "rain",
       "h": 380,
-      "fps": 97,
+      "fps": 96,
       "p50": 8.4,
-      "p95": 17.4,
+      "p95": 16.8,
       "calls": 475,
       "trisM": 2.1,
       "auxCalls": 73,
@@ -122,12 +122,12 @@
     {
       "id": "huinan",
       "h": 230,
-      "fps": 88,
+      "fps": 89,
       "p50": 8.4,
-      "p95": 17,
+      "p95": 16.8,
       "calls": 444,
       "trisM": 2.46,
-      "auxCalls": 52,
+      "auxCalls": 53,
       "tier": 0,
       "active": [],
       "problems": []
@@ -136,11 +136,11 @@
       "id": "overhead",
       "h": 7200,
       "fps": 79,
-      "p50": 15.4,
-      "p95": 17.3,
+      "p50": 16.4,
+      "p95": 16.8,
       "calls": 507,
       "trisM": 2.48,
-      "auxCalls": 118,
+      "auxCalls": 120,
       "tier": 0,
       "active": [],
       "problems": []
@@ -148,9 +148,9 @@
     {
       "id": "beijing-rd",
       "h": 2,
-      "fps": 120,
+      "fps": 100,
       "p50": 8.3,
-      "p95": 9.7,
+      "p95": 16.7,
       "calls": 398,
       "trisM": 2.17,
       "auxCalls": 0,
@@ -162,11 +162,11 @@
       "id": "shamian",
       "h": 2,
       "fps": 78,
-      "p50": 16.2,
+      "p50": 15.1,
       "p95": 17,
       "calls": 713,
       "trisM": 3.56,
-      "auxCalls": 97,
+      "auxCalls": 96,
       "tier": 0,
       "active": [
         "shamian",
@@ -178,9 +178,9 @@
     {
       "id": "yongqingfang",
       "h": 2,
-      "fps": 120,
-      "p50": 8.3,
-      "p95": 10.2,
+      "fps": 106,
+      "p50": 8.4,
+      "p95": 16.7,
       "calls": 482,
       "trisM": 2.27,
       "auxCalls": 0,
@@ -193,10 +193,10 @@
       "h": 2,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10,
+      "p95": 9.6,
       "calls": 350,
       "trisM": 2.17,
-      "auxCalls": 48,
+      "auxCalls": 47,
       "tier": 0,
       "active": [
         "huasui",
@@ -208,11 +208,11 @@
       "id": "yuejiang",
       "h": 2,
       "fps": 106,
-      "p50": 8.3,
+      "p50": 8.4,
       "p95": 16.7,
       "calls": 341,
       "trisM": 2.27,
-      "auxCalls": 42,
+      "auxCalls": 41,
       "tier": 0,
       "active": [],
       "problems": []
@@ -220,12 +220,12 @@
     {
       "id": "ersha",
       "h": 2,
-      "fps": 106,
-      "p50": 8.4,
-      "p95": 16.7,
+      "fps": 120,
+      "p50": 8.3,
+      "p95": 9.7,
       "calls": 417,
       "trisM": 2.01,
-      "auxCalls": 62,
+      "auxCalls": 61,
       "tier": 0,
       "active": [],
       "problems": []
@@ -235,7 +235,7 @@
       "h": 7,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10.2,
+      "p95": 9.3,
       "calls": 355,
       "trisM": 1.92,
       "auxCalls": 48,
@@ -246,9 +246,9 @@
     {
       "id": "detail-bank",
       "h": 2,
-      "fps": 92,
+      "fps": 91,
       "p50": 8.4,
-      "p95": 16.8,
+      "p95": 16.7,
       "calls": 413,
       "trisM": 2.49,
       "auxCalls": 51,
@@ -265,10 +265,10 @@
       "h": 4,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10,
+      "p95": 10.3,
       "calls": 304,
       "trisM": 1.76,
-      "auxCalls": 37,
+      "auxCalls": 38,
       "tier": 0,
       "active": [
         "shamian",
@@ -280,12 +280,12 @@
     {
       "id": "detail-indochine-east",
       "h": 19,
-      "fps": 118,
+      "fps": 120,
       "p50": 8.3,
       "p95": 10.3,
       "calls": 295,
       "trisM": 1.68,
-      "auxCalls": 38,
+      "auxCalls": 39,
       "tier": 0,
       "active": [
         "shamian",
@@ -299,10 +299,10 @@
       "h": 43,
       "fps": 120,
       "p50": 8.3,
-      "p95": 9.1,
+      "p95": 10,
       "calls": 347,
       "trisM": 2.38,
-      "auxCalls": 35,
+      "auxCalls": 36,
       "tier": 0,
       "active": [
         "shamian",
@@ -314,12 +314,12 @@
     {
       "id": "detail-christchurch",
       "h": 30,
-      "fps": 119,
+      "fps": 102,
       "p50": 8.3,
-      "p95": 10.1,
-      "calls": 395,
-      "trisM": 1.84,
-      "auxCalls": 47,
+      "p95": 16.7,
+      "calls": 403,
+      "trisM": 1.85,
+      "auxCalls": 50,
       "tier": 0,
       "active": [
         "shamian",
@@ -331,7 +331,7 @@
     {
       "id": "detail-specie",
       "h": 25,
-      "fps": 100,
+      "fps": 101,
       "p50": 8.4,
       "p95": 16.7,
       "calls": 386,
@@ -348,9 +348,9 @@
     {
       "id": "detail-shamian",
       "h": 95,
-      "fps": 95,
+      "fps": 94,
       "p50": 8.4,
-      "p95": 16.9,
+      "p95": 16.8,
       "calls": 420,
       "trisM": 2.71,
       "auxCalls": 54,
@@ -365,12 +365,12 @@
     {
       "id": "detail-shamian-west",
       "h": 150,
-      "fps": 102,
-      "p50": 8.4,
-      "p95": 16.7,
-      "calls": 382,
+      "fps": 120,
+      "p50": 8.3,
+      "p95": 10.3,
+      "calls": 390,
       "trisM": 1.89,
-      "auxCalls": 60,
+      "auxCalls": 62,
       "tier": 0,
       "active": [
         "shamian",
@@ -381,13 +381,13 @@
     },
     {
       "id": "detail-shamian-dajie",
-      "h": 85,
-      "fps": 95,
+      "h": 95,
+      "fps": 86,
       "p50": 8.4,
-      "p95": 16.7,
-      "calls": 464,
-      "trisM": 1.94,
-      "auxCalls": 75,
+      "p95": 17,
+      "calls": 472,
+      "trisM": 2.44,
+      "auxCalls": 70,
       "tier": 0,
       "active": [
         "shamian",
@@ -398,13 +398,13 @@
     },
     {
       "id": "detail-dajie-front",
-      "h": 9,
-      "fps": 102,
-      "p50": 8.4,
+      "h": 26,
+      "fps": 100,
+      "p50": 8.3,
       "p95": 16.7,
-      "calls": 385,
-      "trisM": 1.92,
-      "auxCalls": 48,
+      "calls": 384,
+      "trisM": 2.01,
+      "auxCalls": 49,
       "tier": 0,
       "active": [
         "shamian",
@@ -418,7 +418,7 @@
       "h": 280,
       "fps": 120,
       "p50": 8.3,
-      "p95": 10.3,
+      "p95": 9.5,
       "calls": 155,
       "trisM": 1.43,
       "auxCalls": 0,
@@ -432,9 +432,9 @@
     {
       "id": "detail-huaxia",
       "h": 310,
-      "fps": 120,
+      "fps": 119,
       "p50": 8.3,
-      "p95": 10.2,
+      "p95": 10,
       "calls": 142,
       "trisM": 1.35,
       "auxCalls": 0,
@@ -456,10 +456,10 @@
         "ms": 10.1,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.7,
+        "cpu": 6.6,
         "calls": 489,
         "tris": 1.63,
-        "auxCalls": 79,
+        "auxCalls": 80,
         "auxTris": 0.2,
         "geometries": 642,
         "textures": 48,
@@ -473,7 +473,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 928953342
+        "heapUsed": 399297554
       },
       "detail": [
         {
@@ -521,9 +521,9 @@
         "id": "river-night",
         "fps": 103,
         "ms": 9.7,
-        "p50": 8.3,
+        "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.9,
+        "cpu": 6.8,
         "calls": 513,
         "tris": 1.83,
         "auxCalls": 77,
@@ -540,7 +540,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 921752806
+        "heapUsed": 394524704
       },
       "detail": [
         {
@@ -593,7 +593,7 @@
         "cpu": 6.8,
         "calls": 338,
         "tris": 2.43,
-        "auxCalls": 46,
+        "auxCalls": 45,
         "auxTris": 0.15,
         "geometries": 811,
         "textures": 48,
@@ -607,7 +607,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 943026882
+        "heapUsed": 408634660
       },
       "detail": [
         {
@@ -653,11 +653,11 @@
       "label": "axis-morning",
       "bench": {
         "id": "axis-morning",
-        "fps": 94,
-        "ms": 10.7,
+        "fps": 91,
+        "ms": 11,
         "p50": 8.4,
         "p95": 16.7,
-        "cpu": 6.5,
+        "cpu": 6.4,
         "calls": 450,
         "tris": 2.37,
         "auxCalls": 78,
@@ -674,7 +674,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 923147002
+        "heapUsed": 398276616
       },
       "detail": [
         {
@@ -720,10 +720,10 @@
       "label": "qilou",
       "bench": {
         "id": "qilou",
-        "fps": 91,
-        "ms": 11,
+        "fps": 92,
+        "ms": 10.9,
         "p50": 8.4,
-        "p95": 17,
+        "p95": 16.8,
         "cpu": 6.4,
         "calls": 551,
         "tris": 2.81,
@@ -741,7 +741,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 931425262
+        "heapUsed": 386930212
       },
       "detail": [
         {
@@ -790,11 +790,11 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 6.9,
+        "p95": 9.5,
+        "cpu": 6.8,
         "calls": 291,
         "tris": 1.41,
-        "auxCalls": 28,
+        "auxCalls": 29,
         "auxTris": 0.18,
         "geometries": 1388,
         "textures": 48,
@@ -808,7 +808,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 931898590
+        "heapUsed": 415885352
       },
       "detail": [
         {
@@ -855,10 +855,10 @@
       "bench": {
         "id": "baietan",
         "fps": 77,
-        "ms": 13.1,
+        "ms": 13,
         "p50": 16.6,
-        "p95": 18.1,
-        "cpu": 7.4,
+        "p95": 16.8,
+        "cpu": 7.3,
         "calls": 698,
         "tris": 3.36,
         "auxCalls": 81,
@@ -875,7 +875,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 950683570
+        "heapUsed": 405865424
       },
       "detail": [
         {
@@ -924,12 +924,12 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 6.7,
+        "p95": 10.3,
+        "cpu": 6.5,
         "calls": 299,
         "tris": 1.48,
-        "auxCalls": 40,
-        "auxTris": 0.09,
+        "auxCalls": 39,
+        "auxTris": 0.08,
         "geometries": 1630,
         "textures": 48,
         "tier": 0,
@@ -942,7 +942,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 943077342
+        "heapUsed": 397159628
       },
       "detail": [
         {
@@ -988,10 +988,10 @@
       "label": "rain",
       "bench": {
         "id": "rain",
-        "fps": 97,
-        "ms": 10.3,
+        "fps": 96,
+        "ms": 10.4,
         "p50": 8.4,
-        "p95": 17.4,
+        "p95": 16.8,
         "cpu": 6.9,
         "calls": 475,
         "tris": 2.1,
@@ -1009,7 +1009,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 937012642
+        "heapUsed": 390650252
       },
       "detail": [
         {
@@ -1055,15 +1055,15 @@
       "label": "huinan",
       "bench": {
         "id": "huinan",
-        "fps": 88,
+        "fps": 89,
         "ms": 11.3,
         "p50": 8.4,
-        "p95": 17,
-        "cpu": 6.8,
+        "p95": 16.8,
+        "cpu": 6.7,
         "calls": 444,
         "tris": 2.46,
-        "auxCalls": 52,
-        "auxTris": 0.35,
+        "auxCalls": 53,
+        "auxTris": 0.36,
         "geometries": 1752,
         "textures": 48,
         "tier": 0,
@@ -1076,7 +1076,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 945774982
+        "heapUsed": 406776624
       },
       "detail": [
         {
@@ -1124,13 +1124,13 @@
         "id": "overhead",
         "fps": 79,
         "ms": 12.7,
-        "p50": 15.4,
-        "p95": 17.3,
-        "cpu": 3.6,
+        "p50": 16.4,
+        "p95": 16.8,
+        "cpu": 3.5,
         "calls": 507,
         "tris": 2.48,
-        "auxCalls": 118,
-        "auxTris": 0.6,
+        "auxCalls": 120,
+        "auxTris": 0.61,
         "geometries": 1758,
         "textures": 48,
         "tier": 0,
@@ -1143,7 +1143,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 930557226
+        "heapUsed": 391676744
       },
       "detail": [
         {
@@ -1189,11 +1189,11 @@
       "label": "beijing-rd",
       "bench": {
         "id": "beijing-rd",
-        "fps": 120,
-        "ms": 8.3,
+        "fps": 100,
+        "ms": 10,
         "p50": 8.3,
-        "p95": 9.7,
-        "cpu": 6.7,
+        "p95": 16.7,
+        "cpu": 6.1,
         "calls": 398,
         "tris": 2.17,
         "auxCalls": 0,
@@ -1210,7 +1210,7 @@
         "detailRootChildren": 0,
         "detailMeshes": 0,
         "cachedAssets": 0,
-        "heapUsed": 950612366
+        "heapUsed": 401640220
       },
       "detail": [
         {
@@ -1258,26 +1258,26 @@
         "id": "shamian",
         "fps": 78,
         "ms": 12.8,
-        "p50": 16.2,
+        "p50": 15.1,
         "p95": 17,
         "cpu": 8.1,
         "calls": 713,
         "tris": 3.56,
-        "auxCalls": 97,
-        "auxTris": 0.52,
-        "geometries": 2174,
+        "auxCalls": 96,
+        "auxTris": 0.51,
+        "geometries": 2201,
         "textures": 49,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2174,
+        "geometries": 2201,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 967805515
+        "heapUsed": 433665059
       },
       "detail": [
         {
@@ -1323,28 +1323,28 @@
       "label": "yongqingfang",
       "bench": {
         "id": "yongqingfang",
-        "fps": 120,
-        "ms": 8.3,
-        "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 7.2,
+        "fps": 106,
+        "ms": 9.4,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.9,
         "calls": 482,
         "tris": 2.27,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 2226,
+        "geometries": 2253,
         "textures": 49,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2226,
+        "geometries": 2253,
         "textures": 49,
         "programs": 107,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 963731481
+        "heapUsed": 459412698
       },
       "detail": [
         {
@@ -1393,25 +1393,25 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10,
-        "cpu": 7.2,
+        "p95": 9.6,
+        "cpu": 7.1,
         "calls": 350,
         "tris": 2.17,
-        "auxCalls": 48,
+        "auxCalls": 47,
         "auxTris": 0.13,
-        "geometries": 2172,
+        "geometries": 2099,
         "textures": 48,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2172,
+        "geometries": 2099,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 981103206
+        "heapUsed": 446112233
       },
       "detail": [
         {
@@ -1458,27 +1458,27 @@
       "bench": {
         "id": "yuejiang",
         "fps": 106,
-        "ms": 9.5,
-        "p50": 8.3,
+        "ms": 9.4,
+        "p50": 8.4,
         "p95": 16.7,
         "cpu": 6.6,
         "calls": 341,
         "tris": 2.27,
-        "auxCalls": 42,
+        "auxCalls": 41,
         "auxTris": 0.15,
-        "geometries": 2186,
+        "geometries": 2115,
         "textures": 48,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2186,
+        "geometries": 2115,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 980807594
+        "heapUsed": 445821193
       },
       "detail": [
         {
@@ -1524,28 +1524,28 @@
       "label": "ersha",
       "bench": {
         "id": "ersha",
-        "fps": 106,
-        "ms": 9.5,
-        "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 6.8,
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 9.7,
+        "cpu": 7.3,
         "calls": 417,
         "tris": 2.01,
-        "auxCalls": 62,
+        "auxCalls": 61,
         "auxTris": 0.12,
-        "geometries": 2226,
+        "geometries": 2155,
         "textures": 48,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2226,
+        "geometries": 2155,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 985030886
+        "heapUsed": 433460645
       },
       "detail": [
         {
@@ -1594,25 +1594,25 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.2,
-        "cpu": 6.8,
+        "p95": 9.3,
+        "cpu": 6.7,
         "calls": 355,
         "tris": 1.92,
         "auxCalls": 48,
         "auxTris": 0.13,
-        "geometries": 2279,
+        "geometries": 2224,
         "textures": 48,
         "tier": 0,
         "h": 7
       },
       "memory": {
-        "geometries": 2279,
+        "geometries": 2224,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 1,
         "detailMeshes": 3,
         "cachedAssets": 1,
-        "heapUsed": 973991830
+        "heapUsed": 454847033
       },
       "detail": [
         {
@@ -1658,28 +1658,28 @@
       "label": "detail-bank",
       "bench": {
         "id": "detail-bank",
-        "fps": 92,
-        "ms": 10.9,
+        "fps": 91,
+        "ms": 11,
         "p50": 8.4,
-        "p95": 16.8,
-        "cpu": 6.9,
+        "p95": 16.7,
+        "cpu": 7.1,
         "calls": 413,
         "tris": 2.49,
         "auxCalls": 51,
         "auxTris": 0.32,
-        "geometries": 2432,
+        "geometries": 2397,
         "textures": 49,
         "tier": 0,
         "h": 2
       },
       "memory": {
-        "geometries": 2432,
+        "geometries": 2397,
         "textures": 49,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 427220135
+        "heapUsed": 481819038
       },
       "detail": [
         {
@@ -1728,25 +1728,25 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10,
-        "cpu": 7.4,
+        "p95": 10.3,
+        "cpu": 7.5,
         "calls": 304,
         "tris": 1.76,
-        "auxCalls": 37,
+        "auxCalls": 38,
         "auxTris": 0.17,
-        "geometries": 2464,
+        "geometries": 2429,
         "textures": 49,
         "tier": 0,
         "h": 4
       },
       "memory": {
-        "geometries": 2464,
+        "geometries": 2429,
         "textures": 49,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 416288071
+        "heapUsed": 471870374
       },
       "detail": [
         {
@@ -1792,28 +1792,28 @@
       "label": "detail-indochine-east",
       "bench": {
         "id": "detail-indochine-east",
-        "fps": 118,
-        "ms": 8.5,
+        "fps": 120,
+        "ms": 8.3,
         "p50": 8.3,
         "p95": 10.3,
-        "cpu": 7.2,
+        "cpu": 7.4,
         "calls": 295,
         "tris": 1.68,
-        "auxCalls": 38,
+        "auxCalls": 39,
         "auxTris": 0.15,
-        "geometries": 2481,
+        "geometries": 2446,
         "textures": 49,
         "tier": 0,
         "h": 19
       },
       "memory": {
-        "geometries": 2481,
+        "geometries": 2446,
         "textures": 49,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 441043135
+        "heapUsed": 466278642
       },
       "detail": [
         {
@@ -1862,25 +1862,25 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 9.1,
+        "p95": 10,
         "cpu": 7.3,
         "calls": 347,
         "tris": 2.38,
-        "auxCalls": 35,
+        "auxCalls": 36,
         "auxTris": 0.29,
-        "geometries": 2481,
+        "geometries": 2446,
         "textures": 49,
         "tier": 0,
         "h": 43
       },
       "memory": {
-        "geometries": 2481,
+        "geometries": 2446,
         "textures": 49,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 412628471
+        "heapUsed": 493953274
       },
       "detail": [
         {
@@ -1926,28 +1926,28 @@
       "label": "detail-christchurch",
       "bench": {
         "id": "detail-christchurch",
-        "fps": 119,
-        "ms": 8.4,
+        "fps": 102,
+        "ms": 9.8,
         "p50": 8.3,
-        "p95": 10.1,
-        "cpu": 7.6,
-        "calls": 395,
-        "tris": 1.84,
-        "auxCalls": 47,
-        "auxTris": 0.21,
-        "geometries": 2551,
+        "p95": 16.7,
+        "cpu": 7.3,
+        "calls": 403,
+        "tris": 1.85,
+        "auxCalls": 50,
+        "auxTris": 0.22,
+        "geometries": 2524,
         "textures": 50,
         "tier": 0,
         "h": 30
       },
       "memory": {
-        "geometries": 2551,
+        "geometries": 2524,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 440144911
+        "heapUsed": 482752690
       },
       "detail": [
         {
@@ -1993,8 +1993,8 @@
       "label": "detail-specie",
       "bench": {
         "id": "detail-specie",
-        "fps": 100,
-        "ms": 10,
+        "fps": 101,
+        "ms": 9.9,
         "p50": 8.4,
         "p95": 16.7,
         "cpu": 7.1,
@@ -2002,19 +2002,19 @@
         "tris": 1.98,
         "auxCalls": 50,
         "auxTris": 0.23,
-        "geometries": 2554,
+        "geometries": 2527,
         "textures": 50,
         "tier": 0,
         "h": 25
       },
       "memory": {
-        "geometries": 2554,
+        "geometries": 2527,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 428515191
+        "heapUsed": 491045382
       },
       "detail": [
         {
@@ -2060,28 +2060,28 @@
       "label": "detail-shamian",
       "bench": {
         "id": "detail-shamian",
-        "fps": 95,
+        "fps": 94,
         "ms": 10.6,
         "p50": 8.4,
-        "p95": 16.9,
-        "cpu": 7.1,
+        "p95": 16.8,
+        "cpu": 7.2,
         "calls": 420,
         "tris": 2.71,
         "auxCalls": 54,
         "auxTris": 0.35,
-        "geometries": 2554,
+        "geometries": 2527,
         "textures": 50,
         "tier": 0,
         "h": 95
       },
       "memory": {
-        "geometries": 2554,
+        "geometries": 2527,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 436559943
+        "heapUsed": 471338870
       },
       "detail": [
         {
@@ -2127,28 +2127,28 @@
       "label": "detail-shamian-west",
       "bench": {
         "id": "detail-shamian-west",
-        "fps": 102,
-        "ms": 9.8,
-        "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.2,
-        "calls": 382,
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 10.3,
+        "cpu": 7.8,
+        "calls": 390,
         "tris": 1.89,
-        "auxCalls": 60,
+        "auxCalls": 62,
         "auxTris": 0.21,
-        "geometries": 2557,
+        "geometries": 2530,
         "textures": 50,
         "tier": 0,
         "h": 150
       },
       "memory": {
-        "geometries": 2557,
+        "geometries": 2530,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 422910655
+        "heapUsed": 468589474
       },
       "detail": [
         {
@@ -2194,28 +2194,28 @@
       "label": "detail-shamian-dajie",
       "bench": {
         "id": "detail-shamian-dajie",
-        "fps": 95,
-        "ms": 10.6,
+        "fps": 86,
+        "ms": 11.6,
         "p50": 8.4,
-        "p95": 16.7,
-        "cpu": 7.5,
-        "calls": 464,
-        "tris": 1.94,
-        "auxCalls": 75,
-        "auxTris": 0.21,
-        "geometries": 2564,
+        "p95": 17,
+        "cpu": 7.3,
+        "calls": 472,
+        "tris": 2.44,
+        "auxCalls": 70,
+        "auxTris": 0.32,
+        "geometries": 2533,
         "textures": 50,
         "tier": 0,
-        "h": 85
+        "h": 95
       },
       "memory": {
-        "geometries": 2564,
+        "geometries": 2533,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 436890107
+        "heapUsed": 496400474
       },
       "detail": [
         {
@@ -2261,28 +2261,28 @@
       "label": "detail-dajie-front",
       "bench": {
         "id": "detail-dajie-front",
-        "fps": 102,
-        "ms": 9.8,
-        "p50": 8.4,
+        "fps": 100,
+        "ms": 10,
+        "p50": 8.3,
         "p95": 16.7,
-        "cpu": 7.1,
-        "calls": 385,
-        "tris": 1.92,
-        "auxCalls": 48,
-        "auxTris": 0.22,
-        "geometries": 2564,
+        "cpu": 7.2,
+        "calls": 384,
+        "tris": 2.01,
+        "auxCalls": 49,
+        "auxTris": 0.24,
+        "geometries": 2533,
         "textures": 50,
         "tier": 0,
-        "h": 9
+        "h": 26
       },
       "memory": {
-        "geometries": 2564,
+        "geometries": 2533,
         "textures": 50,
         "programs": 108,
         "detailRootChildren": 3,
-        "detailMeshes": 188,
+        "detailMeshes": 218,
         "cachedAssets": 3,
-        "heapUsed": 420129715
+        "heapUsed": 474960162
       },
       "detail": [
         {
@@ -2331,25 +2331,25 @@
         "fps": 120,
         "ms": 8.3,
         "p50": 8.3,
-        "p95": 10.3,
+        "p95": 9.5,
         "cpu": 5.8,
         "calls": 155,
         "tris": 1.43,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 2412,
+        "geometries": 2371,
         "textures": 48,
         "tier": 0,
         "h": 280
       },
       "memory": {
-        "geometries": 2412,
+        "geometries": 2371,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 436961410
+        "heapUsed": 489553774
       },
       "detail": [
         {
@@ -2395,28 +2395,28 @@
       "label": "detail-huaxia",
       "bench": {
         "id": "detail-huaxia",
-        "fps": 120,
-        "ms": 8.3,
+        "fps": 119,
+        "ms": 8.4,
         "p50": 8.3,
-        "p95": 10.2,
+        "p95": 10,
         "cpu": 5.8,
         "calls": 142,
         "tris": 1.35,
         "auxCalls": 0,
         "auxTris": 0,
-        "geometries": 2412,
+        "geometries": 2381,
         "textures": 48,
         "tier": 0,
         "h": 310
       },
       "memory": {
-        "geometries": 2412,
+        "geometries": 2381,
         "textures": 48,
         "programs": 107,
         "detailRootChildren": 2,
         "detailMeshes": 6,
         "cachedAssets": 2,
-        "heapUsed": 429155686
+        "heapUsed": 389587696
       },
       "detail": [
         {
