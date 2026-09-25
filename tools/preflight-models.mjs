@@ -16,7 +16,9 @@ let geoCode=fs.readFileSync('src/world/geo.js','utf8');if(!geoCode.includes("fro
 geoCode=geoCode.replace("from 'three'",`from '${new URL('../vendor/three/build/three.module.js',import.meta.url).href}'`);
 const {Geography}=await import('data:text/javascript;base64,'+Buffer.from(geoCode).toString('base64'));const geo=new Geography(D);
 const data=read('prototypes/p2/samples.json');data.buildings.C01=read('prototypes/p2/c01.json');data.buildings.C02=read('prototypes/p2/c02.json');data.skybridge=read('prototypes/p2/skybridge.json');
-const production=read('data/detail/shamian.json').samples,placements=D.detailManifest.tiles.flatMap(t=>t.buildings||[]);
+const placements=D.detailManifest.tiles.flatMap(t=>t.buildings||[]);
+// Each promoted sample is built from the payload of the tile that places it (shamian: B1–B3, shamian-west: C01/C02).
+const productionOf=id=>read(D.detailManifest.tiles.find(t=>(t.buildings||[]).some(b=>b.sampleId===id)).url).samples;
 const features=read('docs/research/p0-2026-09-25/shamian-osm-buildings.geojson').features;
 const o=D.meta.origin,project=([lon,lat])=>[(lon-o.lon)*o.kx,-(lat-o.lat)*o.kz];
 const featuresCity=features.filter(f=>f.properties.building&&f.geometry.type==='Polygon').map(f=>({id:'osm:'+f.properties.id,poly:f.geometry.coordinates[0].slice(0,-1).map(project)}));
@@ -32,12 +34,12 @@ function affine(local,world){
 const rows=[];
 for(const id of ['B1','B2','B3','C01','C02','S1']){
  const preview=buildSample(id,data),pm=measureModel(preview.group,preview.planBoundary);
- const row={id,nominalHeightM:preview.height,model:pm,previewGroundY:previewGroundY(id),groundDatum:'model y=0; not surveyed elevation',measuredAccuracy:'unverified',integration:id.startsWith('B')?'existing-estimated-integration':'prototype-only',heightEvidence:id==='B2'?'reported-eave-20.6m-not-total':'estimated',sourceControlResidualM:null};
+ const row={id,nominalHeightM:preview.height,model:pm,previewGroundY:previewGroundY(id),groundDatum:'model y=0; not surveyed elevation',measuredAccuracy:'unverified',integration:placements.some(p=>p.sampleId===id)?'default-estimated-integration':'prototype-only',heightEvidence:id==='B2'?'reported-eave-20.6m-not-total':'estimated',sourceControlResidualM:null};
  if(pm.nonFiniteValues)throw new Error(`Non-finite model: ${id}`);
  if(id==='S1'){
   row.sourceId=data.skybridge.sourceId;row.interfaces=data.skybridge.interfaces.map(p=>({nodeId:p.nodeId,buildingId:p.buildingId,doorVerified:p.doorVerified}));row.sourceSpanM=data.skybridge.lengthM;row.deckTopM=data.skybridge.parameters.deckTopM.value;row.readiness='hold-height-width-and-building-interface';row.geographicParity='x along east/north axis, z south-facing, y up';
  }else{
-  const placement=placements.find(p=>p.sampleId===id),sample=placement?buildSample(id,production):preview;
+  const placement=placements.find(p=>p.sampleId===id),sample=placement?buildSample(id,productionOf(id)):preview;
   const raw=features.find(f=>'osm:'+f.properties.id===sample.sourceIds[0]),world=raw.geometry.coordinates[0].slice(0,-1).map(project);
   const matrix=placement?new T.Matrix4().compose(new T.Vector3(...placement.position),new T.Quaternion().setFromAxisAngle(new T.Vector3(0,1,0),placement.rotationY),new T.Vector3(...placement.scale)):affine(sample.planBoundary,world);
   const controls=sample.planBoundary.map(([x,z])=>new T.Vector3(x,0,z).applyMatrix4(matrix));
@@ -64,6 +66,7 @@ for(const id of ['B1','B2','B3','C01','C02','S1']){
  }
  rows.push(row);
 }
-const r={date:'2026-09-26',scope:'5 building studies and S1; offline geometry plus current terrain/source-footprint broad phase',limits:['control agreement is not real 1:1 accuracy','mesh overhang may be cornice, balcony or step; not auto-clipped','neighbor AABB candidates require further surface-level inspection','tree centres are not canopy clearance','new sample affine placements are hypothetical, not runtime registrations'],fixes:['P2 buildings ground -0.5 -> 0','height display uses physical mesh highest point, excludes helpers','C02 last stair 0.78 -> 0.45 at doorway threshold'],baseDataUnchanged:true,rows};
-fs.writeFileSync('docs/research/p3-model-preflight/report.json',JSON.stringify(r,null,2)+'\n');
+const r={date:new Date().toISOString().slice(0,10),scope:'5 building studies and S1; offline geometry plus current terrain/source-footprint broad phase',limits:['control agreement is not real 1:1 accuracy','mesh overhang may be cornice, balcony or step; not auto-clipped','neighbor AABB candidates require further surface-level inspection','tree centres are not canopy clearance','new sample affine placements are hypothetical, not runtime registrations'],fixes:['P2 buildings ground -0.5 -> 0','height display uses physical mesh highest point, excludes helpers','C02 last stair 0.78 -> 0.45 at doorway threshold'],baseDataUnchanged:true,rows};
+// The 2026-09-26 pre-integration report in p3-model-preflight/ stays frozen; later runs write here.
+const out=process.argv[2]||'docs/research/p3-acceptance/preflight.json';fs.writeFileSync(out,JSON.stringify(r,null,2)+'\n');
 console.log(JSON.stringify(rows.map(({id,sourceControlResidualM,model,cityTerrain,envelopeNeighborCandidates,treeCentersInsideSource})=>({id,top:model.maxY,bottom:model.minY,overhang:model.maxPlanOverhangM,sourceControlResidualM,cityTerrain,envelopeNeighborCandidates,treeCentersInsideSource})),null,2));

@@ -5,6 +5,7 @@ from shapely.geometry import shape,LineString,Polygon,box
 from shapely.ops import unary_union
 from road_markings import package_markings
 from road_layers import classify_way
+from detail_placement import place_self_fitted
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'data/detail';OUT.mkdir(exist_ok=True)
 load=lambda p:json.loads(p.read_text())
 m=load(ROOT/'data/guangzhou.json');origin=m['origin'];raw=gzip.decompress((ROOT/'data'/m['files'][0]['name']).read_bytes())
@@ -33,10 +34,15 @@ for sid,id in [('B1','w352610322'),('B2','w352610258'),('B3','w392765468')]:
  placements.append({'sampleId':sid,'sourceId':'osm:'+id,'replaceIds':['osm:'+id]+(['osm:w1521332870']if sid=='B3'else []),
   'position':[c.x-normal[0]*shift,0,c.y-normal[1]*shift],'rotationY':math.atan2(normal[0],normal[1]),'footprint':ring,
   'precision':'estimated','headingBasis':'short north edge / photo interpretation; geographic heading provisional'if sid=='B2'else 'short south edge facing Shamian street',
-  'scale':[short/samples['buildings'][sid]['width'],1,max(math.dist(a,b)for a,b in edges)/samples['buildings'][sid]['depth']]})
+  'scale':[short/samples['buildings'][sid]['width'],1,max(math.dist(a,b)for a,b in edges)/samples['buildings'][sid]['depth']],
+  'integration':{'status':'default','since':'2026-09-25','record':'docs/P3-首批城市集成-2026-09-25.md'}})
  if samples['buildings'][sid].get('verticalControl'):
   placements[-1]['heightReference']=samples['buildings'][sid]['verticalControl']
   placements[-1]['headingBasis']='photo face F0 provisionally on north short edge; reported main entrance street is to east, not identified with F0'
+LABELS={'B1':('台湾银行旧址',None,14),'B2':('沙面一街3号',None,None),'B3':('露德圣母堂',None,23)}
+for placement in placements:
+ name,sub,y=LABELS[placement['sampleId']];ref=placement.get('heightReference')
+ placement['label']={'name':name,'sub':f"文献檐高 {ref['value']}m · 其余尺寸估计" if ref else '精细外观参考 · 尺寸估计','y':ref['value']+2 if ref else y}
 def bounds_all(polys):return list(unary_union([Polygon(p)for p in polys]).bounds)
 # Correspondence uses the actual source vertices, including the church tower setback.
 # This corrects the nominal horizontal plan only: heights and ornaments remain estimates.
@@ -67,6 +73,22 @@ def save_tile(name,payload,entry):
  data=json.dumps(payload,ensure_ascii=False,separators=(',',':')).encode();(OUT/(name+'.json')).write_bytes(data)
  entry.update(id=name,url=f'./data/detail/{name}.json',bytes=len(data),sha256=hashlib.sha256(data).hexdigest());manifest['tiles'].append(entry)
 save_tile('shamian',{'version':1,'samples':{'buildings':samples['buildings']}},{'kind':'buildings','bounds':bounds_all([p['footprint']for p in placements]),'buildings':placements})
+
+# Shamian west block: C01/C02 promoted from the isolated trial after P3 acceptance (2026-09-26).
+# Parameters come unchanged from the P2 inputs; only the source control points are baked into
+# the city frame. Heights, porch depth and uncovered faces stay estimated/unknown.
+west_samples={};west_block=[]
+WEST_LABELS={'C01':('基督教沙面会堂',21.4),'C02':('正金银行旧址',18.4)}
+for sid in ['C01','C02']:
+ sample=load(ROOT/f'prototypes/p2/{sid.lower()}.json')
+ assert sample.get('productionEligible') is True and sample['measuredHeightM'] is None and sample['heightStatus']=='estimated',sid
+ oid=sample['sourceId'].split(':')[1];ring=[proj(*p)for p in byid[oid]['geometry']['coordinates'][0][:-1]]
+ placement=place_self_fitted(sid,sample,ring,lambda p:proj(*p))
+ name,y=WEST_LABELS[sid]
+ placement['label']={'name':name,'sub':'精细外观参考 · 高度与细部尺寸估计','y':y}
+ placement['integration']={'status':'default','since':'2026-09-26','record':sample['productionGate']['acceptanceRecord']}
+ west_samples[sid]=sample;west_block.append(placement)
+save_tile('shamian-west',{'version':1,'samples':{'buildings':west_samples}},{'kind':'buildings','bounds':bounds_all([p['footprint']for p in west_block]),'buildings':west_block})
 
 # Keep production road widths and city projection; retain base traffic/road alignment.
 world_roi=box(*[0,0,1,1]);west,north=proj(113.3112,23.1234);east,south=proj(113.3177,23.1204)
@@ -121,4 +143,4 @@ for name,area,slot in [('huasui',box(west,north,mid,south),0),('huaxia',box(mid,
  road.update(package_markings(marking_sources,surface,area,(cx,cz)))
  save_tile(name,{'version':1,'samples':{'road':road}},{'kind':'roads','slot':slot,'bounds':list(area.bounds),'position':[cx,0,cz],'precision':'estimated'})
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-print('Packaged',len(placements),'buildings, two road tiles;',round(east-west),'m east-west span')
+print('Packaged',len(placements)+len(west_block),'buildings in two blocks, two road tiles;',round(east-west),'m east-west bounding span (not road length)')

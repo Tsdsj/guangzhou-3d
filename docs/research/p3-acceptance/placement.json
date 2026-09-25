@@ -1,0 +1,310 @@
+{
+  "date": "2026-09-25",
+  "basis": "fixed OSM snapshot outlines in the existing city-local frame; residuals show internal mapping consistency only, not field accuracy",
+  "crownModel": {
+    "banyan": {
+      "radiusAtScale1M": 10.51,
+      "topAtScale1M": 13.24
+    },
+    "palm": {
+      "radiusAtScale1M": 5.9,
+      "topAtScale1M": 19
+    },
+    "fanpalm": {
+      "radiusAtScale1M": 3.7,
+      "topAtScale1M": 7.1
+    },
+    "kapok": {
+      "radiusAtScale1M": 5.94,
+      "topAtScale1M": 17.37
+    },
+    "broad": {
+      "radiusAtScale1M": 4.48,
+      "topAtScale1M": 9.84
+    }
+  },
+  "crownNote": "trees are procedural (not surveyed); a plan overlap means the rendered crown can touch or pass through the facade envelope; trees are kept, not removed",
+  "defaultBuildings": [
+    {
+      "tile": "shamian",
+      "staged": false,
+      "sampleId": "B1",
+      "sourceId": "osm:w352610322",
+      "replaceIds": [
+        "osm:w352610322"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610322"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9994346316148724,
+      "modelTopM": 14.4,
+      "maxPlanOverhangM": 1.475,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5571,
+          "z": 950.5,
+          "scale": 1.2000000476837158,
+          "crownRadiusM": 12.61,
+          "trunkToFootprintM": 2.2,
+          "crownTopM": 15.9
+        }
+      ],
+      "precision": "estimated",
+      "label": "台湾银行旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-25",
+        "record": "docs/P3-首批城市集成-2026-09-25.md"
+      }
+    },
+    {
+      "tile": "shamian",
+      "staged": false,
+      "sampleId": "B2",
+      "sourceId": "osm:w352610258",
+      "replaceIds": [
+        "osm:w352610258"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610258"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9994222924282052,
+      "modelTopM": 21.149,
+      "maxPlanOverhangM": 1.065,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 1,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 1
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5513.5,
+          "z": 1020,
+          "scale": 0.9900000095367432,
+          "crownRadiusM": 10.4,
+          "trunkToFootprintM": 5.03,
+          "crownTopM": 13.1
+        }
+      ],
+      "precision": "estimated",
+      "label": "沙面一街3号",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-25",
+        "record": "docs/P3-首批城市集成-2026-09-25.md"
+      }
+    },
+    {
+      "tile": "shamian",
+      "staged": false,
+      "sampleId": "B3",
+      "sourceId": "osm:w392765468",
+      "replaceIds": [
+        "osm:w392765468",
+        "osm:w1521332870"
+      ],
+      "replacedRenderRecords": [
+        "osm:w1521332870"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9994824853821128,
+      "modelTopM": 25.4,
+      "maxPlanOverhangM": 0.693,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 2,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 2
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -5497.5,
+          "z": 925.5,
+          "scale": 1.149999976158142,
+          "crownRadiusM": 12.09,
+          "trunkToFootprintM": 3,
+          "crownTopM": 15.2
+        },
+        {
+          "species": "banyan",
+          "x": -5498.5,
+          "z": 948.5,
+          "scale": 0.8100000023841858,
+          "crownRadiusM": 8.51,
+          "trunkToFootprintM": 3.05,
+          "crownTopM": 10.7
+        }
+      ],
+      "precision": "estimated",
+      "label": "露德圣母堂",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-25",
+        "record": "docs/P3-首批城市集成-2026-09-25.md"
+      }
+    },
+    {
+      "tile": "shamian-west",
+      "staged": false,
+      "sampleId": "C01",
+      "sourceId": "osm:w509641361",
+      "replaceIds": [
+        "osm:w509641361",
+        "osm:w509641363"
+      ],
+      "replacedRenderRecords": [
+        "osm:w509641363"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 19.4,
+      "maxPlanOverhangM": 0.364,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 4,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 4
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -6104,
+          "z": 969.5,
+          "scale": 1.190000057220459,
+          "crownRadiusM": 12.51,
+          "trunkToFootprintM": 3.56,
+          "crownTopM": 15.8
+        },
+        {
+          "species": "banyan",
+          "x": -6102.5,
+          "z": 988.5,
+          "scale": 1.1299999952316284,
+          "crownRadiusM": 11.88,
+          "trunkToFootprintM": 5.12,
+          "crownTopM": 15
+        },
+        {
+          "species": "banyan",
+          "x": -6127.5,
+          "z": 969,
+          "scale": 1.1100000143051147,
+          "crownRadiusM": 11.67,
+          "trunkToFootprintM": 7.43,
+          "crownTopM": 14.7
+        },
+        {
+          "species": "banyan",
+          "x": -6103,
+          "z": 1002,
+          "scale": 0.8799999952316284,
+          "crownRadiusM": 9.25,
+          "trunkToFootprintM": 9.21,
+          "crownTopM": 11.7
+        }
+      ],
+      "precision": "estimated",
+      "label": "基督教沙面会堂",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/trial-validation.json"
+      }
+    },
+    {
+      "tile": "shamian-west",
+      "staged": false,
+      "sampleId": "C02",
+      "sourceId": "osm:w352610288",
+      "replaceIds": [
+        "osm:w352610288"
+      ],
+      "replacedRenderRecords": [
+        "osm:w352610288"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 1,
+      "modelTopM": 16.4,
+      "maxPlanOverhangM": 1.375,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 5,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 3,
+        "broad": 2
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "broad",
+          "x": -5969,
+          "z": 941,
+          "scale": 1.1200000047683716,
+          "crownRadiusM": 5.02,
+          "trunkToFootprintM": 0.84,
+          "crownTopM": 11
+        },
+        {
+          "species": "banyan",
+          "x": -5942.5,
+          "z": 914,
+          "scale": 1.1100000143051147,
+          "crownRadiusM": 11.67,
+          "trunkToFootprintM": 3.53,
+          "crownTopM": 14.7
+        },
+        {
+          "species": "broad",
+          "x": -5943,
+          "z": 934.5,
+          "scale": 0.9900000095367432,
+          "crownRadiusM": 4.44,
+          "trunkToFootprintM": 3.73,
+          "crownTopM": 9.7
+        },
+        {
+          "species": "banyan",
+          "x": -5942.5,
+          "z": 923.5,
+          "scale": 1.0499999523162842,
+          "crownRadiusM": 11.04,
+          "trunkToFootprintM": 3.85,
+          "crownTopM": 13.9
+        },
+        {
+          "species": "banyan",
+          "x": -5942,
+          "z": 904.5,
+          "scale": 0.9399999976158142,
+          "crownRadiusM": 9.88,
+          "trunkToFootprintM": 3.88,
+          "crownTopM": 12.4
+        }
+      ],
+      "precision": "estimated",
+      "label": "正金银行旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p3-acceptance/trial-validation.json"
+      }
+    }
+  ],
+  "stagedBuildings": []
+}

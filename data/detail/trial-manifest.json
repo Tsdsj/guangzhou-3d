@@ -58,7 +58,17 @@
             0.9994324547177613,
             1,
             1.0000021781333004
-          ]
+          ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
+          "label": {
+            "name": "台湾银行旧址",
+            "sub": "精细外观参考 · 尺寸估计",
+            "y": 14
+          }
         },
         {
           "sampleId": "B2",
@@ -97,6 +107,11 @@
             1,
             1.000021231918016
           ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
           "heightReference": {
             "landmark": "eave",
             "value": 20.6,
@@ -110,6 +125,11 @@
             "independentlyMeasured": false,
             "datum": "report does not specify vertical datum; model ground zero remains inferred",
             "modelAnchorInterpretation": "upper cornice control line; detailed section drawing not provided"
+          },
+          "label": {
+            "name": "沙面一街3号",
+            "sub": "文献檐高 20.6m · 其余尺寸估计",
+            "y": 22.6
           }
         },
         {
@@ -165,7 +185,17 @@
             0.9994675065029682,
             1,
             1.0000149868595498
-          ]
+          ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
+          "label": {
+            "name": "露德圣母堂",
+            "sub": "精细外观参考 · 尺寸估计",
+            "y": 23
+          }
         }
       ],
       "id": "shamian",
@@ -174,56 +204,11 @@
       "sha256": "f4fa8465483e22bcd9d2e9757d6cadfc660a2ade1a65c4e17c08af3274519b0e"
     },
     {
-      "kind": "roads",
-      "slot": 0,
-      "bounds": [
-        1556.182410032544,
-        -542.6749999999156,
-        1883.7997595139218,
-        -210.42499999990304
-      ],
-      "position": [
-        1719.9910847732328,
-        0,
-        -376.5499999999094
-      ],
-      "precision": "estimated",
-      "id": "huasui",
-      "url": "./data/detail/huasui.json",
-      "bytes": 59185,
-      "sha256": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea"
-    },
-    {
-      "kind": "roads",
-      "slot": 1,
-      "bounds": [
-        1883.7997595139218,
-        -542.6749999999156,
-        2221.655151165456,
-        -210.42499999990304
-      ],
-      "position": [
-        2052.727455339689,
-        0,
-        -376.54999999990935
-      ],
-      "precision": "estimated",
-      "id": "huaxia",
-      "url": "./data/detail/huaxia.json",
-      "bytes": 137841,
-      "sha256": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
-    },
-    {
-      "id": "trial-c01",
       "kind": "buildings",
-      "trialOnly": true,
-      "url": "./data/detail/trial-c01.json",
-      "bytes": 4686,
-      "sha256": "d2ba99aba85de5e016fab6af14afc8b86b2cd5c1ad6975bc8c5534821cccb442",
       "bounds": [
         -6120.74184579985,
-        970.6573000000498,
-        -6107.258344260575,
+        904.7278249999922,
+        -5945.742990966134,
         997.7578250000114
       ],
       "buildings": [
@@ -280,24 +265,18 @@
             ]
           ],
           "precision": "estimated",
-          "headingBasis": "source south edge; photo orientation remains provisional"
-        }
-      ]
-    },
-    {
-      "id": "trial-c02",
-      "kind": "buildings",
-      "trialOnly": true,
-      "url": "./data/detail/trial-c02.json",
-      "bytes": 3475,
-      "sha256": "fea5ea9945f4b2c364ecb2bb1892889f85a42130f93a4b4f55e68a084bcc0fb6",
-      "bounds": [
-        -5970.283578051565,
-        904.7278249999922,
-        -5945.742990966134,
-        940.89877500011
-      ],
-      "buildings": [
+          "headingBasis": "source south edge; photo orientation remains provisional",
+          "label": {
+            "name": "基督教沙面会堂",
+            "sub": "精细外观参考 · 高度与细部尺寸估计",
+            "y": 21.4
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/trial-validation.json"
+          }
+        },
         {
           "sampleId": "C02",
           "sourceId": "osm:w352610288",
@@ -334,9 +313,63 @@
             ]
           ],
           "precision": "estimated",
-          "headingBasis": "source south edge; photo orientation remains provisional"
+          "headingBasis": "source south edge; photo orientation remains provisional",
+          "label": {
+            "name": "正金银行旧址",
+            "sub": "精细外观参考 · 高度与细部尺寸估计",
+            "y": 18.4
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/trial-validation.json"
+          }
         }
-      ]
+      ],
+      "id": "shamian-west",
+      "url": "./data/detail/shamian-west.json",
+      "bytes": 9088,
+      "sha256": "fac599b521d88b1210463f0ac82c89e2feef66db6908a8df94d8b05d3362bc6d"
+    },
+    {
+      "kind": "roads",
+      "slot": 0,
+      "bounds": [
+        1556.182410032544,
+        -542.6749999999156,
+        1883.7997595139218,
+        -210.42499999990304
+      ],
+      "position": [
+        1719.9910847732328,
+        0,
+        -376.5499999999094
+      ],
+      "precision": "estimated",
+      "id": "huasui",
+      "url": "./data/detail/huasui.json",
+      "bytes": 59185,
+      "sha256": "581dd73deabe03b7cd969a71acaf285a4b55a24532c3da7d19a2100cbdd552ea"
+    },
+    {
+      "kind": "roads",
+      "slot": 1,
+      "bounds": [
+        1883.7997595139218,
+        -542.6749999999156,
+        2221.655151165456,
+        -210.42499999990304
+      ],
+      "position": [
+        2052.727455339689,
+        0,
+        -376.54999999990935
+      ],
+      "precision": "estimated",
+      "id": "huaxia",
+      "url": "./data/detail/huaxia.json",
+      "bytes": 137841,
+      "sha256": "a7e6f876ccaa89f1136ef640456820d6475131ed227ee1b6fe50d6bca210c9dc"
     }
   ],
   "trialOnly": true

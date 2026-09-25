@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-26",
+  "stage": "pre-integration isolated trial (?detailTrial=c01c02), code base de2dc1a + bench/rig fixes of this round",
+  "device": {
+    "browser": "Chrome 153 (Playwright-controlled window, visible, focused)",
+    "gpu": "ANGLE Metal Renderer: Apple M5 Pro",
+    "viewport": [1440, 900],
+    "devicePixelRatio": 1,
+    "rendererPixelRatio": 1,
+    "qualityTier": 0,
+    "display": "frame times are capped by a 120 Hz vsync; 8.3 ms is the floor"
+  },
+  "method": "tools/acceptance/run-trial.pw.js + run-trial-stress.pw.js with tools/acceptance/page-harness.js; each shot waits for both trial tiles to reach 'ready' (or 'idle' for release), settles 1.5 s, then __gz.bench samples 150 frames with automatic quality adaptation paused",
+  "shots": [
+    {"label": "c01-day", "h": 24, "fps": 114, "p50": 8.3, "p95": 15.6, "calls": 401, "trisM": 1.88, "problems": []},
+    {"label": "c01-night", "h": 24, "fps": 96, "p50": 8.4, "p95": 16.9, "calls": 401, "trisM": 1.88, "problems": []},
+    {"label": "c01-rain", "h": 24, "fps": 96, "p50": 8.4, "p95": 16.7, "calls": 404, "trisM": 1.92, "problems": []},
+    {"label": "c02-day", "h": 25, "fps": 95, "p50": 8.4, "p95": 16.7, "calls": 373, "trisM": 2.01, "problems": []},
+    {"label": "c02-night", "h": 25, "fps": 95, "p50": 8.4, "p95": 16.8, "calls": 373, "trisM": 2.01, "problems": []},
+    {"label": "c02-rain", "h": 25, "fps": 95, "p50": 8.4, "p95": 16.8, "calls": 375, "trisM": 2.05, "problems": []},
+    {"label": "overview-day", "h": 120, "fps": 93, "p50": 8.4, "p95": 16.7, "calls": 411, "trisM": 2.5, "problems": []},
+    {"label": "overview-night", "h": 120, "fps": 91, "p50": 8.4, "p95": 18.0, "calls": 411, "trisM": 2.5, "problems": []},
+    {"label": "overview-rain", "h": 120, "fps": 91, "p50": 8.4, "p95": 18.2, "calls": 414, "trisM": 2.55, "problems": []},
+    {"label": "far-release", "h": 2400, "fps": 120, "p50": 8.3, "p95": 10.0, "calls": 169, "trisM": 1.18, "problems": [], "trialStates": ["idle", "idle"]}
+  ],
+  "sameCameraBaseVsDetail": [
+    {"scene": "trial-c01", "base": {"p50": 8.4, "p95": 16.7, "calls": 364, "trisM": 1.86}, "detail": {"p50": 8.4, "p95": 16.7, "calls": 402, "trisM": 1.88}},
+    {"scene": "trial-c02", "base": {"p50": 8.4, "p95": 16.7, "calls": 359, "trisM": 2.0}, "detail": {"p50": 8.4, "p95": 16.7, "calls": 373, "trisM": 2.01}},
+    {"scene": "trial-overview", "base": {"p50": 8.4, "p95": 16.7, "calls": 376, "trisM": 2.19}, "detail": {"p50": 8.4, "p95": 16.7, "calls": 428, "trisM": 2.22}}
+  ],
+  "loadBytes": {
+    "guangzhou.bin.gz": 5263073,
+    "guangzhou-veg.bin.gz": 1976665,
+    "guangzhou.json": 46092,
+    "trial-manifest.json": 8655,
+    "shamian.json": 8719,
+    "trial-c01.json": 4686,
+    "trial-c02.json": 3475
+  },
+  "switching": {
+    "instantJumps": {"cycles": 40, "frames": 1046, "exactlyOneRepresentationViolations": 0},
+    "panelClicksWithFlights": {"cycles": 16, "frames": 1983, "exactlyOneRepresentationViolations": 0},
+    "scenes": ["trial-c01", "trial-c02", "trial-overview", "trial-far", "detail-shamian"]
+  },
+  "faultCycles": {
+    "cycles": 6,
+    "eachCycle": "404 injection -> error with fallback visible and no asset; retry -> ready; base -> cached; detail -> ready",
+    "invariantProblems": 0,
+    "geometriesAtReady": [770, 770, 770, 770, 770, 770],
+    "detailMeshesAtReady": [123, 123, 123, 123, 123, 123],
+    "expectedConsoleErrors": "12 x HTTP 404 for data/detail/trial-missing.json (injected)",
+    "unexpectedConsoleErrors": 0
+  },
+  "releaseAtFarView": {
+    "detailMeshes": [0, 0, 0, 0, 0],
+    "cachedAssets": [0, 0, 0, 0, 0],
+    "textures": [48, 48, 48, 48, 48],
+    "geometries": [692, 704, 720, 720, 720],
+    "note": "sampled after warm-up, instant switching, clicked flights, fault cycles and A/B; geometry count grows 692->720 during the first flights then stays flat through fault cycles and A/B, while detail meshes and cached assets return to 0. Other distance caches (tree LOD, traffic) are not isolated by this counter; re-checked on the integrated default scene."
+  },
+  "screenshots": "docs/research/p3-acceptance/trial/*.jpg (1440x900, UI visible)",
+  "verdict": "passes integration gate for loading, fallback, release and switching on this device; frame times are equal between base and detail at the same cameras within vsync resolution",
+  "limitations": [
+    "single desktop GPU; not a phone or integrated-GPU result",
+    "short sessions (minutes), not a long-duration memory test",
+    "heights, porch depth and uncovered faces remain estimated/unknown; acceptance is not metric verification"
+  ]
+}

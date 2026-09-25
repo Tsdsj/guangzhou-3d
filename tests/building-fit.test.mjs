@@ -20,9 +20,10 @@ test('轮廓配准对凸出部分逐点映射，保留高度且不折叠平面',
 
 test('生产样件平面控制边界映射回原始OSM轮廓，钟塔凸出不再使用固定偏移',()=>{
   const manifest=read('data/detail/manifest.json');const data=read('data/detail/shamian.json').samples;
-  for(const b of manifest.tiles.flatMap(t=>t.buildings||[])){
-    assert.ok(data.buildings[b.sampleId].planFit,`${b.sampleId}: source fit required`);
-    const result=buildSample(b.sampleId,data);
+  for(const tile of manifest.tiles.filter(t=>t.kind==='buildings'))for(const b of tile.buildings){
+    const samples=read(tile.url).samples;
+    assert.ok(samples.buildings[b.sampleId].planFit,`${b.sampleId}: source fit required`);
+    const result=buildSample(b.sampleId,samples);
     assert.ok(result.planBoundary?.length===b.footprint.length);
     const c=Math.cos(b.rotationY),s=Math.sin(b.rotationY);
     for(const [x,z]of result.planBoundary){

@@ -58,7 +58,17 @@
             0.9994324547177613,
             1,
             1.0000021781333004
-          ]
+          ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
+          "label": {
+            "name": "台湾银行旧址",
+            "sub": "精细外观参考 · 尺寸估计",
+            "y": 14
+          }
         },
         {
           "sampleId": "B2",
@@ -97,6 +107,11 @@
             1,
             1.000021231918016
           ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
           "heightReference": {
             "landmark": "eave",
             "value": 20.6,
@@ -110,6 +125,11 @@
             "independentlyMeasured": false,
             "datum": "report does not specify vertical datum; model ground zero remains inferred",
             "modelAnchorInterpretation": "upper cornice control line; detailed section drawing not provided"
+          },
+          "label": {
+            "name": "沙面一街3号",
+            "sub": "文献檐高 20.6m · 其余尺寸估计",
+            "y": 22.6
           }
         },
         {
@@ -165,13 +185,151 @@
             0.9994675065029682,
             1,
             1.0000149868595498
-          ]
+          ],
+          "integration": {
+            "status": "default",
+            "since": "2026-09-25",
+            "record": "docs/P3-首批城市集成-2026-09-25.md"
+          },
+          "label": {
+            "name": "露德圣母堂",
+            "sub": "精细外观参考 · 尺寸估计",
+            "y": 23
+          }
         }
       ],
       "id": "shamian",
       "url": "./data/detail/shamian.json",
       "bytes": 8719,
       "sha256": "f4fa8465483e22bcd9d2e9757d6cadfc660a2ade1a65c4e17c08af3274519b0e"
+    },
+    {
+      "kind": "buildings",
+      "bounds": [
+        -6120.74184579985,
+        904.7278249999922,
+        -5945.742990966134,
+        997.7578250000114
+      ],
+      "buildings": [
+        {
+          "sampleId": "C01",
+          "sourceId": "osm:w509641361",
+          "replaceIds": [
+            "osm:w509641361",
+            "osm:w509641363"
+          ],
+          "position": [
+            -6114.000095030212,
+            0,
+            982.3829562503486
+          ],
+          "rotationY": -0.02129106953797481,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -6120.260657818724,
+              970.6573000000498
+            ],
+            [
+              -6120.74184579985,
+              993.8372750002306
+            ],
+            [
+              -6116.319011582552,
+              993.9591000000805
+            ],
+            [
+              -6116.452106130152,
+              997.6138500002962
+            ],
+            [
+              -6112.704982695324,
+              997.7578250000114
+            ],
+            [
+              -6112.571888147725,
+              994.0920000000597
+            ],
+            [
+              -6107.739532243155,
+              994.1030750001892
+            ],
+            [
+              -6107.258344260575,
+              970.9341750001377
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "source south edge; photo orientation remains provisional",
+          "label": {
+            "name": "基督教沙面会堂",
+            "sub": "精细外观参考 · 高度与细部尺寸估计",
+            "y": 21.4
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/trial-validation.json"
+          }
+        },
+        {
+          "sampleId": "C02",
+          "sourceId": "osm:w352610288",
+          "replaceIds": [
+            "osm:w352610288"
+          ],
+          "position": [
+            -5958.01328450885,
+            0,
+            922.8133000000512
+          ],
+          "rotationY": -0.03368809933571028,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -5945.742990966134,
+              905.5141500001316
+            ],
+            [
+              -5946.951079943368,
+              940.89877500011
+            ],
+            [
+              -5970.283578051565,
+              940.1124499999706
+            ],
+            [
+              -5969.075489074332,
+              904.7278249999922
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "source south edge; photo orientation remains provisional",
+          "label": {
+            "name": "正金银行旧址",
+            "sub": "精细外观参考 · 高度与细部尺寸估计",
+            "y": 18.4
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p3-acceptance/trial-validation.json"
+          }
+        }
+      ],
+      "id": "shamian-west",
+      "url": "./data/detail/shamian-west.json",
+      "bytes": 9088,
+      "sha256": "fac599b521d88b1210463f0ac82c89e2feef66db6908a8df94d8b05d3362bc6d"
     },
     {
       "kind": "roads",

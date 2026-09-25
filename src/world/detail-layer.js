@@ -57,6 +57,8 @@ export function createDetailLayer(world,D){
     },dispose,
     change(status){
       D.onDetailStatus?.(status);
+      const activeKey=status.filter(s=>s.active).map(s=>s.id).join('|');
+      if(activeKey!==D.detailActiveKey){D.detailActiveKey=activeKey;D.onDetailActive?.(new Set(status.filter(s=>s.active).map(s=>s.id)));}
       const el=document.getElementById('detail-status');if(!el)return;
       const encoded=JSON.stringify(status);if(el.dataset.state===encoded)return;el.dataset.state=encoded;
       const active=status.filter(s=>s.active),loading=status.some(s=>s.state==='loading'),error=status.some(s=>s.desired&&s.state==='error');

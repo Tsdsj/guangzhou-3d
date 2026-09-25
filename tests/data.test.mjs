@@ -15,7 +15,7 @@ test('运行端可通过稳定ID查询三栋立面及样区拓扑，候选不会
   localFetch(t);
   const data = await loadCity();
   assert.equal(typeof data.loadEvidence, 'function');
-  assert.equal(data.detailManifest?.tiles.length,3,'valid detail registry must be usable');
+  assert.equal(data.detailManifest?.tiles.length,4,'valid detail registry must be usable');
   await data.vegReady;
   assert.equal(data.evidenceStatus, 'idle', 'ordinary city loading must not fetch the evidence sidecar');
   const index = await data.evidenceReady;

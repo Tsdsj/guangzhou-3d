@@ -1,0 +1,2772 @@
+{
+  "device": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "viewport": [
+      1440,
+      900,
+      1
+    ]
+  },
+  "log": [
+    {
+      "kind": "shot",
+      "label": "detail-bank-day",
+      "scene": "detail-bank",
+      "atmos": {
+        "timeOfDay": 15.5,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 481,
+      "bench": {
+        "id": "detail-bank",
+        "fps": 90,
+        "ms": 11.1,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.9,
+        "calls": 414,
+        "tris": 2.59,
+        "auxCalls": 49,
+        "auxTris": 0.29,
+        "geometries": 1029,
+        "textures": 49,
+        "tier": 0,
+        "h": 2
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1029,
+        "textures": 49,
+        "programs": 105,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 429621955
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-bank-night",
+      "scene": "detail-bank",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-bank",
+        "fps": 91,
+        "ms": 11,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.8,
+        "calls": 414,
+        "tris": 2.59,
+        "auxCalls": 49,
+        "auxTris": 0.3,
+        "geometries": 1047,
+        "textures": 49,
+        "tier": 0,
+        "h": 2
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1047,
+        "textures": 49,
+        "programs": 106,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 419015369
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-bank-rain",
+      "scene": "detail-bank",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-bank",
+        "fps": 90,
+        "ms": 11.1,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.8,
+        "calls": 416,
+        "tris": 2.63,
+        "auxCalls": 49,
+        "auxTris": 0.29,
+        "geometries": 1048,
+        "textures": 49,
+        "tier": 0,
+        "h": 2
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1048,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 406060669
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-day",
+      "scene": "detail-indochine",
+      "atmos": {
+        "timeOfDay": 10.5,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine",
+        "fps": 102,
+        "ms": 9.8,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 298,
+        "tris": 1.71,
+        "auxCalls": 37,
+        "auxTris": 0.18,
+        "geometries": 1109,
+        "textures": 49,
+        "tier": 0,
+        "h": 4
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1109,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 412035957
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-night",
+      "scene": "detail-indochine",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine",
+        "fps": 101,
+        "ms": 9.9,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 298,
+        "tris": 1.71,
+        "auxCalls": 37,
+        "auxTris": 0.18,
+        "geometries": 1109,
+        "textures": 49,
+        "tier": 0,
+        "h": 4
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1109,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 406424657
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-rain",
+      "scene": "detail-indochine",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine",
+        "fps": 102,
+        "ms": 9.8,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.4,
+        "calls": 300,
+        "tris": 1.76,
+        "auxCalls": 36,
+        "auxTris": 0.18,
+        "geometries": 1109,
+        "textures": 49,
+        "tier": 0,
+        "h": 4
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1109,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 425921705
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-east-day",
+      "scene": "detail-indochine-east",
+      "atmos": {
+        "timeOfDay": 10.5,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine-east",
+        "fps": 103,
+        "ms": 9.7,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 298,
+        "tris": 1.69,
+        "auxCalls": 39,
+        "auxTris": 0.16,
+        "geometries": 1146,
+        "textures": 49,
+        "tier": 0,
+        "h": 19
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1146,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 422604093
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-east-night",
+      "scene": "detail-indochine-east",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine-east",
+        "fps": 103,
+        "ms": 9.7,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 298,
+        "tris": 1.68,
+        "auxCalls": 39,
+        "auxTris": 0.16,
+        "geometries": 1146,
+        "textures": 49,
+        "tier": 0,
+        "h": 19
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1146,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 417585157
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-indochine-east-rain",
+      "scene": "detail-indochine-east",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-indochine-east",
+        "fps": 102,
+        "ms": 9.8,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.5,
+        "calls": 300,
+        "tris": 1.73,
+        "auxCalls": 38,
+        "auxTris": 0.16,
+        "geometries": 1146,
+        "textures": 49,
+        "tier": 0,
+        "h": 19
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1146,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 409247173
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-lourdes-day",
+      "scene": "detail-lourdes",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-lourdes",
+        "fps": 95,
+        "ms": 10.6,
+        "p50": 8.4,
+        "p95": 16.9,
+        "cpu": 6.5,
+        "calls": 358,
+        "tris": 2.42,
+        "auxCalls": 33,
+        "auxTris": 0.27,
+        "geometries": 1173,
+        "textures": 49,
+        "tier": 0,
+        "h": 43
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1173,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 425501297
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-lourdes-night",
+      "scene": "detail-lourdes",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-lourdes",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.9,
+        "cpu": 6.4,
+        "calls": 358,
+        "tris": 2.42,
+        "auxCalls": 33,
+        "auxTris": 0.27,
+        "geometries": 1173,
+        "textures": 49,
+        "tier": 0,
+        "h": 43
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1173,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 411989053
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-lourdes-rain",
+      "scene": "detail-lourdes",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 104
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-lourdes",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.5,
+        "calls": 360,
+        "tris": 2.47,
+        "auxCalls": 33,
+        "auxTris": 0.27,
+        "geometries": 1176,
+        "textures": 49,
+        "tier": 0,
+        "h": 43
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1176,
+        "textures": 49,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 427361749
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-christchurch-day",
+      "scene": "detail-christchurch",
+      "atmos": {
+        "timeOfDay": 11.2,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-christchurch",
+        "fps": 94,
+        "ms": 10.6,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.8,
+        "calls": 401,
+        "tris": 1.88,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1285,
+        "textures": 50,
+        "tier": 0,
+        "h": 30
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1285,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 413434333
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-christchurch-night",
+      "scene": "detail-christchurch",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-christchurch",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.7,
+        "calls": 400,
+        "tris": 1.88,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1285,
+        "textures": 50,
+        "tier": 0,
+        "h": 30
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1285,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 426168049
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-christchurch-rain",
+      "scene": "detail-christchurch",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-christchurch",
+        "fps": 94,
+        "ms": 10.6,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.8,
+        "calls": 403,
+        "tris": 1.93,
+        "auxCalls": 46,
+        "auxTris": 0.21,
+        "geometries": 1285,
+        "textures": 50,
+        "tier": 0,
+        "h": 30
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1285,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 408465013
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-specie-day",
+      "scene": "detail-specie",
+      "atmos": {
+        "timeOfDay": 12.4,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-specie",
+        "fps": 94,
+        "ms": 10.7,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.7,
+        "calls": 373,
+        "tris": 2.01,
+        "auxCalls": 44,
+        "auxTris": 0.21,
+        "geometries": 1287,
+        "textures": 50,
+        "tier": 0,
+        "h": 25
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1287,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 419306565
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-specie-night",
+      "scene": "detail-specie",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-specie",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.7,
+        "calls": 373,
+        "tris": 2.01,
+        "auxCalls": 44,
+        "auxTris": 0.21,
+        "geometries": 1288,
+        "textures": 50,
+        "tier": 0,
+        "h": 25
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1288,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 432543185
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-specie-rain",
+      "scene": "detail-specie",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-specie",
+        "fps": 95,
+        "ms": 10.5,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.6,
+        "calls": 375,
+        "tris": 2.05,
+        "auxCalls": 44,
+        "auxTris": 0.21,
+        "geometries": 1290,
+        "textures": 50,
+        "tier": 0,
+        "h": 25
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1290,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 413836329
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-day",
+      "scene": "detail-shamian",
+      "atmos": {
+        "timeOfDay": 14.5,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian",
+        "fps": 92,
+        "ms": 10.9,
+        "p50": 8.4,
+        "p95": 17,
+        "cpu": 6.8,
+        "calls": 425,
+        "tris": 2.75,
+        "auxCalls": 54,
+        "auxTris": 0.35,
+        "geometries": 1297,
+        "textures": 50,
+        "tier": 0,
+        "h": 95
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1297,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 433425397
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-night",
+      "scene": "detail-shamian",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian",
+        "fps": 93,
+        "ms": 10.7,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.9,
+        "calls": 425,
+        "tris": 2.75,
+        "auxCalls": 54,
+        "auxTris": 0.35,
+        "geometries": 1297,
+        "textures": 50,
+        "tier": 0,
+        "h": 95
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1297,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 426811725
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-rain",
+      "scene": "detail-shamian",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 102
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian",
+        "fps": 92,
+        "ms": 10.9,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.8,
+        "calls": 427,
+        "tris": 2.8,
+        "auxCalls": 54,
+        "auxTris": 0.35,
+        "geometries": 1297,
+        "textures": 50,
+        "tier": 0,
+        "h": 95
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1297,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 418011321
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-west-day",
+      "scene": "detail-shamian-west",
+      "atmos": {
+        "timeOfDay": 12.4,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-west",
+        "fps": 97,
+        "ms": 10.3,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.6,
+        "calls": 352,
+        "tris": 1.92,
+        "auxCalls": 45,
+        "auxTris": 0.18,
+        "geometries": 1300,
+        "textures": 50,
+        "tier": 0,
+        "h": 150
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1300,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 432792681
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-west-night",
+      "scene": "detail-shamian-west",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-west",
+        "fps": 99,
+        "ms": 10.1,
+        "p50": 8.4,
+        "p95": 16.7,
+        "cpu": 6.6,
+        "calls": 353,
+        "tris": 1.92,
+        "auxCalls": 45,
+        "auxTris": 0.18,
+        "geometries": 1300,
+        "textures": 50,
+        "tier": 0,
+        "h": 150
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1300,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 421388077
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-shamian-west-rain",
+      "scene": "detail-shamian-west",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-shamian-west",
+        "fps": 97,
+        "ms": 10.3,
+        "p50": 8.4,
+        "p95": 16.8,
+        "cpu": 6.7,
+        "calls": 355,
+        "tris": 1.97,
+        "auxCalls": 44,
+        "auxTris": 0.17,
+        "geometries": 1300,
+        "textures": 50,
+        "tier": 0,
+        "h": 150
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "shamian-west",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": false
+        },
+        {
+          "id": "huasui",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1300,
+        "textures": 50,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 123,
+        "cachedAssets": 2,
+        "heapUsed": 438318045
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huasui-day",
+      "scene": "detail-huasui",
+      "atmos": {
+        "timeOfDay": 12.6,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 228,
+      "bench": {
+        "id": "detail-huasui",
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 10.2,
+        "cpu": 6,
+        "calls": 149,
+        "tris": 1.36,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1316,
+        "textures": 48,
+        "tier": 0,
+        "h": 280
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1316,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 437228149
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huasui-night",
+      "scene": "detail-huasui",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-huasui",
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 10,
+        "cpu": 6.1,
+        "calls": 149,
+        "tris": 1.36,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1324,
+        "textures": 48,
+        "tier": 0,
+        "h": 280
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1324,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 422104517
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huasui-rain",
+      "scene": "detail-huasui",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-huasui",
+        "fps": 115,
+        "ms": 8.7,
+        "p50": 8.3,
+        "p95": 10.2,
+        "cpu": 5.6,
+        "calls": 150,
+        "tris": 1.41,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1326,
+        "textures": 48,
+        "tier": 0,
+        "h": 280
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1326,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 385603912
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huaxia-day",
+      "scene": "detail-huaxia",
+      "atmos": {
+        "timeOfDay": 12.6,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-huaxia",
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 10.2,
+        "cpu": 5.9,
+        "calls": 151,
+        "tris": 1.36,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1335,
+        "textures": 48,
+        "tier": 0,
+        "h": 310
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1335,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 388039199
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huaxia-night",
+      "scene": "detail-huaxia",
+      "atmos": {
+        "timeOfDay": 21,
+        "weather": "clear",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-huaxia",
+        "fps": 120,
+        "ms": 8.3,
+        "p50": 8.3,
+        "p95": 10,
+        "cpu": 5.9,
+        "calls": 151,
+        "tris": 1.36,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1349,
+        "textures": 48,
+        "tier": 0,
+        "h": 310
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1349,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 386887911
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    },
+    {
+      "kind": "shot",
+      "label": "detail-huaxia-rain",
+      "scene": "detail-huaxia",
+      "atmos": {
+        "timeOfDay": 15.2,
+        "weather": "rain",
+        "haze": 20,
+        "lightIntensity": 100,
+        "exposure": 100
+      },
+      "waitDetailMs": 0,
+      "bench": {
+        "id": "detail-huaxia",
+        "fps": 118,
+        "ms": 8.5,
+        "p50": 8.3,
+        "p95": 10,
+        "cpu": 5.7,
+        "calls": 153,
+        "tris": 1.41,
+        "auxCalls": 0,
+        "auxTris": 0,
+        "geometries": 1358,
+        "textures": 48,
+        "tier": 0,
+        "h": 310
+      },
+      "viewport": [
+        1440,
+        900,
+        1,
+        1
+      ],
+      "detail": [
+        {
+          "id": "shamian",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "shamian-west",
+          "state": "idle",
+          "active": false,
+          "desired": false,
+          "error": null,
+          "kind": "buildings",
+          "assetPresent": false,
+          "assetVisible": false,
+          "fallbackVisible": true
+        },
+        {
+          "id": "huasui",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        },
+        {
+          "id": "huaxia",
+          "state": "ready",
+          "active": true,
+          "desired": true,
+          "error": null,
+          "kind": "roads",
+          "assetPresent": true,
+          "assetVisible": true,
+          "fallbackVisible": null
+        }
+      ],
+      "problems": [],
+      "memory": {
+        "geometries": 1358,
+        "textures": 48,
+        "programs": 107,
+        "detailRootChildren": 2,
+        "detailMeshes": 6,
+        "cachedAssets": 2,
+        "heapUsed": 388252323
+      },
+      "status": "精细片区 2 / 4 · 外观参考，尺寸估计"
+    }
+  ]
+}

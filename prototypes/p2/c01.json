@@ -93,7 +93,20 @@
   "heightStatus": "estimated",
   "measuredHeightM": null,
   "baselineHeight": null,
-  "productionEligible": false,
+  "productionEligible": true,
+  "productionGate": {
+    "status": "integrated-default-estimated",
+    "date": "2026-09-26",
+    "acceptanceRecord": "docs/research/p3-acceptance/trial-validation.json",
+    "basis": [
+      "source identity and outline review",
+      "source control points mapped with residual < 1e-6 m (internal consistency only)",
+      "isolated trial: day/night/rain, fast switching, 404 fallback and release checks in a real browser"
+    ],
+    "dimensions": "estimated",
+    "metricAccuracy": "unverified",
+    "doesNotMean": "measured dimensions, 1:1 reconstruction or verified uncovered faces"
+  },
   "parameters": {
     "naveEaveM": 8.4,
     "naveRidgeM": 10.7,

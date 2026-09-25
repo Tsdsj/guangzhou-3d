@@ -1,0 +1,490 @@
+{
+  "date": "2026-09-25",
+  "scope": "5 building studies and S1; offline geometry plus current terrain/source-footprint broad phase",
+  "limits": [
+    "control agreement is not real 1:1 accuracy",
+    "mesh overhang may be cornice, balcony or step; not auto-clipped",
+    "neighbor AABB candidates require further surface-level inspection",
+    "tree centres are not canopy clearance",
+    "new sample affine placements are hypothetical, not runtime registrations"
+  ],
+  "fixes": [
+    "P2 buildings ground -0.5 -> 0",
+    "height display uses physical mesh highest point, excludes helpers",
+    "C02 last stair 0.78 -> 0.45 at doorway threshold"
+  ],
+  "baseDataUnchanged": true,
+  "rows": [
+    {
+      "id": "B1",
+      "nominalHeightM": 14.2,
+      "model": {
+        "meshes": 13,
+        "triangles": 41362,
+        "nonFiniteValues": 0,
+        "min": [
+          -11.5600004196167,
+          -0.3199999928474426,
+          -15.732999801635742
+        ],
+        "max": [
+          11.5600004196167,
+          14.399999618530273,
+          16.757999420166016
+        ],
+        "minY": -0.3199999928474426,
+        "maxY": 14.399999618530273,
+        "maxPlanOverhangM": 1.4749994201660162,
+        "outsideVertices": 92430
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "default-estimated-integration",
+      "heightEvidence": "estimated",
+      "sourceControlResidualM": 0,
+      "sourceId": "osm:w352610322",
+      "placementMode": "runtime-manifest",
+      "horizontalDeterminant": 0.9994346316148724,
+      "heading": "short south edge facing Shamian street",
+      "matrix": [
+        0.9989154593309743,
+        0,
+        0.03214244316723418,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.03216076586870196,
+        0,
+        0.9994848880348735,
+        0,
+        -5583.879390422547,
+        0,
+        937.0003749999943,
+        1
+      ],
+      "cityTerrain": {
+        "atOriginM": 0,
+        "minAtControlsM": 0,
+        "maxAtControlsM": 0,
+        "basis": "current rendered heightfield, not a field survey"
+      },
+      "placedLocalModel": {
+        "meshes": 13,
+        "triangles": 41362,
+        "nonFiniteValues": 0,
+        "min": [
+          -11.5600004196167,
+          -0.3199999928474426,
+          -15.73302936553955
+        ],
+        "max": [
+          11.5600004196167,
+          14.399999618530273,
+          16.75548553466797
+        ],
+        "minY": -0.3199999928474426,
+        "maxY": 14.399999618530273,
+        "maxPlanOverhangM": 1.4747391769569487,
+        "outsideVertices": 92430
+      },
+      "envelopeNeighborCandidates": [],
+      "overlappingRenderRecords": [
+        "osm:w352610322"
+      ],
+      "proceduralFillOverlapCount": 0,
+      "existingRenderRecords": 1,
+      "treeCentersInsideSource": 0,
+      "treeCrownIntersections": "not-evaluated",
+      "readiness": "retain-existing-estimate-no-survey-upgrade"
+    },
+    {
+      "id": "B2",
+      "nominalHeightM": 20.920088790233077,
+      "model": {
+        "meshes": 26,
+        "triangles": 113155,
+        "nonFiniteValues": 0,
+        "min": [
+          -13.277083374977115,
+          -0.36581575870513916,
+          -20.722000122070312
+        ],
+        "max": [
+          13.347083069801332,
+          21.148723602294922,
+          21.336999938011168
+        ],
+        "minY": -0.36581575870513916,
+        "maxY": 21.148723602294922,
+        "maxPlanOverhangM": 1.0649999380111694,
+        "outsideVertices": 254466
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "default-estimated-integration",
+      "heightEvidence": "reported-eave-20.6m-not-total",
+      "sourceControlResidualM": 0,
+      "sourceId": "osm:w352610258",
+      "placementMode": "runtime-manifest",
+      "horizontalDeterminant": 0.9994222924282052,
+      "heading": "photo face F0 provisionally on north short edge; reported main entrance street is to east, not identified with F0",
+      "matrix": [
+        -0.9988786192301282,
+        0,
+        -0.03231113138377508,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.032331181421237955,
+        0,
+        -0.9994984537230325,
+        0,
+        -5530.62109504764,
+        0,
+        1006.706425000187,
+        1
+      ],
+      "cityTerrain": {
+        "atOriginM": 0,
+        "minAtControlsM": 0,
+        "maxAtControlsM": 0,
+        "basis": "current rendered heightfield, not a field survey"
+      },
+      "placedLocalModel": {
+        "meshes": 26,
+        "triangles": 113155,
+        "nonFiniteValues": 0,
+        "min": [
+          -13.277083396911621,
+          -0.36581575870513916,
+          -20.722078323364258
+        ],
+        "max": [
+          13.34708309173584,
+          21.148723602294922,
+          21.331743240356445
+        ],
+        "minY": -0.36581575870513916,
+        "maxY": 21.148723602294922,
+        "maxPlanOverhangM": 1.0647028107841714,
+        "outsideVertices": 254466
+      },
+      "envelopeNeighborCandidates": [],
+      "overlappingRenderRecords": [
+        "osm:w352610258"
+      ],
+      "proceduralFillOverlapCount": 0,
+      "existingRenderRecords": 1,
+      "treeCentersInsideSource": 0,
+      "treeCrownIntersections": "not-evaluated",
+      "readiness": "retain-existing-estimate-no-survey-upgrade"
+    },
+    {
+      "id": "B3",
+      "nominalHeightM": 25.4,
+      "model": {
+        "meshes": 29,
+        "triangles": 73065,
+        "nonFiniteValues": 0,
+        "min": [
+          -5.089499997615817,
+          -0.30000001192092896,
+          -12.869500160217285
+        ],
+        "max": [
+          5.089499997615813,
+          25.399999618530273,
+          17.019500732421875
+        ],
+        "minY": -0.30000001192092896,
+        "maxY": 25.399999618530273,
+        "maxPlanOverhangM": 1.250000732421876,
+        "outsideVertices": 155739
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "default-estimated-integration",
+      "heightEvidence": "estimated",
+      "sourceControlResidualM": 0,
+      "sourceId": "osm:w392765468",
+      "placementMode": "runtime-manifest",
+      "horizontalDeterminant": 0.9994824853821128,
+      "heading": "short south edge facing Shamian street",
+      "matrix": [
+        0.9982972461174803,
+        0,
+        0.04835188672136669,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.0483783725330728,
+        0,
+        0.9988440854381413,
+        0,
+        -5490.594287426985,
+        0,
+        935.9197455569067,
+        1
+      ],
+      "cityTerrain": {
+        "atOriginM": 0,
+        "minAtControlsM": 0,
+        "maxAtControlsM": 0,
+        "basis": "current rendered heightfield, not a field survey"
+      },
+      "placedLocalModel": {
+        "meshes": 29,
+        "triangles": 73065,
+        "nonFiniteValues": 0,
+        "min": [
+          -5.0895161628723145,
+          -0.30000001192092896,
+          -12.862369537353516
+        ],
+        "max": [
+          5.088867664337158,
+          25.399999618530273,
+          16.350309371948242
+        ],
+        "minY": -0.30000001192092896,
+        "maxY": 25.399999618530273,
+        "maxPlanOverhangM": 0.6928723749961659,
+        "outsideVertices": 155730
+      },
+      "envelopeNeighborCandidates": [],
+      "overlappingRenderRecords": [
+        "osm:w1521332870"
+      ],
+      "proceduralFillOverlapCount": 0,
+      "existingRenderRecords": 1,
+      "treeCentersInsideSource": 0,
+      "treeCrownIntersections": "not-evaluated",
+      "readiness": "retain-existing-estimate-no-survey-upgrade"
+    },
+    {
+      "id": "C01",
+      "nominalHeightM": 19.4,
+      "model": {
+        "meshes": 38,
+        "triangles": 17907,
+        "nonFiniteValues": 0,
+        "min": [
+          -6.702382564544678,
+          -0.15800000727176666,
+          -11.91433048248291
+        ],
+        "max": [
+          6.701417446136475,
+          19.399999618530273,
+          15.557108879089355
+        ],
+        "minY": -0.15800000727176666,
+        "maxY": 19.399999618530273,
+        "maxPlanOverhangM": 0.36373896616182927,
+        "outsideVertices": 26682
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "default-estimated-integration",
+      "heightEvidence": "estimated",
+      "sourceControlResidualM": 0,
+      "sourceId": "osm:w509641361",
+      "placementMode": "runtime-manifest",
+      "horizontalDeterminant": 1,
+      "heading": "source south edge; photo orientation remains provisional",
+      "matrix": [
+        0.9997733537409031,
+        0,
+        0.02128946099991494,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.02128946099991494,
+        0,
+        0.9997733537409031,
+        0,
+        -6114.000095030212,
+        0,
+        982.3829562503486,
+        1
+      ],
+      "cityTerrain": {
+        "atOriginM": 0,
+        "minAtControlsM": 0,
+        "maxAtControlsM": 0,
+        "basis": "current rendered heightfield, not a field survey"
+      },
+      "placedLocalModel": {
+        "meshes": 38,
+        "triangles": 17907,
+        "nonFiniteValues": 0,
+        "min": [
+          -6.698833465576172,
+          -0.15800000727176666,
+          -11.91480541229248
+        ],
+        "max": [
+          6.6978583335876465,
+          19.399999618530273,
+          15.557730674743652
+        ],
+        "minY": -0.15800000727176666,
+        "maxY": 19.399999618530273,
+        "maxPlanOverhangM": 0.3636966376580882,
+        "outsideVertices": 26682
+      },
+      "envelopeNeighborCandidates": [],
+      "overlappingRenderRecords": [
+        "osm:w509641363"
+      ],
+      "proceduralFillOverlapCount": 0,
+      "existingRenderRecords": 1,
+      "treeCentersInsideSource": 0,
+      "treeCrownIntersections": "not-evaluated",
+      "readiness": "retain-existing-estimate-no-survey-upgrade"
+    },
+    {
+      "id": "C02",
+      "nominalHeightM": 16.4,
+      "model": {
+        "meshes": 15,
+        "triangles": 6061,
+        "nonFiniteValues": 0,
+        "min": [
+          -12.013392448425293,
+          -9.536743306171047e-8,
+          -17.70192527770996
+        ],
+        "max": [
+          11.996138572692871,
+          16.399999618530273,
+          19.07691764831543
+        ],
+        "minY": -9.536743306171047e-8,
+        "maxY": 16.399999618530273,
+        "maxPlanOverhangM": 1.3750017941397097,
+        "outsideVertices": 9246
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "default-estimated-integration",
+      "heightEvidence": "estimated",
+      "sourceControlResidualM": 0,
+      "sourceId": "osm:w352610288",
+      "placementMode": "runtime-manifest",
+      "horizontalDeterminant": 1,
+      "heading": "source south edge; photo orientation remains provisional",
+      "matrix": [
+        0.9994326096449959,
+        0,
+        0.03368172766045786,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.03368172766045786,
+        0,
+        0.9994326096449959,
+        0,
+        -5958.01328450885,
+        0,
+        922.8133000000512,
+        1
+      ],
+      "cityTerrain": {
+        "atOriginM": 0,
+        "minAtControlsM": 0,
+        "maxAtControlsM": 0,
+        "basis": "current rendered heightfield, not a field survey"
+      },
+      "placedLocalModel": {
+        "meshes": 15,
+        "triangles": 6061,
+        "nonFiniteValues": 0,
+        "min": [
+          -12.005743980407715,
+          -9.536743306171047e-8,
+          -17.702619552612305
+        ],
+        "max": [
+          11.98997974395752,
+          16.399999618530273,
+          19.077674865722656
+        ],
+        "minY": -9.536743306171047e-8,
+        "maxY": 16.399999618530273,
+        "maxPlanOverhangM": 1.3750555512433245,
+        "outsideVertices": 9246
+      },
+      "envelopeNeighborCandidates": [],
+      "overlappingRenderRecords": [
+        "osm:w352610288"
+      ],
+      "proceduralFillOverlapCount": 0,
+      "existingRenderRecords": 1,
+      "treeCentersInsideSource": 0,
+      "treeCrownIntersections": "not-evaluated",
+      "readiness": "retain-existing-estimate-no-survey-upgrade"
+    },
+    {
+      "id": "S1",
+      "nominalHeightM": 9.899999999999999,
+      "model": {
+        "meshes": 8,
+        "triangles": 1056,
+        "nonFiniteValues": 0,
+        "min": [
+          -22.11146354675293,
+          5.980000019073486,
+          -3.109999895095825
+        ],
+        "max": [
+          22.11146354675293,
+          9.899999618530273,
+          3.109999895095825
+        ],
+        "minY": 5.980000019073486,
+        "maxY": 9.899999618530273,
+        "maxPlanOverhangM": null,
+        "outsideVertices": null
+      },
+      "previewGroundY": 0,
+      "groundDatum": "model y=0; not surveyed elevation",
+      "measuredAccuracy": "unverified",
+      "integration": "prototype-only",
+      "heightEvidence": "estimated",
+      "sourceControlResidualM": null,
+      "sourceId": "osm:w559470933",
+      "interfaces": [
+        {
+          "nodeId": 5396001464,
+          "buildingId": "osm:w299812757",
+          "doorVerified": false
+        },
+        {
+          "nodeId": 5396001465,
+          "buildingId": "osm:w299687659",
+          "doorVerified": false
+        }
+      ],
+      "sourceSpanM": 44.15792892749423,
+      "deckTopM": 6.5,
+      "readiness": "hold-height-width-and-building-interface",
+      "geographicParity": "x along east/north axis, z south-facing, y up"
+    }
+  ]
+}

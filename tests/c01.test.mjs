@@ -11,7 +11,9 @@ test('C01八个源轮廓控制点都配准，南凸入口与北侧彩窗不反�
  assert.equal(s.faces.north.photoId,'C01-a');assert.equal(s.faces.south.photoId,'C01-c');
  assert.equal(s.photos['C01-a'].face,'north-end');
  assert.ok(s.planFit.target[3][1]>s.planFit.target[0][1]);
- assert.equal(s.heightStatus,'estimated');assert.equal(s.productionEligible,false);
+ assert.equal(s.heightStatus,'estimated');assert.equal(s.measuredHeightM,null);
+ // Integrated into the default city after P3 acceptance; integration does not upgrade dimensions.
+ assert.equal(s.productionEligible,true);assert.equal(s.productionGate.status,'integrated-default-estimated');assert.equal(s.productionGate.dimensions,'estimated');assert.equal(s.productionGate.metricAccuracy,'unverified');assert.ok(fs.existsSync(s.productionGate.acceptanceRecord));
 });
 test('C01南门廊是实际凹入开口，北彩窗墙洞贯通而非贴在实墙上',()=>{
  const s=load(),m=buildSample('C01',{buildings:{C01:s}});m.group.updateMatrixWorld(true);

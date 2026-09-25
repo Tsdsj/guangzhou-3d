@@ -3,6 +3,8 @@ import { Builder, wallGeometry, openingPath, disposeGroup } from './detail-geome
 import { fitSamplePlan } from './building-fit.js';
 import { applyVerticalControl } from './building-controls.js';
 import { shutterLayout } from './shutters.js';
+import { christChurch } from './christ-church.js';
+import { specieBank } from './specie-bank.js';
 
 function shell(b,w,d,h,partialRight=false,openLeft=false) {
   b.box(0,h/2,-d/2,w,h,.32,'unknown','unknown',false);
@@ -339,7 +341,11 @@ function junction(data) {
   return{group,height:6,focus:[0,0,0],detailFocus:[0,0,0],topology,labels:[{text:'花 城 大 道',position:[-45,.25,0],width:19,height:3,flat:true,color:'#53645d'}]};
 }
 
+// C01/C02 fit their plans to the source control points inside the model builders;
+// fitting them again here would apply the same horizontal correction twice.
+const SELF_FITTED={C01:christChurch,C02:specieBank};
 export function buildSample(id,data) {
+  if(SELF_FITTED[id])return{...SELF_FITTED[id](data.buildings[id]),id,metricAccuracy:'unverified',sourceIds:[data.buildings[id].sourceId]};
   const result=id==='J1'?junction(data):id==='B1'?bank(data.buildings.B1):id==='B2'?indochine(data.buildings.B2):id==='B3'?church(data.buildings.B3):null;
   if(!result)throw new Error(`Unknown sample ${id}`);
   if(id!=='J1'){

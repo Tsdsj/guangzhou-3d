@@ -1,19 +1,30 @@
-"""Opt-in trial tiles; never edits the default manifest or existing city packages."""
+"""Staging manifest for the opt-in inspection entry (?detailTrial=inspect).
+
+trial-manifest.json = the default manifest + staged candidate tiles (trialOnly). It never edits the
+default manifest or existing city packages. C01/C02 were staged here (2026-09-26) and promoted to the
+default 'shamian-west' block after the P3 trial acceptance; staging a sample that is already in the
+default manifest is refused, because two tiles replacing the same source IDs would conflict.
+"""
 from pathlib import Path
-import json,math,hashlib,copy
+import json,hashlib,copy
 from shapely.geometry import Polygon
+from detail_placement import SELF_FITTED,place_self_fitted
 ROOT=Path(__file__).resolve().parents[1];load=lambda p:json.loads(p.read_text());OUT=ROOT/'data/detail'
+STAGED=[]  # sample IDs awaiting promotion; each needs a prototype model and an entry in SELF_FITTED
 manifest=copy.deepcopy(load(OUT/'manifest.json'));manifest['trialOnly']=True
 origin=manifest['coordinateSystem']['origin'];project=lambda p:((p[0]-origin['lon'])*origin['kx'],-(p[1]-origin['lat'])*origin['kz'])
+promoted={b['sampleId'] for t in manifest['tiles'] for b in t.get('buildings',[])}
+replaced={i for t in manifest['tiles'] for b in t.get('buildings',[]) for i in b['replaceIds']}
 raw=load(ROOT/'docs/research/p0-2026-09-25/shamian-osm-buildings.geojson')['features'];features={f['properties']['id']:f for f in raw};report=[]
-for sid,oid,replace in [('C01','w509641361',['osm:w509641361','osm:w509641363']),('C02','w352610288',['osm:w352610288'])]:
- s=load(ROOT/f'prototypes/p2/{sid.lower()}.json');ring=[project(p) for p in features[oid]['geometry']['coordinates'][0][:-1]];px,pz=project(s['origin'])
- a,b=(ring[0],ring[7]) if sid=='C01' else (ring[2],ring[1]);theta=-math.atan2(b[1]-a[1],b[0]-a[0]);co,si=math.cos(theta),math.sin(theta)
- # Bake the source control points into the trial's city-local frame. Renderer applies
- # only the explicit rotation/translation, so there is no hidden reflection or double fit.
- s['planFit']['target']=[[(x-px)*co-(z-pz)*si,(x-px)*si+(z-pz)*co] for x,z in ring];s['trialOnly']=True
- placement=dict(sampleId=sid,sourceId='osm:'+oid,replaceIds=replace,position=[px,0,pz],rotationY=theta,scale=[1,1,1],footprint=ring,precision='estimated',headingBasis='source south edge; photo orientation remains provisional')
+for sid in STAGED:
+ assert sid not in promoted,f'{sid} is already in the default manifest'
+ s=load(ROOT/f'prototypes/p2/{sid.lower()}.json');oid=SELF_FITTED[sid]['osm']
+ ring=[project(p) for p in features[oid]['geometry']['coordinates'][0][:-1]]
+ placement=place_self_fitted(sid,s,ring,project);s['trialOnly']=True
+ assert not replaced&set(placement['replaceIds']),f'{sid} replaces a record owned by a default tile'
+ placement['label']={'name':s['name'],'sub':'暂存候选 · 尺寸估计','y':(s.get('parameters') or {}).get('towerTopM',16)+2}
  name='trial-'+sid.lower();payload=dict(version=1,trialOnly=True,samples={'buildings':{sid:s}});bytes=json.dumps(payload,ensure_ascii=False,separators=(',',':')).encode();(OUT/(name+'.json')).write_bytes(bytes)
  tile=dict(id=name,kind='buildings',trialOnly=True,url=f'./data/detail/{name}.json',bytes=len(bytes),sha256=hashlib.sha256(bytes).hexdigest(),bounds=list(Polygon(ring).bounds),buildings=[placement]);manifest['tiles'].append(tile)
- report.append(dict(id=sid,sourceId='osm:'+oid,replaceIds=replace,position=placement['position'],rotationY=theta))
-(OUT/'trial-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False))
+ report.append(dict(id=sid,sourceId=placement['sourceId'],replaceIds=placement['replaceIds'],position=placement['position'],rotationY=placement['rotationY']))
+(OUT/'trial-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'defaultTiles':len(manifest['tiles'])-len(report),'staged':report},ensure_ascii=False))

@@ -8,7 +8,8 @@ test('C02模型四个轮廓控制点对应源坐标，保留已核身份和未�
  const s=load(),m=buildSample('C02',{buildings:{C02:s}});
  assert.equal(s.sourceId,'osm:w352610288');assert.equal(s.identityStatus,'document-address-supported');
  m.planBoundary.forEach((p,i)=>assert.ok(Math.hypot(p[0]-s.planFit.target[i][0],p[1]-s.planFit.target[i][1])<1e-6));
- assert.equal(s.measuredHeightM,null);assert.equal(s.heightStatus,'estimated');assert.equal(s.productionEligible,false);
+ assert.equal(s.measuredHeightM,null);assert.equal(s.heightStatus,'estimated');
+ assert.equal(s.productionEligible,true);assert.equal(s.productionGate.status,'integrated-default-estimated');assert.equal(s.productionGate.dimensions,'estimated');assert.equal(s.productionGate.metricAccuracy,'unverified');assert.ok(fs.existsSync(s.productionGate.acceptanceRecord));
 });
 test('C02三拱墙洞和后退入口实际存在，拱肩及未知背面不能穿透',()=>{
  const s=load(),m=buildSample('C02',{buildings:{C02:s}});m.group.updateMatrixWorld(true);

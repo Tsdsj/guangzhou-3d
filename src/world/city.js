@@ -232,9 +232,9 @@ export class World {
     this.walkers.group.traverse((o) => o.layers.set(1));
     this.root.add(this.walkers.group);
 
-    const names={B1:'台湾银行旧址',B2:'沙面一街3号',B3:'露德圣母堂',C01:'沙面会堂 · 试落位',C02:'正金银行 · 试落位'};
-    this.labels = [...D.labels,...(D.detailManifest?.tiles||[]).flatMap(t=>(t.buildings||[]).map(b=>({
-      name:names[b.sampleId],sub:b.heightReference?`文献檐高 ${b.heightReference.value}m · 其余尺寸估计`:'精细外观参考 · 尺寸估计',x:b.position[0],y:b.sampleId==='B3'?23:b.heightReference?b.heightReference.value+2:14,z:b.position[2],tier:3,priority:-1,minDistance:8,maxDistance:600,
+    // 精细建筑标签由清单给出名称与高度；试验块另加“试落位”以免与默认主城混淆
+    this.labels = [...D.labels,...(D.detailManifest?.tiles||[]).flatMap(t=>(t.buildings||[]).filter(b=>b.label).map(b=>({
+      name:t.trialOnly?`${b.label.name} · 试落位`:b.label.name,sub:b.label.sub,subFallback:'基础体量 · 精细模型未显示',detailTile:t.id,x:b.position[0],y:b.label.y,z:b.position[2],tier:3,priority:-1,minDistance:8,maxDistance:600,
     })))];
     const st = D.meta.stats;
     this.stats = {

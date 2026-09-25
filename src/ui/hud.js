@@ -89,6 +89,15 @@ export class Hud {
       return { ...l, el, pri, bw: el.offsetWidth || 120, bh: el.offsetHeight || 40, p: new THREE.Vector3(l.x, l.y, l.z) };
     });
   }
+  // 精细建筑标注随所属精细块切换说明：未显示精细模型（加载中、失败或远离释放）时说明当前是基础体量
+  setDetailActive(active) {
+    for (const l of this.labels || []) {
+      if (!l.detailTile) continue;
+      const text = active.has(l.detailTile) ? l.sub : l.subFallback;
+      const sb = l.el.querySelector('.sb');
+      if (sb && sb.textContent !== text) sb.textContent = text;
+    }
+  }
   // 按优先级贪心放置，互相遮挡的低优先级标注自动隐藏
   updateLabels(camera, w, h) {
     const cp = camera.position;

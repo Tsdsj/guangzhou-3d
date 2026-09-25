@@ -283,6 +283,9 @@ function applyScene(id, instant = false) {
   }
   if (!pos) return;
   if (instant || reduceMotion.matches) {
+    // 立即落位要取消尚未结束的飞行，否则下一帧飞行插值会把相机拉回原路径
+    rig.tween = null;
+    rig.cine = null;
     camera.position.copy(pos);
     rig.controls.target.copy(tgt);
     rig.controls.update();
@@ -528,7 +531,9 @@ function applyHash(instant) {
     hashCam = location.hash.slice(1);
     return;
   }
-  const id = q.get('scene');
+  // 试落位阶段的旧链接在两栋样件纳入默认主城后指向对应的正式场景
+  const legacy = { 'trial-c01': 'detail-christchurch', 'trial-c02': 'detail-specie', 'trial-overview': 'detail-shamian-west' };
+  const id = legacy[q.get('scene')] || q.get('scene');
   applyScene(SCENES.find((s) => s.id === id) ? id : SCENES[0].id, instant);
 }
 window.addEventListener('hashchange', () => D && location.hash.slice(1) !== hashCam && applyHash(false));
@@ -664,6 +669,8 @@ async function boot() {
   if(detailTrialEnabled){const {mountDetailTrial}=await import('./ui/detail-trial.js');mountDetailTrial(world,D,applyScene);}
   steps.push(`${sn} ${Math.round(performance.now() - ts)}`);
   hud.setLabels(world.labels);
+  D.onDetailActive = (active) => hud.setDetailActive(active);
+  hud.setDetailActive(new Set((world.details?.status() || []).filter((s) => s.active).map((s) => s.id)));
   hud.drawMap(D);
   hud.setStats(world.stats);
   rig.controls.maxTargetRadius = 14000;
@@ -722,7 +729,8 @@ window.__gz = {
 
 // 测速：依次切换预设场景，静置后统计帧时间、绘制调用与三角形数（主画面 / 阴影 + 倒影分开计）。
 // 用法：await __gz.bench() 或 await __gz.bench({ ids: ['baietan'], move: true })
-async function bench({ ids = SCENES.filter((s) => !s.cinematic).map((s) => s.id), settle = 1800, frames = 60, move = false } = {}) {
+// atmos 在场景自带的时间 / 天气之上覆盖（如 { timeOfDay: 21 }），用于同一机位的昼夜、雨天对照。
+async function bench({ ids = SCENES.filter((s) => !s.cinematic).map((s) => s.id), settle = 1800, frames = 60, move = false, atmos = null } = {}) {
   const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   const pct = (a, q) => a.slice().sort((x, y) => x - y)[Math.min(a.length - 1, Math.floor(a.length * q))];
   const avg = (a) => a.reduce((s, v) => s + v, 0) / a.length;
@@ -730,6 +738,10 @@ async function bench({ ids = SCENES.filter((s) => !s.cinematic).map((s) => s.id)
   for (const id of ids) {
     lastInput = performance.now();
     applyScene(id, true);
+    if (atmos) {
+      params = { ...params, ...atmos };
+      applyAtmos();
+    }
     await wait(settle);
     rig.controls.autoRotate = move;
     rig.controls.autoRotateSpeed = 8;
@@ -744,12 +756,16 @@ async function bench({ ids = SCENES.filter((s) => !s.cinematic).map((s) => s.id)
       id,
       fps: Math.round(1000 / avg(ms)),
       ms: +avg(ms).toFixed(1),
+      p50: +pct(ms, 0.5).toFixed(1),
       p95: +pct(ms, 0.95).toFixed(1),
       cpu: +avg(S.map((s) => s[1])).toFixed(1),
       calls: Math.round(avg(S.map((s) => s[2]))),
       tris: +(avg(S.map((s) => s[3])) / 1e6).toFixed(2),
       auxCalls: Math.round(avg(S.map((s) => s[4]))),
       auxTris: +(avg(S.map((s) => s[5])) / 1e6).toFixed(2),
+      geometries: renderer.info.memory.geometries,
+      textures: renderer.info.memory.textures,
+      tier,
       h: Math.round(camera.position.y),
     });
   }

@@ -199,9 +199,24 @@ export const SCENES = [
     cam:[113.24212,23.10970,43],tgt:[113.2423707,23.1100493,11],
   },
   {
+    id:'detail-christchurch',group:'detail',name:'精细 · 基督教沙面会堂',sub:'南侧钟塔门廊 · 北段侧窗；高度估计',icon:'old',
+    atmos:{timeOfDay:11.2,weather:'clear',haze:20,lightIntensity:100,exposure:102},
+    cam:[113.23651,23.10911,30],tgt:[113.23628,23.10955,10],
+  },
+  {
+    id:'detail-specie',group:'detail',name:'精细 · 正金银行旧址',sub:'沙面大街56号 · 双柱门廊；高度与廊深估计',icon:'old',
+    atmos:{timeOfDay:12.4,weather:'clear',haze:20,lightIntensity:100,exposure:100},
+    cam:[113.23805,23.10953,25],tgt:[113.23780,23.11016,8],
+  },
+  {
     id:'detail-shamian',group:'detail',name:'精细 · 沙面建筑组',sub:'三栋同场鸟瞰 · 保留周边建筑与树木',icon:'top',
     atmos:{timeOfDay:14.5,weather:'clear',haze:20,lightIntensity:100,exposure:102},
     cam:[113.2410,23.10915,95],tgt:[113.24198,23.10987,8],
+  },
+  {
+    id:'detail-shamian-west',group:'detail',name:'精细 · 沙面西段',sub:'会堂与正金银行同场俯视 · 保留周边建筑与树木',icon:'top',
+    atmos:{timeOfDay:12.4,weather:'clear',haze:20,lightIntensity:100,exposure:100},
+    cam:[113.23837,23.10839,150],tgt:[113.23704,23.10988,5],
   },
   {
     id:'detail-huasui',group:'detail',name:'精细 · 华穗路口',sub:'过街路径保留 · 缺证标线待核',icon:'top',

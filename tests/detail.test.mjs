@@ -28,13 +28,16 @@ test('旋转填充体只按目标轮廓交叠分组，邻居与纯边界接触�
   assert.equal(overlaps(a,[[20,2],[22,2],[22,4],[20,4]]),false);
   assert.equal(overlaps(a,[[-1,4],[4,-1],[11,6],[6,11]]),true);
 });
-test('集成清单包含三栋已确认样件、相邻双路口与明确的估计精度',()=>{
+test('集成清单包含五栋已接入样件、相邻双路口与明确的估计精度',()=>{
   assert.ok(fs.existsSync('data/detail/manifest.json'),'detail manifest is required');
   const m=JSON.parse(fs.readFileSync('data/detail/manifest.json'));
   const buildings=m.tiles.flatMap(t=>t.buildings||[]);
-  assert.equal(buildings.length,3);assert.equal(m.tiles.filter(t=>t.kind==='roads').length,2);
-  assert.ok(buildings.every(b=>b.precision==='estimated'&&b.sourceId.startsWith('osm:')));
+  assert.deepEqual(buildings.map(b=>b.sampleId),['B1','B2','B3','C01','C02']);assert.equal(m.tiles.filter(t=>t.kind==='roads').length,2);
+  assert.ok(buildings.every(b=>b.precision==='estimated'&&b.sourceId.startsWith('osm:')&&b.label?.name&&b.integration?.status==='default'));
   assert.ok(buildings.find(b=>b.sampleId==='B3').replaceIds.includes('osm:w1521332870'));
+  assert.ok(buildings.find(b=>b.sampleId==='C01').replaceIds.includes('osm:w509641363'));
+  const ids=buildings.flatMap(b=>b.replaceIds);assert.equal(new Set(ids).size,ids.length,'a source record belongs to one tile');
+  assert.ok(m.tiles.every(t=>!t.trialOnly),'default manifest has no staged tiles');
 });
 test('分组输出屋顶和构件不会改变后续非目标构件的随机种子',()=>{
   const route=requireFn(spatial,'emitRoutedParts');const base=new Parts(),target=new Parts(),reference=new Parts();
