@@ -677,6 +677,65 @@
         "since": "2026-09-26",
         "record": "docs/research/p4-extension/batch2-validation.json"
       }
+    },
+    {
+      "tile": "shamian-dajie",
+      "staged": false,
+      "sampleId": "C03",
+      "sourceId": "osm:w1530552891",
+      "replaceIds": [
+        "osm:w1530552891"
+      ],
+      "replacedRenderRecords": [
+        "osm:w1530552891"
+      ],
+      "fillRecordsGrouped": 0,
+      "sourceControlResidualM": 0,
+      "horizontalDeterminant": 0.9999999999999999,
+      "modelTopM": 10.4,
+      "maxPlanOverhangM": 0.698,
+      "neighbourFootprintOverlaps": [],
+      "treeCentresInsideFootprint": 0,
+      "treeCrownPlanOverlaps": 3,
+      "treeCrownOverlapsBySpecies": {
+        "banyan": 3
+      },
+      "treeCrownOverlapSamples": [
+        {
+          "species": "banyan",
+          "x": -6127.5,
+          "z": 969,
+          "scale": 1.1100000143051147,
+          "crownRadiusM": 11.67,
+          "trunkToFootprintM": 2.18,
+          "crownTopM": 14.7
+        },
+        {
+          "species": "banyan",
+          "x": -6147.5,
+          "z": 991,
+          "scale": 0.8899999856948853,
+          "crownRadiusM": 9.35,
+          "trunkToFootprintM": 7.66,
+          "crownTopM": 11.8
+        },
+        {
+          "species": "banyan",
+          "x": -6152.5,
+          "z": 968.5,
+          "scale": 1.0299999713897705,
+          "crownRadiusM": 10.83,
+          "trunkToFootprintM": 8.89,
+          "crownTopM": 13.6
+        }
+      ],
+      "precision": "estimated",
+      "label": "英国圣公会牧师住宅旧址",
+      "integration": {
+        "status": "default",
+        "since": "2026-09-26",
+        "record": "docs/research/p4-extension/batch2-validation.json"
+      }
     }
   ],
   "stagedBuildings": []

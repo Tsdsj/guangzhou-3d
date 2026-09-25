@@ -30,7 +30,8 @@ for sid, s in studies.items():
         row.paste(r, (20 + W * (k + 1), 40 + (Hh - r.height) // 2))
     d = ImageDraw.Draw(row)
     d.text((10, 8), f"{sid} · {s['name']} · {s['address']} · {s['sourceId']}", fill=(240, 240, 240), font=font)
-    d.text((10, Hh + 44), f"照片：{p['artist']} · {p['date'][:10]} · {p['license']} · {p['file']}", fill=(200, 200, 200), font=small)
+    fname = p['file'] if len(p['file']) <= 28 else p['file'][:25] + '…'
+    d.text((10, Hh + 44), f"照片：{p['artist']} · {p['date'][:10]} · {p['license']} · {fname}", fill=(200, 200, 200), font=small)
     d.text((20 + W, Hh + 44), '模型（树木暂隐，仅供检查）· 尺寸估计', fill=(200, 200, 200), font=small)
     d.text((30 + 2 * W, Hh + 44), '同机位保留树木', fill=(200, 200, 200), font=small)
     rows.append(row)

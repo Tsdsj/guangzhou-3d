@@ -1444,6 +1444,134 @@
       },
       "summaryZh": "三层长立面：粉灰色抹灰，三层均为半圆拱多格窗，上层窗下有装饰宝瓶，开间间有壁柱，腰线与檐口；约十开间，东端透视压缩且有树遮挡。西端外廊翼未建模。",
       "unknownsZh": "西侧外廊翼与西面、东端开间数（±2）、北面与屋顶、高度"
+    },
+    {
+      "id": "C03",
+      "sourceId": "osm:w1530552891",
+      "replaceIds": [
+        "osm:w1530552891"
+      ],
+      "name": "英国圣公会牧师住宅旧址",
+      "address": "沙面大街69号",
+      "identity": {
+        "status": "address-and-description-supported",
+        "basis": [
+          "OSM parent outline w1191446839 addr 沙面大街69, start_date 1865; the two-storey part w1530552891 (building:part, levels 2, current use tag Seeker) is the rendered record",
+          "Commons photo (古海岸遗址 2023-05-28) described as 英国圣公会牧师住宅旧址，沙面大街69号; the SEEKER'S PLACE sign on the photographed two-storey block matches the part's current-use tag",
+          "Commons photo title 沙面大街69号 (Inclavatura 2023-04-25) shows the single-storey annex in front of the same block",
+          "survey p.45 lists 沙面大街69号"
+        ]
+      },
+      "photos": [
+        "dajie-69-gu",
+        "dajie-69"
+      ],
+      "conflicts": [
+        "The base city renders only the two-storey part; the single-storey annex (rest of the parent outline) has no base record and is not added here."
+      ],
+      "faces": [
+        {
+          "facing": "N",
+          "street": "沙面大街",
+          "photos": [
+            "dajie-69-gu"
+          ],
+          "observed": "Two-storey block with a parapet: five large round-arched multi-pane windows on the upper floor, round-arched openings with awnings on the ground floor, plain render with moulded string course and cornice.",
+          "bays": 5,
+          "endPier": 0.6,
+          "quoins": false,
+          "floors": [
+            {
+              "kind": "wall",
+              "openings": [
+                {
+                  "kind": "arch",
+                  "w": 0.6,
+                  "sill": 0.3,
+                  "h": 3.0
+                },
+                {
+                  "kind": "arch",
+                  "w": 0.62,
+                  "sill": 0.3,
+                  "h": 3.0
+                },
+                {
+                  "kind": "arch",
+                  "w": 0.6,
+                  "sill": 0,
+                  "h": 3.2,
+                  "door": true,
+                  "glaze": "dark"
+                },
+                {
+                  "kind": "arch",
+                  "w": 0.62,
+                  "sill": 0.3,
+                  "h": 3.0
+                },
+                {
+                  "kind": "arch",
+                  "w": 0.6,
+                  "sill": 0.3,
+                  "h": 3.0
+                }
+              ]
+            },
+            {
+              "kind": "wall",
+              "opening": {
+                "kind": "arch",
+                "w": 0.7,
+                "sill": 0.8,
+                "h": 2.9
+              }
+            }
+          ]
+        }
+      ],
+      "model": {
+        "storeys": [
+          4.4,
+          4.4
+        ],
+        "plinth": 0.3,
+        "entablature": 0.6,
+        "parapet": {
+          "kind": "solid",
+          "h": 1.0
+        },
+        "roof": {
+          "kind": "flat",
+          "evidence": "unknown"
+        },
+        "colors": {
+          "wall": "#e4d0a6",
+          "trim": "#f1e9d6",
+          "frame": "#6f3526",
+          "plinth": "#8e8474"
+        }
+      },
+      "unknowns": [
+        "upper west face above the annex (narrow arched windows seen obliquely, not modelled)",
+        "east and south faces",
+        "single-storey annex",
+        "roof and all heights"
+      ],
+      "summaryZh": "两层带女儿墙：二层五扇大型半圆拱多格窗，首层为带遮阳篷的半圆拱开口，腰线与檐口线脚。照片中该楼的SEEKER'S PLACE招牌与OSM部件的现用途标签一致。",
+      "unknownsZh": "单层附楼（基础城市原本就没有渲染这部分）、西侧上层斜看到的窄拱窗、东南两面、屋顶与高度",
+      "gate": {
+        "status": "default",
+        "since": "2026-09-26",
+        "acceptanceRecord": "docs/research/p4-extension/batch2-validation.json",
+        "basis": [
+          "address identity via parent outline + photo description; part matched by current-use sign",
+          "staged in ?detailTrial=inspect: load, 404 fallback x4 cycles with four building tiles, release; placement residual 0 (internal)",
+          "photo-vs-model structure sheet docs/research/p3-building-expansion/photo-compare-c03.jpg"
+        ],
+        "dimensions": "estimated",
+        "metricAccuracy": "unverified"
+      }
     }
   ],
   "deferred": [

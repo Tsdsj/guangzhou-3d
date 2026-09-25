@@ -68,10 +68,24 @@ def compass(nx, nz):
     return math.degrees(math.atan2(nx, -nz)) % 360
 
 
+# A placement may model a building:part (e.g. C03 = the two-storey part of 69号): credit the outline
+# that contains it, and mark the outline as only partly detailed.
+part_parent = {}
+for pid, pp in parts:
+    for sid, ring, poly in area_buildings:
+        if pp.intersection(poly).area > 0.5 * pp.area:
+            part_parent[pid] = sid
+            break
+by_outline = {}
+for src, (t, b) in placements.items():
+    by_outline[part_parent.get(src, src)] = (t, b, src in part_parent)
+
 rows = []
 tot_street = tot_photo = tot_walls_detail = tot_photo_detail = 0.0
 for sid, ring, poly in area_buildings:
-    placed = placements.get(sid)
+    placed = by_outline.get(sid)
+    partial = bool(placed and placed[2])
+    placed = placed[:2] if placed else None
     sample = placed[1]['sampleId'] if placed else None
     h = tops.get(sample) if sample else render_h.get(sid)
     if h is None:  # outline rendered through its building:part records (e.g. 64号, 60号, 69号): tallest part inside it
@@ -87,8 +101,10 @@ for sid, ring, poly in area_buildings:
         ang = []
         if t['id'] == 'shamian-dajie':
             s = load(t['url'][2:])['samples']['buildings'][sample]
-            # Faces are recorded as source-edge indices of the same outline.
-            photo_edges |= {f['edge'] for f in s['model']['faces']}
+            # Faces are source-edge indices of the study's own outline (the part outline for a part study).
+            face_len = sum(math.dist(b['footprint'][f['edge']], b['footprint'][(f['edge'] + 1) % len(b['footprint'])]) for f in s['model']['faces'])
+            if not partial:
+                photo_edges |= {f['edge'] for f in s['model']['faces']}
         else:
             ang = [compass(fx, fz)] + EXTRA.get(sample, [])
     for i, L, nx, nz, mid in edges(ring, poly):
@@ -99,13 +115,15 @@ for sid, ring, poly in area_buildings:
             street += L * h
         if placed and (i in photo_edges or any(abs((compass(nx, nz) - a + 180) % 360 - 180) < 30 for a in ang)):
             photo += L * h
+    if placed and partial:
+        photo = face_len * h
     if placed:
         photo += PARTIAL_SIDES_M.get(sample, 0) * h
         tot_walls_detail += walls
         tot_photo_detail += photo
     tot_street += street
     tot_photo += min(photo, street) if street else 0
-    rows.append(dict(sourceId=sid, sample=sample, heightM=round(h, 2), heightSource='detail model (estimated)' if placed else 'base render record (inferred)',
+    rows.append(dict(sourceId=sid, sample=sample, partOnly=partial, heightM=round(h, 2), heightSource='detail model (estimated)' if placed else 'base render record (inferred)',
                      streetFacadeM2=round(street, 1), photographedFacadeM2=round(photo, 1) if placed else 0, allWallsM2=round(walls, 1)))
 
 road = load('docs/research/p3-road-coverage/report.json')

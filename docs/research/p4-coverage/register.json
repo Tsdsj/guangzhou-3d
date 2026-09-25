@@ -3,8 +3,8 @@
  "states": {
   "identity-only": 19,
   "outline-only": 106,
-  "detailed": 13,
-  "photo-and-address": 6
+  "detailed": 14,
+  "photo-and-address": 5
  },
  "unmatchedAddressPhotos": [
   "沙面一街10号",
@@ -1443,15 +1443,15 @@
   },
   {
    "sourceId": "osm:w1191446839",
-   "state": "photo-and-address",
-   "sample": null,
+   "state": "detailed",
+   "sample": "C03",
    "name": null,
    "address": "沙面大街69",
    "levelsTag": "1",
    "photos": [
     "File:沙面大街69号.jpg"
    ],
-   "streetFacadeM2": 583.1
+   "streetFacadeM2": 866.4
   },
   {
    "sourceId": "osm:w1311803375",

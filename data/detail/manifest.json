@@ -334,7 +334,7 @@
     {
       "kind": "buildings",
       "bounds": [
-        -6065.794273466858,
+        -6143.849106980557,
         900.5857749999838,
         -5655.177116104193,
         1005.3663500000027
@@ -736,12 +736,64 @@
             "since": "2026-09-26",
             "record": "docs/research/p4-extension/batch2-validation.json"
           }
+        },
+        {
+          "sampleId": "C03",
+          "sourceId": "osm:w1530552891",
+          "replaceIds": [
+            "osm:w1530552891"
+          ],
+          "position": [
+            -6136.7690566911815,
+            0,
+            976.2889035719801
+          ],
+          "rotationY": 3.123313833426345,
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "footprint": [
+            [
+              -6143.787678728267,
+              980.9681250001435
+            ],
+            [
+              -6143.603393968485,
+              968.0657500000614
+            ],
+            [
+              -6129.669418572774,
+              968.3204750002839
+            ],
+            [
+              -6129.966321797027,
+              984.5231999999813
+            ],
+            [
+              -6143.849106980557,
+              984.2684750001522
+            ]
+          ],
+          "precision": "estimated",
+          "headingBasis": "photo face N on source edge 1 facing 沙面大街",
+          "label": {
+            "name": "英国圣公会牧师住宅旧址",
+            "sub": "照片结构参考 · 尺寸估计",
+            "y": 12.4
+          },
+          "integration": {
+            "status": "default",
+            "since": "2026-09-26",
+            "record": "docs/research/p4-extension/batch2-validation.json"
+          }
         }
       ],
       "id": "shamian-dajie",
       "url": "./data/detail/shamian-dajie.json",
-      "bytes": 33728,
-      "sha256": "3df0d3e7aa367a22639d92f49125a95e667d1aa5ef1d713626bea8995261faa1"
+      "bytes": 38610,
+      "sha256": "b911e4f0a27d33ac86c77ae8da6d70348df0ea6a1ed0da22da290f7cc19f1380"
     },
     {
       "kind": "roads",

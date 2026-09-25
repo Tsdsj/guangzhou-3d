@@ -520,5 +520,62 @@
   ],
   "modelTopM": 14.3,
   "heightEvidence": null
+ },
+ {
+  "id": "C03",
+  "sourceId": "osm:w1530552891",
+  "renderedReplaceIds": [
+   "osm:w1530552891"
+  ],
+  "faces": [
+   {
+    "facing": "N",
+    "street": "沙面大街",
+    "edge": 1,
+    "lengthM": 13.936,
+    "compass": 1.0,
+    "offDeg": 1.0,
+    "streetDistM": 5.32,
+    "candidates": [
+     {
+      "edge": 0,
+      "lengthM": 12.904,
+      "compass": 270.8,
+      "offDeg": 89.2,
+      "streetDistM": 11.79
+     },
+     {
+      "edge": 1,
+      "lengthM": 13.936,
+      "compass": 1.0,
+      "offDeg": 1.0,
+      "streetDistM": 5.32
+     },
+     {
+      "edge": 2,
+      "lengthM": 16.205,
+      "compass": 91.0,
+      "offDeg": 91.0,
+      "streetDistM": 13.4
+     },
+     {
+      "edge": 3,
+      "lengthM": 13.885,
+      "compass": 181.1,
+      "offDeg": 178.9,
+      "streetDistM": 21.52
+     },
+     {
+      "edge": 4,
+      "lengthM": 3.301,
+      "compass": 271.1,
+      "offDeg": 88.9,
+      "streetDistM": 19.89
+     }
+    ]
+   }
+  ],
+  "modelTopM": 10.4,
+  "heightEvidence": null
  }
 ]

@@ -111,5 +111,21 @@
   ]
  },
  "kitChange": "multi-face studies are baked into two shared batches (walls/details); C06 went from 30 to 13 meshes with identical triangles",
- "verdict": "passes the same gate as batch 1"
+ "verdict": "passes the same gate as batch 1",
+ "addendumC03": {
+  "study": "C03 英国圣公会牧师住宅旧址（沙面大街69号，二层部件 w1530552891）",
+  "staged": {
+   "faultCycles": 4,
+   "invariantProblems": 0,
+   "detailMeshesAtReady": [
+    218,
+    218,
+    218,
+    218
+   ],
+   "expectedConsoleErrors": "16 injected HTTP 404"
+  },
+  "photoCompare": "docs/research/p3-building-expansion/photo-compare-c03.jpg",
+  "note": "single-storey annex of the parent outline has no base record and is not added"
+ }
 }
